@@ -1,0 +1,43 @@
+{
+  "labels": {
+    "formats": [
+      ${"battleLabelsTotalHPWGLold.xc":"def.totalHP_mainGun"},
+      ${"battleLabelsTotalHPWGLold.xc":"def.totalHP_avgDamage"},
+      ${"battleLabelsTotalHPWGLold.xc":"def.totalHP_enemy"},
+      ${"battleLabelsTotalHPWGLold.xc":"def.totalHP_ally"},
+      ${"battleLabelsTotalHPWGLold.xc":"def.totalHP_advant"},
+      ${"battleLabelsTotalHPWGLold.xc":"def.totalHP_sing"},
+      ${"battleLabelsTotalHPWGLold.xc":"def.totalHP_frags_enemy"},
+      ${"battleLabelsTotalHPWGLold.xc":"def.totalHP_frags_ally"},
+      ${"battleLabelsTotalHPWGLold.xc":"def.totalHP_line_enemy"},
+      ${"battleLabelsTotalHPWGLold.xc":"def.totalHP_line_ally"},
+      ${"battleLabelsTotalHPWGLold.xc":"def.totalHP_Bg_enemy"},
+      ${"battleLabelsTotalHPWGLold.xc":"def.totalHP_Bg_ally"},
+      ${"battleLabelsTotalHPWGLold.xc":"def.totalHP_bg"},
+      ${"battleLabelsPiercingChance.xc":"piercingChance"},
+      ${"battleLabelsHealthBar.xc":"hpBar_text"},
+      ${"battleLabelsHealthBar.xc":"hpBar_Background"},
+      ${"battleLabelsHealthBar.xc":"hpBar"},
+      ${"battleLabelsBattleEfficiency.xc":"battleEfficiency"},
+      ${"battleLabelsAssistLog.xc":"assistLog_Background"},
+      ${"battleLabelsAssistLog.xc":"assistLog"},
+      ${"battleLabelsTemplates.xc":"def.hitLogBackground"},
+      ${"battleLabelsTemplates.xc":"def.hitLogBody"},
+      ${"battleLabelsTemplates.xc":"def.hitLogHeader"},
+      ${"battleLabelsTemplates.xc":"def.totalEfficiency"},
+      ${"battleLabelsTemplates.xc":"def.totalHP"},
+      ${"battleLabelsTemplates.xc":"def.avgDamage"},
+      ${"battleLabelsTemplates.xc":"def.mainGun"},
+      ${"battleLabelsTemplates.xc":"def.damageLogBackground"},
+      ${"battleLabelsTemplates.xc":"def.damageLog"},
+      ${"battleLabelsTemplates.xc":"def.lastHit"},
+      ${"battleLabelsTemplates.xc":"def.fire"},
+      ${"battleLabelsTemplates.xc":"def.repairTimeEngine"},
+      ${"battleLabelsTemplates.xc":"def.repairTimeGun"},
+      ${"battleLabelsTemplates.xc":"def.repairTimeTurret"},
+      ${"battleLabelsTemplates.xc":"def.repairTimeComplex"},
+      ${"battleLabelsTemplates.xc":"def.repairTimeSurveying"},
+      ${"battleLabelsTemplates.xc":"def.repairTimeRadio"}
+    ]
+  }
+}
