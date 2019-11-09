@@ -10,14 +10,56 @@
     // Show "Premium shop" button
     // Показать кнопку "Премиум магазин"
     "showPremiumShopButton": true,
+    // true - show "Referral Program" button.
+    // true - показать кнопку "Реферальная программа".
+    "showReferralButton": true,
 	"showPromoPremVehicle": false,
+    // true - show info window with list of received awards for "Reward for Merit".
+    // true - показывать информационное окно с перечнем полученных наград за "Довольствие".
+    "showRewardWindow": true,
+    // true - show info windows with the battle results in the "Ranked battle" mode.
+    // true - показывать информационные окна результатов боя в режиме "Ранговый бой".
+    "showRankedBattleResults": true,
     "showTeaserWidget": false,
     // Show "Create squad" button
     // Показать кнопку "Создать взвод"
     "showCreateSquadButton": true,
+    // true - show "Create squad" text on the squad creation button.
+    // true - показать текст "Создать взвод" на кнопке создания взвода.
+    "showCreateSquadButtonText": true,
     // Show "General chat" button
     // Показать кнопку "Общий чат"
     "showGeneralChatButton": true,
+    // Consumables panel - show/hide the number of consumables and directives.
+    // Панель снаряжения - показывать/прятать количество снаряжения и инструкций.
+    "equipmentPanel": {
+      //true - show the remaining quantity of consumables in depot.
+      //true - показать оставшиеся количество снаряжения на складе.
+      "showConsumablesCount": true,
+      //true - show the remaining quantity of directives in depot.
+      //true - показать оставшиеся количество инструкций на складе.
+      "showDirectivesCount": false
+    },
+    // "Combat Intelligence" - show/hide notifications in the main window and counters in the menu.
+    // "Полевая почта" - показывать/прятать уведомления в главном окне и счетчики в меню.
+    "combatIntelligence": {
+      // false - disable display pop-up messages in the hangar.
+      // false - отключить отображение всплывающих сообщений в ангаре.
+      "showPopUpMessages": true,
+      // false - disable display unread notifications counter in the menu.
+      // false - отключить отображение счетчика непрочитанных уведомлений в меню.
+      "showUnreadCounter": true
+    },
+    // Parameters of the "Session statistics" button.
+    // Параметры кнопки "Сессионная статистика".
+    "sessionStatsButton": {
+      // false - disable display "Session statistics" button.
+      // false - отключить отображение кнопки "Сессионная статистика".
+      "showButton": true,
+      // false - disable display the counter of spent battles on the button.
+      // false - отключить отображение счетчика проведенных боев на кнопке.
+      "showBattleCount": true
+    },
     // true - enable locker for gold
     // true - включить замок для золота
     "enableGoldLocker": true,
@@ -365,6 +407,19 @@
       "missions": true,                     // Missions / Задачи
       "profile": true,                      // Profile / Достижения
       "PersonalMissionOperationsPage": true // Campains / Кампании
+    },
+        // Parameters for barracks.
+    "barracks": {
+      // Order of nations.
+      // Порядок наций.
+      //"nations_order": ["ussr", "germany", "usa", "china", "france", "uk", "japan", "czech", "poland", "sweden", "italy"],
+      "nations_order": [],
+      // Order of crew roles.
+      // "roles_order": ["commander", "gunner", "driver", "radioman", "loader"],
+      "roles_order": [],
+      // Tankmen sorting criteria, available options: (minus = reverse order)
+      // "nation", "role", "level", "-level", "XP", "-XP", "gender", "-gender", "inVehicle", "-inVehicle", "vehicle"
+      "sorting_criteria": ["nation", "inVehicle", "vehicle", "role"]
     },
     // Parameters for tank carousel
     // Параметры карусели танков

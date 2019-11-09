@@ -291,6 +291,19 @@
       "profile": true,                      // Service Record 
       "PersonalMissionOperationsPage": true // Campaigns 
     },
+        // Parameters for barracks.
+    "barracks": {
+      // Order of nations.
+      // Порядок наций.
+      //"nations_order": ["ussr", "germany", "usa", "china", "france", "uk", "japan", "czech", "poland", "sweden", "italy"],
+      "nations_order": [],
+      // Order of crew roles.
+      // "roles_order": ["commander", "gunner", "driver", "radioman", "loader"],
+      "roles_order": [],
+      // Tankmen sorting criteria, available options: (minus = reverse order)
+      // "nation", "role", "level", "-level", "XP", "-XP", "gender", "-gender", "inVehicle", "-inVehicle", "vehicle"
+      "sorting_criteria": ["nation", "inVehicle", "vehicle", "role"]
+    },
     // Parameters for tank carousel
     "carousel": ${"carousel.xc":"carousel"},
     // Parameters for widgets
