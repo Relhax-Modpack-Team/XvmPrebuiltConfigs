@@ -24,14 +24,15 @@
       "x": "{{pp.mode=0?{{battletype-key=epic_battle?240|5}}|{{py:sum({{pp.widthLeft}},{{py:xvm.hitLog.hLog_x}})}}}}",
       "y": "{{pp.mode=0?{{battletype-key=epic_battle?240|90}}|{{py:xvm.hitLog.hLog_y}}}}",
       "width": 500,
-      "height": 1000,
-      "layer": "bottom",
+      "height": 400,
+      "layer": "normal",
       "textFormat": { "color": "0xF4EFE8", "size": 15 },
       "format": "{{py:xvm.hitLog.hLog}}",
       "mouseEvents": {
         "mouseDown": "hitLog_mouseDown",
         "mouseUp": "hitLog_mouseUp",
-        "mouseMove": "hitLog_mouseMove"
+        "mouseMove": "hitLog_mouseMove",
+        "mouseWheel": "hitLog_mouseWheel"
       }
     },
     // Background of the log of applied damage.

@@ -21,13 +21,17 @@
     "showGeneralChatButton": true,
     // false - disable display promo of premium vehicle (on the background in the hangar)
     // false - отключить отображение рекламы премиум техники (на фоне в ангаре)
-    "showPromoPremVehicle": true,
+    "showPromoPremVehicle": false,
+    "showReferralButton": false,
+    "showTeaserWidget": false,
+    "showRewardWindow": false,
     // true - enable locker for gold
     // true - включить замок для золота
     "enableGoldLocker": true,
     // true - enable locker for free XP
     // true - включить замок для свободного опыта
     "enableFreeXpLocker": true,
+    "showDogtagWidget": true,
     // Show/hide server info or change its parameters
     // Показать/спрятать информацию о сервере, или изменить ее параметры
     "serverInfo": {
@@ -46,6 +50,14 @@
       // Y offset
       // Смещение по оси Y
       "offsetY": 0
+    },
+    "showRankedBattleResults": true,
+    // Consumables panel - show/hide the number of Consumables and directives.
+    "equipmentPanel": {
+      //true - show the remaining quantity of Consumables in depot
+      "showConsumablesCount": true,
+      //true - show the remaining quantity of directives in depot
+      "showDirectivesCount": true
     },
     // true - enable crew auto return function
     // true - включить функцию автовозврата экипажа

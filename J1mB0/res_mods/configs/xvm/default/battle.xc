@@ -31,13 +31,15 @@
     "battleHint": {
       // true - hide the tips aiming mode changing in strategic mode.
       // true - скрыть подсказку смены режима прицеливания в стратегическом режиме.
-      "hideTrajectoryView": false,
+      "hideTrajectoryView": true,
       // true - hide the tips about switching to siege mode.
       // true - скрыть подсказку перехода в осадный режим.
-      "hideSiegeIndicator": false,
+      "hideSiegeIndicator": true,
       // true - hide the tips about switching to menu Personal Missions.
       // true - скрыть подсказку перехода в меню ЛБЗ.
-      "hideQuestProgress": false
+      "hideQuestProgress": true,
+      "hideHelpScreen": true,
+      "hideRadarHint": true 
     },
     // GUI elements settings (experts only)
     // Настройки графических элементов (только для экспертов!)

@@ -60,6 +60,8 @@
       "moveInBattle": false,
       "x": 50,
       "y": 60,
+      // true - allow scrolling of the contents of the log.
+      "scrollLog": true,
       // Group hits by players name.
       // Группировать попадания по имени игрока.
       "groupHitsByPlayer": true,
