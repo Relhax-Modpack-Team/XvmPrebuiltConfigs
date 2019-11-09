@@ -1,11 +1,6 @@
 # XVMPrebuiltConfigs_OMC_REBUILT
 
 
-dev url:
-
-
-
-
 
 additional dependencies:
 
