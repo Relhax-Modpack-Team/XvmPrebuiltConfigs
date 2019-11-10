@@ -291,7 +291,7 @@
       "profile": true,                      // Service Record 
       "PersonalMissionOperationsPage": true // Campaigns 
     },
-        // Parameters for barracks.
+        // Parameters of sorting tankmen in barracks.
     "barracks": {
       // Order of nations.
       // Порядок наций.

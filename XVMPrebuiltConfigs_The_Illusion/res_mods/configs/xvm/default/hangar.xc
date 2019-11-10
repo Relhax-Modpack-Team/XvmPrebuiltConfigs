@@ -163,7 +163,7 @@
       "profile": false,
       "PersonalMissionOperationsPage": false
     },
-        // Parameters for barracks.
+        // Parameters of sorting tankmen in barracks.
     "barracks": {
       // Order of nations.
       // Порядок наций.
