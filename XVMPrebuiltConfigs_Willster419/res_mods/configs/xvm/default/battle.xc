@@ -10,8 +10,6 @@
     // false - disable pop-up panel at the bottom after death.
     // false - отключить всплывающую внизу панель после смерти.
     "showPostmortemTips": false,
-    
-    "showPostmortemDogtag": true,
     // false - disable highlighting of own vehicle icon and squad.
     // false - отключить подсветку иконки своего танка и взвода.
     "highlightVehicleIcon": true,
@@ -28,39 +26,37 @@
     // Duration of the sixth sense indicator (msec).
     // Длительность отображения индикатора 6-го чувства (мсек).
     "sixthSenseDuration": 2000,
-    // true - hide the tips in battle.
-    // true - скрыть подсказки в бою.
+    // Manage battle hints.
+    // Управление подсказками в бою.
     "battleHint": {
-      // true - hide the tips aiming mode changing in strategic mode.
+      // true - hide the hint of aiming mode changing in strategic mode.
       // true - скрыть подсказку смены режима прицеливания в стратегическом режиме.
-      "hideTrajectoryView": false,
-      // true - hide the tips about switching to siege mode and changing the driving mode (for wheeled vehicles).
+      "hideTrajectoryView": true,
+      // true - hide the hint about switching to siege mode and changing the driving mode (for wheeled vehicles).
       // true - скрыть подсказку перехода в осадный режим и смены режима движения (для колесной техники).
       "hideSiegeIndicator": false,
-      // true - hide the tips about switching to menu Personal Missions.
+      // true - hide the hint about switching to menu Personal Missions.
       // true - скрыть подсказку перехода в меню ЛБЗ.
       "hideQuestProgress": false,
-      // true - hide the tips of the transition to the window of exploring the features of the machine (for wheeled vehicles).
+      // true - hide the hint of the transition to the window of exploring the features of the machine (for wheeled vehicles).
       // true - скрыть подсказку перехода к окну знакомства с особенностями машины (для колесной техники).
-      "hideHelpScreen": false,
-      
-      "hideRadarHint": false   
+      "hideHelpScreen": false
     },
-    // GUI elements settings (experts only)
-    // Настройки графических элементов (только для экспертов!)
+    // GUI elements settings (experts only).
+    // Настройки графических элементов (только для экспертов!).
     "elements": ${"elements.xc":"elements"},
     // Camera settings
     // Настройки камеры
     "camera": ${"camera.xc":"camera"},
-    // Switching between players on the minimap after death
-    // Переключение между игроками по миникарте после смерти
+    // Switching between players on the minimap after death.
+    // Переключение между игроками по миникарте после смерти.
     "minimapDeadSwitch": true
   },
   // Frag counter panel at top side of battle windows interface.
   // Панель счёта в бою.
   "fragCorrelation": {
-    // true - show quantity of alive instead of dead
-    // true - показывать количество живых танков вместо убитых
+    // true - show quantity of alive instead of dead.
+    // true - показывать количество живых танков вместо убитых.
     "showAliveNotFrags": false
   },
   // Ingame crits panel by "expert" skill.

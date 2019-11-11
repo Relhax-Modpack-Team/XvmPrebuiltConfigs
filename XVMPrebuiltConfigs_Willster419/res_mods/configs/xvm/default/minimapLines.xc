@@ -69,8 +69,8 @@
          { "$ref": { "path": "def.camera" }, "from": 1720, "to": 1780, "thickness": 0.75, "alpha": 35 },
          { "$ref": { "path": "def.camera" }, "from": 1820, "to": 1880, "thickness": 0.75, "alpha": 35 },
          { "$ref": { "path": "def.camera" }, "from": 1920, "to": 2000, "thickness": 0.75, "alpha": 35 },
-           //Dots
-           //Точки
+         // Dots.
+         // Точки.
          { "$ref": { "path": "def.dot" }, "from": 99,   "to": 100,  "thickness": 2.2, "alpha": 70 },
          { "$ref": { "path": "def.dot" }, "from": 199,  "to": 200,  "thickness": 2.1, "alpha": 65 },
          { "$ref": { "path": "def.dot" }, "from": 299,  "to": 300,  "thickness": 2.0, "alpha": 60 },
@@ -91,8 +91,10 @@
          { "$ref": { "path": "def.dot" }, "from": 1799, "to": 1800, "thickness": 1.5, "alpha": 55 },
          { "$ref": { "path": "def.dot" }, "from": 1899, "to": 1900, "thickness": 1.5, "alpha": 55 }
        ],
-       // Gun traverse angles may differ depending on vehicle angle relative to ground. See pics at https://goo.gl/ZqlPa
-       // Углы горизонтальной наводки могут меняться в зависимости от углов постановки машины на склонах местности. Подробнее по ссылке: https://goo.gl/ZqlPa
+       // Gun traverse angles may differ depending on vehicle angle relative to ground.
+       // See pics at: https://kr.cm/f/t/2076/c/35697/
+       // Углы горизонтальной наводки могут меняться в зависимости от углов постановки машины на склонах местности.
+       // Подробнее по ссылке: https://kr.cm/f/t/2076/c/35697/
        //---------------------------------------------------------------------------------------------------
        // Horizontal gun traverse angle lines.
        // Углы горизонтальной наводки.

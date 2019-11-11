@@ -1,6 +1,13 @@
 ﻿/**
-  * Macros used in damageLog:
-  * Макросы используемые в damageLog:
+ * Log of the received damage.
+ * For additional settings see battleLabelsTemplates.xc
+ * Лог полученного урона.
+ * Дополнительные настройки см. в battleLabelsTemplates.xc
+ *
+ * https://kr.cm/f/t/35169/
+
+  Macros used in damageLog:
+  Макросы используемые в damageLog:
 
     {{number}}         - line number / номер строки.
     {{dmg}}            - received damage / полученный урон.
@@ -31,7 +38,7 @@
     {{reloadGun}}      - gun reloading time / время перезарядки орудия.
     {{gun-caliber}}    - gun caliber / калибр орудия.
     {{wn8}}, {{xwn8}}, {{wtr}}, {{xwtr}}, {{eff}}, {{xeff}}, {{wgr}}, {{xwgr}}, {{xte}}, {{r}}, {{xr}} - statistics macros (see macros.txt) / макросы статистики (смотрите macros_ru.txt).
-    {{c:wn8}}, {{c:xwn8}}, {{c:wtr}}, {{c:xwtr}}, {{c:eff}}, {{c:xeff}}, {{c:wgr}}, {{c:xwgr}}, {{c:xte}}, {{c:r}}, {{c:xr}} - statistics macros (see macros.txt) / макросы статистики (смотрите macros_ru.txt).
+    {{c:wn8}}, {{c:xwn8}}, {{c:wtr}}, {{c:xwtr}}, {{c:eff}}, {{c:xeff}}, {{c:wgr}}, {{c:xwgr}}, {{c:xte}}, {{c:r}}, {{c:xr}} - color according to the corresponding statistics macro (see macros.txt) / цвет по соответствующему макросу статистики (смотрите macros_ru.txt).
     {{fire-duration}}  - duration of fire ("groupDamagesFromFire" must be enabled to work) / продолжительность пожара (работает только при включенной опции "groupDamagesFromFire").
     {{diff-masses}}    - vehicles weights difference during collision / разность масс техники при столкновении.
     {{nation}}         - vehicle nation / нация техники.
@@ -40,6 +47,7 @@
     {{crit-device}}    - damaged module or shell-shocked crew member / поврежденный модуль или контуженный член экипажа.
     {{type-shell-key}} - shell kind table key value / название ключа таблицы типа снаряда.
     {{hitTime}}        - time of the received (blocked) damage in "mm:ss" format / время полученного (заблокированного) урона в формате "мм:сс".
+    {{vehiclename}}    - vehicle system name (usa-A34_M24_Chaffee) / название техники в системе (usa-A34_M24_Chaffee).
 */
 
 {
@@ -63,6 +71,18 @@
       "moveInBattle": false,
       "x": 240,
       "y": -23,
+      // true - show hits without damage.
+      // true - отображать попадания без урона.
+      "showHitNoDamage": true,
+      // true - summarize damages from fire.
+      // true - суммировать повреждения от пожара.
+      "groupDamagesFromFire": true,
+      // true - summarize damages from ramming, crash, falling (if more than one damage per second).
+      // true - суммировать повреждения от тарана, столкновения, падения (если больше одного повреждения в секунду).
+      "groupDamagesFromRamming_WorldCollision": true,
+      // true - summarize damages from artillery strike and airstrike (if more than one damage per second).
+      // true - суммировать повреждения от артудара и авионалета (если больше одного повреждения в секунду).
+      "groupDamageFromArtAndAirstrike": true,
       // Kind of the received damage (macro {{dmg-kind}}).
       // Тип полученного урона (макрос {{dmg-kind}}).
       "dmg-kind": {
@@ -107,8 +127,8 @@
         "hollow_charge": "<font color='{{c:costShell}}'>{{l10n:hollow_charge}}</font>",         // high explosive anti-tank / кумулятивный.
         "not_shell": ""                                                                         // another source of damage / другой источник урона.
       },
-      // Color by shell kind (macro {{type-shell}}).
-      // Цвет по типу снаряда (макрос {{type-shell}}).
+      // Color by shell kind (macro {{c:type-shell}}).
+      // Цвет по типу снаряда (макрос {{c:type-shell}}).
       "c:type-shell": {
         "armor_piercing": "#CCCCCC",    // armor piercing / бронебойный.
         "high_explosive": "#CCCCCC",    // high explosive / осколочно-фугасный.
@@ -231,15 +251,6 @@
         "silver-shell": "#CCCCCC", // credits / кредиты.
         "unknown": ""              // unknown / неизвестно.
       },
-      // true - show hits without damage.
-      // true - отображать попадания без урона.
-      "showHitNoDamage": true,
-      // true - summarize damages from fire.
-      // true - суммировать повреждения от пожара.
-      "groupDamagesFromFire": true,
-      // true - summarize damages from ramming, crash, falling (if more than one damage per second).
-      // true - суммировать повреждения от тарана, столкновения, падения (если больше одного повреждения в секунду).
-      "groupDamagesFromRamming_WorldCollision": true,
       // Shadow settings.
       // Настройки тени.
       "shadow": {
@@ -280,7 +291,7 @@
     // Background of the log of the received damage (alternative mode).
     // Подложка лога полученного урона (альтернативный режим).
     "logAltBackground": {
-      "$ref": { "path":"damageLog.logAlt" },
+      "$ref": { "path":"damageLog.logBackground" },
       // Damage log background format.
       // Формат подложки лога повреждений.
       "formatHistory": "<img height='20' width='310' src='xvm://res/icons/damageLog/{{dmg=0?no_dmg|dmg}}.png'>"
@@ -301,7 +312,7 @@
       "showHitNoDamage": true,
       // Display duration (seconds).
       // Продолжительность отображения (секунды).
-      "timeDisplayLastHit": 7,
+      "timeDisplayLastHit": 5,
       // Shadow settings.
       // Настройки тени.
       "shadow": {
