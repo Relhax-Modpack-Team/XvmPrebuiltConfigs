@@ -1,0 +1,32 @@
+update colorrating!!!
+
+Thanks Electrosmoker
+__________________________________________________________________________________
+2019-07-07: brighter colors for hpbars (no transparency / no shades / just color)
+
+hm, nachdem es nur um die farbauswahl geht, solltest das anhand folgender 2-schritt-anleitung selbst ändern können.
+du tauscht ja nur die vorhanden farben für die anzeige der tanks zu denen, die dir gefallen (zb von rot auf dunkelrot).
+die farbe kann ich dir ja eh nicht auswählen  :zwinkern:
+
+1) in deiner colors.cx suchst du das hier (ab zeile 76):
+    ```"vtype": {
+      "LT": "0xE3E99D",
+      "MT": "0x9DE9A7",
+      "HT": "0xE9C39D",
+      "SPG": "0xE99D9D",
+      "TD": "0x9DABE9",
+      "premium": "0xFFCC66",
+      "usePremiumColor": false
+    },
+````
+
+2) hier änderst du einfach den zahlenwert der nach dem `x`kommt.
+zB       `"LT": "0xE3E99D",` ->       `"LT": "0x00cc00",`
+
+hier kannst du die farbe bzw den farbcode mit hilfe einer palette generieren:
+https://www.w3schools.com/colors/colors_picker.asp
+die farben werden dann bei allen orten an denen das `{{vtype}}`-makro benutzt wird angezeigt. somit ist die farbgestaltung für panzertypen im ganzen spiel gleich.
+
+Thanks Electrosmoker
+__________________________________________________________________________________
+2019-07-07: brighter colors for hpbars (no transparency / no shades / just color)

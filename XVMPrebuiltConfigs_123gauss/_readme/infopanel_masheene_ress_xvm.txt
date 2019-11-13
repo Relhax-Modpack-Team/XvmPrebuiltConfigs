@@ -1,0 +1,21 @@
+http://aslain.com/index.php?/topic/12034-110x-xvm-config-parts-collection/
+
+
+https://koreanrandom.com/forum/topic/37259-??????-???-????????-??????????-xvm/
+
+
+
+
+
+
+@xvm.xc add:
+
+  "infoPanel": ${"infoPanel.xc":"infoPanel"}
+
+
+
+
+battleLabels.xc add:
+
+      ${ "battleLabelsInfoPanel.xc":"def.InfoPanel" },
+      ${ "battleLabelsInfoPanel.xc":"def.InfoPanelbg" }

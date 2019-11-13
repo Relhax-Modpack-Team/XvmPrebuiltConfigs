@@ -1,0 +1,254 @@
+﻿<root>
+  <SubTexture>
+    <name> blockedBig </name>
+    <x> 0 </x>
+    <y> 0 </y>
+    <width> 72 </width>
+    <height> 498 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> blockedMedium </name>
+    <x> 73 </x>
+    <y> 0 </y>
+    <width> 72 </width>
+    <height> 498 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> blockedSmall </name>
+    <x> 146 </x>
+    <y> 0 </y>
+    <width> 72 </width>
+    <height> 498 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> crit </name>
+    <x> 219 </x>
+    <y> 0 </y>
+    <width> 72 </width>
+    <height> 498 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> damageBig </name>
+    <x> 292 </x>
+    <y> 0 </y>
+    <width> 72 </width>
+    <height> 498 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> damageBigBlind </name>
+    <x> 365 </x>
+    <y> 0 </y>
+    <width> 72 </width>
+    <height> 498 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> damageMedium </name>
+    <x> 438 </x>
+    <y> 0 </y>
+    <width> 72 </width>
+    <height> 498 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> damageMediumBlind </name>
+    <x> 511 </x>
+    <y> 0 </y>
+    <width> 72 </width>
+    <height> 498 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> damageSmall </name>
+    <x> 584 </x>
+    <y> 0 </y>
+    <width> 72 </width>
+    <height> 498 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> damageSmallBlind </name>
+    <x> 657 </x>
+    <y> 0 </y>
+    <width> 72 </width>
+    <height> 498 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> blockedStandard </name>
+    <x> 730 </x>
+    <y> 0 </y>
+    <width> 60 </width>
+    <height> 99 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> damageStandard </name>
+    <x> 791 </x>
+    <y> 0 </y>
+    <width> 60 </width>
+    <height> 99 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> damageStandardBlind </name>
+    <x> 852 </x>
+    <y> 0 </y>
+    <width> 60 </width>
+    <height> 99 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> lineForValue </name>
+    <x> 913 </x>
+    <y> 0 </y>
+    <width> 10 </width>
+    <height> 71 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> ammoCircle </name>
+    <x> 924 </x>
+    <y> 0 </y>
+    <width> 44 </width>
+    <height> 44 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> blockCircle </name>
+    <x> 969 </x>
+    <y> 0 </y>
+    <width> 44 </width>
+    <height> 44 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> commanderCircle </name>
+    <x> 924 </x>
+    <y> 45 </y>
+    <width> 44 </width>
+    <height> 44 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> critCircle </name>
+    <x> 969 </x>
+    <y> 45 </y>
+    <width> 44 </width>
+    <height> 44 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> damageCircle </name>
+    <x> 913 </x>
+    <y> 90 </y>
+    <width> 44 </width>
+    <height> 44 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> damageCircleBlind </name>
+    <x> 958 </x>
+    <y> 90 </y>
+    <width> 44 </width>
+    <height> 44 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> driverCircle </name>
+    <x> 730 </x>
+    <y> 100 </y>
+    <width> 44 </width>
+    <height> 44 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> engineCircle </name>
+    <x> 775 </x>
+    <y> 100 </y>
+    <width> 44 </width>
+    <height> 44 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> gunCircle </name>
+    <x> 820 </x>
+    <y> 100 </y>
+    <width> 44 </width>
+    <height> 44 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> gunnerCircle </name>
+    <x> 865 </x>
+    <y> 100 </y>
+    <width> 44 </width>
+    <height> 44 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> radioCircle </name>
+    <x> 910 </x>
+    <y> 135 </y>
+    <width> 44 </width>
+    <height> 44 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> radiomanCircle </name>
+    <x> 955 </x>
+    <y> 135 </y>
+    <width> 44 </width>
+    <height> 44 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> reloaderCircle </name>
+    <x> 730 </x>
+    <y> 145 </y>
+    <width> 44 </width>
+    <height> 44 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> tanksCircle </name>
+    <x> 775 </x>
+    <y> 145 </y>
+    <width> 44 </width>
+    <height> 44 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> tracksCircle </name>
+    <x> 820 </x>
+    <y> 145 </y>
+    <width> 44 </width>
+    <height> 44 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> triplexCircle </name>
+    <x> 865 </x>
+    <y> 145 </y>
+    <width> 44 </width>
+    <height> 44 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> turretCircle </name>
+    <x> 910 </x>
+    <y> 180 </y>
+    <width> 44 </width>
+    <height> 44 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> AT-SPG </name>
+    <x> 1003 </x>
+    <y> 90 </y>
+    <width> 16 </width>
+    <height> 16 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> heavyTank </name>
+    <x> 1003 </x>
+    <y> 107 </y>
+    <width> 16 </width>
+    <height> 16 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> lightTank </name>
+    <x> 1003 </x>
+    <y> 124 </y>
+    <width> 16 </width>
+    <height> 16 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> mediumTank </name>
+    <x> 1000 </x>
+    <y> 141 </y>
+    <width> 16 </width>
+    <height> 16 </height>
+  </SubTexture>
+  <SubTexture>
+    <name> SPG </name>
+    <x> 1000 </x>
+    <y> 158 </y>
+    <width> 16 </width>
+    <height> 16 </height>
+  </SubTexture>
+</root>
