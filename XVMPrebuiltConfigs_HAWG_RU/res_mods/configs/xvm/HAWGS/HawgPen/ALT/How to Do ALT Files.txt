@@ -1,0 +1,10 @@
+How to Do ALT Files 8.14
+
+All Alt files for PlayersPanel HP Bar Are now Located In HawgPen > ALT > PlayersPanel
+You must turn Off _Normal PlayersPanel In HawgPen > ALT > PlayersPanel > _Normal ,before you turn on any ALT PlayersPanel
+
+All Alt files for Clocks Are now Located In HawgPen > ALT > Clocks
+You must turn Off Default Hangar Clock In HawgPen > _MainFrame > Clocks > HangarClock, before you turn on any ALT Clocks
+
+ Alt file " Add this Just Damage & Stun Efficiency " Is now Located In HawgPen > ALT > Battle > Battle_Efficiency_Stun
+ You must turn Off Default Efficiency In HawgPen > Battle > Battle_Efficiency, before you turn on Battle_Efficiency_Stun

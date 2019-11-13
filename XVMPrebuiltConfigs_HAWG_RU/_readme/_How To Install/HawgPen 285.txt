@@ -1,0 +1,343 @@
+You Have 285 Different Function to adjust in the Hawgpen.
+To tranfer your setting to new updated version. 
+After Each update,  Install Updated Xvm , Than copy the Folder "HawgPen"
+Paste HawgPen Folder into "HAWGS" click replace all.
+For now on the Folders will not be renamed.So you will always have the right folders.
+
+
+MainFrame  (12)
+  Battle_Messages
+  BattleLoading_Statistics_Tab
+  Camera
+  CaptureBar
+  Carousel
+  Clocks
+  DamageLog
+  Hitlog
+  MiniMap
+  Over_Tank_Markers
+  PlayersPanel
+  Sounds
+  
+Colors (7)
+Border_Color
+Rating_Colors
+Tank_Outlines (sub folder )
+ Enemy
+ Platoon
+ Team
+ TeamKiller
+  
+  
+ALT (20)
+  Clocks (sub folder )
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  Camo
+  Battle (sub folder )
+  Battle_Efficiency_Stun
+  PlayerPanel (sub folder )
+  _Normal
+  HP_Bottom
+  HP_On_Side
+  HP_Thin_Bottom
+  HP_Thin_On_Side
+  HP_Xtra_Thin_Bottom
+  HP_Xtra_Thin_On_Side 
+  AutoAim_Informers  
+   
+  
+Ginsights  (28)
+  AimDistances
+  AimTime
+  Angle_Aiming
+  Angle_Aiming_Bar
+  Arty_AimTime
+  Arty_Distance
+  Arty_HealthBar
+  Arty_ReloadBar
+  Arty_Shell_FlightTime
+  Arty_Shell_Penetration
+  Arty_ShellSpeed
+  Arty_SplashSphere
+  Center_X_Mark
+  ClipReloadTime
+  FlightTime
+  Health_Percent
+  HealthBar
+  HealthBarCircle
+  Hide_Sight_AfterDeath
+  Hitpoints
+  Pen_Chance   
+  PlayerName
+  Reload_Percent
+  ReloadBar
+  ReloadCountDown
+  ReloadTime
+  ShellType
+  TankInfo
+  TargetPlayerReloadTime
+  TargetPlayerVision
+		   
+Battle_Messages	 (7)
+  Battle_Messages_Hit_By_Arty
+  Battle_Messages_I_Am_Spotted 
+    Help_OnOff
+    ImSpoted_OnOff
+    Show_When_Less	
+  Battle_Messages_Reload_Clip
+  Battle_Messages_Team_Damage
+    Stop_Showing_When_Less
+
+Battle Results   (5)
+  Battle_Results_Show_Crew_Experience
+  Battle_Results_Show_Extended_Info
+  Battle_Results_Show_Net_Income
+  Battle_Results_Show_Total_Experience
+  Battle_Results_Show_Totals
+  
+Battle   (34)
+  AutoAim_All_Informer_Markers
+  AutoAim_Informer_PlayerPanel
+  AutoAim_Self_Informer_GunSights
+  Battle_AverageDamage
+  Battle_BattleScore
+  Battle_Damage_Log_Background
+  Battle_Damage_Panel_Repair_Time
+  Battle_Efficiency
+  Battle_Fire_Alarm
+  Battle_HighCaliber
+  Battle_Highlight_Vehicle_Icon
+  Battle_Last_Hit
+  Battle_NotHawgsIconContours
+  Battle_Postmortem  
+  Battle_SixthSense
+  Battle_SixthSense_Timer_Countdown
+  Battle_TotalHP
+  Daily_Battle_Record
+  Damage_Indicator_Compass
+  EFF
+  Hawg_Tacitcal_ClanWar_Maps
+  Hawg_Tacitcal_Maps
+  Hull_Armor
+  Hull_Armor_Text
+  Server
+  Server_Battle_Type
+  Speed
+  Tank_Battle_Count
+  Tank_HP_Bar
+  Tank_HP
+  Tank_History
+  Tank_Win%  
+  Battle_Timer_Flags
+  WN8
+  Wn8_Win_Chance  
+SafeShot (Sub Folder)
+  _On_Off
+  Disable_Message
+  Team_Shot_Block
+  Waste_Shot_Block  
+ 
+
+Battle Loading (9)
+  Battle_Loading_ClanIcon
+  Battle_Loading_Icon_Border
+  Battle_Loading_Name_Border
+  Battle_Loading_Nation_Flag
+  Battle_Loading_Platoon_Icon
+  Battle_Loading_Rank_Badge_Icon
+  Battle_Loading_Rank_Tank_Level
+  Battle_Loading_Tank_Type
+  Battle_Loading_Player_Not_Connected
+
+Camera   (7)
+  Camera_ArtySkyZoomOut
+  Camera_FlashBang
+  Camera_Hawgzoom
+  Camera_Hints_Siege_Arty
+  Camera_Recoil_Effect
+  Camera_TankSkyZoomOut
+  Camera_Zoom_Indicator
+  
+Carousel   (27)
+  Carousel_EnableLock_Background
+  Carousel_Hide_BuySlot
+  Carousel_Hide_BuyTank  
+  Carousel_NationFlags (Sub Folder)
+  Big
+  Small
+  BigTop
+  Carousel_Show_TotalSlots
+  Carousel_Show_UsedSlots
+  Carousel_TankIcons
+  Premium_Marker_Border
+  Premium_Marker_LaurelWreath
+  Premium_Marker_Star
+Carousel_Stats  (Sub Folder)  
+  Tank_Avg_Damage
+  Tank_Hit_Rate
+  Tank_HitPoints
+  Tank_Level
+  Tank_Mark_EX
+  Tank_Name
+  Tank_Nation
+  Tank_Type
+  Tank_Win_Rate
+  Tank_Wn8
+  XP
+  
+DamageLog  (6)
+  Disabled_Detail_Stats
+  Disabled_Summary_Stats
+  Fire_Damage
+  Last_Hit_NoDamage
+  Ramming_Damage
+  ShowHit_NoDamage
+  
+Hangar (45)
+  
+  Barracks_Show_Skills
+  Barracks_Show_Flags
+  Daily_Record
+  Hangar_Block_Tank_Low_Ammo
+  Hangar_BuyPremiumButton
+  Hangar_Common_Mission  
+  Hangar_CreatePlatoonButton
+  Hangar_CreatePlatoonButtonText
+  Hangar_Crew_AutoReturn
+  Hangar_Crew_Return_By_Default
+  Hangar_Equip_AutoReturn
+  Hangar_Free_Xp_Locker
+  Hangar_General_Chat_Button
+  Hangar_Gold_Locker
+  Hangar_Personal_Mission
+  Hangar_PremiumShopButton
+  Hangar_Promo_Prem_Tank
+  Hangar_Restore_Battle_Type
+  Hangar_Tank_Name
+  My_Statistics
+  Notification_Missions
+  Notification_Personal_MissionOperations
+  Notification_Profile
+  Notification_Store
+  Online_Server
+  Personal_Reserves
+  Ping_Server
+  Tank_History
+  Tank_NationFlags
+  Teaser_Adds
+  ToolTips_Bottom_Text
+  ToolTips_Combine_Icon
+  ToolTips_Simplified_Tank_Parms
+Tank_Stats   (Sub Folder)
+  Tank_Average_Damage
+  Tank_Average_Kills
+  Tank_Expected _Kills
+  Tank_HitPoints
+  Tank_Tank_Top_Damage
+  Tank_TechName
+  Tank_WinRate
+  Tank_WN8
+  TankBattles_Stats
+  Tech_Tree_ExchangeXP
+  Tech_Tree_Mastery_Mark
+  Tech_Tree_Prices
+  
+       
+    
+Login (5)  
+  Confirm_Old_Replays
+  Login_AutoLogin
+  Ping_Servers
+  Save_Last_Server
+  Online_Servers
+  
+Tank Markers (30)
+  Action_Markers
+  Contour_Icon
+  Damage_Indicator
+  Markers_Damage_Text
+  Markers_HealthBar
+  Markers_Icons
+  Markers_LevelIcon
+  Markers_RatingMarker
+  My_Platoon
+  Player_Name
+  Player_Position
+  Tank_HP
+  Tank_Name
+  Tank_Status_Marker
+  XmqpEvent   
+Dead Tank Markers (Sub Folder)
+  Action_Markers
+  Contour_Icon
+  Damage_Indicator
+  Markers_Damage_Text
+  Markers_HealthBar
+  Markers_Icons
+  Markers_LevelIcon
+  Markers_RatingMarker
+  My_Platoon
+  Player_Name
+  Player_Position
+  Tank_HP
+  Tank_Name
+  Tank_Status_Marker
+  XmqpEvent   
+    
+Minimap (9)
+  Center_Screen_Minimap
+  Circles_Enabled
+  Default_Feilds_Item
+  Labels_Enabled
+  Lines_Enabled
+  Map_Size
+  Show_Cell_Click_Animation
+  Show_Dead_Direction_Line
+  Tank_Type_Spotted
+  
+Player Panel (10)
+  ClanIcon_NickName_Icon
+  Enemy_Spotted_Marker
+  Platoon
+  Player_Panel_Large
+  Player_Panel_Medium
+  Player_Panel_Medium2
+  Player_Panel_Short
+  Remove_Panels_Mode_Switcher
+  Selected_Background_Remove
+  Xmqp_Service_Marker
+
+Platoon  (2)
+  Platoon_Clan
+  Platoon_Info
+  
+Statistics Battle Form (tab button )  (13)
+  Battle_Tier
+  Clan_Icon
+  Kill_Count_Border
+  Name_Border
+  Nation_Flag
+  Platoon_Icons
+  Player_Nation_Flag
+  Player_Status_Icon
+  Rank_Icons
+  Tank_Border
+  Tank_Level
+  Tank_Type_Icon
+  Xvm_Users
+  
+User Info  (3)
+  In_Hangar_Filter
+  Show_Filters
+  Show_XTE_Column
+  
+
+Total 284
