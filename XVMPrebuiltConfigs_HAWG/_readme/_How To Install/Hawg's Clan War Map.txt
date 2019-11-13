@@ -1,0 +1,45 @@
+Hawg's Clan War Map
+
+Please download ClanWar maps from
+
+https://worldoftanks.curseforge.com/projects/hawgs-xvm-clanwar-map-builder
+
+or
+
+https://wgmods.net/1890/
+
+5/10/2018
+
+Hawg's Clan War Map is a Tool to build Tactical Maps, for Your Clan to Veiw and to help Prepare
+for ClanWars .This book is a must for all Clans Officers. This book has all  Maps, with Coordinates & Grid.
+Also it comes with 60 Different Tactical Icons In a Folder,This is simple tool to use, Just Pick which map you want 
+to Build ,Right click map ,Open with "Photoshop" or "Paint.net" or any other Photo SoftWare ,Than click "Paste" or "layer"tab,
+than click "Paste From",Than pick the Folder Named "Icons".Than all you do pick your icon you want than place
+it on the minimap at the location you want.After you place all the icons you want on map Than save as a ".png"
+After your done making your Tactical Map, you can Share the map with your clan,Than Pepare for War & win the Gold!!!
+
+Allways keep this book Handy, You might see a spot on the map in a random Battle thats a perfect place to set up,
+Just open the Book and mark the spot and save it for your Viewing for later.
+
+Not just for Clans , You Can use it as your personal maps too.
+
+Super Easy to Do !
+
+Note: Do not change the name of maps,or it will not work !
+
+Steps 
+(1) Pick which map you want to Build, Located res_mods > configs > Xvm > ClanWar > Hawg_Tac_Map
+(2) Right click map ,Open with "Photoshop" or "Paint.net" paint.net freeware. 
+(3) Than click "Paste" or "Layer" tab
+(4) Click "Paste From"
+(5) Than pick the Folder Named "Icons" , Located res_mods > configs > Xvm > ClanWar > Maps & Icons > Tactical Icons
+(6) Than all you do pick your icon you want than place on map 
+     Repeat steps 4 , 5 , 6 till your done.
+(7)	Than save as a ".png"
+(8) Share the map with your clan, Must Have  " Hawg Xvm " Than Pepare for War.
+(9) Win the Gold !!
+
+NOTE : default "Paint" on Pc wont work .It will lose Transparency of icons.
+
+
+https://mods.curse.com/wot-mods/worldoftanks
