@@ -19,6 +19,7 @@ Dependency_XVM_PY_sixthSense
 Dependency_XVM_PY_sphere
 Dependency_XVM_PY_statistics
 Dependency_XVM_PY_targetInfo
+Dependency_XVM_PY_sight
  
 
 XC:
