@@ -21,11 +21,12 @@
       "height": 1000,
       "layer": "bottom",
       "textFormat": { "color": "0xF4EFE8", "size": 15 },
-      "format": "{{py:xvm.hitLog.hLog}}",
+      "format": "{{py:xvm.hitLog.log}}",
       "mouseEvents": {
         "mouseDown": "hitLog_mouseDown",
         "mouseUp": "hitLog_mouseUp",
-        "mouseMove": "hitLog_mouseMove"
+        "mouseMove": "hitLog_mouseMove",
+        "mouseWheel": "hitLog_mouseWheel"
       }
     },
     // Background of the log of applied damage.
@@ -33,7 +34,7 @@
     "hitLogBackground": {
       "enabled": false,
       "$ref": { "path":"def.hitLogBody" },
-      "format": "{{py:xvm.hitLog.hLogBackground}}"
+      "format": "{{py:xvm.hitLog.log.bg}}"
     },
     "totalHP": {
       "enabled": true,
@@ -74,7 +75,7 @@
         "size": 15,
         "align": "center"
       },
-      "format": "{{py:xvm.total_hp.avgDamage('{{l10n:avgDamage}}: ',{{hitlog.dmg-total}})}}"
+      "format": "{{py:xvm.total_hp.avgDamage('{{l10n:avgDamage}}: ',{{py:xvm.totalDamage}})}}"
     },
     "mainGun": {
       "enabled": true,
@@ -93,36 +94,36 @@
         "size": 15,
         "align": "center"
       },
-      "format": "{{py:xvm.total_hp.mainGun('{{l10n:mainGun}}: ',{{hitlog.dmg-total}})}}"
+      "format": "{{py:xvm.total_hp.mainGun('{{l10n:mainGun}}: ',{{py:xvm.totalDamage}})}}"
     },
     "damageLog": {
       "enabled": true,
       "updateEvent": "PY(ON_HIT)",
-      "x": "{{py:xvm.damageLog.dLog_x}}",
-      "y": "{{py:xvm.damageLog.dLog_y}}",
+      "x": "{{py:xvm.damageLog.log.x}}",
+      "y": "{{py:xvm.damageLog.log.y}}",
       "width": 300,
       "height": 210,
       "layer": "bottom",
       "screenVAlign": "bottom",
       "shadow": { 
-        "distance": "{{py:xvm.damageLog.dLog_shadow('distance')}}",
-        "angle": "{{py:xvm.damageLog.dLog_shadow('angle')}}",
-        "color": "{{py:xvm.damageLog.dLog_shadow('color')}}",
-        "alpha": "{{py:xvm.damageLog.dLog_shadow('alpha')}}",
-        "blur": "{{py:xvm.damageLog.dLog_shadow('blur')}}",
-        "strength": "{{py:xvm.damageLog.dLog_shadow('strength')}}",
-        "hideObject": "{{py:xvm.damageLog.dLog_shadow('hideObject')}}",
-        "inner": "{{py:xvm.damageLog.dLog_shadow('inner')}}",
-        "knockout": "{{py:xvm.damageLog.dLog_shadow('knockout')}}",
-        "quality": "{{py:xvm.damageLog.dLog_shadow('quality')}}" 
+        "distance": "{{py:xvm.damageLog.log.shadow('distance')}}",
+        "angle": "{{py:xvm.damageLog.log.shadow('angle')}}",
+        "color": "{{py:xvm.damageLog.log.shadow('color')}}",
+        "alpha": "{{py:xvm.damageLog.log.shadow('alpha')}}",
+        "blur": "{{py:xvm.damageLog.log.shadow('blur')}}",
+        "strength": "{{py:xvm.damageLog.log.shadow('strength')}}",
+        "hideObject": "{{py:xvm.damageLog.log.shadow('hideObject')}}",
+        "inner": "{{py:xvm.damageLog.log.shadow('inner')}}",
+        "knockout": "{{py:xvm.damageLog.log.shadow('knockout')}}",
+        "quality": "{{py:xvm.damageLog.log.shadow('quality')}}" 
       },
       "textFormat": { "color": "0xF4EFE8", "size": 16 },
-      "format": "{{py:xvm.damageLog.dLog}}",
+      "format": "{{py:xvm.damageLog.log}}",
       "mouseEvents": {
-        "mouseDown": "dLog_mouseDown",
-        "mouseUp": "dLog_mouseUp",
-        "mouseMove": "dLog_mouseMove",
-        "mouseWheel": "dLog_mouseWheel"
+        "mouseDown": "damageLog_mouseDown",
+        "mouseUp": "damageLog_mouseUp",
+        "mouseMove": "damageLog_mouseMove",
+        "mouseWheel": "damageLog_mouseWheel"
       }
     },
     // Background of the log of the received damage (see damageLog.xc).
@@ -130,29 +131,29 @@
     "damageLogBackground": {
       "enabled": false,
       "$ref": { "path":"def.damageLog" },
-      "format": "{{py:xvm.damageLog.dLogBackground}}"
+      "format": "{{py:xvm.damageLog.log.bg}}"
     },    
     "lastHit": {
       "enabled": true,
       "updateEvent": "PY(ON_LAST_HIT)",
-      "x": "{{py:xvm.damageLog.lastHit_x}}",
-      "y": "{{py:xvm.damageLog.lastHit_y}}",
+      "x": "{{py:xvm.damageLog.lastHit.x}}",
+      "y": "{{py:xvm.damageLog.lastHit.y}}",
       "width": 200,
       "height": 100,
       "layer": "bottom",
       "screenHAlign": "center",
       "screenVAlign": "center",
       "shadow": {
-        "distance": "{{py:xvm.damageLog.lastHit_shadow('distance')}}",
-        "angle": "{{py:xvm.damageLog.lastHit_shadow('angle')}}",
-        "color": "{{py:xvm.damageLog.lastHit_shadow('color')}}",
-        "alpha": "{{py:xvm.damageLog.lastHit_shadow('alpha')}}",
-        "blur": "{{py:xvm.damageLog.lastHit_shadow('blur')}}",
-        "strength": "{{py:xvm.damageLog.lastHit_shadow('strength')}}",
-        "hideObject": "{{py:xvm.damageLog.lastHit_shadow('hideObject')}}",
-        "inner": "{{py:xvm.damageLog.lastHit_shadow('inner')}}",
-        "knockout": "{{py:xvm.damageLog.lastHit_shadow('knockout')}}",
-        "quality": "{{py:xvm.damageLog.lastHit_shadow('quality')}}"
+        "distance": "{{py:xvm.damageLog.lastHit.shadow('distance')}}",
+        "angle": "{{py:xvm.damageLog.lastHit.shadow('angle')}}",
+        "color": "{{py:xvm.damageLog.lastHit.shadow('color')}}",
+        "alpha": "{{py:xvm.damageLog.lastHit.shadow('alpha')}}",
+        "blur": "{{py:xvm.damageLog.lastHit.shadow('blur')}}",
+        "strength": "{{py:xvm.damageLog.lastHit.shadow('strength')}}",
+        "hideObject": "{{py:xvm.damageLog.lastHit.shadow('hideObject')}}",
+        "inner": "{{py:xvm.damageLog.lastHit.shadow('inner')}}",
+        "knockout": "{{py:xvm.damageLog.lastHit.shadow('knockout')}}",
+        "quality": "{{py:xvm.damageLog.lastHit.shadow('quality')}}"
       },
       "textFormat": {
         "align": "center",
