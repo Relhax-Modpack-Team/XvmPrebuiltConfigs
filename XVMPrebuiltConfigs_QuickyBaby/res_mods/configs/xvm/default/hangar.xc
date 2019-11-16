@@ -25,7 +25,7 @@
     "showGeneralChatButton": true,
     // false - disable display promo of premium vehicle (on the background in the hangar).
     // false - отключить отображение рекламы премиум техники (на фоне в ангаре).
-    "showPromoPremVehicle": false,,
+    "showPromoPremVehicle": false,
     "showReferralButton": false,
     "showTeaserWidget": false,
     // true - show info window with list of received awards for "Reward for Merit".

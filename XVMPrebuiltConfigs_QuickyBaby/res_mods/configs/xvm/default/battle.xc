@@ -9,7 +9,7 @@
     "mirroredVehicleIcons": true,
     // false - disable pop-up panel at the bottom after death.
     // false - отключить всплывающую внизу панель после смерти.
-    "showPostmortemTips": true,,
+    "showPostmortemTips": true,
     "showPostmortemDogtag": true,
     // false - disable highlighting of own vehicle icon and squad.
     // false - отключить подсветку иконки своего танка и взвода.
