@@ -102,7 +102,7 @@
       { "enabled": true, "x": 165, "y": 97, "width": 1, "height": 30, "alpha": 10, "src": "../../../configs/xvm/default/icons/BANNER_white_30.png" },
 
 // NATION EMBLEM SMALL
-      { "enabled": false, "x": 200, "y": 142, "width": 24, "height": 24, "alpha": 100, "src": "../../gui\maps\icons\eventBoards\emblems/{{v.nation}}.png" },
+      { "enabled": false, "x": 200, "y": 142, "width": 24, "height": 24, "alpha": 100, "src": "../../gui/maps/icons/eventBoards/emblems/{{v.nation}}.png" },
 	     
 // EXCELLENCE ICON
       { "enabled": true, "x": 145, "y": 150, "width": 30, "height": 10, "alpha": 200, "src": "../../../configs/xvm/default/icons/mog_a0{{v.marksOnGun}}.png" },	
