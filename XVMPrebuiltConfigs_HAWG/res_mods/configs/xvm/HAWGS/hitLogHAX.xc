@@ -11,7 +11,8 @@
     "log": {     
       "moveInBattle": false,
       "x": 50,
-      "y": 78,      
+      "y": 78,
+      "scrollLog": true,      
       "groupHitsByPlayer": true,      
       "lines": 15,      
       "addToEnd": false,      
@@ -51,7 +52,7 @@
         "gas_attack":      "GA",                                                     
         "art_attack":      "<font face='xvm'>&#x110;</font>",                        
         "air_strike":      "<font face='xvm'>&#x111;</font>"                         
-      }, 
+      },
       
       "type-shell": {
         "armor_piercing":    "<font color='{{c:costShell}}' face='$FieldFont'>{{l10n:armor_piercing}}</font>",    
