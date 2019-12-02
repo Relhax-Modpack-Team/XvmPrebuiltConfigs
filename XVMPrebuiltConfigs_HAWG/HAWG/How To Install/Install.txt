@@ -1,0 +1,23 @@
+1.6.1.4  Hawg Alternative Xvm  
+
+ 
+12/2/2019    
+
+
+* HAWGS  XVM *
+
+
+
+UNZIP DOWNLOAD. "HAWGSXVM"
+
+COPY THE FOLDER'S "res_mods" ,& " mods".>
+
+OPEN YOUR WORLD OF TANKS LOCATION... normally C:\Games\Worldoftanks..
+
+PASTE INSIDE OF "World_of_Tanks" folder...
+
+OVERWRITE ALL !
+_____________________________________________________________________________________________________________________________________________________________
+
+
+
