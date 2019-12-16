@@ -15,7 +15,6 @@ Dependency_XVM_PY_maps
 Dependency_XVM_PY_markerPosition
 Dependency_XVM_PY_messenger
 Dependency_XVM_PY_modesVehicle
-Dependency_XVM_PY_mod_wn8_chance
 Dependency_XVM_PY_myHP
 Dependency_XVM_PY_quantityShells
 Dependency_XVM_PY_reloading
@@ -31,6 +30,6 @@ Dependency_XVM_PY_timer
 
 XC:
  
-                  Dependency_XVM_XC_years
-                  Dependency_XVM_XC_hull
-                  Dependency_XVM_XC_speed
+Dependency_XVM_XC_years
+Dependency_XVM_XC_hull
+Dependency_XVM_XC_speed
