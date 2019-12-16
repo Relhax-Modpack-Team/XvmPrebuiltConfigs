@@ -1,5 +1,5 @@
 ﻿/**
- * Battle 
+ * Battle 12.15
   */
 {
   // Definitions.
@@ -15,28 +15,7 @@
       "textFormat": { "color": "0xF4EFE8", "size": 15 },
       "format": "{{py:xvm.totalDamage=0?{{l10n:Hits}}: <font size='13'>#0</font>|{{l10n:Hits}}: <font size='13'>#{{py:xvm.numberHitsDealt}}</font> {{l10n:Total}}: <font color='{{py:xvm.totalDamageColor}}'><b>{{py:xvm.totalDamage}}</b></font> {{l10n:Last}}: <font color='{{py:xvm.dmgKindColor}}'><b>{{py:xvm.dmg}}</b></font>}}"    
       
-    },
-	"teamRating": {
-      "enabled": ${"HawgPen/Battle/Wn8_Win_Chance/OnOff.xc":" enabled"},
-	  "hotKeyCode": ${"HawgPen/Battle/Wn8_Win_Chance/HotKey.xc":"hotkey"},
-	  "onHold": "false", "visibleOnHotKey": false ,
-      "updateEvent": "PY(ON_UPDATE_TEAM_RATING)", 
-      "x": ${"HawgPen/Battle/Wn8_Win_Chance/Right_Left.xc":" move"},
-      "y": ${"HawgPen/Battle/Wn8_Win_Chance/Up_Down.xc":" move"},
-	  "screenHAlign": "center",
-      "shadow": { "enabled": true, 
-	  "distance": 2, 
-	  "angle": 90,
-	  "color": "0x000000", 
-	  "alpha": 90,
-	  "blur": 1,
-	  "strength": 1.5 },
-      "textFormat": { "font": "mono", "color": "0xFFFFFF", "size": 15 },                                     
-    
-      "format": "<font color='#AAFABB' size='17'> WN8: <font color='{{py:alliesAliveRatingRatio>=50?#AAFABB|AAFABB}}'>{{py:alliesAliveRating}} {{py:alliesAliveRatingRatio=50?|{{py:alliesAliveRatingRatio>50?&gt;|&lt;}}}} {{py:enemiesAliveRating}}</font> <font face='xvm' color='{{py:alliesAliveRatingRatio>=90?#AAFABB|{{py:alliesAliveRatingRatio>=75?#AAFABB|{{py:alliesAliveRatingRatio>=60?#AAFABB|{{py:alliesAliveRatingRatio>=40?#DEF9AC|{{py:alliesAliveRatingRatio>=25?#FFFFFF|#FFFFFF}}}}}}}}}}' size='20'></font> <font color='{{py:alliesAliveRatingRatio>=90?#AAFABB|{{py:alliesAliveRatingRatio>=75?#AAFABB|{{py:alliesAliveRatingRatio>=60?#AAFABB|{{py:alliesAliveRatingRatio>=40?#DEF9AC|{{py:alliesAliveRatingRatio>=25?#FFFFFF|#FFFFFF}}}}}}}}}}'>{{py:alliesAliveRatingRatio}}%</font>"
-     
-	},
-   // "hitLogBody": {
+    },   
     "hitLogBody": {
       "enabled": ${"HawgPen/_MainFrame/Hitlog/OnOff.xc":" enabled"},
       "updateEvent": "PY(ON_HIT_LOG), ON_PANEL_MODE_CHANGED",

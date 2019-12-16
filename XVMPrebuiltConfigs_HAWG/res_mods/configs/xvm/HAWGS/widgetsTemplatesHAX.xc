@@ -974,7 +974,7 @@
 		"enabled": ${"HawgPen/Hangar/Tank_Stats/Tank_TechName/OnOff.xc":" enabled"}, 
          "hotKeyCode": 73, "onHold": "false", "visibleOnHotKey": false ,			
 		 "x": -270, 
-		 "y":150,		        
+		 "y":180,		        
         "width": 150,
         "height": 75,
         "screenHAlign": "center",
@@ -984,14 +984,14 @@
             
 	    },
 		//========================================================================================
-		//   Tech Name
+		//   Tech Name  Y168 -30
 		//=========================================================================================
 		{ 
 		"updateEvent": "ON_MY_STAT_LOADED",
 		"enabled": ${"HawgPen/Hangar/Tank_Stats/Tank_TechName/OnOff.xc":" enabled"},
          "hotKeyCode": 73, "onHold": "false", "visibleOnHotKey": false ,			
 		 "x": -270, 
-		 "y":168,		        
+		 "y":198,		        
         "width": 150,
         "height": 75,
         "screenHAlign": "center",
@@ -1009,7 +1009,7 @@
 		"enabled": ${"HawgPen/Hangar/Tank_Stats/Tank_Tank_Top_Damage/OnOff.xc":" enabled"},
          "hotKeyCode": 73, "onHold": "false", "visibleOnHotKey": false ,			
 		 "x": -270, 
-		 "y":186,		        
+		 "y":216,		        
         "width": 150,
         "height": 75,
         "screenHAlign": "center",
@@ -1026,7 +1026,7 @@
 		"enabled": ${"HawgPen/Hangar/Tank_Stats/Tank_Average_Kills/OnOff.xc":" enabled"},
          "hotKeyCode": 73, "onHold": "false", "visibleOnHotKey": false ,			
 		 "x": -270, 
-		 "y":222,		        
+		 "y":252,		        
         "width": 150,
         "height": 75,
         "screenHAlign": "center",
@@ -1043,7 +1043,7 @@
 		"enabled": ${"HawgPen/Hangar/Tank_Stats/Tank_WN8/OnOff.xc":" enabled"},
         "hotKeyCode": 73, "onHold": "false", "visibleOnHotKey": false ,			
 		 "x": -270, 
-		 "y":204,		        
+		 "y":234,		        
         "width": 150,
         "height": 75,
         "screenHAlign": "center",
@@ -1062,7 +1062,7 @@
 		"enabled": ${"HawgPen/Hangar/Tank_Stats/Tank_Expected _Kills/OnOff.xc":" enabled"}, 
         "hotKeyCode": 73, "onHold": "false", "visibleOnHotKey": false ,			
 		 "x": -270, 
-		 "y":240,		        
+		 "y":270,		        
         "width": 150,
         "height": 75,
         "screenHAlign": "center",
@@ -1102,7 +1102,8 @@
       {         
         "updateEvent": "ON_MY_STAT_LOADED",
         "x": 325,
-        "y": 153,
+		// "y": 153
+        "y": 183,
         "width": 320,
         "height": 150,
         "screenHAlign": "center",

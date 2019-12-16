@@ -11,21 +11,21 @@
     "showGeneralChatButton": ${"HawgPen/Hangar/Hangar_General_Chat_Button/OnOff.xc":" enabled"},    
     "showPromoPremVehicle": ${"HawgPen/Hangar/Hangar_Promo_Prem_Tank/OnOff.xc":" enabled"},
     "showRewardWindow": true,
-    "showRankedBattleResults": true,    
-    "equipmentPanel": {     
-      "showNumberEquipment": true,      
-      "showNumberDirectives": false
+    "showRankedBattleResults": true,   
+    "equipmentPanel": {      
+      "showConsumablesCount": true,      
+      "showDirectivesCount": false
     },    
     "combatIntelligence": {      
-      "showPopUpMessages": true,     
+      "showPopUpMessages": true,      
       "showUnreadCounter": true
-    },
-   "sessionStatsButton": {
-    "showButton": ${"HawgPen/Hangar/Daily_StatsButton/OnOff.xc":" enabled"},
-    "showBattleCount": ${"HawgPen/Hangar/Daily_StatsButton/OnOff.xc":" enabled"}
-    },     	
+    },    
+    "sessionStatsButton": {      
+      "showButton": ${"HawgPen/Hangar/Daily_StatsButton/OnOff.xc":" enabled"},     
+      "showBattleCount": ${"HawgPen/Hangar/Daily_StatsButton/OnOff.xc":" enabled"}
+    },    
     "enableGoldLocker": ${"HawgPen/Hangar/Hangar_Gold_Locker/OnOff.xc":" enabled"},    
-    "enableFreeXpLocker": ${"HawgPen/Hangar/Hangar_Free_Xp_Locker/OnOff.xc":" enabled"},
+    "enableFreeXpLocker": ${"HawgPen/Hangar/Hangar_Free_Xp_Locker/OnOff.xc":" enabled"},    
     "enableCrystalLocker": false,    
     "serverInfo": {      
       "enabled": true,      
@@ -45,31 +45,31 @@
       "offsetY": 0
     },    
     "personalQuests": {      
-      "enabled": ${"HawgPen/Hangar/Hangar_Personal_Mission/OnOff.xc":" enabled"},      
+      "enabled": ${"HawgPen/Hangar/Hangar_Personal_Mission/OnOff.xc":" enabled"},     
       "alpha": 100,      
       "rotation": 0,      
       "offsetX": 0,      
       "offsetY": 0
     },    
-    "vehicleName": {      
+    "vehicleName": {     
       "enabled": ${"HawgPen/Hangar/Hangar_Tank_Name/OnOff.xc":" enabled"},      
       "alpha": 100,      
       "rotation": 0,      
       "offsetX": 0,      
       "offsetY": 0
-    },    
-    "enableEquipAutoReturn": ${"HawgPen/Hangar/Hangar_Equip_AutoReturn/OnOff.xc":" enabled"},    
+    },   
+    "enableEquipAutoReturn": ${"HawgPen/Hangar/Hangar_Equip_AutoReturn/OnOff.xc":" enabled"},      
     "blockVehicleIfLowAmmo": ${"HawgPen/Hangar/Hangar_Block_Tank_Low_Ammo/OnOff.xc":" enabled"},    
     "lowAmmoPercentage": 30,    
-    "notificationsButtonType": "blink",    
+    "notificationsButtonType": "blink",   
     "hidePricesInTechTree": ${"HawgPen/Hangar/Tech_Tree_Prices/OnOff.xc":" enabled"},    
     "masteryMarkInTechTree": ${"HawgPen/Hangar/Tech_Tree_Mastery_Mark/OnOff.xc":" enabled"},    
     "allowExchangeXPInTechTree": ${"HawgPen/Hangar/Tech_Tree_ExchangeXP/OnOff.xc":" enabled"},   
     "barracksShowFlags": ${"HawgPen/Hangar/Barracks_Show_Flags/OnOff.xc":" enabled"},    
     "barracksShowSkills": ${"HawgPen/Hangar/Barracks_Show_Skills/OnOff.xc":" enabled"},    
-    "restoreBattleType": ${"HawgPen/Hangar/Hangar_Restore_Battle_Type/OnOff.xc":" enabled"},    
+    "restoreBattleType": ${"HawgPen/Hangar/Hangar_Restore_Battle_Type/OnOff.xc":" enabled"},  
     "pingServers": {      
-      "enabled": ${"HawgPen/Hangar/Ping_Server/OnOff.xc":" enabled"},       
+      "enabled": ${"HawgPen/Hangar/Ping_Server/OnOff.xc":" enabled"},      
       "updateInterval": 10000,      
       "x": -25,
       "y": 51,     
@@ -77,7 +77,7 @@
       "vAlign": "top",      
       "alpha": 99,      
       "bgImage": "cfg://HAWGS/img/ribon.png",      
-      "delimiter": ": ",      
+      "delimiter": ": ",           
       "maxRows": 2,      
       "columnGap": 4,      
       "leading": 0,      
@@ -92,14 +92,14 @@
         "name": "$FieldFont",
         "size": 12,            
         "bold": false,         
-        "italic": false,    
+        "italic": false,     
         
         "color": {
-          "great": "0xFFCC66",  
-          "good":  "0xE5E4E1",  
-          "poor":  "0x96948F",  
+          "great": "0xFFCC66", 
+          "good":  "0xE5E4E1", 
+          "poor":  "0x96948F", 
           "bad":   "0xD64D4D"  
-        },       
+        },        
         "serverColor": ""
       },      
       "currentServerFormat": "<b>{server}</b>",      
@@ -108,7 +108,7 @@
         "good": 60,        
         "poor": 101        
       },      
-      "shadow": {       
+      "shadow": {        
         "enabled": true,
         "distance": 0,       
         "angle": 0,          
@@ -119,7 +119,7 @@
       }
     },
     "onlineServers": {      
-      "enabled": ${"HawgPen/Hangar/Online_Server/OnOff.xc":" enabled"},       
+      "enabled": ${"HawgPen/Hangar/Online_Server/OnOff.xc":" enabled"},      
       "x": -3,
       "y": 51,      
       "hAlign": "right",      
@@ -128,7 +128,7 @@
       "bgImage": null,      
       "delimiter": ": ",      
       "maxRows": 2,      
-      "columnGap": 3,     
+      "columnGap": 3,      
       "leading": 0,      
       "layer": "normal",      
       "showTitle": true,      
@@ -141,7 +141,7 @@
         "name": "$FieldFont",
         "size": 12,            
         "bold": false,         
-        "italic": false,    
+        "italic": false,     
         
         "color": {
           "great": "0xFFCC66", 
@@ -155,8 +155,7 @@
       "threshold": {
         "great": 30000,
         "good": 10000,
-        "poor": 3000
-        
+        "poor": 3000        
       },      
       "shadow": {
         "enabled": true,
@@ -169,10 +168,16 @@
       }
     },    
     "notificationCounter": {
-      "store": ${"HawgPen/Hangar/Notification_Store/OnOff.xc":" enabled"},                      
-      "missions": ${"HawgPen/Hangar/Notification_Missions/OnOff.xc":" enabled"},                     
-      "profile": ${"HawgPen/Hangar/Notification_Profile/OnOff.xc":" enabled"},                     
+      "store": ${"HawgPen/Hangar/Notification_Store/OnOff.xc":" enabled"},                         
+      "missions": ${"HawgPen/Hangar/Notification_Missions/OnOff.xc":" enabled"},                      
+      "profile": ${"HawgPen/Hangar/Notification_Profile/OnOff.xc":" enabled"},                      
       "PersonalMissionOperationsPage": ${"HawgPen/Hangar/Notification_Personal_MissionOperations/OnOff.xc":" enabled"} 
+    },    
+    "barracks": {      
+      "nations_order": [],      
+      "roles_order": [],      
+      // "nation", "role", "level", "-level", "XP", "-XP", "gender", "-gender", "inVehicle", "-inVehicle", "vehicle"
+      "sorting_criteria": ["nation", "inVehicle", "vehicle", "role"]
     },    
     "carousel": ${"carouselHAX.xc":"carousel"},    
     "widgets": ${"widgetsHAX.xc":"widgets.lobby"}
