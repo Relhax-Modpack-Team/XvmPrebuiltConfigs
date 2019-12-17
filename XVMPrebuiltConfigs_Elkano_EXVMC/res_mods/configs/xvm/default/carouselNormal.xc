@@ -99,7 +99,7 @@
       {
         "enabled": true,
         "x": 1, "y": 12, "width": 23, "height": 23,
-        "src": "img://gui/maps/icons/library/proficiency/class_icons_{{v.mastery}}.png"
+        "src": "{{v.mastery!=0?img://gui/maps/icons/library/proficiency/class_icons_{{v.mastery}}.png}}"
       },
       // Battles count.
       // Количество боёв.
@@ -150,7 +150,7 @@
       
       // Sign of mastery.
       // Знак мастерства.
-//      { "x": 135, "y":  19, "h":  24, "w": "24", "src": "img://gui/maps/icons/library/proficiency/class_icons_{{v.mastery}}.png" },
+//      { "x": 135, "y":  19, "h":  24, "w": "24", "src": "{{v.mastery!=0?img://gui/maps/icons/library/proficiency/class_icons_{{v.mastery}}.png}}" },
       
 //      { "x":   0, "y":  20, "h":  18, "w":  65, "src": "cfg://EXVMC/img/carousel_l.png",                                           "alpha": "{{v.winrate?100|0}}" },
 //      { "x":  -6, "y":  20, "h":  22, "w":  28, "src": "img://gui/maps/icons/library/dossier/wins40x32.png",                       "alpha": "{{v.winrate?100|0}}" },

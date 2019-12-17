@@ -80,7 +80,11 @@
     "extraFields": [
       // Slot background
       // Подложка слота
-      { "x": -1, "y": 10, "format": "<img src='img://gui/maps/icons/library/proficiency/class_icons_{{v.mastery}}.png' width='23' height='23'>" }
+      { 
+      "enabled": true,
+      "x": -1, "y": 10, "width": 23, "height": 23,
+      "src": "{{v.mastery!=0?img://gui/maps/icons/library/proficiency/class_icons_{{v.mastery}}.png}}"
+      }
     ]
   }
 }

@@ -68,10 +68,15 @@
     "extraFields": [
 
 	  // Shadow Layer
-      { "x": 0, "y": 46, "h": 28, "w": "170", "bgColor": "{{v.selected?0x000000|0x000000}}", "alpha": 50 },
-	
+      { "x": 0, "y": 46, "h": 28, "w": "170", "bgColor": "{{v.selected?0x000000|0x000000}}", "alpha": 50 }, 
+  
+  
       // Mastery level
-      { "x": -1, "y": 10, "format": "<img src='img://gui/maps/icons/library/proficiency/class_icons_{{v.mastery}}.png' width='23' height='23'>" },
+      { 
+      "enabled": true,
+      "x": -1, "y": 10, "width": 23, "height": 23,
+      "src": "{{v.mastery!=0?img://gui/maps/icons/library/proficiency/class_icons_{{v.mastery}}.png}}"
+      },
  
         // MOE on Vehicle Select
         { "x": 62, "y": 52, "format": "<font size='11' face='$TitleFont' color='{{v.c_damageRating}}'>{{v.damageRating%-3.1f~%}}</font>", 
