@@ -43,7 +43,7 @@
 	  ${ "battleLabelsTemplatesHAX.xc":"def.timeFlight_arty" },
 	  ${ "battleLabelsTemplatesHAX.xc":"def.distances_arty" },
 	  ${ "battleLabelsTemplatesHAX.xc":"def.piercingActual_arty" },	  
-	  
+	  ${ "battleLabelsTemplatesHAX.xc":"def.teamRating" },
 	  ${ "battleLabelsTemplatesHAX.xc":"def.shells" }, 	  
 	  ${ "battleLabelsTemplatesHAX.xc":"def.sixthSenseTimer" },
 	  ${ "battleLabelsTemplatesHAX.xc":"def.auto_AIM_vehicle" },
