@@ -3,7 +3,7 @@
   "aimInfo":
   {
     "enabled": true,
-    "updateEvent": "PY(ON_PLAYER_HEALTH), PY(ON_CAMERA_MODE), PY(ON_MARKER_POSITION), PY(ON_BEGIN_BATTLE)",
+    "updateEvent": "PY(ON_PLAYER_HEALTH), PY(ON_AIM_MODE), PY(ON_MARKER_POSITION), PY(ON_BEGIN_BATTLE)",
     "screenHAlign": "center",
     "screenVAlign": "center",
     "x": 370,
