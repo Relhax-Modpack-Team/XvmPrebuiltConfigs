@@ -18,6 +18,7 @@ Dependency_XVM_PY_SWF_damageIndicator
 Dependency_XVM_PY_battleEfficiency
 Dependency_XVM_PY_sphere
 Dependency_XVM_PY_displayingItems
+Dependency_XVM_PY_markerPosition
  
 
 XC:
