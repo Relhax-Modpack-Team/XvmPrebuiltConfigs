@@ -3,7 +3,6 @@ PY:
 Dependency_XVM_PY_debugPanel
 Dependency_XVM_PY_chancePenetration
 Dependency_XVM_PY_beginBattle
-Dependency_XVM_PY_sight
 Dependency_XVM_PY_mod_wn8_chance
 Dependency_XVM_PY_fragCorrelationBar_ktulho
 Dependency_XVM_PY_mod_chat_color
@@ -12,6 +11,7 @@ Dependency_XVM_PY_borderColor
 Dependency_XVM_PY_safeShot
 Dependency_XVM_PY_NDO_scripts
 Dependency_XVM_PY_aimingSystem
+Dependency_XVM_PY_aiming
 Dependency_XVM_PY_battleTimer
 Dependency_XVM_PY_boosters
 Dependency_XVM_PY_SWF_damageIndicator
