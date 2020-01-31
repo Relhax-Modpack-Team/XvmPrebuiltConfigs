@@ -1,9 +1,9 @@
 // This will move Tanks Speed Right Left
-// Default  -800
+// Default  80
 // Lager the Number will move Right
 // Smaller the Number will move Left 
  
 
 {
-"move": -800
+"move": 80
 }

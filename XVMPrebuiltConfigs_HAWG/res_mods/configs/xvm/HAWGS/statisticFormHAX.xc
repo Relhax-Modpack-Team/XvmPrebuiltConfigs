@@ -61,7 +61,7 @@
     "fragsFieldWidthLeft": 40, 
     "fragsFieldWidthRight": 40,	
     
-    "formatLeftNick": "     {{name%.{{my-anonym?13|15}}s~..}}</font>{{my-anonym?<img src='img://gui/maps/icons/library/icon_eye.png' width='16' height='13'>}} <font alpha='#A0'></font>",
+    "formatLeftNick": "     {{name%.{{anonym?13|15}}s~..}}</font>{{anonym?<img src='img://gui/maps/icons/library/icon_eye.png' width='16' height='13'>}} <font alpha='#A0'></font>",
     
     "formatRightNick": "<font alpha='#A0'></font>{{name%.15s~..}}  ",
     

@@ -203,7 +203,7 @@
       "nickMinWidth": 46,
       "nickMaxWidth": 158,
       "nickFormatLeft": "<font face='mono' size='{{xvm-stat?13|0}}' color='{{c:r}}' alpha='{{alive?#FF|#99}}'>{{r}}</font> {{name%.15s~..}}<font alpha='#A0'>{{clan}}</font>",
-      "nickFormatRight": "<font alpha='#A0'>{{clan}}</font></font> {{name%.{{my-anonym?13|15}}s~..}}</font>{{my-anonym?<img src='img://gui/maps/icons/library/icon_eye.png' width='16' height='13'>}}<font face='mono' size='{{xvm-stat?13|0}}' color='{{c:r}}' alpha='{{alive?#FF|#99}}'>{{r}}</font>",
+      "nickFormatRight": "<font alpha='#A0'>{{clan}}</font></font> {{name%.{{anonym?13|15}}s~..}}</font>{{anonym?<img src='img://gui/maps/icons/library/icon_eye.png' width='16' height='13'>}}<font face='mono' size='{{xvm-stat?13|0}}' color='{{c:r}}' alpha='{{alive?#FF|#99}}'>{{r}}</font>",
       "nickShadowLeft": null,
       "nickShadowRight": null,
       "vehicleOffsetXLeft": 0,
@@ -298,7 +298,7 @@
       "nickOffsetXRight": 0,
       "nickMinWidth": 46,
       "nickMaxWidth": 158,
-      "nickFormatLeft": "<font color='{{c:r}}' alpha='{{alive?#FF|#99}}'>{{name%.{{my-anonym?10|12}}s~..}}</font>{{my-anonym?<img src='img://gui/maps/icons/library/icon_eye.png' width='16' height='13'>}}<font alpha='#A0'>{{clan}}</font>",	  
+      "nickFormatLeft": "<font color='{{c:r}}' alpha='{{alive?#FF|#99}}'>{{name%.{{anonym?10|12}}s~..}}</font>{{anonym?<img src='img://gui/maps/icons/library/icon_eye.png' width='16' height='13'>}}<font alpha='#A0'>{{clan}}</font>",	  
       "nickFormatRight": " <font color='{{c:r}}' alpha='{{alive?#FF|#99}}'>{{name%.12s~..}}<font alpha='#A0'>{{clan}}</font>",
       "nickShadowLeft": {       
          "enabled": true,
@@ -425,7 +425,7 @@
       "nickOffsetXRight": 0,
       "nickMinWidth": 46,
       "nickMaxWidth": 158,
-      "nickFormatLeft": "<font color='{{c:r}}' alpha='{{alive?#FF|#99}}'>{{name%.{{my-anonym?12|{{xvm-stat?{{r_size>2?10|13}}|15}}}}s~..}}{{my-anonym?<img src='img://gui/maps/icons/library/icon_eye.png' width='16' height='13'>}}</font> <font alpha='#A0'>{{clan}}</font>",
+      "nickFormatLeft": "<font color='{{c:r}}' alpha='{{alive?#FF|#99}}'>{{name%.{{anonym?12|{{xvm-stat?{{r_size>2?10|13}}|15}}}}s~..}}{{anonym?<img src='img://gui/maps/icons/library/icon_eye.png' width='16' height='13'>}}</font> <font alpha='#A0'>{{clan}}</font>",
       "nickFormatRight": "<font alpha='#A0'>{{clan}}</font> <font color='{{c:r}}' alpha='{{alive?#FF|#99}}'>{{name%.12s~..}}</font>",
       "nickShadowLeft": {       
          "enabled": true,
