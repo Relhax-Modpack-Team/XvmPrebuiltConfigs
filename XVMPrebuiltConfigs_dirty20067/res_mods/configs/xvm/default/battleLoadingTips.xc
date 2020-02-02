@@ -16,6 +16,7 @@
     "clockFormat": "H:i:s",
     "removeSquadIcon": false,
     "removeRankBadgeIcon": false,
+    "removeTesterIcon": false,
     "vehicleIconAlpha": 100,
     "removeVehicleLevel": false,
     "removeVehicleTypeIcon": false,

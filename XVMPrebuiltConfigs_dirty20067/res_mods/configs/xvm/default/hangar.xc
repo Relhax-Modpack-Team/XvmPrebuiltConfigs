@@ -1,16 +1,18 @@
 {
   "hangar": {
-    "hideActiveBooster": false,
     "showBuyPremiumButton": true,
-    "showPremiumShopButton": true,
-    "showCreateSquadButtonText": true,
-    "showBattleTypeSelectorText": true,
+    "showPremiumShopButton": false,
+    "showCreateSquadButtonText": false,
+    "showBattleTypeSelectorText": false,
     "showReferralButton": true,
-    "showGeneralChatButton": true,
+    "showGeneralChatButton": false,
     "showPromoPremVehicle": true,
-    "showReferralButton": false,
-    "showTeaserWidget": false,
     "showRewardWindow": true,
+    "showRankedBattleResults": true,
+    "equipmentPanel": {
+      "showConsumablesCount": true,
+      "showDirectivesCount": false
+    },
     "combatIntelligence": {
       "showPopUpMessages": true,
       "showUnreadCounter": true
@@ -18,22 +20,6 @@
     "sessionStatsButton": {
       "showButton": true,
       "showBattleCount": true
-    },
-    "showDogtagWidget": true,
-    "serverInfo": {
-      "enabled": true,
-      "alpha": 50,
-      "rotation": 0,
-      "offsetX": 0,
-      "offsetY": 0
-    },
-    "showRankedBattleResults": true,
-    // Consumables panel - show/hide the number of Consumables and directives.
-    "equipmentPanel": {
-      //true - show the remaining quantity of Consumables in depot
-      "showConsumablesCount": true,
-      //true - show the remaining quantity of directives in depot
-      "showDirectivesCount": true
     },
     "enableGoldLocker": true,
     "enableFreeXpLocker": true,
@@ -181,6 +167,16 @@
       "missions": true,
       "profile": true,
       "PersonalMissionOperationsPage": true
+    },
+    "barracks": {
+      "nations_order": [],
+      "roles_order": [],
+      "sorting_criteria": [
+        "nation",
+        "inVehicle",
+        "vehicle",
+        "role"
+      ]
     },
     "carousel": ${"carousel.xc":"carousel"},
     "widgets": ${"widgets.xc":"widgets.lobby"}

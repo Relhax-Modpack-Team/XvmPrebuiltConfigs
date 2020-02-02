@@ -19,7 +19,6 @@
       "average": "0xFFCC22",
       "above_average": "0xFCFCFC"
     },
-    "sq2": "0x9900FF",
     "colorRatingNew": {
       "beginner": "0x000000",
       "basic": "0xf43e3e",
@@ -30,7 +29,8 @@
       "great": "0x4A92B7",
       "unique": "0x83579D",
       "super_unicum": "0x5A3175"
-    }
+    },
+    "sq2": "0x9900FF"
   },
   "colors": {
     "wn8": [
@@ -260,15 +260,42 @@
       }
     ],
     "winrate": [
-    { "value":  45, "color": ${"def.colorRatingNew.beginner"} },
-    { "value":  47, "color": ${"def.colorRatingNew.basic"} },
-    { "value":  49, "color": ${"def.colorRatingNew.below_average"} },
-    { "value":  52, "color": ${"def.colorRatingNew.average"} },
-    { "value":  54, "color": ${"def.colorRatingNew.good"} },
-    { "value":  56, "color": ${"def.colorRatingNew.very_good"} },
-    { "value":  60, "color": ${"def.colorRatingNew.great"} },
-    { "value":  65, "color": ${"def.colorRatingNew.unique"} },
-    { "value": 101, "color": ${"def.colorRatingNew.super_unicum"} }
+      {
+        "value": 45,
+        "color": ${"def.colorRatingNew.beginner"}
+      },
+      {
+        "value": 47,
+        "color": ${"def.colorRatingNew.basic"}
+      },
+      {
+        "value": 49,
+        "color": ${"def.colorRatingNew.below_average"}
+      },
+      {
+        "value": 52,
+        "color": ${"def.colorRatingNew.average"}
+      },
+      {
+        "value": 54,
+        "color": ${"def.colorRatingNew.good"}
+      },
+      {
+        "value": 56,
+        "color": ${"def.colorRatingNew.very_good"}
+      },
+      {
+        "value": 60,
+        "color": ${"def.colorRatingNew.great"}
+      },
+      {
+        "value": 65,
+        "color": ${"def.colorRatingNew.unique"}
+      },
+      {
+        "value": 101,
+        "color": ${"def.colorRatingNew.super_unicum"}
+      }
     ],
     "kb": [
       {

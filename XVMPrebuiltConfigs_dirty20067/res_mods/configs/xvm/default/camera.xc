@@ -38,11 +38,13 @@
         26,
         32,
         40,
-        48
+        48,
+        52,
+        56
       ],
       "startZoom": 4,
       "zoomIndicator": {
-        "enabled": false,
+        "enabled": true,
         "x": 150,
         "y": 30,
         "width": 100,

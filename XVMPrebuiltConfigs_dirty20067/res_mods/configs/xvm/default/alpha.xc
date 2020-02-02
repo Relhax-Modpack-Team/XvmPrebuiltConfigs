@@ -1,5 +1,5 @@
 ﻿/**
- * Options for dynamic transparency. Values ​​from smallest to largest.
+ * Options for dynamic transparency. Values from smallest to largest.
  * Настройки динамической прозрачности. Значения от меньшего к большему.
  */
 {
@@ -64,7 +64,7 @@
       { "value": 92.4, "alpha": ${"def.alphaRating.very_good"} }, // 76 - 92 - very good (better than 99% of players)
       { "value": 999,  "alpha": ${"def.alphaRating.unique"   } }  // 93 - XX - unique    (better than 99.9% of players)
     ],
-    // Current scales values ​​for ratings are listed on this page: https://modxvm.com/en/ratings/xvm-scale/colors/
+    // Current scales values for ratings are listed on this page: https://modxvm.com/en/ratings/xvm-scale/colors/
     // Текущие граничные значения для рейтингов указаны на данной странице: https://modxvm.com/ru/ratings/xvm-scale/colors/
     //
     // Custom dynamic transparency by ratings.
@@ -74,12 +74,12 @@
     // Если вы хотите использовать свои собственные границы прозрачности вместо стандартных,
     // раскомментируйте блок и замените "rating_name" на одно из следующих значений: "eff", "wn8", "wtr", "wgr".
     // "rating_name": [
-    //  { "value": 500,   "alpha": ${"def.colorRating.very_bad" } }, //    0 - 500   - very bad
-    //  { "value": 1000,  "alpha": ${"def.colorRating.bad"      } }, //  501 - 1000  - bad
-    //  { "value": 2000,  "alpha": ${"def.colorRating.normal"   } }, // 1001 - 2000  - normal
-    //  { "value": 3000,  "alpha": ${"def.colorRating.good"     } }, // 2001 - 3000  - good
-    //  { "value": 5000,  "alpha": ${"def.colorRating.very_good"} }, // 3001 - 5000  - very good
-    //  { "value": 99999, "alpha": ${"def.colorRating.unique"   } }  // 5001 - 99999 - unique
+    //  { "value": 500,   "alpha": ${"def.alphaRating.very_bad" } }, //    0 - 500   - very bad
+    //  { "value": 1000,  "alpha": ${"def.alphaRating.bad"      } }, //  501 - 1000  - bad
+    //  { "value": 2000,  "alpha": ${"def.alphaRating.normal"   } }, // 1001 - 2000  - normal
+    //  { "value": 3000,  "alpha": ${"def.alphaRating.good"     } }, // 2001 - 3000  - good
+    //  { "value": 5000,  "alpha": ${"def.alphaRating.very_good"} }, // 3001 - 5000  - very good
+    //  { "value": 99999, "alpha": ${"def.alphaRating.unique"   } }  // 5001 - 99999 - unique
     // ],
     // Dynamic transparency by win percent.
     // Динамическая прозрачность по проценту побед.

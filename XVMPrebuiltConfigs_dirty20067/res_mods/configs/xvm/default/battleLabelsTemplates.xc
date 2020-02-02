@@ -1,9 +1,9 @@
 {
   "def": {
     "hitLogHeader": {
-      "enabled": false,
+      "enabled": true,
       "updateEvent": "PY(ON_TOTAL_EFFICIENCY), ON_PANEL_MODE_CHANGED",
-      "x": "{{pp.mode=0?{{battletype-key=epic_battle?240|5}}|{{py:sum({{pp.widthLeft}},50)}}}}",
+      "x": "{{pp.mode=0?5|{{py:math.sum({{pp.widthLeft}},80)}}}}",
       "y": "{{pp.mode=0?{{battletype-key=epic_battle?55|65}}|35}}",
       "width": 300,
       "height": 22,
@@ -16,11 +16,11 @@
     "hitLogBody": {
       "enabled": true,
       "updateEvent": "PY(ON_HIT_LOG), ON_PANEL_MODE_CHANGED",
-      "x": "{{pp.mode=0?{{battletype-key=epic_battle?240|5}}|{{py:sum({{pp.widthLeft}},{{py:xvm.hitLog.log.x}})}}}}",
+      "x": "{{pp.mode=0?5|{{py:math.sum({{pp.widthLeft}},80)}}}}",
       "y": "{{pp.mode=0?{{battletype-key=epic_battle?80|90}}|{{py:xvm.hitLog.log.y}}}}",
-      "width": 500,
-      "height": 1000,
-      "layer": "bottom",
+      "width": 400,
+      "height": 400,
+      "layer": "normal",
       "textFormat": {
         "color": "0xF4EFE8",
         "size": 15
@@ -29,12 +29,15 @@
       "mouseEvents": {
         "mouseDown": "hitLog_mouseDown",
         "mouseUp": "hitLog_mouseUp",
-        "mouseMove": "hitLog_mouseMove"
+        "mouseMove": "hitLog_mouseMove",
+        "mouseWheel": "hitLog_mouseWheel"
       }
     },
     "hitLogBackground": {
       "enabled": false,
-"$ref": { "path":"def.hitLogBody" },
+      "$ref": {
+        "path": "def.hitLogBody"
+      },
       "format": "{{py:xvm.hitLog.log.bg}}"
     },
     "totalEfficiency": {
@@ -47,7 +50,7 @@
       "textFormat": {
         "size": 16
       },
-      "format": "<textformat tabstops='[65,130,196,261]' leading='-2' ><img src='xvm://res/icons/Efficiency/damage.png' vspace='-2'> <font color='{{py:xvm.totalDamage>0?{{py:xvm.totalDamageColor}}}}'>{{py:xvm.totalDamage}}</font><tab><img src='xvm://res/icons/Efficiency/assist.png' vspace='-2'> {{py:xvm.totalAssist}}<tab><img src='xvm://res/icons/Efficiency/reflect.png' vspace='-2'> {{py:xvm.totalBlocked}}<tab><img src='xvm://res/icons/Efficiency/discover.png' vspace='-2'> {{py:xvm.detection}}<tab><img src='xvm://res/icons/Efficiency/stun.png' vspace='-2'> {{py:xvm.totalStun}}</textformat>"
+      "format": "<textformat tabstops='[65,130,196,261]' leading='-2'><img src='xvm://res/icons/Efficiency/damage.png' vspace='-2'> <font color='{{py:xvm.totalDamage>0?{{py:xvm.totalDamageColor}}}}'>{{py:xvm.totalDamage}}</font><tab><img src='xvm://res/icons/Efficiency/assist.png' vspace='-2'> {{py:xvm.totalAssist}}<tab><img src='xvm://res/icons/Efficiency/reflect.png' vspace='-2'> {{py:xvm.totalBlocked}}<tab><img src='xvm://res/icons/Efficiency/discover.png' vspace='-2'> {{py:xvm.detection}}<tab><img src='xvm://res/icons/Efficiency/stun.png' vspace='-2'> {{py:xvm.totalStun}}</textformat>"
     },
     "totalHP": {
       "enabled": true,
@@ -144,12 +147,44 @@
     },
     "damageLogBackground": {
       "enabled": false,
-"$ref": { "path":"def.damageLog" },
+      "$ref": {
+        "path": "def.damageLog"
+      },
       "format": "{{py:xvm.damageLog.log.bg}}"
     },
     "lastHit": {
       "enabled": true,
       "updateEvent": "PY(ON_LAST_HIT)",
+      "tweens": [
+        [
+          "fromTo",
+          0.75,
+          {
+            "scaleX": 0,
+            "scaleY": 0
+          },
+          {
+            "scaleX": 1,
+            "scaleY": 1
+          }
+        ],
+        [
+          "delay",
+          3.75
+        ],
+        [
+          "fromTo",
+          0.5,
+          {
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          {
+            "scaleX": 0,
+            "scaleY": 0
+          }
+        ]
+      ],
       "x": "{{py:xvm.damageLog.lastHit.x}}",
       "y": "{{py:xvm.damageLog.lastHit.y}}",
       "width": 200,
@@ -182,7 +217,7 @@
       }
     },
     "fire": {
-      "enabled": false,
+      "enabled": true,
       "updateEvent": "PY(ON_FIRE)",
       "x": 120,
       "y": 200,
@@ -204,7 +239,7 @@
         "color": "0xF4EFE8",
         "size": 16
       },
-      "format": "ПОЖАР"
+      "format": "{{l10n:fireMsg}}"
     },
     "repairTimeItem": {
       "width": 47,
@@ -226,7 +261,9 @@
       }
     },
     "repairTimeEngine": {
-"$ref": { "path":"def.repairTimeItem" },
+      "$ref": {
+        "path": "def.repairTimeItem"
+      },
       "enabled": true,
       "updateEvent": "PY(ON_ENGINE_UPDATE)",
       "x": 4,
@@ -234,7 +271,9 @@
       "format": "<b>{{py:repairTimeEngine}}</b>"
     },
     "repairTimeGun": {
-"$ref": { "path":"def.repairTimeItem" },
+      "$ref": {
+        "path": "def.repairTimeItem"
+      },
       "enabled": true,
       "updateEvent": "PY(ON_GUN_UPDATE)",
       "x": 4,
@@ -242,7 +281,9 @@
       "format": "<b>{{py:repairTimeGun}}</b>"
     },
     "repairTimeTurret": {
-"$ref": { "path":"def.repairTimeItem" },
+      "$ref": {
+        "path": "def.repairTimeItem"
+      },
       "enabled": true,
       "updateEvent": "PY(ON_TURRETROTATOR_UPDATE)",
       "x": 4,
@@ -250,7 +291,9 @@
       "format": "<b>{{py:repairTimeTurret}}</b>"
     },
     "repairTimeComplex": {
-"$ref": { "path":"def.repairTimeItem" },
+      "$ref": {
+        "path": "def.repairTimeItem"
+      },
       "enabled": true,
       "updateEvent": "PY(ON_COMPLEX_UPDATE)",
       "x": 177,
@@ -258,7 +301,9 @@
       "format": "<b>{{py:repairTimeComplex}}</b>"
     },
     "repairTimeSurveying": {
-"$ref": { "path":"def.repairTimeItem" },
+      "$ref": {
+        "path": "def.repairTimeItem"
+      },
       "enabled": true,
       "updateEvent": "PY(ON_SURVEYINGDEVICE_UPDATE)",
       "x": 177,
@@ -266,7 +311,9 @@
       "format": "<b>{{py:repairTimeSurveying}}</b>"
     },
     "repairTimeRadio": {
-"$ref": { "path":"def.repairTimeItem" },
+      "$ref": {
+        "path": "def.repairTimeItem"
+      },
       "enabled": true,
       "updateEvent": "PY(ON_RADIO_UPDATE)",
       "x": 177,

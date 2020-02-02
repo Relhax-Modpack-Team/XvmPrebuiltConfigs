@@ -4,7 +4,7 @@
     "disabledDetailStats": true,
     "disabledSummaryStats": true,
     "log": {
-      "moveInBattle": false,
+      "moveInBattle": true,
       "x": 240,
       "y": -23,
       "showHitNoDamage": true,
@@ -162,25 +162,33 @@
       "formatHistory": "<textformat tabstops='[30,130,165,180]'><font face='mono' size='12'>{{number%3d~.}}</font><tab><font color='{{c:dmg-kind}}'>{{dmg-kind}}</font><tab><font color='{{c:vtype}}'>{{vtype}}</font><tab><font color='{{c:team-dmg}}'>{{vehicle}}</font></textformat>"
     },
     "logBackground": {
-"$ref": { "path":"damageLog.log" },
+      "$ref": {
+        "path": "damageLog.log"
+      },
       "formatHistory": "<img height='20' width='310' src='xvm://res/icons/damageLog/{{dmg=0?no_dmg|dmg}}.png'>"
     },
     "logAlt": {
-"$ref": { "path":"damageLog.log" },
+      "$ref": {
+        "path": "damageLog.log"
+      },
       "showHitNoDamage": true,
       "formatHistory": "<textformat tabstops='[30,130,165]'><font face='mono' size='12'>{{number%3d~.}}</font><tab><font color='{{c:dmg-kind}}'>{{dmg-kind}}</font><tab><font color='{{c:team-dmg}}'>{{name}}</font></textformat>"
     },
     "logAltBackground": {
-"$ref": { "path":"damageLog.logBackground" },
+      "$ref": {
+        "path": "damageLog.logBackground"
+      },
       "formatHistory": "<img height='20' width='310' src='xvm://res/icons/damageLog/{{dmg=0?no_dmg|dmg}}.png'>"
     },
     "lastHit": {
-"$ref": { "path":"damageLog.log" },
+      "$ref": {
+        "path": "damageLog.log"
+      },
       "moveInBattle": false,
       "x": -120,
       "y": 200,
       "showHitNoDamage": true,
-      "timeDisplayLastHit": 7,
+      "timeDisplayLastHit": 5,
       "shadow": {
         "distance": 0,
         "blur": 6,

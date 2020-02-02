@@ -17,12 +17,15 @@
     // Формат часов на экране загрузки боя.
     // http://php.net/date
     "clockFormat": "H:i:s",
-    // true - disable Platoon/rank icons. This blank space can house, for example, clan logos.
+    // true - disable platoon/rank icons. This blank space can house, for example, clan logos.
     // true - убрать отображение иконки взвода/ранга. На пустое поле можно вывести, например, иконку клана.
     "removeSquadIcon": false,
-    // true - disable rank badge icons
-    // true - убрать отображение иконки бейджа ранга
+    // true - disable badge icons.
+    // true - убрать отображение иконки нашивки.
     "removeRankBadgeIcon": false,
+    // true - disable alpha/beta testers icons.
+    // true - убрать отображение иконки альфа/бета тестеров.
+    "removeTesterIcon": false,
     // Opacity percentage of vehicle icon. 0 - transparent ... 100 - opaque.
     // Прозрачность в процентах иконки танка. 0 - прозрачные, 100 - не прозрачные.
     "vehicleIconAlpha": 100,

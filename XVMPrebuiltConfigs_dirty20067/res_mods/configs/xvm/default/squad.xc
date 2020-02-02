@@ -2,6 +2,6 @@
   "squad": {
     "enabled": true,
     "showClan": true,
-    "formatInfoField": "{{rlevel}}"
+    "formatInfoField": "{{rlevel}} <> {{battletier-min}}-{{battletier-max}}"
   }
 }

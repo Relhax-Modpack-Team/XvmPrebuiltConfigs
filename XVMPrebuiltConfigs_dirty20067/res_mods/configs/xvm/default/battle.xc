@@ -1,6 +1,6 @@
 {
   "battle": {
-    "mirroredVehicleIcons": false,
+    "mirroredVehicleIcons": true,
     "showPostmortemTips": true,
     "highlightVehicleIcon": true,
     "clockFormat": "H:i",
@@ -11,8 +11,7 @@
       "hideTrajectoryView": false,
       "hideSiegeIndicator": false,
       "hideQuestProgress": false,
-      "hideHelpScreen": false,
-      "hideRadarHint": true   
+      "hideHelpScreen": false
     },
     "elements": ${"elements.xc":"elements"},
     "camera": ${"camera.xc":"camera"},

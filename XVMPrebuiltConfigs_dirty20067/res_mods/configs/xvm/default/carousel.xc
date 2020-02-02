@@ -26,8 +26,12 @@
       "favorite": {
         "enabled": true
       },
-      "elite":    { "enabled": true },
-      "premium":  { "enabled": true }
+      "elite": {
+        "enabled": true
+      },
+      "premium": {
+        "enabled": true
+      }
     },
     "filtersPadding": {
       "horizontal": 11,

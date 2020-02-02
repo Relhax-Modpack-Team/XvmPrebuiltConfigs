@@ -2,14 +2,15 @@
   "configVersion": "6.1.0",
   "autoReloadConfig": false,
   "language": "auto",
+  "userLanguageFolder": "lang",
   "region": "auto",
   "definition": {
-    "author": "XVM team",
+    "author": "XVM Team",
     "description": "Default settings for XVM",
     "url": "https://modxvm.com/",
-    "gameVersion": "1.5.1.1",
-    "modMinVersion": "7.9.5",
-    "date": "11.06.2019"
+    "gameVersion": "1.7.1.1",
+    "modMinVersion": "8.3.0",
+    "date": "30.01.2020"
   },
   "login": ${"login.xc":"login"},
   "hangar": ${"hangar.xc":"hangar"},
