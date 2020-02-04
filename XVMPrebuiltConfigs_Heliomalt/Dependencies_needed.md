@@ -18,3 +18,4 @@
                         colorMacros
                         statisticsXVM
                         statistics
+                        sphere
