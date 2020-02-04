@@ -4,6 +4,5 @@
  * Reference format: ${"path to config file":"."}
  * // - comment out the line (will not be used)
  */
-
-${"default/@xvm.xc":"."}
-//${"heliomalt/@xvm.xc":"."}
+ 
+${"Heliomalt/@xvm.xc":"."}

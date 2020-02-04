@@ -4,4 +4,4 @@
  * . - root object
  */
 
- ${"default/@xvm.xc":"."}
+ ${"OMC/@xvm.xc":"."}
