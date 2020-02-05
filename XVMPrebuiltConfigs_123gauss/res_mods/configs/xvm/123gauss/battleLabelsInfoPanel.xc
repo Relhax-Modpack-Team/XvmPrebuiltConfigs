@@ -23,7 +23,7 @@
       //"x": 230, "y": "{{py:sight.cameraMode=arc?220|{{py:sight.cameraMode=sn?250|{{py:sight.cameraMode=str?250|220}}}}}}", //aimingSystem.py
       "width": 288, "height": 124,
       "align": "center", "valign": "center", "alpha": "{{py:infoPanel.format?100|0}}", "screenHAlign": "center", "screenVAlign": "center",
-      "format": "<img src='cfg://default/icons/InfoPanel/InfoPanelbg.png' width='287' height='123'>"
+      "format": "<img src='xvm://res/icons/InfoPanel/InfoPanelbg.png' width='287' height='123'>"
     }
   }
 }

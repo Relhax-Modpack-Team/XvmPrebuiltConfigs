@@ -438,12 +438,12 @@
   },
   "damageTextPool": {
     "enemy": {
-      "blowupMessage": "<img src='cfg://default/icons/nuke.png' width='65' height='50'>\n  <font face='Calibri' size='14'>{{vehicle}}</font>\n  <font face='Consolas'> [AMMORACK] \n  {{dmg}}</font>",
-      "deadMessage": "<img src='cfg://default/icons/dead_skull_redeyes.png' width='65' height='57'>\n  <font face='Calibri' size='14'>{{vehicle}} \n  {{dmg}}</font>"
+      "blowupMessage": "<img src='xvm://res/icons/nuke.png' width='65' height='50'>\n  <font face='Calibri' size='14'>{{vehicle}}</font>\n  <font face='Consolas'> [AMMORACK] \n  {{dmg}}</font>",
+      "deadMessage": "<img src='xvm://res/icons/dead_skull_redeyes.png' width='65' height='57'>\n  <font face='Calibri' size='14'>{{vehicle}} \n  {{dmg}}</font>"
     },
     "ally": {
-      "blowupMessage": "<img src='cfg://default/icons/allyleftwing.png' width='25' height='18'><font face='Calibri' size='14'>{{vehicle}}</font><img src='cfg://default/icons/allyrightwing.png' width='25' height='18'> \n  [AMMORACK] \n  {{dmg}}",
-      "deadMessage": "<img src='cfg://default/icons/allyleftwing.png' width='25' height='18'><font face='Calibri' size='14'>{{vehicle}}</font><img src='cfg://default/icons/allyrightwing.png' width='25' height='18'> \n  {{dmg}}"
+      "blowupMessage": "<img src='xvm://res/icons/allyleftwing.png' width='25' height='18'><font face='Calibri' size='14'>{{vehicle}}</font><img src='xvm://res/icons/allyrightwing.png' width='25' height='18'> \n  [AMMORACK] \n  {{dmg}}",
+      "deadMessage": "<img src='xvm://res/icons/allyleftwing.png' width='25' height='18'><font face='Calibri' size='14'>{{vehicle}}</font><img src='xvm://res/icons/allyrightwing.png' width='25' height='18'> \n  {{dmg}}"
     }
   }
 }

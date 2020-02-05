@@ -90,25 +90,25 @@
       { "enabled": false, "x": 0, "y": 140, "width": 39, "height": 26, "alpha": 100, "src": "../../gui/maps/icons/filters/nationsMedium/{{v.nation}}.png" },
 
 // BANNER_BLACK_30
-      { "enabled": true, "x": 0, "y": 135, "width": 320, "height": 35, "alpha": 50, "src": "../../../configs/xvm/default/icons/BANNER_BLACK_30.png" },
+      { "enabled": true, "x": 0, "y": 135, "width": 320, "height": 35, "alpha": 50, "src": "xvm://res/icons/maxdata/BANNER_BLACK_30.png" },
 
 // BANNER_WHITE_30
-      { "enabled": true, "x": 0, "y": 135, "width": 320, "height": 1, "alpha": 25, "src": "../../../configs/xvm/default/icons/BANNER_white_30.png" },
+      { "enabled": true, "x": 0, "y": 135, "width": 320, "height": 1, "alpha": 25, "src": "xvm://res/icons/maxdata/BANNER_white_30.png" },
 
 // BANNER_WHITE_30_vert
-      { "enabled": true, "x": 80, "y": 97, "width": 1, "height": 30, "alpha": 10, "src": "../../../configs/xvm/default/icons/BANNER_white_30.png" },
+      { "enabled": true, "x": 80, "y": 97, "width": 1, "height": 30, "alpha": 10, "src": "xvm://res/icons/maxdata/BANNER_white_30.png" },
 
 // BANNER_WHITE_30_vert_2
-      { "enabled": true, "x": 165, "y": 97, "width": 1, "height": 30, "alpha": 10, "src": "../../../configs/xvm/default/icons/BANNER_white_30.png" },
+      { "enabled": true, "x": 165, "y": 97, "width": 1, "height": 30, "alpha": 10, "src": "xvm://res/icons/maxdata/BANNER_white_30.png" },
 
 // NATION EMBLEM SMALL
       { "enabled": false, "x": 200, "y": 142, "width": 24, "height": 24, "alpha": 100, "src": "../../gui/maps/icons/eventBoards/emblems/{{v.nation}}.png" },
 	     
 // EXCELLENCE ICON
-      { "enabled": true, "x": 145, "y": 150, "width": 30, "height": 10, "alpha": 200, "src": "../../../configs/xvm/default/icons/mog_a0{{v.marksOnGun}}.png" },	
+      { "enabled": true, "x": 145, "y": 150, "width": 30, "height": 10, "alpha": 200, "src": "xvm://res/icons/maxdata/mog_a0{{v.marksOnGun}}.png" },	
 
 // PREMIUM ICON
-      { "enabled": true, "x": 22, "y": 5, "width": 16, "height": 14, "alpha": 76, "src": "../../../configs/xvm/default/icons/{{v.premium}}.png" },
+      { "enabled": true, "x": 22, "y": 5, "width": 16, "height": 14, "alpha": 76, "src": "xvm://res/icons/maxdata/{{v.premium}}.png" },
 	  
 // MASTERY ICON
       { "enabled": true, "x": 263, "y": 85, "width": 44, "height": 46, "alpha": 90, 
@@ -173,7 +173,7 @@
 	"format": "<textformat tabstops='[45]'><font color='#ffffff'><b>MoE:</b><tab><font color='{{v.c_damageRating}}'><font size='20'>{{v.damageRating%4.2f|-- }}%</font></textformat>" },
 		
 // TYPE ICON
-      { "enabled": true, "x": -10, "y": -5, "width": 83, "height": 74, "alpha": 100, "src": "../../../configs/xvm/default/icons/{{v.type_key}}{{v.elite}}.png" },
+      { "enabled": true, "x": -10, "y": -5, "width": 83, "height": 74, "alpha": 100, "src": "xvm://res/icons/maxdata/{{v.type_key}}{{v.elite}}.png" },
 
 // Kills
       { "enabled": true, "x": 10, "y": 95, "width": 155, "height": 20, "alpha": 100, "textFormat": {"align": "left", "size": 12, "bold": "false"},

@@ -439,7 +439,7 @@
   "damageTextPool": {
     "enemy": {
       "blowupMessage": "{{dmg}}{{.markers.templates.enableDamageImages?<img src='xvm://res/icons/dmgkind/E{{c:dmg-kind}}.png' width='20' height='20'>\n<img src='xvm://res/icons/dmg/4.png' width='30' height='30'>|}}",
-      "deadMessage": "<img src='cfg://default/icons/Grabstein.png' width='55' height='56'>\n  <font face='Calibri' size='14'>{{vehicle}} \n  {{dmg}}</font>"
+      "deadMessage": "<img src='xvm://res/icons/Grabstein.png' width='55' height='56'>\n  <font face='Calibri' size='14'>{{vehicle}} \n  {{dmg}}</font>"
     },
     "ally": {
       "blowupMessage": "{{dmg}}{{.markers.templates.enableDamageImages?<img src='xvm://res/icons/dmgkind/A{{c:dmg-kind}}.png' width='20' height='20'>\n<img src='xvm://res/icons/dmg/5.png' width='30' height='30'>|}}",

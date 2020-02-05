@@ -225,7 +225,7 @@
         "width": 256,
         "height": 28,
         "alpha": 50,
-        "src": "../../../configs/xvm/dirty20067/icons/BANNER_BLACK_30.png"
+        "src": "xvm://res/icons/maxdata/BANNER_BLACK_30.png"
       },
       {
         "enabled": true,
@@ -234,7 +234,7 @@
         "width": 256,
         "height": 1,
         "alpha": 25,
-        "src": "../../../configs/xvm/dirty20067/icons/BANNER_white_30.png"
+        "src": "xvm://res/icons/maxdata/BANNER_white_30.png"
       },
       {
         "enabled": true,
@@ -243,7 +243,7 @@
         "width": 1,
         "height": 24,
         "alpha": 10,
-        "src": "../../../configs/xvm/dirty20067/icons/BANNER_white_30.png"
+        "src": "xvm://res/icons/maxdata/BANNER_white_30.png"
       },
       {
         "enabled": true,
@@ -252,7 +252,7 @@
         "width": 1,
         "height": 24,
         "alpha": 10,
-        "src": "../../../configs/xvm/dirty20067/icons/BANNER_white_30.png"
+        "src": "xvm://res/icons/maxdata/BANNER_white_30.png"
       },
       {
         "enabled": false,
@@ -270,7 +270,7 @@
         "width": 24,
         "height": 10,
         "alpha": 200,
-        "src": "../../../configs/xvm/dirty20067/icons/mog_a0{{v.marksOnGun}}.png"
+        "src": "xvm://res/icons/maxdata/mog_a0{{v.marksOnGun}}.png"
       },
       {
         "enabled": true,
@@ -279,7 +279,7 @@
         "width": 13,
         "height": 11,
         "alpha": 76,
-        "src": "../../../configs/xvm/dirty20067/icons/{{v.premium}}.png"
+        "src": "xvm://res/icons/maxdata/{{v.premium}}.png"
       },
       {
         "enabled": true,
@@ -397,7 +397,7 @@
         "width": 66,
         "height": 60,
         "alpha": 100,
-        "src": "../../../configs/xvm/dirty20067/icons/{{v.type_key}}{{v.elite}}.png"
+        "src": "xvm://res/icons/maxdata/{{v.type_key}}{{v.elite}}.png"
       },
       {
         "enabled": true,

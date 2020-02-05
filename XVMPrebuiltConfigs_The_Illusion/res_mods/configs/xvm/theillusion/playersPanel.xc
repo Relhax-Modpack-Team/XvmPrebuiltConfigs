@@ -101,7 +101,7 @@
       "height": 10,
       "align": "center",
       "alpha": 100,
-      "src": "cfg://theillusion/icons/{{friend?friend}}.png"
+      "src": "xvm://res/icons/{{friend?friend}}.png"
     },
     "ignoredIcon": {
       "enabled": true,
@@ -112,7 +112,7 @@
       "height": 10,
       "align": "center",
       "alpha": 100,
-      "src": "cfg://theillusion/icons/{{ignored?ignored}}.png"
+      "src": "xvm://res/icons/{{ignored?ignored}}.png"
     }
   },
   "playersPanel": {
