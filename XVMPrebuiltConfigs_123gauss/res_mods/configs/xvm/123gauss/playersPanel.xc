@@ -9,9 +9,7 @@
       "valign": "center",
       "width": 70,
       "height": 14,
-      //"bgColor": "0xffffff",
       "bgColor": "{{c:vtype}}",
-      
       "alpha": "{{alive?75|0}}",
       "bindToIcon": true
     },
@@ -24,7 +22,6 @@
       "valign": "center",
       "width": "{{hp-ratio:68}}",
       "height": 12,
-      //"bgColor": "0x149612",
       "bgColor": "{{c:vtype}}",
       "alpha": "{{alive?100|0}}",
       "bindToIcon": true
