@@ -414,16 +414,19 @@
       "profile": true,                      // Service Record / Достижения
       "PersonalMissionOperationsPage": true // Campaigns / Кампании
     },
-        // Parameters of sorting tankmen in barracks.
+    // Parameters for barracks.
+    // Параметры казармы.
     "barracks": {
       // Order of nations.
       // Порядок наций.
       //"nations_order": ["ussr", "germany", "usa", "china", "france", "uk", "japan", "czech", "poland", "sweden", "italy"],
       "nations_order": [],
       // Order of crew roles.
+      // Порядок ролей экипажа.
       // "roles_order": ["commander", "gunner", "driver", "radioman", "loader"],
       "roles_order": [],
       // Tankmen sorting criteria, available options: (minus = reverse order)
+      // Критерии сортировки танкистов, доступные значения: (минус = в обратном порядке)
       // "nation", "role", "level", "-level", "XP", "-XP", "gender", "-gender", "inVehicle", "-inVehicle", "vehicle"
       "sorting_criteria": ["nation", "inVehicle", "vehicle", "role"]
     },

@@ -172,7 +172,7 @@
     // Text field with rating marker.
     "RatingMarker_Left": {
       "name": "Rating Marker Left",
-      "enabled": false,
+      "enabled": true,
       "x": -31,
       "y": -17,
       "alpha": "{{xvm-stat?100|0}}",

@@ -265,7 +265,19 @@
       "y": 2,
       "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5 },
       "textFormat": { "size": 15 },
-      "format": "Team WN8: <font color='{{py:alliesAliveRatingRatio>=50?#00EE00|#EE0000}}'>{{py:alliesAliveRating}} {{py:alliesAliveRatingRatio=50?=|{{py:alliesAliveRatingRatio>50?&gt;|&lt;}}}} {{py:enemiesAliveRating}}</font> (<font face='xvm' color='{{py:alliesAliveRatingRatio>=90?#D042F3|{{py:alliesAliveRatingRatio>=75?#00AFFF|{{py:alliesAliveRatingRatio>=60?#60FF00|{{py:alliesAliveRatingRatio>=40?#F8F400|{{py:alliesAliveRatingRatio>=25?#FE7903|#FE0E00}}}}}}}}}}' size='20'>&#x103;</font> <font color='{{py:alliesAliveRatingRatio>=90?#D042F3|{{py:alliesAliveRatingRatio>=75?#00AFFF|{{py:alliesAliveRatingRatio>=60?#60FF00|{{py:alliesAliveRatingRatio>=40?#F8F400|{{py:alliesAliveRatingRatio>=25?#FE7903|#FE0E00}}}}}}}}}}'>{{py:alliesAliveRatingRatio}}%</font>)"
-    }
+      "format": "Team WN8: {{py:TeamRatingRatio}} Win Chance: {{py:alliesAliveRatingRatio}}"
+    },
+    "speed": {
+      "enabled": false,
+      "layer": "bottom",
+      "x": 80,
+      "y": "{{battletype-key=epic_battle?-266|-230}}",
+      "width": 80,
+      "height": 22,
+      "alpha": 100,
+      "screenVAlign": "bottom",
+      "shadow": {"color":"0x000000", "distance": 1, "angle": 90, "alpha": 60, "blur": 5, "strength": 3 },
+      "format": "{{.speed.{{vehiclename}}}}"
+     }
   }
 }

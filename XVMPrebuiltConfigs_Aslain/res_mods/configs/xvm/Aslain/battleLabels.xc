@@ -16,6 +16,7 @@
       ${"battleLabelsTemplates.xc":"def.hitLogHeader"},
       ${"battleLabelsTemplates.xc":"def.winChance"}, ${"battleLabelsTemplates.xc":"def.teamRating"},
       ${"battleLabelsTemplates.xc":"def.totalEfficiency"},
+      ${"battleLabelsTemplates.xc":"def.speed"},
       ${"battleLabelsTemplates.xc":"def.totalHP"},
       ${"battleLabelsTemplates.xc":"def.avgDamage"},
       ${"battleLabelsTemplates.xc":"def.mainGun"},
