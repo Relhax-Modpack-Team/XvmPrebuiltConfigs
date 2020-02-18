@@ -6,7 +6,6 @@
                         chancePenetration
                         fragCorrelationBar_ktulho
                         infoAutoAim
-                        sight
                         myHP
                         messenger
                         infoChargedShell
