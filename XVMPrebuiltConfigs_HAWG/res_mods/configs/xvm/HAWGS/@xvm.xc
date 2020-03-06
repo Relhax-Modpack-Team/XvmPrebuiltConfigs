@@ -13,9 +13,9 @@
     "author": "XVM team",    
     "description": "HAWGS settings for XVM",    
     "url": "https://modxvm.com/",  
-    "gameVersion": "1.7.1.1",
-    "modMinVersion": "8.3.0",
-	"date": "30.01.2020"
+    "gameVersion": "1.8.0.0",
+    "modMinVersion": "8.3.2",
+	"date": "02.03.2020"
   },
     
   "battleMessages" : ${"battleMessagesHAX.xc":"battleMessages"},  

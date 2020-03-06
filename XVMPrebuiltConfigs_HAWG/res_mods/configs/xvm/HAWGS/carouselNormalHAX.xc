@@ -92,7 +92,7 @@
 		
 		"enabled": ${"HawgPen/Carousel/Carousel_Stats/Tank_Avg_Damage/OnOff.xc":" enabled"},
 		"hotKeyCode": 82, "onHold": "false", "visibleOnHotKey": false ,
-		"x": 59, "y": 1,
+		"x": 59, "y": 7,
 		"shadow": {         
           
           "enabled": true,

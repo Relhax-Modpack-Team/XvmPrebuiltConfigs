@@ -22,7 +22,7 @@
     "removeZoomIndicator": false,   
     "removeDistance": false,    
     "removeQuantityShells": false,    
-    "showSpeedometer": "wheels",    
+    "showSpeedometer": ${"HawgPen/Speed_Meter/Speed_Meter/showSpeedometer.xc":" enabled"},    
     "shellType": {
       "armor_piercing":    "{{l10n:armor_piercing}}",    // armor piercing / бронебойный
       "high_explosive":    "{{l10n:high_explosive}}",    // high explosive / осколочно-фугасный

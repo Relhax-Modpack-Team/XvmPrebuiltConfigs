@@ -7,7 +7,7 @@
     "cellType": "normal",    
     "normal": ${"carouselNormalHAX.xc":"normal"},    
     "small": ${"carouselSmall.xc":"small"},  
-    "rows": 0,    
+    "rows": ${"HawgPen/Carousel/Carousel_Row/carousel_row.xc":" rows"},     
     "backgroundAlpha": 10,    
     "slotBackgroundAlpha": 100,    
     "slotBorderAlpha": 100,    

@@ -778,7 +778,7 @@
     "formats": [
       {
         "updateEvent": "ON_EVERY_SECOND",
-        "x": 215,
+        "x": 265,
         "y": 100,
         "width": 185,
         "height": 49,           
@@ -801,7 +801,7 @@
 //------PNG Right
        {
 	   "layer": "bottom",	   
-       "x":390,
+       "x":440,
        "y": 3,  
        "width": 130, 
        "height":130,  
@@ -883,7 +883,7 @@
        	   
 	   "hotKeyCode": 72, "onHold": "false", "visibleOnHotKey": false ,
        "x":-20, 
-       "y": 167,  
+       "y": 186,  
        "width": 100, 
        "height":60,  
              
@@ -908,7 +908,7 @@
 		"hotKeyCode": 72, "onHold": "false", "visibleOnHotKey": false ,
 		"enabled": true ,
         "x": -0,
-        "y":227,
+        "y":234,
         "width": 150,
         "height": 75,
         "screenHAlign": "center",		
@@ -925,7 +925,7 @@
 		"enabled": ${"HawgPen/Hangar/Tank_Stats/Tank_WinRate/OnOff.xc":" enabled"},
         "hotKeyCode": 72, "onHold": "false", "visibleOnHotKey": false ,		
         "x": 7,
-        "y":245,
+        "y":252,
         "width": 150,
         "height": 75,
         "screenHAlign": "center",
@@ -941,7 +941,7 @@
 		"enabled": ${"HawgPen/Hangar/Tank_Stats/Tank_Average_Damage/OnOff.xc":" enabled"},
         "hotKeyCode": 72, "onHold": "false", "visibleOnHotKey": false ,		
         "x": 7,
-        "y":263,
+        "y":270,
         "width": 150,
         "height": 75,
         "screenHAlign": "center",
@@ -957,7 +957,7 @@
 		"enabled": ${"HawgPen/Hangar/Tank_Stats/Tank_HitPoints/OnOff.xc":" enabled"},
         "hotKeyCode": 72, "onHold": "false", "visibleOnHotKey": false ,		
 		 "x": 7, 
-		 "y":281,		        
+		 "y":288,		        
         "width": 150,
         "height": 75,
         "screenHAlign": "center",
@@ -1101,8 +1101,7 @@
       
       {         
         "updateEvent": "ON_MY_STAT_LOADED",
-        "x": 325,
-		// "y": 153
+        "x": 375,		
         "y": 183,
         "width": 320,
         "height": 150,

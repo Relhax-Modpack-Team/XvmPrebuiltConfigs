@@ -9,9 +9,9 @@
     "showBattleTypeSelectorText": true,    
     "showReferralButton": true,    
     "showGeneralChatButton": ${"HawgPen/Hangar/Hangar_General_Chat_Button/OnOff.xc":" enabled"},    
-    "showPromoPremVehicle": ${"HawgPen/Hangar/Hangar_Promo_Prem_Tank/OnOff.xc":" enabled"},
-    "showRewardWindow": true,
-    "showRankedBattleResults": true,   
+    "showPromoPremVehicle": ${"HawgPen/Hangar/Hangar_Promo_Prem_Tank/OnOff.xc":" enabled"},    
+    "showRankedBattleResults": true,
+    "showDailyQuestWidget": true, 	
     "equipmentPanel": {      
       "showConsumablesCount": true,      
       "showDirectivesCount": false
@@ -175,8 +175,8 @@
     },    
     "barracks": {      
       "nations_order": [],      
-      "roles_order": [],      
-      // "nation", "role", "level", "-level", "XP", "-XP", "gender", "-gender", "inVehicle", "-inVehicle", "vehicle"
+      "roles_order": [],     
+      
       "sorting_criteria": ["nation", "inVehicle", "vehicle", "role"]
     },    
     "carousel": ${"carouselHAX.xc":"carousel"},    

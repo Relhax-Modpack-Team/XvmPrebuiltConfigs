@@ -4,5 +4,5 @@
 // Smaller the Number will move Left
 // Must use minus - to move left 
 {
-"move": -5
+"move": -7
 }
