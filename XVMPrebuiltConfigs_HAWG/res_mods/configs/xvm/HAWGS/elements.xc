@@ -56,7 +56,7 @@
     "$delay": 100,
     "$interval": 1000,
     "consumablesPanel": {
-    "y": "{{py:math.sub({{py:xvm.screenHeight}}, 70)}}"
+    "y": "{{py:math.sub({{py:xvm.screenHeight}}, 72)}}"
       }
 	  }
  ]

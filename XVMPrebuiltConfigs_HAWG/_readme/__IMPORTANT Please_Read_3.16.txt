@@ -1,0 +1,51 @@
+
+ 3/15/2020 3:55 PM
+Please Read
+
+You Must replace ALL _ScoreBoard folders in > HawgPen ,YOU CAN NOT USE OLD > _ScoreBoard
+YOU CAN NOT USE OLD > _ScoreBoard
+YOU CAN NOT USE OLD > _ScoreBoard
+
+
+To turn off/on any ScoreBoard follow path
+World_of_Tanks > res_mods > configs > xvm > HAWGS > HawgPen > _ScoreBoard_MainFrame
+
+This Text will turn on any ScoreBoard >   "{{battletype-key=epic_battle?false}}"
+
+1._Simple ScoreBoard :
+IMPORTANT YOU MUST TURN OFF ( false ) Simple ScoreBoard  before you Turn on Pro  or any Pro ScoreBoard !
+When Using Simple  ScoreBoard It is Recommended to turn on > HawgPen>_ScoreBoard_MainFrame> Top_Total_Hit_Points
+
+
+2._Pro ScoreBoard :
+IMPORTANT YOU MUST TURN OFF ( false ) Pro ScoreBoard  before you Turn on Simple or any Pro ScoreBoard !
+When Using Pro ScoreBoard It is Recomended to turn off > Top_Total_Hit_Points,  HawgPen>_ScoreBoard_MainFrame> Top_Total_Hit_Points
+
+
+3._Color Blind Pro ScoreBoard :
+IMPORTANT YOU MUST TURN OFF ( false ) Pro Color Blind ScoreBoard  before you Turn on Simple or any Pro ScoreBoard !
+When Using Pro ScoreBoard  It is Recomended to turn off > Top_Total_Hit_Points,  HawgPen>_ScoreBoard_MainFrame> Top_Total_Hit_Points
+
+4._Tank_Nation :
+IMPORTANT YOU MUST TURN OFF ( false ) Tank_Nation Pro ScoreBoard  before you Turn on Simple or any  Pro ScoreBoard !
+When Using Pro ScoreBoard It is Recomended to turn off > Top_Total_Hit_Points,  HawgPen>_ScoreBoard_MainFrame> Top_Total_Hit_Points
+
+5._Mini Pro ScoreBoard Panel :
+Will work with all other ScoreBoards and Panels
+
+6._Bottom_Total_Hit_Point:
+Will work with all other ScoreBoards and Panels
+
+7._PlayersPanel_HitPoints :
+Will work with all other ScoreBoards and Panels
+
+8._Rebel :
+IMPORTANT YOU MUST TURN OFF ( false ) Rebel Pro ScoreBoard  before you Turn on Simple or any  Pro ScoreBoard !
+When Using Pro ScoreBoard It is Recomended to turn off > Top_Total_Hit_Points,  HawgPen>_ScoreBoard_MainFrame> Top_Total_Hit_Points
+
+9._Top_Total_Hit_Points_Old_XVM_Style :
+Is the Stock version Hitpoints, its the from the XVM default files
+
+If you need Help Visit Hawgs Discord
+
+ https://discord.gg/hRB9WG6

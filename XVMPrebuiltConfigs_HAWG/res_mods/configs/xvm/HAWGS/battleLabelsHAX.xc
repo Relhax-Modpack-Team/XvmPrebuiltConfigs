@@ -8,8 +8,7 @@
       //${ "HawgsBrain.xc":"def.hitlogHeader" },
       ${ "battleLabelsTemplatesHAX.xc":"def.hitLogBody" },
 	  ${ "battleLabelsTemplatesHAX.xc":"def.hitLogHeader" },
-	  
-      ${ "battleLabelsTemplatesHAX.xc":"def.totalHP" },
+      ${ "battleLabelsTemplatesHAX.xc":"def.totalHP"},
 	  ${ "battleLabelsTemplatesHAX.xc":"def.debugPanelData" },
       ${ "battleLabelsTemplatesHAX.xc":"def.avgDamage" },
       ${ "battleLabelsTemplatesHAX.xc":"def.mainGun" },
@@ -50,8 +49,81 @@
 	  ${ "battleLabelsTemplatesHAX.xc":"def.angleAimingTop" },      
       ${ "battleLabelsTemplatesHAX.xc":"def.angleAimingBottom" },      
       ${ "battleLabelsTemplatesHAX.xc":"def.angleAimingPercent" },
-	  ${ "battleLabelsTemplatesHAX.xc":"def.piercingChance"},      	  
+	  ${ "battleLabelsTemplatesHAX.xc":"def.piercingChance"}, 
 	  
+	  ${ "battleLabelsTemplatesHAX.xc":"def.SimpleFragCorBarAlly"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.SimpleFragCorBarEnemy"},
+	  
+	  ${ "battleLabelsTemplatesHAX.xc":"def.ProHPAlly"},      	  
+	  ${ "battleLabelsTemplatesHAX.xc":"def.ProHPEnemy"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.ProFragCorBarEnemy"},
+      ${ "battleLabelsTemplatesHAX.xc":"def.ProTotalHP_bg" },           
+      ${ "battleLabelsTemplatesHAX.xc":"def.ProTotalHP_Bg_score" },      
+      ${ "battleLabelsTemplatesHAX.xc":"def.ProTotalHP_Bg_Ally" },      
+      ${ "battleLabelsTemplatesHAX.xc":"def.ProTotalHP_Bg_Enemy" },     
+      ${ "battleLabelsTemplatesHAX.xc":"def.ProTotalHP_frags_ally" },   
+      ${ "battleLabelsTemplatesHAX.xc":"def.ProTotalHP_frags_enemy" },       
+      ${ "battleLabelsTemplatesHAX.xc":"def.ProFragCorBarAlly"},  
+      ${ "battleLabelsTemplatesHAX.xc":"def.ProSubstrate" }, 
+           
+	  
+	  ${ "battleLabelsTemplatesHAX.xc":"def.AAlive"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.EAlive"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.AtotalHP_Bg"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.EtotalHP_Bg"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.AshieldtotalHP_Bg"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.EshieldtotalHP_Bg"},
+	 
+	  ${ "battleLabelsTemplatesHAX.xc":"def.CBfragCorBarAlly" }, 	  
+	  ${ "battleLabelsTemplatesHAX.xc":"def.CBHPAlly" },
+	  ${ "battleLabelsTemplatesHAX.xc":"def.CBHPEnemy"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.CBfragCorBarEnemy" },	      
+      ${ "battleLabelsTemplatesHAX.xc":"def.CBsubstrate" },      
+      ${ "battleLabelsTemplatesHAX.xc":"def.CBtotalHP_bg" },
+	  ${ "battleLabelsTemplatesHAX.xc":"def.CBtotalHP_Bg_score"},      	  
+	  ${ "battleLabelsTemplatesHAX.xc":"def.CBtotalHP_Bg_Ally"},      	  
+	  ${ "battleLabelsTemplatesHAX.xc":"def.CBtotalHP_Bg_Enemy"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.CBtotalHP_frags_ally"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.CBtotalHP_frags_enemy"},	        	  
+	  
+	  
+	  ${ "battleLabelsTemplatesHAX.xc":"def.MicroHPAlly"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.MicroHPEnemy"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.BGMicroHPAlly"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.BGMicroHPEnemy"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.BGMicroWinHPAlly"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.BGMicroLostHPEnemy"},
+	  
+      ${ "battleLabelsTemplatesHAX.xc":"def.tNfragCorBarAlly" }, 	  
+	  ${ "battleLabelsTemplatesHAX.xc":"def.tNHPAlly" },
+	  ${ "battleLabelsTemplatesHAX.xc":"def.tNHPEnemy" },
+	  ${ "battleLabelsTemplatesHAX.xc":"def.tNfragCorBarEnemy" },     
+      ${ "battleLabelsTemplatesHAX.xc":"def.tNsubstrate" },
+	  ${ "battleLabelsTemplatesHAX.xc":"def.tNtotalHP_bg"},      	  
+	  ${ "battleLabelsTemplatesHAX.xc":"def.tNtotalHP_Bg_score"},      	  
+	  
+	  ${ "battleLabelsTemplatesHAX.xc":"def.tNtotalHP_Bg_Enemy"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.tNtotalHP_frags_ally"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.tNtotalHP_frags_enemy"},       
+       
+      ${ "battleLabelsTemplatesHAX.xc":"def.rBfragCorBarAlly" }, 	  
+	  ${ "battleLabelsTemplatesHAX.xc":"def.rBHPAlly" },
+	  ${ "battleLabelsTemplatesHAX.xc":"def.rBfragCorBarEnemy" },	      
+      ${ "battleLabelsTemplatesHAX.xc":"def.rBHPEnemy" },      
+      ${ "battleLabelsTemplatesHAX.xc":"def.rBsubstrate" },
+	  ${ "battleLabelsTemplatesHAX.xc":"def.rBtotalHP_bg"},      	  
+	  ${ "battleLabelsTemplatesHAX.xc":"def.rBtotalHP_Bg_score"},      	  
+	  ${ "battleLabelsTemplatesHAX.xc":"def.rBtotalHP_Bg_Ally"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.rBtotalHP_Bg_Enemy"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.rBtotalHP_frags_ally"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.rBtotalHP_frags_enemy"},      	  
+		
+	  ${ "battleLabelsTemplatesHAX.xc":"def.PpMicroHPAlly"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.PpMicroHPEnemy"},
+      ${ "battleLabelsTemplatesHAX.xc":"def.PpBgMicroHPAlly"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.PpBgMicroHPEnemy"},
+      ${ "battleLabelsTemplatesHAX.xc":"def.PpBgMicroWinHPAlly"},
+	  ${ "battleLabelsTemplatesHAX.xc":"def.PpBgMicroLostHPEnemy"},  	  
 	  
       ${ "battleLabelsTemplatesHAX.xc":"def.damageIndicator" },
       ${ "battleLabelsTemplatesHAX.xc":"def.tankNationFlag" },	  
@@ -85,3 +157,9 @@
     ]
   }
 }
+
+        
+ 
+      	   
+	  	  	
+	 

@@ -1,6 +1,11 @@
 //  This turns on/off Hull_Armor_Text
-// true turns On  Hull_Armor_Text
-// false turns Off Hull_Armor_Text
+//  To turn on  
+//  Example >
+//  "enabled": "{{battletype-key=epic_battle?false}}" 
+//
+//  false  - turns Off Hull_Armor
+//  Example >
+// 
 {
-"enabled": true
+"enabled": "{{battletype-key=epic_battle?false}}" 
 }

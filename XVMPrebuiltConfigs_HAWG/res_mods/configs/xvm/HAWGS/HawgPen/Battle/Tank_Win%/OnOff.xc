@@ -1,6 +1,11 @@
 //  This turns on/off Tank_Win%
-// true turns On  Tank_Win%
-// false turns Off Tank_Win%
+//  To turn on  
+//  Example >
+//  "enabled": "{{battletype-key=epic_battle?false}}" 
+//
+//  false  - turns Off Hull_Armor
+//  Example >
+// 
 {
-"enabled": true
+"enabled": "{{battletype-key=epic_battle?false}}" 
 }

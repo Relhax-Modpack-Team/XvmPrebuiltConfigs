@@ -5,5 +5,5 @@
 // Change the  No Zoom Display  Number 160 
 // Change the Zoom Display Number 265
 {
-"move": "{{py:sight.cameraMode=arc?140|245}} "
+"move": "{{py:aim.mode=arc?140|245}} "
 }
