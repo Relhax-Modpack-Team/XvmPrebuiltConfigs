@@ -408,7 +408,16 @@
 			"italic": false
 		},
 		"format": "<img src='{{clanicon}}' width='24' height='24'>"
-	}
+	},
+	"tankClass": {
+		"enabled": false,
+		"x": 0,
+		"y": 0,
+		"alpha": 100,
+		"align": "center",
+		"shadow": { "enabled": true, "distance": 0, "angle": 90, "color": "#000000", "alpha": 90, "blur": 3, "strength": 2 },
+		"format": "<font face='xvm' size='28' alpha='90' color='#{{vtype-key=LT?15ff00|{{vtype-key=MT?e3ff00|{{vtype-key=HT?ff0027|{{vtype-key=TD?0078ff|{{vtype-key=SPG?f000ff}}}}}}}}}}'>{{vtype-key=LT?&#x3A;|{{vtype-key=MT?&#x3B;|{{vtype-key=HT?&#x3F;|{{vtype-key=TD?&#x2E;|{{vtype-key=SPG?&#x2D;}}}}}}}}}}</font>"
+    }
   },
   // Настройки для союзников.
   "ally": {
@@ -526,6 +535,7 @@
       //${ "def.position" }
       ${ "def.xmqpEvent" },
       ${ "def.clanIcon" },
+      ${ "def.tankClass" },
 	  {}
     ]
   },
@@ -627,6 +637,7 @@
       ${ "def.StockTurretMarker" },
       ${ "def.RatingMarker_Left" },
       ${ "def.clanIcon" },
+      ${ "def.tankClass" },
       //${ "def.position" },
 	  {}
     ]

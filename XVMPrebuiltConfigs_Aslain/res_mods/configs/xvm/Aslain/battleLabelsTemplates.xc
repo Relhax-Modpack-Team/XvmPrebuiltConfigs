@@ -33,7 +33,7 @@
       "mouseEvents": {
         "mouseDown": "hitLog_mouseDown",
         "mouseUp": "hitLog_mouseUp",
-        "mouseMove": "hitLog_mouseMove"
+        "mouseMove": "hitLog_mouseMove", "mouseWheel": "hitLog_mouseWheel"
       }
     },
     // Background of the log of applied damage.
@@ -146,6 +146,12 @@
     "lastHit": {
       "enabled": false,//lasthit
       "updateEvent": "PY(ON_LAST_HIT)",
+      "tweens": [
+        // "damageLog"/"timeDisplayLastHit"
+        [ "fromTo", 0.75, { "scaleX": 0, "scaleY": 0 }, { "scaleX": 1, "scaleY": 1 } ],
+        [ "delay", 3.75 ],
+        [ "fromTo", 0.5, { "scaleX": 1, "scaleY": 1 }, { "scaleX": 0, "scaleY": 0 } ]
+      ],
       "x": "{{py:xvm.damageLog.lastHit.x}}",
       "y": "{{py:xvm.damageLog.lastHit.y}}",
       "width": 200,
@@ -186,7 +192,7 @@
       "screenVAlign": "center",
       "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 3 },
       "textFormat": {"align": "center", "color": "0xF4EFE8", "size": 16 },
-      "format": "{{l10n:fire}}"
+      "format": "{{l10n:fireMsg}}"
     },
     // Rewritable timer format.
     // Перезаписываемый формат таймера.

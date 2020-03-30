@@ -52,7 +52,7 @@
 
 {
   "damageLog": {
-    // false - Disable.
+    // false - disable.
     // false - отключить.
     "enabled": true,
     // true - disable standard detailed damage.
@@ -71,6 +71,18 @@
       "moveInBattle": true,
       "x": 295,
       "y": 0,
+      // true - show hits without damage.
+      // true - отображать попадания без урона.
+      "showHitNoDamage": true,
+      // true - summarize damages from fire.
+      // true - суммировать повреждения от пожара.
+      "groupDamagesFromFire": true,
+      // true - summarize damages from ramming, crash, falling (if more than one damage per second).
+      // true - суммировать повреждения от тарана, столкновения, падения (если больше одного повреждения в секунду).
+      "groupDamagesFromRamming_WorldCollision": true,
+      // true - summarize damages from artillery strike and airstrike (if more than one damage per second).
+      // true - суммировать повреждения от артудара и авионалета (если больше одного повреждения в секунду).
+      "groupDamageFromArtAndAirstrike": true,
       // Kind of the received damage (macro {{dmg-kind}}).
       // Тип полученного урона (макрос {{dmg-kind}}).
       "dmg-kind": {
@@ -80,6 +92,7 @@
         "world_collision": "{{hit-effects}}{{critical-hit}}<tab><font face='xvm'>&#x53;</font>",           // world collision / столкновение с объектами, падение.
         "drowning": "{{l10n:drowning}}<tab><font face='xvm'>&#x119;</font>",                               // drowning / утопление.
         "overturn": "{{hit-effects}}<tab><font face='xvm'>&#x112;</font>",                                 // overturn / опрокидывание.
+        "recovery": "{{l10n:forsaken}}<tab><font face='xvm'>&#x100;</font>",                               // self-destruction / самоуничтожение (in the "Frontline" mode / в режиме "Линия фронта").
         "death_zone": "DZ",                                                                                // death zone / смертельная зона.
         "gas_attack": "GA",                                                                                // gas attack / газовая атака.
         "art_attack": "{{hit-effects}}{{critical-hit}}{{splash-hit}}<tab><font face='xvm'>&#x110;</font>", // art attack / артиллерийская поддержка.
@@ -94,6 +107,7 @@
         "world_collision": "#228855",      // world collision / столкновение с объектами, падение.
         "drowning": "#CCCCCC",             // drowning / утопление.
         "overturn": "#CCCCCC",             // overturn / опрокидывание.
+        "recovery": "#CCCCCC",             // self-destruction / самоуничтожение (in the "Frontline" mode / в режиме "Линия фронта").
         "death_zone": "#CCCCCC",           // death zone / смертельная зона.
         "gas_attack": "#CCCCCC",           // gas attack / газовая атака.
         "art_attack": "{{c:hit-effects}}", // art attack / артиллерийская поддержка.
@@ -318,6 +332,7 @@
         "world_collision": "{{hit-effects}}", // world collision / столкновение с объектами, падение.
         "drowning": "{{l10n:drowning}}",      // drowning / утопление.
         "overturn": "{{hit-effects}}",        // overturn / опрокидывание.
+		"recovery": "{{l10n:forsaken}}",      // TO DO / самоуничтожение в режиме линия фронта
         "death_zone": "DZ",                   // death zone / смертельная зона.
         "gas_attack": "GA",                   // gas attack / газовая атака.
         "art_attack": "{{hit-effects}}",      // art attack / артиллерийская поддержка.

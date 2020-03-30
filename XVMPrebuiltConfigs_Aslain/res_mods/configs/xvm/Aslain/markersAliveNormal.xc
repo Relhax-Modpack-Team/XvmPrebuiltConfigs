@@ -484,9 +484,9 @@
     // Порядковый номер игрока
     "position": {
       "name": "position",             //  название текстового поля, ни на что не влияет
-      "enabled": false,                //  false - не отображать
-      "x": 0,                         //  положение по оси X
-      "y": -55,                       //  положение по оси Y
+      "enabled": true,                //  false - не отображать
+      "x": -18,                         //  положение по оси X
+      "y": 0,                       //  положение по оси Y
       "alpha": 100,                   //  прозрачность (допускается использование динамической прозрачности, см. macros.txt)
       "textFormat": {                 //  параметры шрифта
         "font": "$FieldFont",         //  название
@@ -583,7 +583,16 @@
 			"italic": false
 		},
 		"format": "<img src='{{clanicon}}' width='24' height='24'>"
-	}
+	},
+	"tankClass": {
+		"enabled": false,
+		"x": 0,
+		"y": 0,
+		"alpha": 100,
+		"align": "center",
+		"shadow": { "enabled": true, "distance": 0, "angle": 90, "color": "#000000", "alpha": 90, "blur": 3, "strength": 2 },
+		"format": "<font face='xvm' size='28' alpha='90' color='#{{vtype-key=LT?15ff00|{{vtype-key=MT?e3ff00|{{vtype-key=HT?ff0027|{{vtype-key=TD?0078ff|{{vtype-key=SPG?f000ff}}}}}}}}}}'>{{vtype-key=LT?&#x3A;|{{vtype-key=MT?&#x3B;|{{vtype-key=HT?&#x3F;|{{vtype-key=TD?&#x2E;|{{vtype-key=SPG?&#x2D;}}}}}}}}}}</font>"
+    }
   },
   // Настройки для союзников.
   "ally": {
@@ -714,7 +723,8 @@
       ${ "def.DyingMark_Top" },
       ${ "def.DyingMark_Right" },
       ${ "def.xmqpEvent" },
-      ${ "def.clanIcon" },	
+      ${ "def.clanIcon" },
+      ${ "def.tankClass" },
 	  {}
     ]
   },
@@ -832,6 +842,7 @@
       ${ "def.DyingMark_Right" },
       ${ "def.position" },
       ${ "def.clanIcon" },
+      ${ "def.tankClass" },
 	  {}
     ]
   }
