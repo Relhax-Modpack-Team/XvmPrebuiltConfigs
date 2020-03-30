@@ -64,9 +64,9 @@
   "expertPanel": {
     // Delay for panel disappear. Original value was 5.
     // Задержка исчезновения панели. Оригинальное значение было 5.
-    "delay": 5,
+    "delay": 15,
     // Panel scaling. Original value was 100.
     // Увеличение панели. 100 в оригинале.
-    "scale": 100
+    "scale": 150
   }
 }
