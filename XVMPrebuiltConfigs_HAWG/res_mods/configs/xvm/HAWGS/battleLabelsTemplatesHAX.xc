@@ -69,7 +69,7 @@
       "screenVAlign": "center",
 	  "alpha" : "{{py:aim.mode=arc80|{{py:aim.mode=sn?80|{{py:aim.mode=str?80}}}}}}",
       "shadow": { "distance": 1, "angle": 315, "alpha": 70, "blur": 5, "strength": 3 },
-      "textFormat": { "align": "center", "color": "0xd4ffaa" },
+      "textFormat": { "align": "center", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"}},
       "format": "{{py:sight.quantityInClipShellsMax>1?clip <font face='Arial' size='19'>{{py:sight.quantityInClipShells~/}}</font><font face='Arial' size='19'>{{py:sight.quantityInClipShellsMax}}</font>  / <font face='Arial' size='19'>{{py:sight.shellType}} {{py:sight.quantityShells}}</font> |<font face='Arial' size='19'>{{py:sight.quantityShells}} {{py:sight.shellType}} </font>  }}"
     
 
@@ -88,7 +88,8 @@
       "screenVAlign": "center",
       "alpha": "{{py:isBattle?{{py:sight.timeAIM?100|0}}|0}}",
       "shadow": { "distance": 0, "angle": 90, "alpha": 90, "blur": 3, "strength": 3 },
-      "textFormat": { "align": "left", "color": "0xd4ffaa" },
+      "textFormat": { "align": "left", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"}  },
+
        "format": "<font size='14' face='Arial'>{{py:sight.timeAIM>0?Aim: {{py:sight.timeAIM%3.1f}}|  Ready}}</font> {{py:sight.timeAIM>0?s|}}"
     },	
 
@@ -105,7 +106,7 @@
       "screenVAlign": "center",
       "alpha": "{{py:isBattle?{{py:sight.timeFlight?100|0}}|0}}",
       "shadow": { "distance": 0, "angle": 90, "alpha": 90, "blur": 3, "strength": 3 },
-      "textFormat": { "align": "left", "color": "0xd4ffaa" },
+      "textFormat": { "align": "left", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"} },
       "format": "<font size='14' face='Arial'>Flight: {{py:sight.timeFlight%3.1f}}</font> s"
     },
     
@@ -125,7 +126,7 @@
       "screenVAlign": "center",
       "alpha" : "{{py:sight.nameTarget?{{py:aim.mode=arc?100|100}}|100}}",
       "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
-      "textFormat": { "align": "left", "color": "0xd4ffaa" },
+      "textFormat": { "align": "left", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"} },
       "format": "<font face='' size='14'>{{py:sight.nameTarget}}</font>"
     },
     "infoTank": {
@@ -142,7 +143,7 @@
       "screenVAlign": "center",
       "alpha" : "{{py:sight.nameTarget?{{py:aim.mode=arc?100|100}}|100}}",
       "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
-      "textFormat": { "align": "left", "color": "0xd4ffaa" },
+      "textFormat": { "align": "left", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"}},
       "format": "<font face='' size='16'>{{py:sight.vehicleTarget}}</font> <font face='' size='12'>{{py:sight.vtypeTarget}}</font>"
     },
 	 "infoTTX": {
@@ -159,7 +160,7 @@
       "screenVAlign": "center",
       "alpha" : "{{py:sight.nameTarget?{{py:aim.mode=arc?100|100}}|100}}",
       "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
-      "textFormat": { "align": "left", "color": "0xd4ffaa" },
+      "textFormat": { "align": "left", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"} },
       "format": "{{py:sight.reloadTarget>0?reload <font face='' size='13'>{{py:sight.reloadTarget%3.2f}} s</font>|}}"
     },
       "visionTTX": {
@@ -176,7 +177,7 @@
       "screenVAlign": "center",
       "alpha" : "{{py:sight.nameTarget?{{py:aim.mode=arc?100|100}}|100}}",
       "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
-      "textFormat": { "align": "left", "color": "0xd4ffaa" },
+      "textFormat": { "align": "left", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"} },
       "format": "{{py:sight.visionRadiusTarget>0? <font face='' size='13'>{{py:sight.visionRadiusTarget%3.f}} m vision</font>|}}"
     },
 	
@@ -193,7 +194,7 @@
       "screenHAlign": "center",
       "screenVAlign": "center",
 	  "alpha" : "{{py:aim.mode=arc?30|{{py:aim.mode=sn?30|{{py:aim.mode=str?0}}}}}}",
-      "textFormat": { "align": "center", "color": "0xd4ffaa" },
+      "textFormat": { "align": "center", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"} },
       "format": "<font face='Arial' size='40'>+</font>"
     },	
     "healthBar": {
@@ -246,7 +247,7 @@
       "screenVAlign": "center",
 	  "alpha" : "{{py:aim.mode=arc?0|{{py:aim.mode=sn?0|{{py:aim.mode=str?80}}}}}}",
       "shadow": { "distance": 1, "angle": 315, "alpha": 70, "blur": 5, "strength": 3 },
-      "textFormat": { "align": "center", "color": "0xd4ffaa" },
+      "textFormat": { "align": "center", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"} },
       "format": "{{alive?flight speed <font face='Arial' size='24'>{{py:sight.shellSpeed%3.0f}}</font>m/s.|}}"
     },
     "reloadBar_line": { 
@@ -263,7 +264,7 @@
       "screenVAlign": "center",
  	  "alpha" : "{{py:aim.mode=arc?40|{{py:aim.mode=sn?40|{{py:aim.mode=str?0}}}}}}",
       "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
-	  "textFormat": { "align": "center", "color": "0xd4ffaa" },
+	  "textFormat": { "align": "center", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"} },
       //"textFormat": { "align": "center", "color": "0x{{py: dynamic_colorGRB( 0xd4ffaa, 0xff5d00" },	  
       "format": "<font face='dynamic' size='78'>{{py:sight.reloadPercent%.436a}}</font>"
     },
@@ -283,7 +284,7 @@
       "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
 	  
       //"textFormat": { "align": "center", "color": "0x{{py: dynamic_colorGRB( 0xd4ffaa, 0xff5d00," },	 
-      "textFormat": { "align": "center", "color": "0xd4ffaa" },	  
+      "textFormat": { "align": "center", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"} },	  
       "format": "{{alive?<font face='Arial' size='20'>{{py:sight.reloadPercent<100?reload{{py:sight.reloadPercent%3.f}}%|}}|}}</font>"
     },   
     
@@ -301,7 +302,7 @@
       "screenVAlign": "center",
       "alpha" : "{{py:aim.mode=arc?80|{{py:aim.mode=sn?80|{{py:aim.mode=str?0}}}}}}",	  
       "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
-      "textFormat": { "align": "center", "color": "0xd4ffaa" },
+      "textFormat": { "align": "center", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"} },
       "format": "<font face='Arial' size='20'>{{py:sight.distanceTarget%3.fm}}"
     },
 	
@@ -319,7 +320,7 @@
       "screenVAlign": "center",
 	  "alpha" : "{{py:aim.mode=arc?80|{{py:aim.mode=sn?80|{{py:aim.mode=str?80}}}}}}",
       "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
-      "textFormat": { "align": "center", "color": "0xd4ffaa" },
+      "textFormat": { "align": "center", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"} },
       "format": "{{alive?{{py:xvm.startBattle!=3?|<font face='Arial' size='24'>{{py:sight.reloadTimeClip%3.2f}}}}|}}</font>"
     },
     "baseTimeReload": {
@@ -336,7 +337,7 @@
       "screenVAlign": "center",
 	  "alpha" : "{{py:aim.mode=arc?80|{{py:aim.mode=sn?80|{{py:aim.mode=str?80}}}}}}",
       "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
-      "textFormat": { "align": "center", "color": "0xd4ffaa" },
+      "textFormat": { "align": "center", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"} },
       "format": "{{alive?<font face='Arial' size='20'>{{py:sight.reloadTime%3.2f}}</font>|}}"
     },
 	"timeReload": {
@@ -354,7 +355,7 @@
  	  "alpha" : "{{py:aim.mode=arc?80|{{py:aim.mode=sn?80|{{py:aim.mode=str?80}}}}}}",
       "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
 	  
-      "textFormat": { "align": "center", "color": "0xd4ffaa" },  
+      "textFormat": { "align": "center", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"} },  
 	  "format": "{{alive?<font face='Arial' size='24'>{{py:sight.leftTime=0?{{py:sight.quantityInClipShells>0?{{py:sight.leftTime=0?Ready|{{py:sight.reloadTimeClip%3.2f}}}}|Ready}}|{{py:sight.leftTime%3.2f}}}}|}}"
       
 	},
@@ -373,7 +374,7 @@
       "screenVAlign": "center",
       "alpha" : "{{py:aim.mode=str?80|0}}",
       "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
-      "textFormat": { "align": "center", "color": "0xd4ffaa" },
+      "textFormat": { "align": "center", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"} },
       "format": "penetration ~<font face='Arial' size='24'>{{py:sight.piercingActual>0?{{py:sight.piercingActual%3.f}}}}</font>mm. / "
     },	  
 	  "timeAIM_arty": {
@@ -390,7 +391,7 @@
       "screenVAlign": "center",
       "alpha" : "{{py:aim.mode=str?80|0}}",
       "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
-      "textFormat": { "align": "center", "color": "0xd4ffaa" },
+      "textFormat": { "align": "center", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"} },
       "format": "aim ~ <font face='Arial' size='24'>{{py:sight.timeAIM%3.0f}} sec.</font>"
     },	
 	  "distances_arty": {
@@ -407,7 +408,7 @@
       "screenVAlign": "center",
       "alpha" : "{{py:aim.mode=str?80|0}}",
       "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
-      "textFormat": { "align": "center", "color": "0xd4ffaa" },
+      "textFormat": { "align": "center", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"} },
       "format": "range  <font face='Arial' size='24'>{{py:sight.distance%3.0f}}</font>m."
     },
 	  "timeFlight_arty": {
@@ -424,7 +425,7 @@
       "screenVAlign": "center",
       "alpha" : "{{py:aim.mode=str?80|0}}",
       "shadow": { "distance": 1, "angle": 315, "alpha": 70, "blur": 5, "strength": 3 },
-      "textFormat": { "align": "center", "color": "0xd4ffaa" },
+      "textFormat": { "align": "center", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"} },
       "format": "flight time ~ <font face='Arial' size='22'>{{py:sight.timeFlight%3.2f}} sec.</font>"
     },    
     "reloadBar_arty": {
@@ -441,7 +442,7 @@
       "screenVAlign": "center",
 	  "alpha" : "{{py:aim.mode=str?35|0}}",
       "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
-	  "textFormat": { "align": "center", "color": "0xd4ffaa" },
+	  "textFormat": { "align": "center", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"} },
       //"textFormat": { "align": "center", "color": "0x{{py: dynamic_colorGRB( 0xd4ffaa, 0xff5d00 " },
       "format": "<font face='dynamic2' size='130'>{{py:sight.reloadPercent%.335a}}</font>"
     },	
@@ -457,7 +458,7 @@
       "height": 50,
       "screenHAlign": "center",
       "shadow": { "alpha": 90, "blur": 1.5, "strength": 5 },
-      "textFormat": { "font": "Arial", "color": "0xd4ffaa", "align": "center", "size": 19 },
+      "textFormat": { "font": "Arial", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"}, "align": "center", "size": 19 },
       "format": "{{py:xvm.sixthSenseTimer(10)%01.1f}}<font size='14'>{{py:xvm.sixthSenseTimer(10)?}}</font>"
     },	
     "auto_AIM_vehicle": {
@@ -840,7 +841,7 @@
       "height": 50,
 	  "shadow": { "distance": 2, "angle": 90,"alpha": 90, "blur": 1.5, "strength": 5 },
       "screenHAlign": "center",	  
-      "textFormat": { "font": "Arial", "color": "0xd4ffaa", "align": "center", "size": 19 },
+      "textFormat": { "font": "Arial", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"}, "align": "center", "size": 19 },
       "format": "<font size='23'color='{{c:vtype}}'>{{hp}}</font>"
     },
 	"tankName": {  //{{t-winrate}}
@@ -853,7 +854,7 @@
       "height": 50,
 	  "shadow": { "distance": 2, "angle": 90,"alpha": 90, "blur": 1.5, "strength": 5 },
       "screenHAlign": "center",	  
-      "textFormat": { "font": "Arial", "color": "0xd4ffaa", "align": "center", "size": 19 },
+      "textFormat": { "font": "Arial", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"}, "align": "center", "size": 19 },
       "format": "<font size='17'color='{{c:vtype}}'>{{vehicle}}</font>"
     },
 	"tankWin%": {  
@@ -866,7 +867,7 @@
       "height": 50,
 	  "shadow": { "distance": 2, "angle": 90,"alpha": 90, "blur": 1.5, "strength": 5 },
       "screenHAlign": "center",	  
-      "textFormat": { "font": "Arial", "color": "0xd4ffaa", "align": "center", "size": 19 },
+      "textFormat": { "font": "Arial", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"}, "align": "center", "size": 19 },
       "format": "<font size='15'color='{{c:t-winrate}}'>Win% {{t-winrate%.2f~}}</font>"
     },
 	"battleCount": {  
@@ -879,7 +880,7 @@
       "height": 50,
 	  "shadow": { "distance": 2, "angle": 90,"alpha": 90, "blur": 1.5, "strength": 5 },
       "screenHAlign": "center",	  
-      "textFormat": { "font": "Arial", "color": "0xd4ffaa", "align": "center", "size": 19 },
+      "textFormat": { "font": "Arial", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"}, "align": "center", "size": 19 },
       "format": "<font size='15'color='#FFCC66'>{{t-battles}}</font>"
     },
 	"battleHeader": {  
@@ -892,7 +893,7 @@
       "height": 50,
 	  "shadow": { "distance": 2, "angle": 90,"alpha": 90, "blur": 1.5, "strength": 5 },
       "screenHAlign": "center",	  
-      "textFormat": { "font": "Arial", "color": "0xd4ffaa", "align": "center", "size": 19 },
+      "textFormat": { "font": "Arial", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"}, "align": "center", "size": 19 },
       "format": "<font size='15'color='#FFCC66'>Battles</font>"
     },
 	"server": {  
@@ -905,7 +906,7 @@
       "height": 50,
 	  "shadow": { "distance": 2, "angle": 90,"alpha": 90, "blur": 1.5, "strength": 5 },
       "screenHAlign": "center",	  
-      "textFormat": { "font": "Arial", "color": "0xd4ffaa", "align": "center", "size": 19 },
+      "textFormat": { "font": "Arial", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"}, "align": "center", "size": 19 },
       "format": "<font size='15'color='#FFCC66'>{{region}} </font>"
     },
 	"battleType": {  
@@ -918,7 +919,7 @@
       "height": 50,
 	  "shadow": { "distance": 2, "angle": 90,"alpha": 90, "blur": 1.5, "strength": 5 },
       "screenHAlign": "center",	  
-      "textFormat": { "font": "Arial", "color": "0xd4ffaa", "align": "center", "size": 19 },
+      "textFormat": { "font": "Arial", "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"}, "align": "center", "size": 19 },
       "format": "<font size='15'color='#FFCC66'> {{battletype-key}}</font>"
     },	
 	"battleEfficiency": {
@@ -1003,6 +1004,20 @@
       "textFormat": { "align": "center" },
       "format": "<font face='Arial' size='14' color='#FFFF00'>{{py:my_hp.health}}/{{py:my_hp.maxHealth}}</font>"
     },
+//------------------------	
+	"totalHP_diff": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/11._HitPoint_Difference/OnOff.xc":" enabled"},
+      "updateEvent": "PY(ON_UPDATE_HP)",
+      "x": -2,
+      "y": 52,
+	  "width": 52,
+	  "height": 28,
+      "screenHAlign": "center",
+	  
+	  "shadow": { "distance": 2, "angle": 90, "alpha": 80, "blur": 3, "strength": 2 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },
+      "format": "<font face='Arial' size='20' color='{{py:math.sub({{py:xvm.total_hp.ally}}, {{py:xvm.total_hp.enemy}})>0?#5ACB00|#F30900}}'>{{py:math.sub({{py:xvm.total_hp.ally}}, {{py:xvm.total_hp.enemy}})}}</font>"
+    },	
 //------------------------
     "SimpleFragCorBarAlly": {
       "enabled": ${"HawgPen/_ScoreBoard_MainFrame/1._Simple/OnOff.xc":" enabled"},
@@ -1807,7 +1822,729 @@
 	  "width": 82,
       "height": 46,  
 	  "format": "{{py:math.sub({{py:xvm.total_hp.enemy}}, {{py:xvm.total_hp.ally}})>0?<img src='cfg://HAWGS/img/score/bgenemyhitpoint.png'>}}"
-	  },	  
+	  },
+  //---------------------------Bar
+    "BarFragCorBarAlly": {
+      "enabled": ${"HawgPen/_ScoreBoard_MainFrame/10._Battle_Bar/OnOff.xc":" enabled"},  
+      "updateEvent": "PY(ON_UPDATE_FRAG_COR_BAR)",
+      "x": -211,
+      "y": 30,
+      "width": 360,
+      "height": 27,
+      "screenHAlign": "center",
+      "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 3, "strength": 2 },
+      "textFormat": {"align": "right", "size": 22 },
+	  "format": "{{py:fcb.allyVehicleDead}}{{py:fcb.allyVehicleAlive}}"
+	  },
+	"BarFragCorBarEnemy": {
+      "enabled": ${"HawgPen/_ScoreBoard_MainFrame/10._Battle_Bar/OnOff.xc":" enabled"},
+      "updateEvent": "PY(ON_UPDATE_FRAG_COR_BAR)",
+      "x": 211,
+      "y": 30,
+      "width": 360,
+      "height": 27,
+      "screenHAlign": "center",
+      "shadow": { "distance": 2, "angle": 90, "alpha": 80, "blur": 3, "strength": 2 },
+      "textFormat": {"align": "left", "size": 22 },
+	   "format": "{{py:fcb.enemyVehicleAlive}}{{py:fcb.enemyVehicleDead}}"
+	  },    
+    "BartotalHP_bg": {
+      "enabled": ${"HawgPen/_ScoreBoard_MainFrame/10._Battle_Bar/OnOff.xc":" enabled"},
+      "x": 4,
+      "y": 0,
+	  "width": 1000,
+      "height": 49,
+      "screenHAlign": "center",
+	   "src":"cfg://HAWGS/img/score/bar/bg.png"
+	 
+    },
+	
+	"BartotalHP_line_ally": {
+      "enabled": ${"HawgPen/_ScoreBoard_MainFrame/10._Battle_Bar/OnOff.xc":" enabled"},
+      "updateEvent": "PY(ON_UPDATE_HP)",
+	  "x": -118,
+      "y": 6,
+	  "width": 170,
+      "height": 18,
+	  "screenHAlign": "center",
+	  "src": ${"HawgPen/Colors/ScoreBoards_Colors/10._Battle_Bar/Team/Color.xc":"color"}
+		
+	},
+	
+	"BartotalHP_line_enemy": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/10._Battle_Bar/OnOff.xc":" enabled"},
+      "updateEvent": "PY(ON_UPDATE_HP)",
+	  "x": 118,
+      "y": 6,
+	  "width": 170,
+      "height": 18,
+	  "screenHAlign": "center",
+	  "src": ${"HawgPen/Colors/ScoreBoards_Colors/10._Battle_Bar/Enemy/Color.xc":"color"}
+	 
+	},
+	
+	"BartotalHP_frags_ally": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/10._Battle_Bar/OnOff.xc":" enabled"},
+      "updateEvent": "ON_VEHICLE_DESTROYED",
+      "x": -20,
+      "y": 0,
+	  "width": 30,
+      "height": 30,
+      "screenHAlign": "center",
+	  "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },	  
+	  "format": "{{py:sp.allyAlive}}"
+	},
+	
+	"BartotalHP_frags_enemy": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/10._Battle_Bar/OnOff.xc":" enabled"},
+      "updateEvent": "ON_VEHICLE_DESTROYED",
+      "x": 20,
+      "y": 0,
+	  "width": 30,
+      "height": 30,
+      "screenHAlign": "center",
+	  "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },
+       "format": "{{py:sp.enemyAlive}}"
+	  
+	},
+	
+	"BartotalHP_team": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/10._Battle_Bar/OnOff.xc":" enabled"},
+      "updateEvent": "PY(ON_UPDATE_HP)",
+      "x": -1,
+      "y": -2,
+	  "width": 30,
+      "height": 32,
+      "screenHAlign": "center",
+	  "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },
+      "format": "<font face='Arial Black' size='19' color='{{py:math.sub({{py:xvm.total_hp.ally}}, {{py:xvm.total_hp.enemy}})>0?#5ACB00|#F30900}}'>:</font>"
+    },
+	
+    "BartotalHP_advant": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/10._Battle_Bar/HitPoint_Difference.xc":" enabled"},
+      "updateEvent": "PY(ON_UPDATE_HP)",
+      "x": -1,
+      "y": 32,
+	  "width": 52,
+	  "height": 28,
+      "screenHAlign": "center",	  
+	  "shadow": { "distance": 2, "angle": 90, "alpha": 80, "blur": 4, "strength": 1.5 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },
+      "format": "<font size='18' color='{{py:math.sub({{py:xvm.total_hp.ally}}, {{py:xvm.total_hp.enemy}})>0?#00C617|#EF2926}}'>{{py:math.sub({{py:xvm.total_hp.ally}}, {{py:xvm.total_hp.enemy}})}}</font>"
+    },	
+	
+	
+	
+	"BartotalHP_ally": {  
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/10._Battle_Bar/OnOff.xc":" enabled"},
+      "updateEvent": "PY(ON_UPDATE_HP)",
+      "x": -232,
+	  "y": 0,
+	  "width": 70,
+	  "height": 30,
+      "screenHAlign": "center",
+	  "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },
+      "format": "{{py:xvm.total_hp.ally}}"
+    },
+	
+	"BartotalHP_enemy": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/10._Battle_Bar/OnOff.xc":" enabled"},
+      "updateEvent": "PY(ON_UPDATE_HP)",
+      "x": 237,
+	  "y": 0,
+	  "width": 70,
+	  "height": 30,
+      "screenHAlign": "center",
+	  "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },
+      "format": "{{py:xvm.total_hp.enemy}}"
+    },
+	
+	"BartotalHP_avgDamage": { 
+	  "enabled": false,
+	  "updateEvent": "PY(ON_TOTAL_EFFICIENCY)",
+      "x": -310,
+	  "y": 0,
+	  "width": 100,
+      "height": 35,
+	  "alpha":  "{{battletype!=regular?0|100}}",
+	  "screenHAlign": "center",
+	  "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5 },
+      "textFormat": { "font": "$TitleFont", "color": "0xE0E06D", "size": 20, "align": "right" },
+      "format": "{{py:xvm.total_hp.avgDamage('',{{py:xvm.totalDamage}})?{{py:xvm.total_hp.avgDamage('',{{py:xvm.totalDamage}})}}<img src='img://gui/maps/icons/vehParams/small/avgDamagePerMinute.png' width='26' height='26' align='baseline' vspace='-6'>}}"
+    },
+	
+//---------------Old Bar
+
+    "OlFragCorBarAlly": {
+      "enabled": ${"HawgPen/_ScoreBoard_MainFrame/12._Ole_Battle_Bar/OnOff.xc":" enabled"},  
+      "updateEvent": "PY(ON_UPDATE_FRAG_COR_BAR)",
+      "x": -211,
+      "y": 30,
+      "width": 360,
+      "height": 27,
+      "screenHAlign": "center",
+      "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 3, "strength": 2 },
+      "textFormat": {"align": "right", "size": 22 },
+	  "format": "{{py:fcb.allyVehicleDead}}{{py:fcb.allyVehicleAlive}}"
+	  },
+	"OlFragCorBarEnemy": {
+      "enabled": ${"HawgPen/_ScoreBoard_MainFrame/12._Ole_Battle_Bar/OnOff.xc":" enabled"}, 
+      "updateEvent": "PY(ON_UPDATE_FRAG_COR_BAR)",
+      "x": 211,
+      "y": 30,
+      "width": 360,
+      "height": 27,
+      "screenHAlign": "center",
+      "shadow": { "distance": 2, "angle": 90, "alpha": 80, "blur": 3, "strength": 2 },
+      "textFormat": {"align": "left", "size": 22 },
+	   "format": "{{py:fcb.enemyVehicleAlive}}{{py:fcb.enemyVehicleDead}}"
+	  },    		  
+    "OltotalTeamHP_mainbg": { 
+      "enabled": ${"HawgPen/_ScoreBoard_MainFrame/12._Ole_Battle_Bar/OnOff.xc":" enabled"}, 
+      "x": -2,
+      "y": 0,
+	  "width": 1019,
+      "height": 49,
+      "screenHAlign": "center",	  
+	  "src":"cfg://HAWGS/img/score/ol/bgmain.png"
+    },
+	"OltotalTeamHP_bg": { 
+      "enabled": ${"HawgPen/_ScoreBoard_MainFrame/12._Ole_Battle_Bar/OnOff.xc":" enabled"}, 
+      "x": -2,
+      "y": 0,
+	  "width": 1019,
+      "height": 49,
+      "screenHAlign": "center",
+	  "src": ${"HawgPen/Colors/ScoreBoards_Colors/12._Ole_Battle_Bar/Team/AliveCount.xc":"color"}
+	 
+    },
+    "OltotalEnemyHP_bg": { 
+      "enabled": ${"HawgPen/_ScoreBoard_MainFrame/12._Ole_Battle_Bar/OnOff.xc":" enabled"}, 
+      "x": -2,
+      "y": 0,
+	  "width": 1019,
+      "height": 49,
+      "screenHAlign": "center",
+	  "src": ${"HawgPen/Colors/ScoreBoards_Colors/12._Ole_Battle_Bar/Enemy/AliveCount.xc":"color"}
+    },		
+	"OltotalHP_Bg_ally": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/12._Ole_Battle_Bar/OnOff.xc":" enabled"}, 
+      "x": -105,
+      "y": 4,
+	  "width": 190,
+      "height": 23,
+	  "screenHAlign": "center",
+	  "bgColor": "0xFFFFFF",
+      "alpha": 20
+    },
+	
+	"OltotalHP_Bg_enemy": { 
+	  "$ref": { "path":"def.OltotalHP_Bg_ally" },
+      "x": 105
+    },
+	
+	"OltotalHP_line_ally": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/12._Ole_Battle_Bar/OnOff.xc":" enabled"}, 
+      "updateEvent": "PY(ON_UPDATE_HP)",
+	  "x": "{{py:math.sum({{py:math.div({{py:xvm.total_hp.ally(188)}},-2)}}, -11)}}",
+      "y": 4,
+	  "width": "{{py:xvm.total_hp.ally(190)}}",
+      "height": 23,
+	  "screenHAlign": "center",
+	  "bgColor": ${"HawgPen/Colors/ScoreBoards_Colors/12._Ole_Battle_Bar/Team/HPColor.xc":"color"},
+	  "alpha": 99	  
+	},
+	
+	"OltotalHP_line_enemy": { 
+	  "$ref": { "path":"def.OltotalHP_line_ally" },
+	  "x": "{{py:math.sum({{py:math.div({{py:xvm.total_hp.enemy(188)}},2)}}, 11)}}",
+	  "width": "{{py:xvm.total_hp.enemy(190)}}",
+	  "bgColor": ${"HawgPen/Colors/ScoreBoards_Colors/12._Ole_Battle_Bar/Enemy/HPColor.xc":"color"} 
+	},
+	
+	"OltotalHP_frags_ally": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/12._Ole_Battle_Bar/OnOff.xc":" enabled"}, 
+      "updateEvent": "ON_VEHICLE_DESTROYED",
+      "x": -288,
+      "y": 0,
+	  "width": 30,
+      "height": 30,
+      "screenHAlign": "center",
+	  "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },
+	  "format": "{{py:sp.allyAlive}}"
+	},
+	
+	"OltotalHP_frags_enemy": { 
+	  "$ref": { "path":"def.OltotalHP_frags_ally" },
+      "x": 282,
+      "format": "{{py:sp.enemyAlive}}"
+	},
+	
+	"OltotalHP_bar": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/12._Ole_Battle_Bar/OnOff.xc":" enabled"}, 
+      "updateEvent": "PY(ON_UPDATE_HP)",
+      "x": 0,
+      "y": -2,
+	  "width": 30,
+      "height": 32,
+      "screenHAlign": "center",
+	  "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.4 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },
+      "format": "<font face='Arial Black' size='19' color='{{py:math.sub({{py:xvm.total_hp.ally}}, {{py:xvm.total_hp.enemy}})>0?#519100|#911900}}'>:</font>"
+    },	
+    
+	
+	"OltotalHP_ally": {  
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/12._Ole_Battle_Bar/OnOff.xc":" enabled"}, 
+      "updateEvent": "PY(ON_UPDATE_HP)",
+      "x": -232,
+	  "y": 0,
+	  "width": 70,
+	  "height": 30,
+      "screenHAlign": "center",
+	  "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },
+      "format": "{{py:xvm.total_hp.ally}}"
+    },
+	
+	"OltotalHP_enemy": { 
+	  "$ref": { "path":"def.OltotalHP_ally" },
+      "x": 230,
+      "format": "{{py:xvm.total_hp.enemy}}"
+    },
+	
+	
+	"OltotalHP_advant": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/12._Ole_Battle_Bar/HitPoint_Difference.xc":" enabled"}, 
+      "updateEvent": "PY(ON_UPDATE_HP)",
+      "x": -1,
+      "y": 32,
+	  "width": 52,
+	  "height": 28,
+      "screenHAlign": "center",	  
+	  "shadow": { "distance": 2, "angle": 90, "alpha": 80, "blur": 4, "strength": 1.5 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },
+      "format": "<font size='18' color='{{py:math.sub({{py:xvm.total_hp.ally}}, {{py:xvm.total_hp.enemy}})>0?#00C617|#EF2926}}'>{{py:math.sub({{py:xvm.total_hp.ally}}, {{py:xvm.total_hp.enemy}})}}</font>"
+    },	
+	
+//----------------------
+    "mbFragCorBarAlly": {
+      "enabled": ${"HawgPen/_ScoreBoard_MainFrame/13._Mini_Battle_Bar/OnOff.xc":" enabled"},  
+      "updateEvent": "PY(ON_UPDATE_FRAG_COR_BAR)",
+      "x": -211,
+      "y": 30,
+      "width": 360,
+      "height": 27,
+      "screenHAlign": "center",
+      "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 3, "strength": 2 },
+      "textFormat": {"align": "right", "size": 22 },
+	  "format": "{{py:fcb.allyVehicleDead}}{{py:fcb.allyVehicleAlive}}"
+	  },
+	"mbFragCorBarEnemy": {
+      "enabled": ${"HawgPen/_ScoreBoard_MainFrame/13._Mini_Battle_Bar/OnOff.xc":" enabled"}, 
+      "updateEvent": "PY(ON_UPDATE_FRAG_COR_BAR)",
+      "x": 211,
+      "y": 30,
+      "width": 360,
+      "height": 27,
+      "screenHAlign": "center",
+      "shadow": { "distance": 2, "angle": 90, "alpha": 80, "blur": 3, "strength": 2 },
+      "textFormat": {"align": "left", "size": 22 },
+	   "format": "{{py:fcb.enemyVehicleAlive}}{{py:fcb.enemyVehicleDead}}"
+	  },    
+	"mbtotalHP_bg": { 
+      "enabled": ${"HawgPen/_ScoreBoard_MainFrame/13._Mini_Battle_Bar/OnOff.xc":" enabled"},
+      "x": 0,
+      "y": 0,
+	  "width": 1000,
+      "height": 49,
+      "screenHAlign": "center",
+	  "src":"cfg://HAWGS/img/score/mb/bg.png"
+	 
+    },
+	
+	"mbtotalHP_Bg_ally": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/13._Mini_Battle_Bar/OnOff.xc":" enabled"},
+      "x": -118,
+      "y": 6,
+	  "width": 161,
+      "height": 17,
+	  "screenHAlign": "center",	  
+	  "src":"cfg://HAWGS/img/score/mb/hp-bg.png"
+     
+    },
+	
+	"mbtotalHP_Bg_enemy": { 
+	  "$ref": { "path":"def.mbtotalHP_Bg_ally" },
+      "x": 118
+    },
+	
+	"mbtotalHP_line_ally": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/13._Mini_Battle_Bar/OnOff.xc":" enabled"},
+      "updateEvent": "PY(ON_UPDATE_HP)",
+	  "x": "{{py:math.sum({{py:math.div({{py:xvm.total_hp.ally(158)}},-2)}}, -39)}}",
+      "y": 7,
+	  "width": "{{py:xvm.total_hp.ally(160)}}",
+      "height": 15,
+	  "screenHAlign": "center",
+	  "src": ${"HawgPen/Colors/ScoreBoards_Colors/13._Mini_Battle_Bar/Team/Color.xc":"color"}
+	  
+	},
+	
+	"mbtotalHP_line_enemy": { 
+	  "$ref": { "path":"def.mbtotalHP_line_ally" },
+	  "x": "{{py:math.sum({{py:math.div({{py:xvm.total_hp.enemy(158)}},2)}}, 39)}}",
+	  "width": "{{py:xvm.total_hp.enemy(160)}}",
+	  "src": ${"HawgPen/Colors/ScoreBoards_Colors/13._Mini_Battle_Bar/Enemy/Color.xc":"color"}
+	  
+	},
+	
+	"mbtotalHP_frags_ally": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/13._Mini_Battle_Bar/OnOff.xc":" enabled"},
+      "updateEvent": "ON_VEHICLE_DESTROYED",
+      "x": -20,
+      "y": 0,
+	  "width": 30,
+      "height": 30,
+      "screenHAlign": "center",
+	  "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },
+	  "format": "{{py:sp.allyAlive}}"
+	},
+	
+	"mbtotalHP_frags_enemy": { 
+	  "$ref": { "path":"def.mbtotalHP_frags_ally" },
+      "x": 20,
+      "format": "{{py:sp.enemyAlive}}"
+	},
+	
+	"mbtotalHP_bar": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/13._Mini_Battle_Bar/OnOff.xc":" enabled"},
+      "updateEvent": "PY(ON_UPDATE_HP)",
+      "x": 0,
+      "y": -2,
+	  "width": 30,
+      "height": 32,
+	  "screenHAlign": "center",
+	  "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },
+      "format": "<font face='Arial Black' size='19' color='{{py:math.sub({{py:xvm.total_hp.ally}}, {{py:xvm.total_hp.enemy}})>0?#5ACB00|#BD003C}}'>:</font>"
+    },
+	
+    "mbtotalHP_advant": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/13._Mini_Battle_Bar/HitPoint_Difference.xc":" enabled"},
+      "updateEvent": "PY(ON_UPDATE_HP)",
+      "x": -1,
+      "y": 30,
+	  "width": 52,
+	  "height": 28,
+      "screenHAlign": "center",	  
+	  "shadow": { "distance": 2, "angle": 90, "alpha": 80, "blur": 4, "strength": 1.5 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },
+      "format": "<font size='18' color='{{py:math.sub({{py:xvm.total_hp.ally}}, {{py:xvm.total_hp.enemy}})>0?#00C617|#EF2926}}'>{{py:math.sub({{py:xvm.total_hp.ally}}, {{py:xvm.total_hp.enemy}})}}</font>"
+    },
+	
+	"mbtotalHP_ally": {  
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/13._Mini_Battle_Bar/OnOff.xc":" enabled"},
+      "updateEvent": "PY(ON_UPDATE_HP)",
+      "x": -232,
+	  "y": 0,
+	  "width": 70,
+	  "height": 30,
+      "screenHAlign": "center",
+	  "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },
+      "format": "{{py:xvm.total_hp.ally}}"
+    },
+	
+	"mbtotalHP_enemy": { 
+	  "$ref": { "path":"def.mbtotalHP_ally" },
+      "x": 232,
+      "format": "{{py:xvm.total_hp.enemy}}"
+    }, 
+//----------------------HawgBar
+
+    "HAXFragCorBarAlly": {
+      "enabled": ${"HawgPen/_ScoreBoard_MainFrame/14_Simple+Mini_Battle_Bar/OnOff.xc":" enabled"}, 
+       "updateEvent": "PY(ON_UPDATE_FRAG_COR_BAR)",
+      "x": -220,
+      "y": 2,
+      "width": 360,
+      "height": 27,
+      "screenHAlign": "center",
+      "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 3, "strength": 2 },
+      "textFormat": {"align": "right", "size": 22 },
+	  "format": "{{py:fcb.allyVehicleDead}}{{py:fcb.allyVehicleAlive}}"
+	  },
+	"HAXFragCorBarEnemy": {
+      "enabled": ${"HawgPen/_ScoreBoard_MainFrame/14_Simple+Mini_Battle_Bar/OnOff.xc":" enabled"},  
+      "updateEvent": "PY(ON_UPDATE_FRAG_COR_BAR)",
+      "x": 216,
+      "y": 2,
+      "width": 360,
+      "height": 27,
+      "screenHAlign": "center",
+      "shadow": { "distance": 2, "angle": 90, "alpha": 80, "blur": 3, "strength": 2 },
+      "textFormat": {"align": "left", "size": 22 },
+	   "format": "{{py:fcb.enemyVehicleAlive}}{{py:fcb.enemyVehicleDead}}"
+	  }, 
+		
+	"HAXtotalHP_Bg_ally": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/14_Simple+Mini_Battle_Bar/OnOff.xc":" enabled"}, 
+      "x": -118,
+      "y": 38,
+	  "width": 161,
+      "height": 17,
+	  "screenHAlign": "center",
+	  "src":"cfg://HAWGS/img/score/mb/hp-bg.png"
+    },
+	
+	"HAXtotalHP_Bg_enemy": { 
+	  "$ref": { "path":"def.HAXtotalHP_Bg_ally" },
+      "x": 118
+    },
+	
+	"HAXtotalHP_line_ally": { 
+	 "enabled": ${"HawgPen/_ScoreBoard_MainFrame/14_Simple+Mini_Battle_Bar/OnOff.xc":" enabled"},  
+     "updateEvent": "PY(ON_UPDATE_HP)",
+	  "x": "{{py:math.sum({{py:math.div({{py:xvm.total_hp.ally(158)}},-2)}}, -39)}}",
+      "y": 38,
+	  "width": "{{py:xvm.total_hp.ally(160)}}",
+      "height": 15,
+	  "screenHAlign": "center",
+	  "src": ${"HawgPen/Colors/ScoreBoards_Colors/14_Simple+Mini_Battle_Bar/Team/Color.xc":"color"}
+	  
+	},
+	
+	"HAXtotalHP_line_enemy": { 
+	  "$ref": { "path":"def.HAXtotalHP_line_ally" },
+	   "x": "{{py:math.sum({{py:math.div({{py:xvm.total_hp.enemy(158)}},2)}}, 39)}}",
+	  "width": "{{py:xvm.total_hp.enemy(160)}}",
+	  "src": ${"HawgPen/Colors/ScoreBoards_Colors/14_Simple+Mini_Battle_Bar/Enemy/Color.xc":"color"}
+	},
+		
+	"HAXtotalHP_ally": {  
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/14_Simple+Mini_Battle_Bar/OnOff.xc":" enabled"}, 
+      "updateEvent": "PY(ON_UPDATE_HP)",
+      "x": -242,
+	  "y": 30,
+	  "width": 70,
+	  "height": 30,
+      "screenHAlign": "center",
+	  "shadow": { "distance": 2, "angle": 90, "alpha": 80, "blur": 4, "strength": 2 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },
+      "format": "{{py:xvm.total_hp.ally}}"
+    },  
+		
+	"HAXtotalHP_enemy": { 
+	  "$ref": { "path":"def.HAXtotalHP_ally" },
+      "x": 242,
+      "format": "{{py:xvm.total_hp.enemy}}"
+    },
+		
+	"HAXtotalHP_advant": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/14_Simple+Mini_Battle_Bar/HitPoint_Difference.xc":" enabled"},  
+      "updateEvent": "PY(ON_UPDATE_HP)",
+      "x": -1,
+      "y": 30,
+	  "width": 52,
+	  "height": 28,
+      "screenHAlign": "center",	  
+	  "shadow": { "distance": 2, "angle": 90, "alpha": 80, "blur": 4, "strength": 1.5 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },
+      "format": "<font size='20' color='{{py:math.sub({{py:xvm.total_hp.ally}}, {{py:xvm.total_hp.enemy}})>0?#00C617|#EF2926}}'>{{py:math.sub({{py:xvm.total_hp.ally}}, {{py:xvm.total_hp.enemy}})}}</font>"
+    },
+//----------------------Hawg BattleBar
+
+    "SBFragCorBarAlly": {
+      "enabled": ${"HawgPen/_ScoreBoard_MainFrame/15_Simple+10_BattleBar/OnOff.xc":" enabled"}, 
+       "updateEvent": "PY(ON_UPDATE_FRAG_COR_BAR)",
+      "x": -220,
+      "y": 2,
+      "width": 360,
+      "height": 27,
+      "screenHAlign": "center",
+      "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 3, "strength": 2 },
+      "textFormat": {"align": "right", "size": 22 },
+	  "format": "{{py:fcb.allyVehicleDead}}{{py:fcb.allyVehicleAlive}}"
+	  },
+	"SBFragCorBarEnemy": {
+      "enabled": ${"HawgPen/_ScoreBoard_MainFrame/15_Simple+10_BattleBar/OnOff.xc":" enabled"},  
+      "updateEvent": "PY(ON_UPDATE_FRAG_COR_BAR)",
+      "x": 216,
+      "y": 2,
+      "width": 360,
+      "height": 27,
+      "screenHAlign": "center",
+      "shadow": { "distance": 2, "angle": 90, "alpha": 80, "blur": 3, "strength": 2 },
+      "textFormat": {"align": "left", "size": 22 },
+	   "format": "{{py:fcb.enemyVehicleAlive}}{{py:fcb.enemyVehicleDead}}"
+	  }, 
+		
+	"SBtotalHP_Bg_ally": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/15_Simple+10_BattleBar/OnOff.xc":" enabled"}, 
+      "x": -118,
+      "y": 38,
+	  "width": 161,
+      "height": 17,
+	  "screenHAlign": "center",
+	  "src":"cfg://HAWGS/img/score/mb/hp-bg.png"
+    },
+	
+	"SBtotalHP_Bg_enemy": { 
+	  "$ref": { "path":"def.SBtotalHP_Bg_ally" },
+      "x": 118
+    },
+	
+	"SBtotalHP_line_ally": { 
+	 "enabled": ${"HawgPen/_ScoreBoard_MainFrame/15_Simple+10_BattleBar/OnOff.xc":" enabled"},  
+     "updateEvent": "PY(ON_UPDATE_HP)",
+	  "x": -118,
+      "y": 38,
+	  "width": 170,
+      "height": 18,
+	  "screenHAlign": "center",
+	  "src": ${"HawgPen/Colors/ScoreBoards_Colors/15_Simple+10_BattleBar/Team/Color.xc":"color"}	  
+	  
+	},
+	
+	"SBtotalHP_line_enemy": { 
+	  "$ref": { "path":"def.SBtotalHP_line_ally" },
+	   "x": 118,   
+	    "src": ${"HawgPen/Colors/ScoreBoards_Colors/15_Simple+10_BattleBar/Enemy/Color.xc":"color"}
+	},		 
+	
+	"SBtotalHP_ally": {  
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/15_Simple+10_BattleBar/OnOff.xc":" enabled"}, 
+      "updateEvent": "PY(ON_UPDATE_HP)",
+      "x": -242,
+	  "y": 30,
+	  "width": 70,
+	  "height": 30,
+      "screenHAlign": "center",
+	  "shadow": { "distance": 2, "angle": 90, "alpha": 80, "blur": 4, "strength": 2 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },
+      "format": "{{py:xvm.total_hp.ally}}"
+    },  
+		
+	"SBtotalHP_enemy": { 
+	  "$ref": { "path":"def.SBtotalHP_ally" },
+      "x": 242,
+      "format": "{{py:xvm.total_hp.enemy}}"
+    },
+		
+	"SBtotalHP_advant": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/15_Simple+10_BattleBar/HitPoint_Difference.xc":" enabled"},  
+      "updateEvent": "PY(ON_UPDATE_HP)",
+      "x": -1,
+      "y": 30,
+	  "width": 52,
+	  "height": 28,
+      "screenHAlign": "center",	  
+	  "shadow": { "distance": 2, "angle": 90, "alpha": 80, "blur": 4, "strength": 1.5 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },
+      "format": "<font size='20' color='{{py:math.sub({{py:xvm.total_hp.ally}}, {{py:xvm.total_hp.enemy}})>0?#00C617|#EF2926}}'>{{py:math.sub({{py:xvm.total_hp.ally}}, {{py:xvm.total_hp.enemy}})}}</font>"
+    },	
+	
+//----------------------HawgOBBattleBar
+
+    "OBFragCorBarAlly": {
+      "enabled": ${"HawgPen/_ScoreBoard_MainFrame/16_Simple+12._Ole_Battle_Bar/OnOff.xc":" enabled"}, 
+       "updateEvent": "PY(ON_UPDATE_FRAG_COR_BAR)",
+      "x": -220,
+      "y": 2,
+      "width": 360,
+      "height": 27,
+      "screenHAlign": "center",
+      "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 3, "strength": 2 },
+      "textFormat": {"align": "right", "size": 22 },
+	  "format": "{{py:fcb.allyVehicleDead}}{{py:fcb.allyVehicleAlive}}"
+	  },
+	"OBFragCorBarEnemy": {
+      "enabled": ${"HawgPen/_ScoreBoard_MainFrame/16_Simple+12._Ole_Battle_Bar/OnOff.xc":" enabled"},  
+      "updateEvent": "PY(ON_UPDATE_FRAG_COR_BAR)",
+      "x": 216,
+      "y": 2,
+      "width": 360,
+      "height": 27,
+      "screenHAlign": "center",
+      "shadow": { "distance": 2, "angle": 90, "alpha": 80, "blur": 3, "strength": 2 },
+      "textFormat": {"align": "left", "size": 22 },
+	   "format": "{{py:fcb.enemyVehicleAlive}}{{py:fcb.enemyVehicleDead}}"
+	  }, 
+		
+	"OBtotalHP_Bg_ally": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/16_Simple+12._Ole_Battle_Bar/OnOff.xc":" enabled"}, 
+      "x": -122,
+      "y": 34,
+	  "width": 192,
+      "height": 25,
+	  "screenHAlign": "center",
+	  "bgColor": "0x000000",
+      "alpha": 30
+    },
+	
+	"OBtotalHP_Bg_enemy": { 
+	  "$ref": { "path":"def.OBtotalHP_Bg_ally" },
+      "x": 122
+    },
+	
+	"OBtotalHP_line_ally": { 
+	 "enabled": ${"HawgPen/_ScoreBoard_MainFrame/16_Simple+12._Ole_Battle_Bar/OnOff.xc":" enabled"},  
+    "updateEvent": "PY(ON_UPDATE_HP)",
+	  "x": "{{py:math.sum({{py:math.div({{py:xvm.total_hp.ally(218)}},-2)}}, -14)}}",
+      "y":35,
+	  "width": "{{py:xvm.total_hp.ally(190)}}",
+      "height": 23,
+	  "screenHAlign": "center",
+	  "bgColor": ${"HawgPen/Colors/ScoreBoards_Colors/16_Simple+12._Ole_Battle_Bar/Team/Color.xc":"color"},  
+	  "alpha": 99	  
+	},
+	
+	"OBtotalHP_line_enemy": { 
+	  "$ref": { "path":"def.OBtotalHP_line_ally" },
+	  "x": "{{py:math.sum({{py:math.div({{py:xvm.total_hp.enemy(217)}},2)}}, 14)}}",
+	  "width": "{{py:xvm.total_hp.enemy(190)}}",
+	  "bgColor": ${"HawgPen/Colors/ScoreBoards_Colors/16_Simple+12._Ole_Battle_Bar/Enemy/Color.xc":"color"} 
+	},		 
+	
+	"OBtotalHP_ally": {  
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/16_Simple+12._Ole_Battle_Bar/OnOff.xc":" enabled"}, 
+      "updateEvent": "PY(ON_UPDATE_HP)",
+      "x": -253,
+	  "y": 30,
+	  "width": 70,
+	  "height": 30,
+      "screenHAlign": "center",
+	  "shadow": { "distance": 2, "angle": 90, "alpha": 80, "blur": 4, "strength": 2 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },
+      "format": "{{py:xvm.total_hp.ally}}"
+    },  
+		
+	"OBtotalHP_enemy": { 
+	  "$ref": { "path":"def.OBtotalHP_ally" },
+      "x": 253,
+      "format": "{{py:xvm.total_hp.enemy}}"
+    },
+		
+	"OBtotalHP_advant": { 
+	  "enabled": ${"HawgPen/_ScoreBoard_MainFrame/16_Simple+12._Ole_Battle_Bar/HitPoint_Difference.xc":" enabled"},  
+      "updateEvent": "PY(ON_UPDATE_HP)",
+      "x": -1,
+      "y": 30,
+	  "width": 52,
+	  "height": 28,
+      "screenHAlign": "center",	  
+	  "shadow": { "distance": 2, "angle": 90, "alpha": 80, "blur": 4, "strength": 1.5 },
+      "textFormat": { "font": "$TitleFont", "size": 20, "align": "center" },
+      "format": "<font size='19' color='{{py:math.sub({{py:xvm.total_hp.ally}}, {{py:xvm.total_hp.enemy}})>0?#00C617|#EF2926}}'>{{py:math.sub({{py:xvm.total_hp.ally}}, {{py:xvm.total_hp.enemy}})}}</font>"
+    },				  
  	  
 //========================================================================================    
 	"repairTimeItem": {

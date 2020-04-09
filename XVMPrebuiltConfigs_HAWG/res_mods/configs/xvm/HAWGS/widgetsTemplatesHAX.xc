@@ -912,9 +912,9 @@
         "width": 150,
         "height": 75,
         "screenHAlign": "center",		
-        "shadow": { "color": "0x000000", "distance": 3, "angle": 45, "alpha": 99, "blur": 1, "strength": 2 },
-        "textFormat": {"align": "center", "color": "0xa8ffbb", "size":12 },
-        "format": "<font face='Tahoma' size='14' color='#a8ffbb'>Battles: <font face='Tahoma' size='14' color='{{v.c_battles}}'>{{v.battles}}</font>"
+        "shadow": { "color": "0x000000", "distance": 3, "angle": 45, "alpha": 99, "blur": 1, "strength": 2 },		
+        "textFormat": {"align": "center", "color" : ${"HawgPen/Colors/Hangar_Tank_Stats/Color.xc":"color"}, "size":12 },
+        "format": "<font face='Tahoma' size='14'>Battles:<font face='Tahoma' size='14' color='{{v.c_battles}}'>{{v.battles}}</font>"
       },
 	  //===============================================================
 	  //  WIN RATE
@@ -930,8 +930,8 @@
         "height": 75,
         "screenHAlign": "center",
         "shadow": { "color": "0x000000", "distance": 3, "angle": 45, "alpha": 99, "blur": 1, "strength": 2 },
-        "textFormat": {"align": "center", "color": "0xa8ffbb", "size":12 },
-        "format": "<font face='Tahoma' size='14' color='#a8ffbb'> Win Rate: <font face='Tahoma' size='14' color='{{v.c_winrate}}'>{{v.winrate%2d~%}}</font>"
+        "textFormat": {"align": "center", "color" : ${"HawgPen/Colors/Hangar_Tank_Stats/Color.xc":"color"}, "size":12 },
+        "format": "<font face='Tahoma' size='14'> Win Rate: <font face='Tahoma' size='14' color='{{v.c_winrate}}'>{{v.winrate%2d~%}}</font>"
 	 },
 	 //========================================================================================
 		//   Avg Dmg
@@ -946,8 +946,8 @@
         "height": 75,
         "screenHAlign": "center",
         "shadow": { "color": "0x000000", "distance": 3, "angle": 45, "alpha": 99, "blur": 1, "strength": 2 },
-        "textFormat": {"align": "center", "color": "0xa8ffbb", "size":12 },
-        "format": "<font face='Tahoma' size='14' color='#a8ffbb'> Avg Dmg: <font face='Tahoma' size='14' color='{{v.c_tdb}}'>{{v.tdb%d}}</font>"
+        "textFormat": {"align": "center", "color" : ${"HawgPen/Colors/Hangar_Tank_Stats/Color.xc":"color"}, "size":12 },
+        "format": "<font face='Tahoma' size='14'> Avg Dmg: <font face='Tahoma' size='14' color='{{v.c_tdb}}'>{{v.tdb%d}}</font>"
 	 },
 	    //========================================================================================
 		//   HitPoints color='#130FF6E'  68041B
@@ -962,8 +962,8 @@
         "height": 75,
         "screenHAlign": "center",
         "shadow": { "color": "0x000000", "distance": 3, "angle": 45, "alpha": 99, "blur": 1, "strength": 2 },
-        "textFormat": {"align": "center", "color": "0xa8ffbb", "size":12 },
-        "format": "<font face='Tahoma' size='14' color='#a8ffbb'>HP: <font face='Tahoma' size='14' color='#E8FFBF'>{{v.maxHP}}</font>"
+        "textFormat": {"align": "center", "color" : ${"HawgPen/Colors/Hangar_Tank_Stats/Color.xc":"color"}, "size":12 },
+        "format": "<font face='Tahoma' size='14'>HP: <font face='Tahoma' size='14' color='#E8FFBF'>{{v.maxHP}}</font>"
             
 	    },
 		//========================================================================================
@@ -979,8 +979,8 @@
         "height": 75,
         "screenHAlign": "center",
         "shadow": { "color": "0x000000", "distance": 3, "angle": 45, "alpha": 99, "blur": 1, "strength": 2 },
-        "textFormat": {"align": "center", "color": "0xa8ffbb", "size":12 },
-        "format": "<font face='Tahoma' size='14' color='#a8ffbb'> Tech Name </font>"
+        "textFormat": {"align": "center", "color" : ${"HawgPen/Colors/Hangar_Tank_Stats/Color.xc":"color"}, "size":12 },
+        "format": "<font face='Tahoma' size='14'> Tech Name </font>"
             
 	    },
 		//========================================================================================
@@ -996,8 +996,8 @@
         "height": 75,
         "screenHAlign": "center",
         "shadow": { "color": "0x000000", "distance": 3, "angle": 45, "alpha": 99, "blur": 1, "strength": 2 },
-        "textFormat": {"align": "center", "color": "0xa8ffbb", "size":12 },
-        "format": "<font face='Tahoma' size='14' color='#a8ffbb'> {{v.sysname}} </font>"
+        "textFormat": {"align": "center", "color" : ${"HawgPen/Colors/Hangar_Tank_Stats/Color.xc":"color"}, "size":12 },
+        "format": "<font face='Tahoma' size='14'> {{v.sysname}} </font>"
             
 	    },
 		
@@ -1014,8 +1014,8 @@
         "height": 75,
         "screenHAlign": "center",
         "shadow": { "color": "0x000000", "distance": 3, "angle": 45, "alpha": 99, "blur": 1, "strength": 2 },
-        "textFormat": {"align": "center", "color": "0xa8ffbb", "size":12 },
-        "format": "<font face='Tahoma' size='14' color='#a8ffbb'>Top  Damage: <font face='Tahoma' size='14' color='#E8FFBF'>{{v.topdmg}}</font>"
+        "textFormat": {"align": "center", "color" : ${"HawgPen/Colors/Hangar_Tank_Stats/Color.xc":"color"}, "size":12 },
+        "format": "<font face='Tahoma' size='14'>Top  Damage: <font face='Tahoma' size='14' color='#E8FFBF'>{{v.topdmg}}</font>"
             
 	    },
 	    //========================================================================================
@@ -1031,8 +1031,8 @@
         "height": 75,
         "screenHAlign": "center",
         "shadow": { "color": "0x000000", "distance": 3, "angle": 45, "alpha": 99, "blur": 1, "strength": 2 },
-        "textFormat": {"align": "center", "color": "0xa8ffbb", "size":12 },
-        "format": "<font face='Tahoma' size='14' color='#a8ffbb'>Avg Kills: <font face='Tahoma' size='14' color='#E8FFBF'>{{v.avgfrg%.2f~}}</font>"
+        "textFormat": {"align": "center", "color" : ${"HawgPen/Colors/Hangar_Tank_Stats/Color.xc":"color"}, "size":12 },
+        "format": "<font face='Tahoma' size='14'>Avg Kills: <font face='Tahoma' size='14' color='#E8FFBF'>{{v.avgfrg%.2f~}}</font>"
            
 	    },
 		//========================================================================================   
@@ -1048,8 +1048,8 @@
         "height": 75,
         "screenHAlign": "center",
         "shadow": { "color": "0x000000", "distance": 3, "angle": 45, "alpha": 99, "blur": 1, "strength": 2 },
-        "textFormat": {"align": "center", "color": "0xa8ffbb", "size":12 },
-        "format": "<font face='Tahoma' size='14' color='#a8ffbb'>Avg WN8: <font face='Tahoma' size='14' color='{{v.c_wn8effd}}'>{{v.wn8expd%.2f~}}</font>"
+        "textFormat": {"align": "center", "color" : ${"HawgPen/Colors/Hangar_Tank_Stats/Color.xc":"color"}, "size":12 },
+        "format": "<font face='Tahoma' size='14'>Avg WN8: <font face='Tahoma' size='14' color='{{v.c_wn8effd}}'>{{v.wn8expd%.2f~}}</font>"
             
 	    
             
@@ -1067,8 +1067,8 @@
         "height": 75,
         "screenHAlign": "center",
         "shadow": { "color": "0x000000", "distance": 3, "angle": 45, "alpha": 99, "blur": 1, "strength": 2 },
-        "textFormat": {"align": "center", "color": "0xa8ffbb", "size":12 },
-        "format": "<font face='Tahoma' size='14' color='#a8ffbb'>Expected Kills: <font face='Tahoma' size='14' color='#E8FFBF'>{{v.topfrg%.2f~}}</font>"
+        "textFormat": {"align": "center", "color" : ${"HawgPen/Colors/Hangar_Tank_Stats/Color.xc":"color"}, "size":12 },
+        "format": "<font face='Tahoma' size='14'>Expected Kills: <font face='Tahoma' size='14' color='#E8FFBF'>{{v.topfrg%.2f~}}</font>"
             
 	    }
     ]
@@ -1106,8 +1106,8 @@
         "width": 320,
         "height": 150,
         "screenHAlign": "center",
-        "shadow": { "alpha": 80, "blur": 2, "strength": 2 },                                                                                                                                                                                                                                         //              Battles       {{mystat.c_battles}}   {{mystat.battles}}                    
-        "textFormat": { "color": "0xa8ffbb", "size": 16 },
+        "shadow": { "alpha": 80, "blur": 2, "strength": 2 },                                                                                                                                                                                                                                                 
+        "textFormat": { "color" : ${"HawgPen/Colors/Hangar_Tank_Stats/Color.xc":"color"}, "size": 16 },
         "format": "<font size='16'>{{mystat.name}} (<font color='#F9F1BC'>{{py:xvm.formatDate('%Y-%m-%d')}}</font>)</font>\n{{l10n:WN8}}: <font color='{{mystat.c_xwn8}}'>{{mystat.xwn8}} ({{mystat.wn8}})</font> {{l10n:EFF}}: <font color='{{mystat.c_xeff}}'>{{mystat.xeff}} ({{mystat.eff}})</font>\n{{l10n:Total Battles}}: <font color='#E8FFBF'>{{mystat.battles}}</font>\n{{l10n:Total Wins}}: <font color='#E8FFBF'>{{mystat.wins}}</font>\n{{l10n:Total Kills}}: <font color='#E8FFBF'>{{mystat.frg}}</font>\n<font size='14'>{{l10n:Wins}}: <font color='{{mystat.c_winrate}}'>{{mystat.winrate%.2f~%}}</font>  ({{py:winrate_next(0.5)}} / {{py:winrate_next(1)}})</font>"
       }
     ]

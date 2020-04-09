@@ -1,4 +1,4 @@
 //  This turns on/off Average Damage for tank in Battle
 {
-"enabled": true
+"enabled": false
 }

@@ -45,7 +45,7 @@
         "textFormat": {
           "font": "$TitleFont",
           "size": 18,
-          "color": "0x2BF807",
+          "color" : ${"HawgPen/Colors/GunSights_Color/Color.xc":"color"},
           "align": "left",
           "valign": "center"
         },
