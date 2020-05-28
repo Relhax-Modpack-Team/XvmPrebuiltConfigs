@@ -1,0 +1,7 @@
+DEFAULT HOTKEY IS ( K ) to see map in battle
+
+To change  ClanWar Hotkey
+
+Open World Of Tanks > res_mods > REBIRTH > Settings > Battle > Hawg_Tacitcal_ClanWar_Maps > HotKey.xc
+
+Right click  ( HotKey.xc ) click edit

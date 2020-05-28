@@ -1,0 +1,61 @@
+1.9.0.3 RBIRTH
+
+ 
+5/25/2020    
+
+
+* REBIRTH *
+
+Clean Install For REBIRTH 
+
+Delete Both folders listed below in World of Tanks folder
+Before you install REBIRTH  
+
+res_mods
+mods
+
+UNZIP DOWNLOAD. "REBIRTH"
+
+OPEN FOLDER > Game Files
+
+OPEN FOLDER > World_of_Tanks
+
+COPY THE FOLDER'S "res_mods" ,& " mods".>
+
+OPEN YOUR WORLD OF TANKS LOCATION... normally C:\Games\Worldoftanks..
+
+PASTE INSIDE OF "World_of_Tanks" folder....
+
+OVERWRITE oR REPLACE  ALL !
+_____________________________________________________________________________________________________________________________________________________________
+
+FOR BEST RESULTS
+
+Clean Your Caches
+
+Type this in your windows bar on your desktop
+
+%appdata%
+
+click the folder >  %appdata%
+open > Wargaming.net
+open > WorldOfTanks
+
+Delete folder > battle_results
+Delete folder > clan_cache
+Delete folder > custom_data
+Delete folder > veh_cmp_cache
+Delete folder > dossier_cache
+Delete folder > web_cache
+
+Open > Xvm
+
+Delete folder > Hitlog
+Delete folder > cache
+Delete folder > custom_data
+Delete folder > statistics
+
+Restart your Game
+
+Than play a battle 
+
