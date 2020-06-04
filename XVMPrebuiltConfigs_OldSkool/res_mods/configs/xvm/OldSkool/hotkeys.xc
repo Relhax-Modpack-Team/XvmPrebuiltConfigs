@@ -9,7 +9,7 @@
     // onHold: false - take action by key click. true - while key is remains pressed.
 
     // Minimap zooming.
-    "minimapZoom":         { "enabled": true, "keyCode": 29, "onHold": true },
+    "minimapZoom":         { "enabled": false, "keyCode": 29, "onHold": true },
 	
     // Minimap alternative mode.
     "minimapAltMode":      { "enabled": true, "keyCode": 29, "onHold": true },

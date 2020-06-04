@@ -7,7 +7,7 @@
   "minimap": {
 
     // false - Disable.
-    "enabled": true,
+    "enabled": false,
 
     // Map image transparency.
     "mapBackgroundImageAlpha": 100,

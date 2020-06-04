@@ -10,10 +10,10 @@
     "enabled": true,
 	
     // true - show damage by oneself.
-    "showSelfDamage": true,
+    "showSelfDamage": false,
 	
     // true - show damage by allies.
-    "showAllyDamage": true,
+    "showAllyDamage": false,
 	
     // Log of applied damage.
     "log": {
@@ -23,6 +23,9 @@
       "moveInBattle": true,
       "x": 50,
       "y": 60,
+	  
+      // true - allow scrolling of the contents of the log.
+      "scrollLog": true,
 	  
       // Group hits by players name.
       "groupHitsByPlayer": true,

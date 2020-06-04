@@ -33,6 +33,15 @@
     // true - show info window with the battle results in the "Ranked battle".
     "showRankedBattleResults": true,
 	
+    // true - show widget "Daily Quests" in the hangar.
+    "showDailyQuestWidget": true,
+	
+    // true - show banner "World of Tanks' 10th Anniversary" in the hangar.
+    "showTenYearsBanner": true,
+	
+    // true - show banner "Road to Berlin" in the hangar.
+    "showSE20Banner": true,
+	
     // "Combat Intelligence" - show/hide notifications in the main window and counters in the menu.
     "combatIntelligence": {
 	
@@ -44,6 +53,7 @@
     },
 	
     // Parameters of the "Session statistics" button.
+    // Параметры кнопки "Сессионная статистика".
     "sessionStatsButton": {
 	
       // false - disable display "Session statistics" button.
@@ -383,25 +393,31 @@
         "strength": 2
       }
     },
-    
-        // Parameters of sorting tankmen in barracks.
-    // Параметры казармы.
+
+    // Show/hide notifications counters in the main menu.
+    "notificationCounter": {
+      "store": true,                        // Store 
+      "missions": true,                     // Missions
+      "profile": true,                      // Service Record
+      "PersonalMissionOperationsPage": true // Campaigns
+    },
+	
+    // Parameters for barracks.
     "barracks": {
+	
       // Order of nations.
-      // Порядок наций.
       //"nations_order": ["ussr", "germany", "usa", "china", "france", "uk", "japan", "czech", "poland", "sweden", "italy"],
       "nations_order": [],
+	  
       // Order of crew roles.
-      // Порядок ролей экипажа.
       // "roles_order": ["commander", "gunner", "driver", "radioman", "loader"],
       "roles_order": [],
+	  
       // Tankmen sorting criteria, available options: (minus = reverse order)
-      // Критерии сортировки танкистов, доступные значения: (минус = в обратном порядке)
       // "nation", "role", "level", "-level", "XP", "-XP", "gender", "-gender", "inVehicle", "-inVehicle", "vehicle"
       "sorting_criteria": ["nation", "inVehicle", "vehicle", "role"]
     },
-    
-
+	
     // Parameters for tank carousel
     "carousel": ${"carousel.xc":"carousel"},
 

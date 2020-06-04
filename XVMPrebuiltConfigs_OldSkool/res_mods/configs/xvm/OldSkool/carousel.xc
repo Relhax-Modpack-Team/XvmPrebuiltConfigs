@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Parameters for tank carousel
  */
 
@@ -18,7 +18,7 @@
     "small": ${"carouselSmall.xc":"small"},
 
     // Number of rows at carousel. 0 - use client settings
-    "rows": 1,
+    "rows": 0,
 
     // Background transparency (default - 100)
     "backgroundAlpha": 100,
@@ -53,7 +53,9 @@
       // false - hide filter.
       "params":   { "enabled": true },  // main params
       "bonus":    { "enabled": true },  // x2 bonus
-      "favorite": { "enabled": true }   // favorite tanks
+      "favorite": { "enabled": true }, // favorite tanks
+      "elite":    { "enabled": true }, // elite tanks
+      "premium":  { "enabled": true }  // premium tanks
     },
 
     // Spacing between filters cells.

@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Parameters of the Players Panels ("ears").
  */
 
@@ -179,7 +179,7 @@
 
       // Width of the frags column. Default is 24.
       "fragsWidth": 24,
-
+	  
       // Display format for frags (macros allowed, see macros.txt).
       "fragsFormatLeft": "{{frags}}",
       "fragsFormatRight": "{{frags}}",
@@ -206,8 +206,8 @@
       "nickMaxWidth": 158,
 
       // Display format for player nickname (macros allowed, see macros.txt).
-      "nickFormatLeft": "<img src='xvm://res/icons/flags/{{flag}}.png'> {{name%.12s~..}}",
-      "nickFormatRight": "{{name%.12s~..}} <img src='xvm://res/icons/flags/{{flag}}.png'>",
+      "nickFormatLeft": "<font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{name%.12s~..}}</font>",
+      "nickFormatRight": "<font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{name%.12s~..}}</font>",
 
       // Offset of X value for vehicle name column.
       "vehicleXOffsetLeft": 0,
@@ -225,9 +225,9 @@
       // Set of formats for left panel (extended format supported, see above)
       "extraFieldsLeft": [
 
-        ${"hpBarBg"},
-        ${"hpBar"},
-        ${"hp"},
+        //HP**${"hpBarBg"},
+        //HP**${"hpBar"},
+        //HP**${"hp"},
         ${"clanIcon"},
         ${"xvmUserMarker"},
 
@@ -238,9 +238,9 @@
       // Set of formats for right panel (extended format supported, see above)
       "extraFieldsRight": [
 
-        ${"hpBarBg"},
-        ${"hpBar"},
-        ${"hp"},
+        //HP**${"hpBarBg"},
+        //HP**${"hpBar"},
+        //HP**${"hp"},
         ${"clanIcon"},
         ${"xvmUserMarker"}
 
@@ -257,7 +257,7 @@
 
       // Displayed standard fields in this mode and their order.
       // Available names: "frags", "vehicle", "nick".
-      "standardFields": [ "frags", "nick" ],
+       "standardFields": [ "frags", "badge", "nick" ],
 
       // Width of area for switching to "large" mode on mouse over
       "expandAreaWidth": 230,
@@ -309,8 +309,8 @@
       "nickMaxWidth": 158,
 
       // Display format for player nickname (macros allowed, see macros.txt).
-      "nickFormatLeft": "<img src='xvm://res/icons/flags/{{flag}}.png'> <font color='{{c:wn8}}'>{{name%.12s~..}}</font>",
-      "nickFormatRight": "<font color='{{c:wn8}}'>{{name%.12s~..}}</font> <img src='xvm://res/icons/flags/{{flag}}.png'>",
+      "nickFormatLeft": "<font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{name%.12s~..}}</font>",
+      "nickFormatRight": "<font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{name%.12s~..}}</font>",
 
       // Offset of X value for vehicle name column.
       "vehicleXOffsetLeft": 0,
@@ -320,16 +320,16 @@
       "vehicleWidth": 72,
 
       // Display format for vehicle name (macros allowed, see macros.txt).
-      "vehicleFormatLeft": "{{vehicle}}",
-      "vehicleFormatRight": "{{vehicle}}",
+      "vehicleFormatLeft": "<font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>",
+      "vehicleFormatRight": "<font color='{{c:r}}'alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>",
 
       // Extra fields. Each field have size 350x25. Fields are placed one above the other.
       // Set of formats for left panel (extended format supported, see above)
       "extraFieldsLeft": [
 
-        ${"hpBarBg"},
-        ${"hpBar"},
-        ${"hp"},
+        //HP**${"hpBarBg"},
+        //HP**${"hpBar"},
+        //HP**${"hp"},
         ${"clanIcon"},
         ${"xvmUserMarker"},
 
@@ -340,9 +340,9 @@
       // Set of formats for right panel (extended format supported, see above)
       "extraFieldsRight": [
 
-        ${"hpBarBg"},
-        ${"hpBar"},
-        ${"hp"},
+        //HP**${"hpBarBg"},
+        //HP**${"hpBar"},
+        //HP**${"hp"},
         ${"clanIcon"},
         ${"xvmUserMarker"}
 
@@ -411,8 +411,8 @@
       "nickMaxWidth": 158,
 
       // Display format for player nickname (macros allowed, see macros.txt).
-      "nickFormatLeft": "<img src='xvm://res/icons/flags/{{flag}}.png'> {{name%.12s~..}}",
-      "nickFormatRight": "{{name%.12s~..}} <img src='xvm://res/icons/flags/{{flag}}.png'>",
+      "nickFormatLeft": "<font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{name%.12s~..}}</font>",
+      "nickFormatRight": "<font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{name%.12s~..}}</font>",
 
       // Offset of X value for vehicle name column.
       "vehicleXOffsetLeft": 0,
@@ -422,16 +422,16 @@
       "vehicleWidth": 72,
 
       // Display format for vehicle name (macros allowed, see macros.txt).
-      "vehicleFormatLeft": "<img src='xvm://res/icons/flags/{{flag}}.png'> <font color='{{c:wn8}}'>{{vehicle}}</font>",
-      "vehicleFormatRight": "<font color='{{c:wn8}}'>{{vehicle}}</font> <img src='xvm://res/icons/flags/{{flag}}.png'>",
+      "vehicleFormatLeft": "<font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>",
+      "vehicleFormatRight": "<font color='{{c:r}}'alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>",
 
       // Extra fields. Each field have size 350x25. Fields are placed one above the other.
       // Set of formats for left panel (extended format supported, see above)
       "extraFieldsLeft": [
 
-        ${"hpBarBg"},
-        ${"hpBar"},
-        ${"hp"},
+        //HP**${"hpBarBg"},
+        //HP**${"hpBar"},
+        //HP**${"hp"},
         ${"clanIcon"},
         ${"xvmUserMarker"},
 
@@ -442,9 +442,9 @@
       // Set of formats for right panel (extended format supported, see above)
       "extraFieldsRight": [
 
-        ${"hpBarBg"},
-        ${"hpBar"},
-        ${"hp"},
+        //HP**${"hpBarBg"},
+        //HP**${"hpBar"},
+        //HP**${"hp"},
         ${"clanIcon"},
         ${"xvmUserMarker"}
 
@@ -461,7 +461,7 @@
 
       // Displayed standard fields in this mode and their order.
       // Available names: "frags", "vehicle", "nick".
-      "standardFields": [ "frags", "nick", "vehicle" ],
+      "standardFields": [ "frags", "badge", "nick", "vehicle" ],
 
       // true - disable platoon icons
       "removeSquadIcon": false,
@@ -510,8 +510,8 @@
       "nickMaxWidth": 158,
 
       // Display format for player nickname (macros allowed, see macros.txt).
-      "nickFormatLeft": "<img src='xvm://res/icons/flags/{{flag}}.png'> <font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{r%4d|----}}</font> {{nick}}",
-      "nickFormatRight": "{{nick}} <font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{r%4d|----}}</font> <img src='xvm://res/icons/flags/{{flag}}.png'>",
+      "nickFormatLeft": "<font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{r%4d|----}}</font> {{nick}}",
+      "nickFormatRight": "{{nick}} <font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{r%4d|----}}</font>",
 
       // Offset of X value for vehicle name column.
       "vehicleXOffsetLeft": 0,
@@ -528,9 +528,9 @@
       // Set of formats for left panel (extended format supported, see above)
       "extraFieldsLeft": [
 
-        ${"hpBarBg"},
-        ${"hpBar"},
-        ${"hp"},
+        //HP**${"hpBarBg"},
+        //HP**${"hpBar"},
+        //HP**${"hp"},
         ${"clanIcon"},
         ${"xvmUserMarker"},
 
@@ -540,10 +540,9 @@
 
       // Set of formats for right panel (extended format supported, see above)
       "extraFieldsRight": [
-	  
-        ${"hpBarBg"},
-        ${"hpBar"},
-        ${"hp"},
+        //HP**${"hpBarBg"},
+        //HP**${"hpBar"},
+        //HP**${"hp"},
         ${"clanIcon"},
         ${"xvmUserMarker"}
 

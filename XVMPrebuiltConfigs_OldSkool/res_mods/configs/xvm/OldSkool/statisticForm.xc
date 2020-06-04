@@ -21,9 +21,6 @@
     // true - Disable Platoon icons.
     "removeSquadIcon": false,
 
-    // true - disable rank badge icons
-    "removeRankBadgeIcon": false,
-	
     // true - disable vehicle level indicator.
     "removeVehicleLevel": false,
 
@@ -88,13 +85,13 @@
     "fragsFieldWidthRight": 43,
 
     // Display format for the left panel (macros allowed, see macros.txt).
-    "formatLeftNick": "<img src='xvm://res/icons/flags/{{flag}}.png'> {{name%.20s~..}}<font alpha='#A0'>{{clan}}</font>",
+    "formatLeftNick": "{{name%.20s~..}}<font alpha='#A0'>{{clan}}</font>",
 	
     // Display format for the right panel (macros allowed, see macros.txt).
-    "formatRightNick": "{{name%.20s~..}}<font alpha='#A0'>{{clan}}</font> <img src='xvm://res/icons/flags/{{flag}}.png'>",
+    "formatRightNick": "{{name%.20s~..}}<font alpha='#A0'>{{clan}}</font>",
 	
     // Display format for the left panel (macros allowed, see macros.txt).
-    "formatLeftVehicle": "{{vehicle}} <font color='{{c:rating}}'>{{rating%2d~%}}</font> <font color='{{c:r}}'>{{r}}</font> <font color='{{c:kb}}'>{{kb%2d~k}}</font>",
+    "formatLeftVehicle": "{{vehicle}} <font color='{{c:kb}}'>{{kb%2d~k}}</font> <font color='{{c:r}}'>{{r}}</font> <font color='{{c:rating}}'>{{rating%2d~%}}</font>",
 	
     // Display format for the right panel (macros allowed, see macros.txt).
     "formatRightVehicle": "<font color='{{c:rating}}'>{{rating%2d~%}}</font> <font color='{{c:r}}'>{{r}}</font> <font color='{{c:kb}}'>{{kb%2d~k}}</font> {{vehicle}}",
