@@ -805,7 +805,7 @@
     },
     // Stun marker
     // Маркер оглушения
-    "stunMarker": {
+    "vehicleStatusMarker": {
       "enabled": true,
       "x": 0,
       "y": -87,

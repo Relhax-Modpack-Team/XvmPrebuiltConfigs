@@ -26,11 +26,17 @@
     // false - отключить отображение рекламы премиум техники (на фоне в ангаре).
     "showPromoPremVehicle": true,
     // true - show info windows with the battle results in the "Ranked battle" mode.
-    // true - показывать информационные окна результатов боя в режиме "Ранговый бой".
+    // true - показывать информационное окно результатов боя в режиме "Ранговый бой".
     "showRankedBattleResults": true,
+    // true - show info windows when receiving progressive decals.
+    // true - показывать информационное окно при получении этапной декали.
+    "showProgressiveDecalsWindow": true,
     // true - show widget "Daily Quests" in the hangar.
     // true - показывать виджет "Ежедневные задачи" в ангаре.
     "showDailyQuestWidget": true,
+    // true - show banner "World of Tanks' 10th Anniversary" in the hangar.
+    // true - показывать баннер "Десятилетие World of Tanks" в ангаре.
+    "showTenYearsBanner": true,
     // Consumables panel - show/hide the number of consumables and directives.
     // Панель снаряжения - показывать/прятать количество снаряжения и инструкций.
     "equipmentPanel": {
@@ -89,8 +95,8 @@
       // Смещение по оси Y.
       "offsetY": 0
     },
-    // true - enable crew auto return function.
-    // true - включить функцию автовозврата экипажа.
+    // true - enable crew auto return function (the option works if there are free places in the barracks).
+    // true - включить функцию автовозврата экипажа (опция работает при наличии свободных мест в казарме).
     "enableCrewAutoReturn": true,
     // true - return crew check box is selected by default.
     // true - включить галочку возврата экипажа по умолчанию.
@@ -155,9 +161,6 @@
       // Смещение по оси Y.
       "offsetY": 0
     },
-    // true - enable removable equipment auto return (Camouflage net, Stereoscope, Toolbox).
-    // true - включить автовозврат съемного оборудования (Маскировочная сеть, Стереотруба, Ящик с инструментами).
-    "enableEquipAutoReturn": true,
     // true - make vehicle not ready for battle if low ammo.
     // true - сделать машину не готовой к битве если мало снарядов.
     "blockVehicleIfLowAmmo": false,
@@ -175,7 +178,7 @@
     "notificationsButtonType": "full",
     // true - hide price button in tech tree.
     // true - прятать кнопку с ценой в дереве исследований.
-    "hidePricesInTechTree": false,
+    "hidePricesInTechTree": true,
     // true - show mastery mark in tech tree.
     // true - показывать знак мастерства в дереве исследований.
     "masteryMarkInTechTree": true,
@@ -414,6 +417,9 @@
       "profile": true,                      // Service Record / Достижения
       "PersonalMissionOperationsPage": true // Campaigns / Кампании
     },
+    // true - show notifications counters in the window and on the button "Exterior".
+    // true - показать счетчики уведомлений в окне и на кнопке "Внешний вид".
+    "showCustomizationCounter": true,
     // Parameters of sorting tankmen in barracks.
     // Параметры сортировки танкистов в казарме.
     "barracks": {

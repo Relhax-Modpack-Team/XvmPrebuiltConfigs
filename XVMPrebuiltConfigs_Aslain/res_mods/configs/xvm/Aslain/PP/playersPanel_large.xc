@@ -7,7 +7,7 @@
       "vehicleIconOffsetXRight": 0,
       "vehicleLevelOffsetXLeft": 0,
       "vehicleLevelOffsetXRight": 0,
-      "vehicleLevelAlpha": 100,
+      "vehicleLevelAlpha": 0,
       "fragsOffsetXLeft": 0,
       "fragsOffsetXRight": 0,
       "fragsWidth": 24,
