@@ -16,7 +16,7 @@
       "x": 0,
       "y": -100,
       // Opacity (dynamic transparency allowed, see macros.txt).
-      // Прозрачность (допускается использование динамической прозрачности, см. macros.txt).
+      // Прозрачность (допускается использование динамической прозрачности, см. macros_ru.txt).
       "alpha": 100,
       "align": "center",
       // Font options.
@@ -25,7 +25,7 @@
         "font": "$FieldFont",           // Font name     / Название
         "size": 18,                     // Font size     / Размер
         // Color (dynamic colors allowed, see macros.txt).
-        // Цвет (допускается использование динамического цвета, см. macros.txt)
+        // Цвет (допускается использование динамического цвета, см. macros_ru.txt)
         "color": "0x0000FF",
         "bold": true,                  // True - bold    / Жирный.
         "italic": false                 // True - italic  / Курсив.
@@ -50,10 +50,10 @@
       // Расстояние, на которое отлетает урон.
       "maxRange": 150,
       // Text for normal damage (see description of macros in the macros.txt).
-      // Текст при обычном уроне (см. описание макросов в macros.txt).
+      // Текст при обычном уроне (см. описание макросов в macros_ru.txt).
       "damageMessage": "{{dmg}}",
       // Text for ammo rack explosion (see description of macros in the macros.txt).
-      // Текст при взрыве боеукладки (см. описание макросов в macros.txt).
+      // Текст при взрыве боеукладки (см. описание макросов в macros_ru.txt).
       "blowupMessage": "ammoREKT!"
     },
     "damageTextFromPlayer": {
@@ -77,14 +77,14 @@
       "enabled": true,                // false - не отображать
       "x": 0,                         // положение по оси X
       "y": -45,                       // положение по оси Y
-      "alpha": 100,                   // прозрачность (допускается использование динамической прозрачности, см. macros.txt)
+      "alpha": 100,                   // прозрачность (допускается использование динамической прозрачности, см. macros_ru.txt)
       "align": "center",              // выравнивание текста (left, center, right)
       // Font options.
       // Параметры шрифта.
       "textFormat": {
         "font": "$FieldFont",         // название
         "size": 13,                   // размер
-        "color": null,                // цвет (допускается использование динамического цвета, см. macros.txt)
+        "color": null,                // цвет (допускается использование динамического цвета, см. macros_ru.txt)
         "bold": false,                // обычный (false) или жирный (true)
         "italic": false               // обычный (false) или курсив (true)
       },
@@ -101,7 +101,7 @@
         "blur": 6,                    // размытие
         "strength": 2                 // интенсивность
       },
-      // Формат текста. См. описание макросов в macros.txt
+      // Формат текста. См. описание макросов в macros_ru.txt
       "format": "{{nick}}"
     },
     // Text field with Vehicle name.
@@ -111,7 +111,7 @@
       "enabled": true,                // false - не отображать
       "x": 0,                         // положение по оси X
       "y": -59,                       // положение по оси Y
-      "alpha": 100,                   // прозрачность (допускается использование динамической прозрачности, см. macros.txt)
+      "alpha": 100,                   // прозрачность (допускается использование динамической прозрачности, см. macros_ru.txt)
       "textFormat": {
         "font": "$FieldFont",
         "size": 13,
@@ -192,13 +192,13 @@
       "enabled": false,                //  false - не отображать
       "x": 0,                         //  положение по оси X
       "y": -105,  //  положение по оси Y
-      "alpha": 100,                   //  прозрачность (допускается использование динамической прозрачности, см. macros.txt)
+      "alpha": 100,                   //  прозрачность (допускается использование динамической прозрачности, см. macros_ru.txt)
       // Font options.
       // Параметры шрифта.
       "textFormat": {
         "font": "xvm",                //  название
         "size": 23,                   //  размер
-        "color": "0xFFBB00",          //  цвет (допускается использование динамического цвета, см. macros.txt)
+        "color": "0xFFBB00",          //  цвет (допускается использование динамического цвета, см. macros_ru.txt)
         "align": "center",            //  выравнивание текста (left, center, right)
         "bold": false,                //  обычный (false) или жирный (true)
         "italic": false               //  обычный (false) или курсив (true)
@@ -215,7 +215,7 @@
         "blur": 4,                    //  размытие
         "strength": 1                 //  интенсивность
       },
-      "format": "<font color='{{x-spotted?#FFBB00|#FFFFFF}}' alpha='{{x-spotted?#FF|#80}}'>{{x-spotted?&#x70;|{{x-sense-on?&#x70;}}}}</font> {{x-overturned?&#x112;}}"  //  формат текста. См. описание макросов в macros.txt
+      "format": "<font color='{{x-spotted?#FFBB00|#FFFFFF}}' alpha='{{x-spotted?#FF|#80}}'>{{x-spotted?&#x70;|{{x-sense-on?&#x70;}}}}</font> {{x-overturned?&#x112;}}"  //  формат текста. См. описание макросов в macros_ru.txt
     },
     // Position of the player
     // Порядковый номер игрока
@@ -224,11 +224,11 @@
       "enabled": true,                //  false - не отображать
       "x": 0,                         //  положение по оси X
       "y": -51,                       //  положение по оси Y
-      "alpha": 100,                   //  прозрачность (допускается использование динамической прозрачности, см. macros.txt)
+      "alpha": 100,                   //  прозрачность (допускается использование динамической прозрачности, см. macros_ru.txt)
       "textFormat": {                 //  параметры шрифта
         "font": "$FieldFont",         //  название
         "size": 13,                   //  размер
-        "color": "0xEDEDED",          //  цвет (допускается использование динамического цвета, см. macros.txt)
+        "color": "0xEDEDED",          //  цвет (допускается использование динамического цвета, см. macros_ru.txt)
         "align": "center",            //  выравнивание текста (left, center, right)
         "bold": false,                //  обычный (false) или жирный (true)
         "italic": false               //  обычный (false) или курсив (true)
@@ -244,7 +244,7 @@
         "blur": 6,                    //   размытие
         "strength": 2                 //   интенсивность
       },
-      "format": "<font size='{{battletype?13|0}}'>{{position}}</font>"  //  формат текста. См. описание макросов в macros.txt
+      "format": "<font size='{{battletype?13|0}}'>{{position}}</font>"  //  формат текста. См. описание макросов в macros_ru.txt
     }
   },
   // Settings for allies.
@@ -281,8 +281,8 @@
       "enabled": true,                  // false - не отображать
       "x": -41,                         // положение по оси X
       "y": -40,                         // положение по оси Y
-      "alpha": 100,                     // прозрачность (допускается использование динамической прозрачности, см. macros.txt)
-      "color": null,                    // цвет основной (допускается использование динамического цвета, см. macros.txt)
+      "alpha": 100,                     // прозрачность (допускается использование динамической прозрачности, см. macros_ru.txt)
+      "color": null,                    // цвет основной (допускается использование динамического цвета, см. macros_ru.txt)
       "lcolor": null,                   // цвет дополнительный (для градиента)
       "width": 80,                      // ширина полосы здоровья
       "height": 12,                     // высота полосы здоровья
@@ -327,10 +327,10 @@
       "x": 6,
       "y": -105,
       // Opacity (dynamic transparency allowed, see macros.txt).
-      // Прозрачность (допускается использование динамической прозрачности, см. macros.txt).
+      // Прозрачность (допускается использование динамической прозрачности, см. macros_ru.txt).
       "alpha": 100,
       // Color (dynamic colors allowed, see macros.txt).
-      // Цвет (допускается использование динамического цвета, см. macros.txt).
+      // Цвет (допускается использование динамического цвета, см. macros_ru.txt).
       "color": null,
       // Color intensity from 0 to 100. The default is 0 (off).
       // Интенсивность цвета от 0 до 100. По умолчанию 0, т.е. выключено.

@@ -16,7 +16,7 @@
       "x": 0,
       "y": -100,
       // Opacity (dynamic transparency allowed, see macros.txt).
-      // Прозрачность (допускается использование динамической прозрачности, см. macros.txt).
+      // Прозрачность (допускается использование динамической прозрачности, см. macros_ru.txt).
       "alpha": 100,
       "align": "center",
       // Font options.
@@ -25,7 +25,7 @@
         "font": "$FieldFont",           // Font name     / Название
         "size": 18,                     // Font size     / Размер
         // Color (dynamic colors allowed, see macros.txt).
-        // Цвет (допускается использование динамического цвета, см. macros.txt)
+        // Цвет (допускается использование динамического цвета, см. macros_ru.txt)
         "color": "0x0000FF",
         "bold": true,                  // True - bold   / Жирный.
         "italic": false                 // True - italic / Курсив.
@@ -48,10 +48,10 @@
       // Расстояние, на которое отлетает урон.
       "maxRange": 150,
       // Text for normal damage (see description of macros in the macros.txt).
-      // Текст при обычном уроне (см. описание макросов в macros.txt).
+      // Текст при обычном уроне (см. описание макросов в macros_ru.txt).
       "damageMessage": "{{dmg}}",
       // Text for ammo rack explosion (see description of macros in the macros.txt).
-      // Текст при взрыве боеукладки (см. описание макросов в macros.txt).
+      // Текст при взрыве боеукладки (см. описание макросов в macros_ru.txt).
       "blowupMessage": "ammoREKT!"
     },
     "damageTextFromPlayer": {
@@ -75,14 +75,14 @@
       "enabled": true,                // false - не отображать
       "x": 0,                         // положение по оси X
       "y": -34,                       // положение по оси Y
-      "alpha": 80,                    // прозрачность (допускается использование динамической прозрачности, см. macros.txt)
+      "alpha": 80,                    // прозрачность (допускается использование динамической прозрачности, см. macros_ru.txt)
       "align": "center",              // выравнивание текста (left, center, right)
       // Font options.
       // Параметры шрифта.
       "textFormat": {
         "font": "$FieldFont",         // название
         "size": 13,                   // размер
-        "color": null,                // цвет (допускается использование динамического цвета, см. macros.txt)
+        "color": null,                // цвет (допускается использование динамического цвета, см. macros_ru.txt)
         "bold": false,                // обычный (false) или жирный (true)
         "italic": false               // обычный (false) или курсив (true)
       },
@@ -99,7 +99,7 @@
         "blur": 6,                    // размытие
         "strength": 2                 // интенсивность
       },
-      // Формат текста. См. описание макросов в macros.txt
+      // Формат текста. См. описание макросов в macros_ru.txt
       "format": "{{nick}}"
     },
     // Text field with the name of the tank.
@@ -109,12 +109,12 @@
       "enabled": true,                // false - не отображать
       "x": 0,                         // положение по оси X
       "y": -20,                       // положение по оси Y
-      "alpha": 80,                    // прозрачность (допускается использование динамической прозрачности, см. macros.txt)
+      "alpha": 80,                    // прозрачность (допускается использование динамической прозрачности, см. macros_ru.txt)
       "align": "center",              // выравнивание текста (left, center, right)
       "textFormat": {                 // параметры шрифта
         "font": "$FieldFont",         //   название
         "size": 13,                   //   размер
-        "color": null,                //   цвет (допускается использование динамического цвета, см. macros.txt)
+        "color": null,                //   цвет (допускается использование динамического цвета, см. macros_ru.txt)
         "bold": false,                //   обычный (false) или жирный (true)
         "italic": false               //   обычный (false) или курсив (true)
       },
@@ -127,7 +127,7 @@
         "blur": 6,                    //   размытие
         "strength": 2                 //   интенсивность
       },
-      // Формат текста. См. описание макросов в macros.txt
+      // Формат текста. См. описание макросов в macros_ru.txt
       "format": "{{vehicle}}"
     }
   },
@@ -165,8 +165,8 @@
       "enabled": false,                 // false - не отображать
       "x": -41,                         // положение по оси X
       "y": -33,                         // положение по оси Y
-      "alpha": 100,                     // прозрачность (допускается использование динамической прозрачности, см. macros.txt)
-      "color": null,                    // цвет основной (допускается использование динамического цвета, см. macros.txt)
+      "alpha": 100,                     // прозрачность (допускается использование динамической прозрачности, см. macros_ru.txt)
+      "color": null,                    // цвет основной (допускается использование динамического цвета, см. macros_ru.txt)
       "lcolor": null,                   // цвет дополнительный (для градиента)
       "width": 80,                      // ширина полосы здоровья
       "height": 12,                     // высота полосы здоровья
@@ -211,10 +211,10 @@
       "x": 6,
       "y": -65,
       // Opacity (dynamic transparency allowed, see macros.txt).
-      // Прозрачность (допускается использование динамической прозрачности, см. macros.txt).
+      // Прозрачность (допускается использование динамической прозрачности, см. macros_ru.txt).
       "alpha": 100,
       // Color (dynamic colors allowed, see macros.txt).
-      // Цвет (допускается использование динамического цвета, см. macros.txt).
+      // Цвет (допускается использование динамического цвета, см. macros_ru.txt).
       "color": null,
       // Color intensity from 0 to 100. The default is 0 (off).
       // Интенсивность цвета от 0 до 100. По умолчанию 0, т.е. выключено.

@@ -7,7 +7,7 @@
   // Текстовые поля юнитов на миникарте.
   "labels": {
     // Format set (extended format supported, see extra-field.txt).
-    // Набор форматов (поддерживается расширенный формат, см. extra-field.txt).
+    // Набор форматов (поддерживается расширенный формат, см. extra-field_ru.txt).
     "formats": [
       //same
       ${ "minimapLabelsTemplates.xc":"def.nickSpotted" },//player name
@@ -23,6 +23,6 @@
       ${ "minimapLabelsTemplates.xc":"def.hpSpotted" },//hp text
       ${ "minimapLabelsTemplates.xc":"def.hpLost" },//hp text
       ${ "minimapLabelsTemplates.xc":"def.xmqpEvent" }//xmqp icon
-	  ]
+      ]
   }
 }

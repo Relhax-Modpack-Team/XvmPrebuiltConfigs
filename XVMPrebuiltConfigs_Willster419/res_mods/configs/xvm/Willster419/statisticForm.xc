@@ -93,31 +93,31 @@
     "fragsFieldWidthRight": 43,
     // Display format for the left panel (macros allowed, see macros.txt).
     // Формат отображения для левой панели (допускаются макроподстановки, см. macros.txt).
-    "formatLeftNick": "<img src='xvm://res/icons/flags/{{flag|default}}.png' width='16' height='13'> <img src='xvm://res/icons/xvm/xvm-user-{{xvm-user}}.png'> <font size='13'>{{name%.12s~..}}{{clan}}</font>",
+    "formatLeftNick": "<img src='xvm://res/icons/flags/{{flag|default}}.png' width='16' height='13'> <img src='xvm://res/icons/xvm/xvm-user-{{xvm-user|none.png'> <font size='13'>{{name%.12s~..}}{{clan}}</font>",
     // Display format for the right panel (macros allowed, see macros.txt).
     // Формат отображения для правой панели (допускаются макроподстановки, см. macros.txt).
-    "formatRightNick": "<font size='13'>{{name%.16s~..}}{{clan}}</font> <img src='xvm://res/icons/xvm/xvm-user-{{xvm-user}}.png'> <img src='xvm://res/icons/flags/{{flag|default}}.png' width='16' height='13'>",
+    "formatRightNick": "<font size='13'>{{name%.16s~..}}{{clan}}</font> <img src='xvm://res/icons/xvm/xvm-user-{{xvm-user|none.png'> <img src='xvm://res/icons/flags/{{flag|default}}.png' width='16' height='13'>",
     // Display format for the left panel (macros allowed, see macros.txt).
     // Формат отображения для левой панели (допускаются макроподстановки, см. macros.txt).
     "formatLeftVehicle": "{{vehicle}}<font size='13'> <font color='{{c:kb}}'>{{kb%2d~k|--k}}</font> <font color='{{c:r}}'>{{r}}</font> <font color='{{c:winrate}}'>{{winrate%2d~%|--%}}</font> <font color='{{c:avglvl}}'>t{{avglvl%1.1f}}</font></font>",
     // Display format for the right panel (macros allowed, see macros.txt).
-    // Формат отображения для правой панели (допускаются макроподстановки, см. macros.txt).
+    // Формат отображения для правой панели (допускаются макроподстановки, см. macros_ru.txt).
     "formatRightVehicle": "<font size='13'> <font color='{{c:avglvl}}'>t{{avglvl%1.1f}}</font> <font color='{{c:winrate}}'>{{winrate%2d~%|--%}}</font> <font color='{{c:r}}'>{{r}}</font> <font color='{{c:kb}}'>{{kb%2d~k|--k}}</font> </font>{{vehicle}}",
     // Display format for the left panel (macros allowed, see macros.txt).
-    // Формат отображения для левой панели (допускаются макроподстановки, см. macros.txt).
+    // Формат отображения для левой панели (допускаются макроподстановки, см. macros_ru.txt).
     "formatLeftFrags": "{{frags}}",
     // Display format for the right panel (macros allowed, see macros.txt).
-    // Формат отображения для правой панели (допускаются макроподстановки, см. macros.txt).
+    // Формат отображения для правой панели (допускаются макроподстановки, см. macros_ru.txt).
     "formatRightFrags": "{{frags}}",
     // Extra fields. Fields are placed one above the other.
     // Дополнительные поля. Поля располагаются друг над другом.
     // Set of formats for left panel (extended format supported, see extra-field.txt).
-    // Набор форматов для левой панели (поддерживается расширенный формат, см. extra-field.txt).
+    // Набор форматов для левой панели (поддерживается расширенный формат, см. extra-field_ru.txt).
     "extraFieldsLeft": [
       ${"templates.clanIcon"}
     ],
     // Set of formats for right panel (extended format supported, see extra-field.txt).
-    // Набор форматов для правой панели (поддерживается расширенный формат, см. extra-field.txt).
+    // Набор форматов для правой панели (поддерживается расширенный формат, см. extra-field_ru.txt).
     "extraFieldsRight": [
       ${"templates.clanIcon"}
     ]
