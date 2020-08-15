@@ -1,5 +1,78 @@
-﻿{
-  "def": {
+﻿/**
+ * Parameters of the Players Panels ("ears").
+ * Параметры панелей игроков ("ушей").
+ *
+ * Extra field parameters:
+ *
+ * types of formats available for extended format:
+ *   - MovieClip (for loading image)
+ *   - TextField (for writing text and creating rectangles)
+ * if "src" field is present, MovieClip format will be used
+ * if "src" field is absent, TextField format will be used
+ *
+ * fields available for extended format:
+ *   "src" - resource path ("xvm://res/contour/{{vehiclename}}.png")
+ *   "format" - text format (macros allowed)
+ *
+ * fields available for both MovieClip and TextField formats:
+ *   "enabled" - enable/disable field creation (global macros allowed)
+ *   "x" - x position (macros allowed)
+ *   "y" - y position (macros allowed)
+ *   "width" - width (macros allowed)
+ *   "height" - height (macros allowed)
+ *   "bindToIcon" - if enabled, x position is binded to vehicle icon (default false)
+ *   "alpha" - transparency in percents (0..100) (macros allowed)
+ *   "rotation" - rotation in degrees (0..360) (macros allowed)
+ *   "align" - horizontal alignment ("left", "center", "right")
+ *      for left panel default value is "left"
+ *      for right panel default value is "right"
+ *   "scaleX", "scaleY" - scaling (use negative values for mirroring)
+ *
+ *   "hotKeyCode"        keyboard key code (see list in hotkeys.xc), when pressed - switches text field to show and apply configured html in "format", or hide;
+ *                       when defined, text field will not be shown until key is pressed, to disable define null value or delete parameter
+ *   "onHold"            false - take action by key click; true - while key is remains pressed (default: false)
+ *   "visibleOnHotKey"   true - field visible on hot key pressed; false - vice versa (default: true)
+ *
+ * fields available for TextField format only:
+ *   "valign" - vertical alignment ("top", "center", "bottom")
+ *      default value is "top"
+ *   "borderColor" - if set, draw border with specified color (macros allowed)
+ *   "bgColor" - if set, draw background with specified color (macros allowed)
+ *   "antiAliasType" - anti aliasing mode ("advanced" or "normal")
+ *
+ *   http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/text/TextFormat.html
+ *   "textFormat": {
+ *     "font"
+ *     "size"
+ *     "color"
+ *     "bold"
+ *     "italic"
+ *     "underline"
+ *     "align"
+ *     "leftMargin"
+ *     "rightMargin"
+ *     "indent"
+ *     "leading"
+ *     "tabStops"
+ *   }
+ *
+ *   http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/filters/DropShadowFilter.html
+ *   "shadow": {
+ *     "enabled"
+ *     "distance" (in pixels)
+ *     "angle"    (0.0 .. 360.0)
+ *     "color"    "0xXXXXXX"
+ *     "alpha"    (0.0 .. 100.0)
+ *     "blur"     (0.0 .. 255.0)
+ *     "strength" (0.0 .. 255.0)
+ *     "quality"
+ *     "inner"
+ *     "knockout"
+ *     "hideObject"
+ *   }
+ *
+ */
+{
   // Enemy spotted status marker definition.
   // Шаблон маркера статуса засвета противника.
   "enemySpottedMarker": {
@@ -46,16 +119,7 @@
     "enabled": false,
     "x": 10, "y": 5, "bindToIcon": true,
     "src": "xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png"
-  }
-  
   },
-  
-  
-  
-  
-  
-  
-  
   // Parameters of the Players Panels ("ears").
   // Параметры панелей игроков ("ушей").
   "playersPanel": {
@@ -199,20 +263,20 @@
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsLeft": [
-        ${"def.clanIcon"},
-        ${"def.xvmUserMarker"},
+        ${"clanIcon"},
+        ${"xvmUserMarker"},
         // XMQP service marker (see above).
         // Маркер сервиса XMQP (см. выше).
-        ${"def.xmqpServiceMarker"}
+        ${"xmqpServiceMarker"}
       ],
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
-        ${"def.clanIcon"},
-        ${"def.xvmUserMarker"},
+        ${"clanIcon"},
+        ${"xvmUserMarker"},
         // enemy spotted status marker (see above).
         // маркер статуса засвета противника (см. выше).
-        ${"def.enemySpottedMarker"}
+        ${"enemySpottedMarker"}
       ]
     },
     // Options for the "medium" panels - the first of the medium panels.
@@ -283,20 +347,20 @@
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsLeft": [
-        ${"def.clanIcon"},
-        ${"def.xvmUserMarker"},
+        ${"clanIcon"},
+        ${"xvmUserMarker"},
         // XMQP service marker (see above).
         // Маркер сервиса XMQP (см. выше).
-        ${"def.xmqpServiceMarker"}
+        ${"xmqpServiceMarker"}
       ],
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
-        ${"def.clanIcon"},
-        ${"def.xvmUserMarker"},
+        ${"clanIcon"},
+        ${"xvmUserMarker"},
         // enemy spotted status marker (see above).
         // маркер статуса засвета противника (см. выше).
-        ${"def.enemySpottedMarker"}
+        ${"enemySpottedMarker"}
       ]
     },
     // Options for the "medium2" panels - the second of the medium panels.
@@ -375,7 +439,7 @@
       "extraFieldsRight": [
         // enemy spotted status marker (see above).
         // маркер статуса засвета противника (см. выше).
-        ${"def.enemySpottedMarker"}
+        ${"enemySpottedMarker"}
       ]
     },
     // Options for the "large" panels - the widest panels.
@@ -449,7 +513,7 @@
       "extraFieldsRight": [
         // enemy spotted status marker (see above).
         // маркер статуса засвета противника (см. выше).
-        ${"def.enemySpottedMarker"}
+        ${"enemySpottedMarker"}
       ]
     }
   }

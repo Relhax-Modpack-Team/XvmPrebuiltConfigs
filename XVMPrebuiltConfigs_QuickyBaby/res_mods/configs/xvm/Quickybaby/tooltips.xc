@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Tooltips of vehicles in hangar.
  * Всплывающие подсказки танков в ангаре.
  */
@@ -10,23 +10,26 @@
     // true - hide simplified vehicle parameters.
     // true - спрятать упрощенные ТТХ.
     "hideSimplifiedVehParams": true,
-    // true - hide text at bottom of tooltip showing quantity of used eqipment, optional devices and crew.
+    // true - hide block "Weekly earning limit".
+    // true - спрятать блок "Заработок бон".
+    "hideCrystalBlock": false,
+    // true - hide text at bottom of tooltip showing quantity of used equipment, optional devices and crew.
     // true - спрятать текст внизу подсказки показывающий количество используемого оборудования, доп. модулей и экипаж.
     "hideBottomText": true,
-    // true - display of missing experience to unlock vehicles.
-    // true - отображать недостающий опыт для исследования техники.
+    // true - display of missing experience to unlock vehicles (in tech tree).
+    // true - отображать недостающий опыт для исследования техники (в дереве исследований).
     "showXpToUnlockVeh": true,
     // delay in tooltips appearance: increase in case of freezes, default is 0.4 sec.
-    // задержка отображения подсказок: увеличьте в случае фризов, по-умолчанию 0.4 сек.
+    // Задержка отображения подсказок: увеличьте в случае фризов, по-умолчанию 0.4 сек.
     "tooltipsDelay": 0.4,
     // size of the font in vehicle tooltips.
-    // размер шрифта во всплывающих подсказках к танкам.
+    // Размер шрифта во всплывающих подсказках к танкам.
     "fontSize": 12,
     // name of the font in vehicle tooltips.
-    // название шрифта во всплывающих подсказках к танкам.
+    // Название шрифта во всплывающих подсказках к танкам.
     "fontName": "$TextFont",
     // color for premium shells etc. in vehicle tooltips.
-    // цвет премиумных снарядов и т.д. во всплывающих подсказках к танкам.
+    // Цвет премиумных снарядов и т.д. во всплывающих подсказках к танкам.
     "goldColor": "#FFC363",
     // Substitutions for light tanks.
     // Подстановки для легких танков.
@@ -188,7 +191,7 @@
       "#tooltips:header/info/players_unavailable/header"
     ],
     // Log all localization keys to the xvm.log file, can be helpful to search required tooltipId.
-    // Логгировать все ключи локализации в файл xvm.log, может быть полезно для поиска необходимых tooltipId.
+    // Логировать все ключи локализации в файл xvm.log, может быть полезно для поиска необходимых tooltipId.
     "logLocalization": false
   }
 }
@@ -231,7 +234,7 @@
   "gravity",                              - Гравитация \ Gravity
   "shellSpeedSummary",                    - Сводка скоростей снарядов \ Summary of shell speeds
   "radioRange",                           - Дальность связи \ Range of radio signal
-  "rateOfFire",                           - Скорострельность оружия \ Rate of Fire 
+  "rateOfFire",                           - Скорострельность оружия \ Rate of Fire
   "battleTiers",                          - Уровни боев танка \ Battle tiers of vehicle
   "maxHealth",                            - ХП танка \ HP of vehicle
   "invisibilityStillFactor"               - Незаметность неподвижной машины (%) \ Concealment of Stationary Vehicle (%)

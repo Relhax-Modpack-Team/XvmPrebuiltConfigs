@@ -1,14 +1,14 @@
 ﻿/**
  * Extra sounds settings.
  * Настройки дополнительных звуков.
- * 
+ *
  * https://kr.cm/f/t/18955/
  */
 {
   "sounds": {
     "enabled": false,
-    // true to enable remote communication between WoT client and WWISE Authoring Tools
-    // установите в true для включения коммуникации между клиентом WoT и WWISE Authoring Tools
+    // true to enable remote communication between WoT client and WWISE Authoring Tools.
+    // установите в true для включения коммуникации между клиентом WoT и WWISE Authoring Tools.
     "remote_communication": false,
     // List of extra banks to load.
     // Use comma for multiple values: ["bank1.bnk", "bank2.bnk"]. Path is relative to ./res_mods/x.x.x/audioww/
@@ -21,7 +21,7 @@
       "hangar": ["xvm://audioww/xvm.bnk"]
     },
     // Enable sound events logging in the xvm.log
-    // Включить логгирование звуковых событий в xvm.log
+    // Включить логирование звуковых событий в xvm.log
     "logSoundEvents": false,
     // Sound events remapping.
     // Переопределение звуковых событий.
