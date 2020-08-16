@@ -4,7 +4,8 @@
 {
   "tooltips": {    
     "combineIcons": ${"../../../REBIRTH/Settings/Hangar/ToolTips_Combine_Icon/OnOff.xc":" enabled"},     
-    "hideSimplifiedVehParams": ${"../../../REBIRTH/Settings/Hangar/ToolTips_Simplified_Tank_Parms/OnOff.xc":" enabled"},     
+    "hideSimplifiedVehParams": ${"../../../REBIRTH/Settings/Hangar/ToolTips_Simplified_Tank_Parms/OnOff.xc":" enabled"},
+    "hideCrystalBlock": false,	
     "hideBottomText": ${"../../../REBIRTH/Settings/Hangar/ToolTips_Bottom_Text/OnOff.xc":" enabled"},     
     "tooltipsDelay": 0.4,    
     "fontSize": 12,    

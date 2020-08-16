@@ -735,24 +735,24 @@
       "screenHAlign": "center",
       "format": "<img src='cfg://../../REBIRTH/img/battle/{{py:xvm.damageIndicator_aim|CentrDI}}.png' width='345' height='90'>"
     },
-	"hawgmaps": {
-	  "enabled": ${"../../../REBIRTH/Settings/Battle/Hawg_Tacitcal_Maps/OnOff.xc":" enabled"},
-      "hotKeyCode": ${"../../../REBIRTH/Settings/Battle/Hawg_Tacitcal_Maps/HotKey.xc":" hotKeyCode"},
+	"hawgmaps1": {
+	  "enabled": ${"../../../REBIRTH/Settings/_Tactical_Maps/1. Spg-TD-Scout/OnOff.xc":" enabled"},
+      "hotKeyCode": ${"../../../REBIRTH/Settings/_Tactical_Maps/1. Spg-TD-Scout/HotKey.xc":" hotKeyCode"},
       "onHold": true,
-      "x": ${"../../../REBIRTH/Settings/Battle/Hawg_Tacitcal_Maps/Right_Left.xc":" move"},
-      "y": ${"../../../REBIRTH/Settings/Battle/Hawg_Tacitcal_Maps/Up_Down.xc":" move"},
+      "x": ${"../../../REBIRTH/Settings/_Tactical_Maps/1. Spg-TD-Scout/Right_Left.xc":" move"},
+      "y": ${"../../../REBIRTH/Settings/_Tactical_Maps/1. Spg-TD-Scout/Up_Down.xc":" move"},
       "width": 532,
       "height": 532,
       "alpha": 99,
       "align": "right",
-      "format": "<img src='cfg://../../REBIRTH/img/tacitcal_maps/{{py:map.nameFile}}.png'>"
-    },
+      "format": "<img src='cfg://../../REBIRTH/img/tacitcal_maps/1.Spg-TD-Scout/{{py:map.nameFile}}.png'>"
+    },	
 	"hawgclanwarmaps": {
-	  "enabled": ${"../../../REBIRTH/Settings/Battle/Hawg_Tacitcal_ClanWar_Maps/OnOff.xc":" enabled"},
-      "hotKeyCode": ${"../../../REBIRTH/Settings/Battle/Hawg_Tacitcal_ClanWar_Maps/HotKey.xc":" hotKeyCode"},
+	  "enabled": ${"../../../REBIRTH/Settings/_Tactical_Maps/Tacitcal_ClanWar_Maps/OnOff.xc":" enabled"},
+      "hotKeyCode": ${"../../../REBIRTH/Settings/_Tactical_Maps/Tacitcal_ClanWar_Maps/HotKey.xc":" hotKeyCode"},
       "onHold": true,
-      "x": ${"../../../REBIRTH/Settings/Battle/Hawg_Tacitcal_ClanWar_Maps/Right_Left.xc":" move"},
-      "y": ${"../../../REBIRTH/Settings/Battle/Hawg_Tacitcal_ClanWar_Maps/Up_Down.xc":" move"},
+      "x": ${"../../../REBIRTH/Settings/_Tactical_Maps/Tacitcal_ClanWar_Maps/Right_Left.xc":" move"},
+      "y": ${"../../../REBIRTH/Settings/_Tactical_Maps/Tacitcal_ClanWar_Maps/Up_Down.xc":" move"},
       "width": 532,
       "height": 532,
       "alpha": 99,

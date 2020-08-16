@@ -25,7 +25,9 @@
       "clanLock": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100 },      
       "price": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100 },      
       "actionPrice": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100 },      
-      "favorite": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100 },      
+      "favorite": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100 },
+      "crystalsBorder": { "enabled": true, "alpha": 100 },
+      "crystalsIcon": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100 },      
       "stats": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "textFormat": {}, "shadow": {} }
     },    
     "extraFields": [      

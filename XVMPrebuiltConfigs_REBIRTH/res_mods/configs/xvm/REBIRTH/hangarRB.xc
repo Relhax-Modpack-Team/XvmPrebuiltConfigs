@@ -11,9 +11,10 @@
     "showGeneralChatButton": ${"../../../REBIRTH/Settings/Hangar/Hangar_General_Chat_Button/OnOff.xc":" enabled"},    
     "showPromoPremVehicle": ${"../../../REBIRTH/Settings/Hangar/Hangar_Promo_Prem_Tank/OnOff.xc":" enabled"},    
     "showRankedBattleResults": true,
+	"showProgressiveDecalsWindow": true,
     "showDailyQuestWidget": true,
     "showTenYearsBanner": true,
-    "showSE20Banner": true,  	
+    "showCustomizationCounter": true, 	
     "equipmentPanel": {      
       "showConsumablesCount": true,      
       "showDirectivesCount": false
@@ -60,7 +61,7 @@
       "offsetX": 0,      
       "offsetY": 0
     },   
-    "enableEquipAutoReturn": ${"../../../REBIRTH/Settings/Hangar/Hangar_Equip_AutoReturn/OnOff.xc":" enabled"},      
+          
     "blockVehicleIfLowAmmo": ${"../../../REBIRTH/Settings/Hangar/Hangar_Block_Tank_Low_Ammo/OnOff.xc":" enabled"},    
     "lowAmmoPercentage": 30,    
     "notificationsButtonType": "blink",   

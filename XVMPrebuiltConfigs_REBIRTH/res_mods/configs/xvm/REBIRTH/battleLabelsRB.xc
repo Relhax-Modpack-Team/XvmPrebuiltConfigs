@@ -213,7 +213,7 @@
 	  ${ "battleLabelsTemplatesRB.xc":"def.timeAIM"},
 	  ${ "battleLabelsTemplatesRB.xc":"def.timeFlight"},
 	  ${ "battleLabelsTemplatesRB.xc":"def.alt_auto_AIM_vehicle"},
-	  ${ "battleLabelsTemplatesRB.xc":"def.hawgmaps"},
+	  ${ "battleLabelsTemplatesRB.xc":"def.hawgmaps1"},	  
 	  ${ "battleLabelsTemplatesRB.xc":"def.hawgclanwarmaps"},
 	  ${ "battleLabelsTemplatesRB.xc":"def.battleEfficiency"},
 	  ${ "battleLabelsTemplatesRB.xc":"def.EFF"},

@@ -1,7 +1,7 @@
-Please Read 5/25
+Please Read 6/13
 
 To turn off/on any ScoreBoard follow path
-World_of_Tanks > res_mods > configs > xvm > HAWGS > REBIRTH > _ScoreBoard_MainFrame
+World_of_Tanks > res_mods > REBIRTH > Settings > _ScoreBoard_MainFrame
 
 This Text will turn on any ScoreBoard >   "{{battletype-key=epic_battle?false}}"
 

@@ -58,22 +58,28 @@
       "infoBuy": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1, "textFormat": {}, "shadow": {} },
       // Clan lock timer.
       // Таймер блокировки танка.
-      "clanLock": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100 },
+      "clanLock": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
       // Price.
       // Цена.
-      "price": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100 },
+      "price": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
       // Action price.
       // Акционная цена.
-      "actionPrice": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100 },
+      "actionPrice": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
       // Favorite vehicle mark.
       // Маркер основной техники.
-      "favorite": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100 },
+      "favorite": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
+      // Vehicle mark with the ability to earn bonds.
+      // Маркер техники с возможностью заработка бон.
+      "crystalsBorder": { "enabled": true, "alpha": 100 },
+      // Image in in the stats field "stats" for vehicle with the ability to earn bonds.
+      // Иконка в поле статистики "stats" для техники с возможностью заработка бон.
+      "crystalsIcon": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100 },
       // Stats field that appears on the mouse hover.
       // Поле статистики, отображаемое при наведении мыши.
-      "stats": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "textFormat": {}, "shadow": {} }
+      "stats": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1, "textFormat": {}, "shadow": {} }
     },
     // Extra cell fields (extended format supported, see extra-field.txt).
-    // Дополнительные поля ячеек (поддерживается расширенный формат, см. extra-field.txt).
+    // Дополнительные поля ячеек (поддерживается расширенный формат, см. extra-field_ru.txt).
     "extraFields": [
       // Slot background.
       // Подложка слота.
@@ -87,7 +93,7 @@
       },
       // Vehicle name.
       // Название танка.
-      { 
+      {
         "enabled": true,
         "x": 159, "y": 14, "align": "right",
         "format": "<font face='$FieldFont' size='15' color='{{v.premium?#FFA759|#C8C8B5}}'>{{v.name}}</font>",
