@@ -7,19 +7,24 @@
     // Text for {{vtype}} macro.
     // Текст для макроса {{vtype}}.
     "vtype": {
-      // Text for light tanks / Текст для легких танков.
+      // Text for light tanks.
+      // Текст для легких танков.
       "LT":  "LT",
-      // Text for medium tanks / Текст для средних танков.
+      // Text for medium tanks.
+      // Текст для средних танков.
       "MT":  "MT",
-      // Text for heavy tanks / Текст для тяжелых танков.
+      // Text for heavy tanks.
+      // Текст для тяжелых танков.
       "HT":  "HT",
-      // Text for arty / Текст для арты.
+      // Text for SPG.
+      // Текст для САУ.
       "SPG": "SPG",
-      // Text for tank destroyers / Текст для ПТ.
+      // Text for tank destroyers.
+      // Текст для ПТ-САУ.
       "TD":  "TD"
     },
     // Text for {{marksOnGun}}, {{v.marksOnGun}} macros.
-    // Текст для макросов {{marksOnGun}}, {{v.marksOnGun}}
+    // Текст для макросов {{marksOnGun}}, {{v.marksOnGun}}.
     "marksOnGun": {
       "_0": "0",
       "_1": "1",
@@ -27,15 +32,11 @@
       "_3": "3"
     },
     // Text for {{spotted}} macro.
-    // Текст для макроса {{spotted}}
+    // Текст для макроса {{spotted}}.
     "spotted": {
-      // The enemy never seen
       "neverSeen": "<font face='xvm' size='17' color='#{{.colors.system.enemy_alive%6.6X}}'>\u0044</font>",
-      // The enemy appeared at least once on the minimap and flagged as lost
       "lost": "<font face='xvm' size='17' color='#D9C700'>\u0044</font>",
-      // On the minimap is visible right now
       "spotted": "",
-      // Destroyed enemy
       "dead": "<font face='xvm' size='17' color='#000000'>\u0044</font>",
       "neverSeen_arty": "",
       "lost_arty": "",
@@ -43,67 +44,108 @@
       "dead_arty": "<font face='xvm' size='17' color='#000000'>\u0044</font>"
     },
     // Text for {{xvm-user}} macro.
-    // Текст для макроса {{xvm-user}}
+    // Текст для макроса {{xvm-user}}.
     "xvmuser": {
-      // XVM with enabled statistics / XVM со включенной статистикой.
+      // XVM with enabled statistics.
+      // XVM со включенной статистикой.
       "on": "on",
-      // XVM with disabled statistics / XVM со выключенной статистикой.
+      // XVM with disabled statistics.
+      // XVM со выключенной статистикой.
       "off": "off",
-      // Without XVM / Без XVM.
+      // Without XVM.
+      // Без XVM.
       "none": "none"
     },
     // Text for {{battletype}} macro.
     // Текст для макроса {{battletype}}.
     "battletype": {
-      // Неизвестный бой
-      "unknown": "unknown",
-      // Случайный бой
+      // Unknown battle.
+      // Неизвестный бой.
+      "unknown": "",
+      // Random battle.
+      // Случайный бой.
       "regular": "regular",
-      // Тренировочный бой
+      // Team training.
+      // Тренировочный бой.
       "training": "training",
-      // Турнир
+      // Tournament.
+      // Турнир.
       "tournament": "tournament",
-      // Клановый бой
+      // Clan wars.
+      // Клановый бой.
       "clan": "clan",
-      // Учебный бой
+      // Battle training.
+      // Боевое обучение.
       "tutorial": "tutorial",
-      // Командный бой
+      // Team battles.
+      // Командный бой.
       "cybersport": "cybersport",
-      // Бой спецрежима (гонки, футбол и т.п.)
+      // Special game mode (racing, football and other).
+      // Бой спецрежима (гонки, футбол и т.п.).
       "event_battles": "event_battles",
-      // Глобальная карта (ГК)
+      // Global map (GM).
+      // Глобальная карта (ГК).
       "global_map": "global_map",
-      // Регулярный турнир (ивент) ГК
+      // Regular tournament (event) GM.
+      // Регулярный турнир (ивент) ГК.
       "tournament_regular": "tournament_regular",
-      // Периодический турнир (ивент) ГК
+      // Periodic Tournament (event) GM.
+      // Периодический турнир (ивент) ГК.
       "tournament_clan": "tournament_clan",
-      // Песочный PVE, <10 боев
+      // Sandbox PVE, <10 battles.
+      // Песочный PVE, <10 боев.
       "rated_sandbox": "",
-      // Песочный PVE, >10 боев
+      // Sandbox PVE, >10 battles.
+      // Песочный PVE, >10 боев.
       "sandbox": "",
-      // Стальная охота
+      // Steel Hunt.
+      // Стальная охота.
       "fallout_classic": "",
-      // Превосходство
+      // Domination.
+      // Превосходство.
       "fallout_multiteam": "",
-      // Укрепрайон, вылазка
+      // Strongholds, skirmish.
+      // Укрепрайон, вылазка.
       "sortie_2": "sortie_2",
-      // Укрепрайон, наступление
+      // Strongholds, advance.
+      // Укрепрайон, наступление.
       "fort_battle_2": "fort_battle_2",
-      // Ранговый бой
+      // Ranked battle.
+      // Ранговый бой.
       "ranked": "",
-      // Учебный полигон
+      // Proving ground.
+      // Учебный бой.
       "bootcamp": "",
-      // Генеральное сражение
+      // Grand battles.
+      // Генеральное сражение.
       "epic_random": "",
-      // Генеральное сражение (тренировка)
+      // Grand battles (training).
+      // Генеральное сражение (тренировка).
       "epic_random_training": "",
-      // Бой спецрежима (новый)(гонки, футбол и т.п.)
+      // Special game mode (new)(racing, football and other).
+      // Бой спецрежима (новый)(гонки, футбол и т.п.).
       "event_battles_2": "",
-      // Режим «Линия фронта»
-      "epic_battle": ""
+      // Frontline.
+      // Линия фронта.
+      "epic_battle": "",
+      // Frontline (training).
+      // Линия фронта (тренировка).
+      "epic_battle_training": "",
+      // Steel Hunter (solo).
+      // Стальной охотник (соло).
+      "battle_royale_solo": "",
+      // Steel Hunter (squad).
+      // Стальной охотник (взвод).
+      "battle_royale_squad": "",
+      // Tournament (event).
+      // Турнир (ивент).
+      "tournament_event": "",
+      // ?.
+      // ?.
+      "event_random": ""
     },
     // Text for {{topclan}} macro.
-    // Текст для макроса {{topclan}}
+    // Текст для макроса {{topclan}}.
     "topclan": {
       "top": "top",
       "persist": "persist",
