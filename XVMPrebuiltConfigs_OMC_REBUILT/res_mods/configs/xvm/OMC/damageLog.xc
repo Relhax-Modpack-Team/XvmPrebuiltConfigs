@@ -1,6 +1,13 @@
 ﻿/**
-  * Macros used in damageLog:
-  * Макросы используемые в damageLog:
+ * Log of the received damage.
+ * For additional settings see battleLabelsTemplates.xc
+ * Лог полученного урона.
+ * Дополнительные настройки см. в battleLabelsTemplates.xc
+ *
+ * https://kr.cm/f/t/35169/
+
+  Macros used in damageLog:
+  Макросы используемые в damageLog:
 
     {{number}}         - line number / номер строки.
     {{dmg}}            - received damage / полученный урон.
@@ -31,7 +38,7 @@
     {{reloadGun}}      - gun reloading time / время перезарядки орудия.
     {{gun-caliber}}    - gun caliber / калибр орудия.
     {{wn8}}, {{xwn8}}, {{wtr}}, {{xwtr}}, {{eff}}, {{xeff}}, {{wgr}}, {{xwgr}}, {{xte}}, {{r}}, {{xr}} - statistics macros (see macros.txt) / макросы статистики (смотрите macros_ru.txt).
-    {{c:wn8}}, {{c:xwn8}}, {{c:wtr}}, {{c:xwtr}}, {{c:eff}}, {{c:xeff}}, {{c:wgr}}, {{c:xwgr}}, {{c:xte}}, {{c:r}}, {{c:xr}} - statistics macros (see macros.txt) / макросы статистики (смотрите macros_ru.txt).
+    {{c:wn8}}, {{c:xwn8}}, {{c:wtr}}, {{c:xwtr}}, {{c:eff}}, {{c:xeff}}, {{c:wgr}}, {{c:xwgr}}, {{c:xte}}, {{c:r}}, {{c:xr}} - color according to the corresponding statistics macro (see macros.txt) / цвет по соответствующему макросу статистики (смотрите macros_ru.txt).
     {{fire-duration}}  - duration of fire ("groupDamagesFromFire" must be enabled to work) / продолжительность пожара (работает только при включенной опции "groupDamagesFromFire").
     {{diff-masses}}    - vehicles weights difference during collision / разность масс техники при столкновении.
     {{nation}}         - vehicle nation / нация техники.
@@ -40,6 +47,7 @@
     {{crit-device}}    - damaged module or shell-shocked crew member / поврежденный модуль или контуженный член экипажа.
     {{type-shell-key}} - shell kind table key value / название ключа таблицы типа снаряда.
     {{hitTime}}        - time of the received (blocked) damage in "mm:ss" format / время полученного (заблокированного) урона в формате "мм:сс".
+    {{vehiclename}}    - vehicle system name (usa-A34_M24_Chaffee) / название техники в системе (usa-A34_M24_Chaffee).
 */
 
 {
@@ -63,6 +71,18 @@
       "moveInBattle": false,
       "x": 240,
       "y": -23,
+      // true - show hits without damage.
+      // true - отображать попадания без урона.
+      "showHitNoDamage": true,
+      // true - summarize damages from fire.
+      // true - суммировать повреждения от пожара.
+      "groupDamagesFromFire": true,
+      // true - summarize damages from ramming, crash, falling (if more than one damage per second).
+      // true - суммировать повреждения от тарана, столкновения, падения (если больше одного повреждения в секунду).
+      "groupDamagesFromRamming_WorldCollision": true,
+      // true - summarize damages from artillery strike and airstrike (if more than one damage per second).
+      // true - суммировать повреждения от артудара и авионалета (если больше одного повреждения в секунду).
+      "groupDamageFromArtAndAirstrike": true,
       // Kind of the received damage (macro {{dmg-kind}}).
       // Тип полученного урона (макрос {{dmg-kind}}).
       "dmg-kind": {
@@ -72,6 +92,7 @@
         "world_collision": "{{hit-effects}}{{critical-hit}}<tab><font face='xvm'>&#x53;</font>",           // world collision / столкновение с объектами, падение.
         "drowning": "{{l10n:drowning}}<tab><font face='xvm'>&#x119;</font>",                               // drowning / утопление.
         "overturn": "{{hit-effects}}<tab><font face='xvm'>&#x112;</font>",                                 // overturn / опрокидывание.
+        "recovery": "{{l10n:forsaken}}<tab><font face='xvm'>&#x100;</font>",                               // self-destruction / самоуничтожение (in the "Frontline" mode / в режиме "Линия фронта").
         "death_zone": "DZ",                                                                                // death zone / смертельная зона.
         "gas_attack": "GA",                                                                                // gas attack / газовая атака.
         "art_attack": "{{hit-effects}}{{critical-hit}}{{splash-hit}}<tab><font face='xvm'>&#x110;</font>", // art attack / артиллерийская поддержка.
@@ -86,6 +107,7 @@
         "world_collision": "#228855",      // world collision / столкновение с объектами, падение.
         "drowning": "#CCCCCC",             // drowning / утопление.
         "overturn": "#CCCCCC",             // overturn / опрокидывание.
+        "recovery": "#CCCCCC",             // self-destruction / самоуничтожение (in the "Frontline" mode / в режиме "Линия фронта").
         "death_zone": "#CCCCCC",           // death zone / смертельная зона.
         "gas_attack": "#CCCCCC",           // gas attack / газовая атака.
         "art_attack": "{{c:hit-effects}}", // art attack / артиллерийская поддержка.
@@ -107,8 +129,8 @@
         "hollow_charge": "<font color='{{c:costShell}}'>{{l10n:hollow_charge}}</font>",         // high explosive anti-tank / кумулятивный.
         "not_shell": ""                                                                         // another source of damage / другой источник урона.
       },
-      // Color by shell kind (macro {{type-shell}}).
-      // Цвет по типу снаряда (макрос {{type-shell}}).
+      // Color by shell kind (macro {{c:type-shell}}).
+      // Цвет по типу снаряда (макрос {{c:type-shell}}).
       "c:type-shell": {
         "armor_piercing": "#CCCCCC",    // armor piercing / бронебойный.
         "high_explosive": "#CCCCCC",    // high explosive / осколочно-фугасный.
@@ -231,15 +253,6 @@
         "silver-shell": "#CCCCCC", // credits / кредиты.
         "unknown": ""              // unknown / неизвестно.
       },
-      // true - show hits without damage.
-      // true - отображать попадания без урона.
-      "showHitNoDamage": true,
-      // true - summarize damages from fire.
-      // true - суммировать повреждения от пожара.
-      "groupDamagesFromFire": true,
-      // true - summarize damages from ramming, crash, falling (if more than one damage per second).
-      // true - суммировать повреждения от тарана, столкновения, падения (если больше одного повреждения в секунду).
-      "groupDamagesFromRamming_WorldCollision": true,
       // Shadow settings.
       // Настройки тени.
       "shadow": {
@@ -280,7 +293,7 @@
     // Background of the log of the received damage (alternative mode).
     // Подложка лога полученного урона (альтернативный режим).
     "logAltBackground": {
-      "$ref": { "path":"damageLog.logAlt" },
+      "$ref": { "path":"damageLog.logBackground" },
       // Damage log background format.
       // Формат подложки лога повреждений.
       "formatHistory": "<img height='20' width='310' src='xvm://res/icons/damageLog/{{dmg=0?no_dmg|dmg}}.png'>"
@@ -319,6 +332,7 @@
         "world_collision": "{{hit-effects}}", // world collision / столкновение с объектами, падение.
         "drowning": "{{l10n:drowning}}",      // drowning / утопление.
         "overturn": "{{hit-effects}}",        // overturn / опрокидывание.
+        "recovery": "{{l10n:forsaken}}",      // self-destruction / самоуничтожение (in the "Frontline" mode / в режиме "Линия фронта").
         "death_zone": "DZ",                   // death zone / смертельная зона.
         "gas_attack": "GA",                   // gas attack / газовая атака.
         "art_attack": "{{hit-effects}}",      // art attack / артиллерийская поддержка.
