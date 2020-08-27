@@ -278,8 +278,8 @@
         "y": 4,
         "width": 13,
         "height": 11,
-        "alpha": 76,
-        "src": "xvm://res/icons/maxdata/{{v.premium}}.png"
+        "alpha": "{{v.premium?76|0}}",
+        "src": "xvm://res/icons/maxdata/premium.png"
       },
       {
         "enabled": true,
