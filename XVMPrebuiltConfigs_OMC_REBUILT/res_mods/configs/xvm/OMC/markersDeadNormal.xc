@@ -73,7 +73,7 @@
     // Type of vehicle icon (HT/MT/LT/TD/Arty).
     // Иконка типа танка (ТТ/СТ/ЛТ/ПТ/Арта).
     "vehicleIcon": {
-      // false - disable / не отображать
+      // false - disable / не отображать.
       "enabled": true,
       // true - show speaker even if enabled=false.
       // true - показывать спикер, даже если enabled=false.
@@ -217,7 +217,7 @@
       "alpha": 100,
       "maxScale": 80,
       "offsetX": 0,
-      "offsetY":16
+      "offsetY": 16
     },
     // Health indicator.
     // Индикатор здоровья.

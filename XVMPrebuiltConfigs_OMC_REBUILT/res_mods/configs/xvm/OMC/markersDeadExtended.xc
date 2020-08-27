@@ -30,6 +30,8 @@
         "bold": false,                  // True - bold   / Жирный.
         "italic": false                 // True - italic / Курсив.
       },
+      // Shadow options.
+      // Параметры тени.
       "shadow": {
         // false - no shadow.
         // false - без тени.
@@ -246,7 +248,7 @@
       },
       "damage": {
         "alpha": 80,
-        "color": "0XFFFFFF",
+        "color": "0xFFFFFF",
         "fade": 2
       }
     },

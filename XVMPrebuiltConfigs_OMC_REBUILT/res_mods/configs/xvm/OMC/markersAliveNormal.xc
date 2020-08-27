@@ -101,8 +101,8 @@
       "enabled": true,                  // false - не отображать
       "x": -47,                         // положение по оси X
       "y": -50,                         // положение по оси Y
-      "alpha": 100,                     // прозрачность (допускается использование динамической прозрачности, см. macros.txt)
-      "color": null,                    // цвет основной (допускается использование динамического цвета, см. macros.txt)
+      "alpha": 100,                     // прозрачность (допускается использование динамической прозрачности, см. macros_ru.txt)
+      "color": null,                    // цвет основной (допускается использование динамического цвета, см. macros_ru.txt)
       "lcolor": null,                   // цвет дополнительный (для градиента)
       "width": 90,                      // ширина полосы здоровья
       "height": 2,                      // высота полосы здоровья
@@ -150,10 +150,10 @@
       "x": 6,
       "y": -75,
       // Opacity (dynamic transparency allowed, see macros.txt).
-      // Прозрачность (допускается использование динамической прозрачности, см. macros.txt).
+      // Прозрачность (допускается использование динамической прозрачности, см. macros_ru.txt).
       "alpha": 100,
       // Color (dynamic colors allowed, see macros.txt).
-      // Цвет (допускается использование динамического цвета, см. macros.txt).
+      // Цвет (допускается использование динамического цвета, см. macros_ru.txt).
       "color": null,
       // Color intensity from 0 to 100. The default is 0 (off).
       // Интенсивность цвета от 0 до 100. По умолчанию 0, т.е. выключено.
@@ -172,7 +172,7 @@
     "actionMarker": {
       "enabled": true,   // false - disable        / не отображать.
       "x": 0,            // Position on the X axis / Положение по оси X.
-      "y": -115,          // Position on the Y axis / Положение по оси Y.
+      "y": -115,         // Position on the Y axis / Положение по оси Y.
       "alpha": 100       // Opacity                / Прозрачность.
     },
     // Stun marker and consumables marker in "Frontline Returns" mode (smoke screen, morale boost, engineering crew).
@@ -193,7 +193,7 @@
       "alpha": 100       // Opacity                / Прозрачность.
     },
     // Block of text fields (extended format supported, see extra-field.txt).
-    // Блок текстовых полей (поддерживается расширенный формат, см. extra-field.txt).
+    // Блок текстовых полей (поддерживается расширенный формат, см. extra-field_ru.txt).
     "textFields": [
       {
         "$ref": { "file": "markersTemplates.xc", "path": "Tankname"},
@@ -352,7 +352,7 @@
       "alpha": 100
     },
     // Block of text fields (extended format supported, see extra-field.txt).
-    // Блок текстовых полей (поддерживается расширенный формат, см. extra-field.txt).
+    // Блок текстовых полей (поддерживается расширенный формат, см. extra-field_ru.txt).
     "textFields": [
       {
         "$ref": { "file": "markersTemplates.xc", "path": "Tankname"},

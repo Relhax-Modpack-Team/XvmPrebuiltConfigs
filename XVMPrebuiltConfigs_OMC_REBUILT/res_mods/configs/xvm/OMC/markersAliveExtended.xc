@@ -122,8 +122,8 @@
       // Параметры анимации отнимаемого здоровья.
       "damage": {
         "alpha": 80,                    // прозрачность
-        "color": 0xFFFFFF,              // цвет
-        "fade": 1                       // время затухания в секундах
+        "color": "0xFFFFFF",            // цвет
+        "fade": 2                       // время затухания в секундах
       }
     },
     // Floating damage values for ally, player, squadman.
@@ -289,7 +289,7 @@
       "y": -75,
       "alpha": 100,
       "color": null,
-      "alpha": 100
+      "amount": 0
     },
     // Vehicle tier.
     // Уровень танка.
