@@ -8,6 +8,8 @@
     // false - использовать стандартные маркеры клиента.
     "enabled": true,
     "templates": ${"markersTemplates.xc":"def"},
+    // {{turret}} marker display strings.
+    // Отображаемые строки {{turret}} маркера.
     "turretMarkers": {
       // Subject has stock turret and top gun can not be mounted. Subject is highly vulnerable.
       // Субъект имеет стоковую башню и топ орудие не может быть установлено. Субъект сильно уязвим.
