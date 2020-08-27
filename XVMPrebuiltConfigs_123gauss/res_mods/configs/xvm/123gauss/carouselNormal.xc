@@ -108,7 +108,7 @@
       { "enabled": true, "x": 145, "y": 150, "width": 30, "height": 10, "alpha": 200, "src": "xvm://res/icons/maxdata/mog_a0{{v.marksOnGun}}.png" },	
 
 // PREMIUM ICON
-      { "enabled": true, "x": 22, "y": 5, "width": 16, "height": 14, "alpha": 76, "src": "xvm://res/icons/maxdata/{{v.premium}}.png" },
+      { "enabled": true, "x": 22, "y": 5, "width": 16, "height": 14, "alpha": "{{v.premium?76|0}}", "src": "xvm://res/icons/maxdata/premium.png" },
 	  
 // MASTERY ICON
       { "enabled": true, "x": 263, "y": 85, "width": 44, "height": 46, "alpha": 90, 
@@ -116,9 +116,9 @@
       },
 
 // CAMO ICON
-      { "enabled": true, "x": 255, "y": 145, "width": 18, "height": 18, "alpha": 100, "src": "../../gui/maps/icons/quests/prebattleConditions/{{v.camouflageSummer}}.png" },
-      { "enabled": true, "x": 275, "y": 145, "width": 18, "height": 18, "alpha": 100, "src": "../../gui/maps/icons/quests/prebattleConditions/{{v.camouflageWinter}}.png" },
-      { "enabled": true, "x": 295, "y": 145, "width": 18, "height": 18, "alpha": 100, "src": "../../gui/maps/icons/quests/prebattleConditions/{{v.camouflageDesert}}.png" },
+      { "enabled": true, "x": 255, "y": 145, "width": 18, "height": 18, "alpha": "{{v.camouflageSummer?100|0}}", "src": "../../gui/maps/icons/quests/prebattleConditions/summer.png" },
+      { "enabled": true, "x": 275, "y": 145, "width": 18, "height": 18, "alpha": "{{v.camouflageWinter?100|0}}", "src": "../../gui/maps/icons/quests/prebattleConditions/winter.png" },
+      { "enabled": true, "x": 295, "y": 145, "width": 18, "height": 18, "alpha": "{{v.camouflageDesert?100|0}}", "src": "../../gui/maps/icons/quests/prebattleConditions/desert.png" },
 
 
 
