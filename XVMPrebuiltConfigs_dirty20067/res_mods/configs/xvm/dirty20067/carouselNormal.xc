@@ -296,8 +296,8 @@
         "y": 116,
         "width": 14,
         "height": 14,
-        "alpha": 100,
-        "src": "../../gui/maps/icons/quests/prebattleConditions/{{v.camouflageSummer}}.png"
+        "alpha": "{{v.camouflageSummer?100|0}}",
+        "src": "../../gui/maps/icons/quests/prebattleConditions/summer.png"
       },
       {
         "enabled": true,
@@ -305,8 +305,8 @@
         "y": 116,
         "width": 14,
         "height": 14,
-        "alpha": 100,
-        "src": "../../gui/maps/icons/quests/prebattleConditions/{{v.camouflageWinter}}.png"
+        "alpha": "{{v.camouflageWinter?100|0}}",
+        "src": "../../gui/maps/icons/quests/prebattleConditions/winter.png"
       },
       {
         "enabled": true,
@@ -314,8 +314,8 @@
         "y": 116,
         "width": 14,
         "height": 14,
-        "alpha": 100,
-        "src": "../../gui/maps/icons/quests/prebattleConditions/{{v.camouflageDesert}}.png"
+        "alpha": "{{v.camouflageDesert?100|0}}",
+        "src": "../../gui/maps/icons/quests/prebattleConditions/desert.png"
       },
       {
         "enabled": true,
