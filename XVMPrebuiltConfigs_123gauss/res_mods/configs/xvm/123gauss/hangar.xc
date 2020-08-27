@@ -47,7 +47,7 @@
       "offsetX": 0,
       "offsetY": 0
     },
-    "enableEquipAutoReturn": true,
+
     "blockVehicleIfLowAmmo": true,
     "lowAmmoPercentage": 20,
     "notificationsButtonType": "full",
