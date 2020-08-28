@@ -17,8 +17,6 @@
       // Субъект имеет стоковую башню и топ орудие может быть установлено. Субъект немного уязвим.
       "lowVulnerability": "'"
     },
-
-
     // Settings for allies.
     // Настройки для союзников.
     "ally": {
@@ -31,8 +29,6 @@
         "extended": ${"markersDeadExtended.xc":"ally"}
       }
     },
-
-
     // Settings for enemies.
     // Настройки для противников.
     "enemy": {
