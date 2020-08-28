@@ -106,7 +106,7 @@
       { "$ref": { "path": "def.traverseAngle" }, "from": 250, "to": 298,  "thickness": 1.1,  "alpha": 42 },
       { "$ref": { "path": "def.traverseAngle" }, "from": 300, "to": 398,  "thickness": 1.0,  "alpha": 40 },
       { "$ref": { "path": "def.traverseAngle" }, "from": 400, "to": 498,  "thickness": 0.9,  "alpha": 40 },
-      { "$ref": { "path": "def.traverseAngle" }, "from": 500, "to": 2000, "thickness": 0.75, "alpha": 40 }}
+      { "$ref": { "path": "def.traverseAngle" }, "from": 500, "to": 2000, "thickness": 0.75, "alpha": 40 }
     ]
   }
 }
