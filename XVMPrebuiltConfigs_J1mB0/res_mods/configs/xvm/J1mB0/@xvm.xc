@@ -13,7 +13,7 @@
  *
  * Внимание! Кодировка файлов должна оставаться UTF8+BOM. В противном случае
  * вместо кириллицы в игре будут пустые глифы.
- * Для редактирования используйте Notepad++. https://goo.gl/y6iet
+ * Для редактирования используйте Notepad++. https://kr.cm/f/t/1382/c/25815/
  * В случае блокнота Windows: Сохранить как -> Кодировка: UTF.
  */
 {
@@ -25,18 +25,22 @@
   // Автоматически перезагружать конфиг. Требует перезапуска клиента.
   "autoReloadConfig": false,
 
-  // Language used in mod
+  // Language used in mod:
   // "auto" - automatically detect language from game client,
-  // or specify file name located in res_mods/mods/shared_resources/xvm/l10n/ (ex: "en")
-  // Используемый язык в моде
+  // or specify file name located in res_mods/mods/shared_resources/xvm/l10n/ (ex: "en").
+  // Используемый язык в моде:
   // "auto" - автоматически определять язык клиента игры,
-  // или укажите имя файла в папке res_mods/mods/shared_resources/xvm/l10n/ (например, "en")
+  // или укажите имя файла в папке res_mods/mods/shared_resources/xvm/l10n/ (например, "en").
   "language": "auto",
 
-  // Game Region
+  // The path to the folder with custom localization files, is set relative to the user config folder.
+  // Путь к папке с пользовательскими файлами локализации, задается относительно папки пользовательского конфига.
+  "userLanguageFolder": "lang",
+
+  // Game Region:
   // "auto" - automatically detect game region from game client,
   // or specify one of: "RU", "EU", "NA", "ASIA", "KR", "CN"
-  // Регион (игровой кластер)
+  // Регион (игровой кластер):
   // "auto" - автоматически определять регион из клиента игры,
   // или укажите один из: "RU", "EU", "NA", "ASIA", "KR", "CN"
   "region": "auto",
@@ -46,7 +50,7 @@
   "definition": {
     // Config author.
     // Автор конфига.
-    "author": "J1mB091",
+    "author": "J1mB091, Relhax Modpack Team",
 
     // Config description.
     // Описание конфига.
@@ -56,17 +60,17 @@
     // Адрес, где выкладываются обновления конфига.
     "url": "https://relhaxmodpack.com/",
 
-    // Config last modified.
-    // Дата последней модификации конфига.
-    "date": "31.08.2018",
-
     // Supported version of the game.
     // Поддерживаемая версия игры.
-    "gameVersion": "1.1.0",
+    "gameVersion": "1.10.0.0",
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
-    "modMinVersion": "7.7.0"
+    "modMinVersion": "8.6.0",
+
+    // Config last modified.
+    // Дата последней модификации конфига.
+    "date": "08.27.2020"
   },
 
   // Parameters for login screen.
@@ -169,23 +173,23 @@
   // Замена названий танков.
   "vehicleNames": ${"vehicleNames.xc":"vehicleNames"},
 
-  // Export data
-  // Выгрузка данных
+  // Export data.
+  // Выгрузка данных.
   "export": ${"export.xc":"export"},
 
-  // Parameters for tooltips
-  // Параметры всплывающих подсказок
+  // Parameters for tooltips.
+  // Параметры всплывающих подсказок.
   "tooltips": ${"tooltips.xc":"tooltips"},
 
-  // Extra sounds settings
-  // Настройки дополнительных звуков
+  // Extra sounds settings.
+  // Настройки дополнительных звуков.
   "sounds": ${"sounds.xc":"sounds"},
 
-  // XMQP services settings
-  // Настройки сервисов XMQP
+  // XMQP services settings.
+  // Настройки сервисов XMQP.
   "xmqp": ${"xmqp.xc":"xmqp"},
 
-  // Various settings for advanced users
-  // Различные настройки для продвинутых пользоватей
+  // Various settings for advanced users.
+  // Различные настройки для продвинутых пользователей.
   "tweaks": ${"tweaks.xc":"tweaks"}
 }
