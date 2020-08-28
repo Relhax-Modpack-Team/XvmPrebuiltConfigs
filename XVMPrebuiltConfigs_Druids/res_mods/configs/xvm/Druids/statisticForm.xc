@@ -13,12 +13,15 @@
     }
   },
   "statisticForm": {
-    // true - disable Platoon/rank icons.
+    // true - disable platoon/rank icons.
     // true - убрать отображение иконки взвода/ранга.
     "removeSquadIcon": false,
-    // true - disable rank badge icons
-    // true - убрать отображение иконки бейджа ранга
+    // true - disable badge icons.
+    // true - убрать отображение иконки нашивки.
     "removeRankBadgeIcon": false,
+    // true - disable alpha/beta testers icons.
+    // true - убрать отображение иконки альфа/бета тестеров.
+    "removeTesterIcon": false,
     // Opacity percentage of vehicle icon. 0 - transparent ... 100 - opaque.
     // Прозрачность в процентах иконки танка. 0 - прозрачные, 100 - не прозрачные.
     "vehicleIconAlpha": 100,
@@ -31,90 +34,90 @@
     // true - disable player status icon.
     // true - убрать отображение иконки статуса игрока.
     "removePlayerStatusIcon": false,
-    // Show border for name field (useful for config tuning)
-    // Показывать рамку для поля имени игрока (полезно для настройки конфига)
+    // Show border for name field (useful for config tuning).
+    // Показывать рамку для поля имени игрока (полезно для настройки конфига).
     "nameFieldShowBorder": false,
-    // Show border for vehicle field (useful for config tuning)
-    // Показывать рамку для поля имени танка (полезно для настройки конфига)
+    // Show border for vehicle field (useful for config tuning).
+    // Показывать рамку для поля имени танка (полезно для настройки конфига).
     "vehicleFieldShowBorder": false,
-    // Show border for frags field (useful for config tuning)
-    // Показывать рамку для поля фрагов (полезно для настройки конфига)
+    // Show border for frags field (useful for config tuning).
+    // Показывать рамку для поля фрагов (полезно для настройки конфига).
     "fragsFieldShowBorder": false,
-    // X offset for allies squad icons
-    // Смещение по оси X значка взвода союзников
+    // X offset for allies squad icons.
+    // Смещение по оси X значка взвода союзников.
     "squadIconOffsetXLeft": 0,
-    // X offset for enemies squad icons
-    // Смещение по оси X значка взвода противников
+    // X offset for enemies squad icons.
+    // Смещение по оси X значка взвода противников.
     "squadIconOffsetXRight": 0,
-    // X offset for allies player names field
-    // Смещение по оси X поля ника союзников
+    // X offset for allies player names field.
+    // Смещение по оси X поля ника союзников.
     "nameFieldOffsetXLeft": 0,
-    // X offset for enemies player names field
-    // Смещение по оси X поля ника противников
+    // X offset for enemies player names field.
+    // Смещение по оси X поля ника противников.
     "nameFieldOffsetXRight": 0,
-    // Width of allies player names field
-    // Ширина поля ника союзников
+    // Width of allies player names field.
+    // Ширина поля ника союзников.
     "nameFieldWidthLeft": 200,
-    // Width of enemies names field
-    // Ширина поля ника противников
+    // Width of enemies names field.
+    // Ширина поля ника противников.
     "nameFieldWidthRight": 200,
-    // X offset for "formatLeftVehicle" field
-    // Смещение по оси X поля названия танка союзников
+    // X offset for "formatLeftVehicle" field.
+    // Смещение по оси X поля названия танка союзников.
     "vehicleFieldOffsetXLeft": 0,
-    // X offset for "formatRightVehicle" field
-    // Смещение по оси X поля названия танка противников
+    // X offset for "formatRightVehicle" field.
+    // Смещение по оси X поля названия танка противников.
     "vehicleFieldOffsetXRight": 0,
-    // Width of "formatLeftVehicle" field
-    // Ширина поля названия танка союзников
+    // Width of "formatLeftVehicle" field.
+    // Ширина поля названия танка союзников.
     "vehicleFieldWidthLeft": 250,
-    // Width of "formatRightVehicle" field
-    // Ширина поля названия танка противников
+    // Width of "formatRightVehicle" field.
+    // Ширина поля названия танка противников.
     "vehicleFieldWidthRight": 250,
-    // X offset for allies vehicle icons
-    // Смещение по оси X иконки танка союзников
+    // X offset for allies vehicle icons.
+    // Смещение по оси X иконки танка союзников.
     "vehicleIconOffsetXLeft": 0,
-    // X offset for enemies vehicle icons
-    // Смещение по оси X иконки танка противников
+    // X offset for enemies vehicle icons.
+    // Смещение по оси X иконки танка противников.
     "vehicleIconOffsetXRight": 0,
-    // X offset for allies frags
-    // Смещение по оси X фрагов союзников
+    // X offset for allies frags.
+    // Смещение по оси X фрагов союзников.
     "fragsFieldOffsetXLeft": 5,
-    // X offset for enemies frags
-    // Смещение по оси X фрагов противников
+    // X offset for enemies frags.
+    // Смещение по оси X фрагов противников.
     "fragsFieldOffsetXRight": 0,
-    // Width of frags field for allies
-    // Ширина поля фрагов союзников
+    // Width of frags field for allies.
+    // Ширина поля фрагов союзников.
     "fragsFieldWidthLeft": 43,
-    // Width of frags field for enemies
-    // Ширина поля фрагов противников
+    // Width of frags field for enemies.
+    // Ширина поля фрагов противников.
     "fragsFieldWidthRight": 43,
     // Display format for the left panel (macros allowed, see macros.txt).
-    // Формат отображения для левой панели (допускаются макроподстановки, см. macros.txt).
+    // Формат отображения для левой панели (допускаются макроподстановки, см. macros_ru.txt).
     "formatLeftNick": "<img src='xvm://res/icons/flags/{{flag|default}}.png' width='16' height='13'> <img src='xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png'> {{name%.15s~..}} <font alpha='#A0'>{{clan}}</font>",
     // Display format for the right panel (macros allowed, see macros.txt).
-    // Формат отображения для правой панели (допускаются макроподстановки, см. macros.txt).
+    // Формат отображения для правой панели (допускаются макроподстановки, см. macros_ru.txt).
     "formatRightNick": "<font alpha='#A0'>{{clan}}</font> {{name%.15s~..}} <img src='xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png'> <img src='xvm://res/icons/flags/{{flag|default}}.png' width='16' height='13'>",
     // Display format for the left panel (macros allowed, see macros.txt).
-    // Формат отображения для левой панели (допускаются макроподстановки, см. macros.txt).
+    // Формат отображения для левой панели (допускаются макроподстановки, см. macros_ru.txt).
     "formatLeftVehicle": "{{vehicle}} <font color='{{c:winrate}}'>{{winrate%2d~%|--%}}</font><font color='{{c:kb}}'>{{kb%2d~k|--k}}</font> <font color='{{c:r}}'>[{{xr|--}}]</font>",
     // Display format for the right panel (macros allowed, see macros.txt).
-    // Формат отображения для правой панели (допускаются макроподстановки, см. macros.txt).
+    // Формат отображения для правой панели (допускаются макроподстановки, см. macros_ru.txt).
     "formatRightVehicle": "<font color='{{c:r}}'>[{{xr|--}}]</font> <font color='{{c:winrate}}'>{{winrate%2d~%|--%}}</font><font color='{{c:kb}}'>{{kb%2d~k|--k}}</font> {{vehicle}}",
     // Display format for the left panel (macros allowed, see macros.txt).
-    // Формат отображения для левой панели (допускаются макроподстановки, см. macros.txt).
+    // Формат отображения для левой панели (допускаются макроподстановки, см. macros_ru.txt).
     "formatLeftFrags": "{{frags}}",
     // Display format for the right panel (macros allowed, see macros.txt).
-    // Формат отображения для правой панели (допускаются макроподстановки, см. macros.txt).
+    // Формат отображения для правой панели (допускаются макроподстановки, см. macros_ru.txt).
     "formatRightFrags": "{{frags}}",
     // Extra fields. Fields are placed one above the other.
     // Дополнительные поля. Поля располагаются друг над другом.
-    // Set of formats for left panel (extended format supported, see extra-field.txt)
-    // Набор форматов для левой панели (поддерживается расширенный формат, см. extra-field.txt)
+    // Set of formats for left panel (extended format supported, see extra-field.txt).
+    // Набор форматов для левой панели (поддерживается расширенный формат, см. extra-field_ru.txt).
     "extraFieldsLeft": [
       ${"templates.clanIcon"}
     ],
-    // Set of formats for right panel (extended format supported, see extra-field.txt)
-    // Набор форматов для правой панели (поддерживается расширенный формат, см. extra-field.txt)
+    // Set of formats for right panel (extended format supported, see extra-field.txt).
+    // Набор форматов для правой панели (поддерживается расширенный формат, см. extra-field_ru.txt).
     "extraFieldsRight": [
       ${"templates.clanIcon"}
     ]
