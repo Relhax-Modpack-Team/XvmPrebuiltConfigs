@@ -11,8 +11,8 @@
     "hitLogHeader": {
       "enabled": true,
       "updateEvent": "PY(ON_TOTAL_EFFICIENCY), ON_PANEL_MODE_CHANGED",
-      "x": "400",
-      "y": "30",
+      "x": "{{py:sum({{pp.widthLeft}},50)}}",
+      "y": 30,
       "width": 700,
       "height": 700,
       "textFormat": { "color": "0xF4EFE8", "size": 15 },
@@ -23,8 +23,8 @@
     "hitLogBody": {
       "enabled": true,
       "updateEvent": "PY(ON_HIT_LOG), ON_PANEL_MODE_CHANGED",
-      "x": "400",
-      "y": "60",
+      "x": "{{py:sum({{pp.widthLeft}},50)}}",
+      "y": 60,
       "width": 700,
       "height": 700,
       "layer": "bottom",
