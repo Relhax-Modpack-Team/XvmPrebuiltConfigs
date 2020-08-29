@@ -68,7 +68,7 @@
       // true - разрешить перемещение лога в бою и запретить макросы в настройках "x" и "y".
       // false - запретить перемещение лога в бою и разрешить макросы в настройках "x" и "y".
       "moveInBattle": false,
-      "x": 50,
+      "x": 55,
       "y": 60,
       // true - allow scrolling of the contents of the log.
       // true - разрешить прокрутку содержимого лога.
@@ -151,11 +151,11 @@
       // Vehicle type (macro {{vtype}}).
       // Тип техники (макрос {{vtype}}).
       "vtype": {
-        "HT": "<font face='xvm'>&#x3F;</font>",          // heavy tank / тяжёлый танк.
-        "MT": "<font face='xvm'>&#x3B;</font>",          // medium tank / средний танк.
-        "LT": "<font face='xvm'>&#x3A;</font>",          // light tank / лёгкий танк.
-        "TD": "<font face='xvm'>&#x2E;</font>",          // tank destroyer / ПТ-САУ.
-        "SPG": "<font face='xvm'>&#x2D;</font>",         // SPG / САУ.
+        "HT": "HT",                                      // heavy tank / тяжёлый танк.
+        "MT": "MT",                                      // medium tank / средний танк.
+        "LT": "LT",                                      // light tank / лёгкий танк.
+        "TD": "TD",                                      // tank destroyer / ПТ-САУ.
+        "SPG": "SPG",                                    // SPG / САУ.
         "not_vehicle": "<font face='xvm'>&#x105;</font>" // another source of damage / другой источник урона.
       },
       // Color by vehicle type (macro {{c:vtype}}).
@@ -210,7 +210,7 @@
       },
       // List of hits format (macros allowed, see macros.txt).
       // Формат лога попаданий (допускаются макроподстановки, см. macros.txt)
-      "formatHistory": "<textformat leading='-5' tabstops='[25,60,100,210,230]'><font size='14'>x{{n-player}}:<tab>{{dmg-player}}<tab><img src='xvm://res/icons/hitlog/{{c:dmg-kind}}.png' width='42' height='12'><tab> <img src='xvm://res/icons/class/{{vtype}}3.png' width='20' height='20'><font color='{{c:vtype}}'>{{vehicle}}</font><tab> {{dead}}<tab>{{name}}</textformat></font>"
+      "formatHistory": "<textformat leading='-5' tabstops='[25,60,100,210,230]'><font size='14'>x{{n-player}}:<tab>{{dmg-player}}<tab><img src='xvm://res/icons/hitlog/{{c:dmg-kind}}.png' width='42' height='12'><tab> <img src='xvm://res/icons/class/{{vtype}}3.png' width='20' height='20'><font color='{{c:vtype}}'>{{vehicle}}</font><tab> {{alive? |<font face='Wingdings'>N</font>}}<tab> {{name}}</font></textformat>"
     },
     // Log of applied damage (alternative mode).
     // Лог нанесенного урона (альтернативный режим).
