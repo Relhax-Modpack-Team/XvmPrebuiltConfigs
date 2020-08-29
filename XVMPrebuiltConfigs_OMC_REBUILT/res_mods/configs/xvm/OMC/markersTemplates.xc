@@ -315,7 +315,7 @@
       "blur": 2,
       "strength": 1
     },
-    "format": "{{ally?<img src='xvm://res/icons/help/s{{c:hp-ratio}}.png' width='50' height='50'>|<img src='xvm://res/icons/help/f{{c:hp-ratio}}.png' width='50' height='50'>}}"
+    "format": "{{ally?<img src='xvm://res/icons/help/s{{c:hp-ratio|#ffffff}}.png' width='50' height='50'>|<img src='xvm://res/icons/help/f{{c:hp-ratio|#ffffff}}.png' width='50' height='50'>}}"
   },
   "TurretMarker": {
     "name": "Turret Marker stok/top",
