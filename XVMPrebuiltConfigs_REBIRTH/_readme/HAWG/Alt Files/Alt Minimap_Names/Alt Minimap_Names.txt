@@ -1,4 +1,0 @@
-
-NOW YOU CAN CHANGE Alt Minimap_Names IN REBIRTH FOLDER
-
-LOCATED IN  >res_mods >REBIRTH > Setting  > MiniMap > MiniMap_Names > Names.xc 

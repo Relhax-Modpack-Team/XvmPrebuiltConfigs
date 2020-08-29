@@ -1,0 +1,74 @@
+Please Read 8/5
+
+To turn off/on any ScoreBoard follow path
+World_of_Tanks > res_mods > REBIRTH >Setings > _ScoreBoard_MainFrame
+
+This Text will turn on any ScoreBoard >   "{{battletype-key=epic_battle?false}}"
+
+1._Simple ScoreBoard :
+IMPORTANT YOU MUST TURN OFF ( false ) Simple ScoreBoard  before you Turn on Pro  or any Pro ScoreBoard !
+When Using Simple  ScoreBoard It is Recommended to turn on > REBIRTH>_ScoreBoard_MainFrame> Top_Total_Hit_Points
+
+
+2._Pro ScoreBoard :
+IMPORTANT YOU MUST TURN OFF ( false ) Pro ScoreBoard  before you Turn on Simple or any Pro ScoreBoard !
+When Using Pro ScoreBoard It is Recomended to turn off > Top_Total_Hit_Points,  REBIRTH>_ScoreBoard_MainFrame> Top_Total_Hit_Points
+
+
+3._Color Blind Pro ScoreBoard :
+IMPORTANT YOU MUST TURN OFF ( false ) Pro Color Blind ScoreBoard  before you Turn on Simple or any Pro ScoreBoard !
+When Using Pro ScoreBoard  It is Recomended to turn off > Top_Total_Hit_Points,  REBIRTH>_ScoreBoard_MainFrame> Top_Total_Hit_Points
+
+4._Tank_Nation :
+IMPORTANT YOU MUST TURN OFF ( false ) Tank_Nation Pro ScoreBoard  before you Turn on Simple or any  Pro ScoreBoard !
+When Using Pro ScoreBoard It is Recomended to turn off > Top_Total_Hit_Points,  REBIRTH>_ScoreBoard_MainFrame> Top_Total_Hit_Points
+
+5._Mini Pro ScoreBoard Panel :
+Will work with all other ScoreBoards and Panels
+
+6._Bottom_Total_Hit_Point:
+Will work with all other ScoreBoards and Panels
+
+7._PlayersPanel_HitPoints :
+Will work with all other ScoreBoards and Panels
+
+
+8._Rebel :
+IMPORTANT YOU MUST TURN OFF ( false ) Rebel Pro ScoreBoard  before you Turn on Simple or any  Pro ScoreBoard !
+When Using Pro ScoreBoard It is Recomended to turn off > Top_Total_Hit_Points,  REBIRTH>_ScoreBoard_MainFrame> Top_Total_Hit_Points
+
+9._Top_Total_Hit_Points_Old_XVM_Style :
+Is the Stock version Hitpoints, its the from the XVM default files
+
+10._Battle_Bar :
+IMPORTANT YOU MUST TURN OFF ( false ) Battle_Bar ScoreBoard  before you Turn  any  other ScoreBoard !
+When Using Pro ScoreBoard It is Recomended to turn off > Top_Total_Hit_Points,  REBIRTH>_ScoreBoard_MainFrame> Top_Total_Hit_Points
+
+11._HitPoint_Difference :
+HitPoint_Difference This will keep track of Hitpoints Difference from your enemy
+The Number will be Green if your hitpoints is more then enemy , or number will be -red if your Team has less then enemy.
+Will work with all other ScoreBoards and Panels
+10._Battle_Bar and 12._Ole_Battle_Bar, has it own version Recomended to turn off HitPoint_Difference and use the Battle_Bar , Ole_Battle_Bar  ,HitPoint_Difference its own folder.
+
+12._Ole_Battle_Bar :
+IMPORTANT YOU MUST TURN OFF ( false ) Battle_Bar ScoreBoard  before you Turn  any  other ScoreBoard !
+When Using Pro ScoreBoard It is Recomended to turn off > Top_Total_Hit_Points,  REBIRTH>_ScoreBoard_MainFrame> Top_Total_Hit_Points
+
+13._Mini_Battle_Bar
+IMPORTANT YOU MUST TURN OFF ( false ) Mini Battle_Bar ScoreBoard  before you Turn  any  other ScoreBoard !
+When Using Pro ScoreBoard It is Recomended to turn off > Top_Total_Hit_Points,  REBIRTH>_ScoreBoard_MainFrame> Top_Total_Hit_Points
+
+14_Simple+Mini_Battle_Bar
+IMPORTANT YOU MUST TURN OFF ( false ) Mini Battle_Bar ScoreBoard  before you Turn  any  other ScoreBoard !
+When Using Pro ScoreBoard It is Recomended to turn off > Top_Total_Hit_Points,  REBIRTH>_ScoreBoard_MainFrame> Top_Total_Hit_Points
+
+15_Simple+10_BattleBar
+IMPORTANT YOU MUST TURN OFF ( false ) Mini Battle_Bar ScoreBoard  before you Turn  any  other ScoreBoard !
+When Using Pro ScoreBoard It is Recomended to turn off > Top_Total_Hit_Points,  REBIRTH>_ScoreBoard_MainFrame> Top_Total_Hit_Points
+
+16_Simple+12._Ole_Battle_Bar
+IMPORTANT YOU MUST TURN OFF ( false ) Mini Battle_Bar ScoreBoard  before you Turn  any  other ScoreBoard !
+When Using Pro ScoreBoard It is Recomended to turn off > Top_Total_Hit_Points,  REBIRTH>_ScoreBoard_MainFrame> Top_Total_Hit_Points
+If you need Help Visit Hawgs Discord
+
+ https://discord.gg/hRB9WG6

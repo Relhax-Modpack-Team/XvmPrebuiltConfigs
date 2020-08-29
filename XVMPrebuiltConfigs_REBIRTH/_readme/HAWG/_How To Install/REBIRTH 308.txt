@@ -1,7 +1,7 @@
-You Have 285 Different Function to adjust in the Hawgpen.
+You Have 308 Different Function to adjust in the REBIRTH.
 To tranfer your setting to new updated version. 
-After Each update,  Install Updated Xvm , Than copy the Folder "HawgPen"
-Paste HawgPen Folder into "HAWGS" click replace all.
+After Each update,  Install Updated Xvm , Than copy the Folder "REBIRTH"
+Paste REBIRTH Folder into "res_mods" click replace all.
 For now on the Folders will not be renamed.So you will always have the right folders.
 
 
