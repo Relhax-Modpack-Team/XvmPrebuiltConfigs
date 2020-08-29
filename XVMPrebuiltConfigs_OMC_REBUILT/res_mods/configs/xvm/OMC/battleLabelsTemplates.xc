@@ -29,7 +29,7 @@
       "height": 700,
       "layer": "bottom",
       "textFormat": { "color": "0xF4EFE8", "size": 15 },
-      "format": "{{py:xvm.hitLog.Log}}",
+      "format": "{{py:xvm.hitLog.log}}",
       "mouseEvents": {
         "mouseDown": "hitLog_mouseDown",
         "mouseUp": "hitLog_mouseUp",
