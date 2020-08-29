@@ -30,6 +30,8 @@
         "bold": true,                  // True - bold   / Жирный.
         "italic": false                 // True - italic / Курсив.
       },
+      // Shadow options.
+      // Параметры тени.
       "shadow": {
         // false - no shadow.
         // false - без тени.

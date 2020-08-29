@@ -27,8 +27,8 @@
         // Color (dynamic colors allowed, see macros.txt).
         // Цвет (допускается использование динамического цвета, см. macros_ru.txt)
         "color": "0x0000FF",
-        "bold": true,                  // True - bold    / Жирный.
-        "italic": false                 // True - italic  / Курсив.
+        "bold": true,                   // True - bold   / Жирный.
+        "italic": false                 // True - italic / Курсив.
       },
       // Shadow options.
       // Параметры тени.
@@ -139,11 +139,11 @@
       "x": 0,
       "y": -27,
       "alpha": 100,
+      "align": "center",
       "textFormat": {
         "font": "$FieldFont",
         "size": 11,
         "color": "0xFCFCFC",
-        "align": "center",
         "bold": true,
         "italic": false
       },
@@ -166,11 +166,11 @@
       "x": 0,
       "y": -70,
       "alpha": 100,
+      "align": "center",
       "textFormat": {
         "font": "$FieldFont",
         "size": 11,
-      "color": "{{c:t-winrate}}",
-        "align": "center",
+        "color": "{{c:t-winrate}}",
         "bold": true,
         "italic": false
       },
@@ -188,63 +188,66 @@
     // Text field with the XMQP event marker.
     // Текстовое поле с маркером события XMQP.
     "xmqpEvent": {
-      "name": "xmqp event",           //  название текстового поля, ни на что не влияет
-      "enabled": false,                //  false - не отображать
-      "x": 0,                         //  положение по оси X
-      "y": -105,  //  положение по оси Y
-      "alpha": 100,                   //  прозрачность (допускается использование динамической прозрачности, см. macros_ru.txt)
+      "name": "xmqp event",           // название текстового поля, ни на что не влияет
+      "enabled": true,                // false - не отображать
+      "x": 0,                         // положение по оси X
+      "y": -105,                      //  положение по оси Y
+      "alpha": 100,                   // прозрачность (допускается использование динамической прозрачности, см. macros_ru.txt)
+      "align": "center",              // выравнивание текста (left, center, right)
       // Font options.
       // Параметры шрифта.
       "textFormat": {
-        "font": "xvm",                //  название
-        "size": 23,                   //  размер
-        "color": "0xFFBB00",          //  цвет (допускается использование динамического цвета, см. macros_ru.txt)
-        "align": "center",            //  выравнивание текста (left, center, right)
-        "bold": false,                //  обычный (false) или жирный (true)
-        "italic": false               //  обычный (false) или курсив (true)
+        "font": "xvm",                // название
+        "size": 23,                   // размер
+        "color": "0xFFBB00",          // цвет (допускается использование динамического цвета, см. macros_ru.txt)
+        "bold": false,                // обычный (false) или жирный (true)
+        "italic": false               // обычный (false) или курсив (true)
       },
       // Shadow options.
       // Параметры тени.
       "shadow": {
-        // false - no shadow
-        // false - без тени
-        "distance": 0,                //  дистанция смещения
-        "angle": 45,                  //  угол смещения
-        "color": "0x000000",          //  цвет
-        "alpha": 100,                 //  прозрачность
-        "blur": 4,                    //  размытие
-        "strength": 1                 //  интенсивность
-      },
-      "format": "<font color='{{x-spotted?#FFBB00|#FFFFFF}}' alpha='{{x-spotted?#FF|#80}}'>{{x-spotted?&#x70;|{{x-sense-on?&#x70;}}}}</font> {{x-overturned?&#x112;}}"  //  формат текста. См. описание макросов в macros_ru.txt
-    },
-    // Position of the player
-    // Порядковый номер игрока
-    "position": {
-      "name": "position",             //  название текстового поля, ни на что не влияет
-      "enabled": true,                //  false - не отображать
-      "x": 0,                         //  положение по оси X
-      "y": -51,                       //  положение по оси Y
-      "alpha": 100,                   //  прозрачность (допускается использование динамической прозрачности, см. macros_ru.txt)
-      "textFormat": {                 //  параметры шрифта
-        "font": "$FieldFont",         //  название
-        "size": 13,                   //  размер
-        "color": "0xEDEDED",          //  цвет (допускается использование динамического цвета, см. macros_ru.txt)
-        "align": "center",            //  выравнивание текста (left, center, right)
-        "bold": false,                //  обычный (false) или жирный (true)
-        "italic": false               //  обычный (false) или курсив (true)
-      },
-      "shadow": {                     //  параметры тени
-        // false - no shadow
-        // false - без тени
+        // false - no shadow.
+        // false - без тени.
         "enabled": true,
-        "distance": 0,                //   дистанция смещения
-        "angle": 45,                  //   угол смещения
-        "color": "{{c:system}}",      //   цвет
-        "alpha": 100,                 //   прозрачность
-        "blur": 6,                    //   размытие
-        "strength": 2                 //   интенсивность
+        "distance": 0,                // дистанция смещения
+        "angle": 45,                  // угол смещения
+        "color": "0x000000",          // цвет
+        "alpha": 100,                 // прозрачность
+        "blur": 4,                    // размытие
+        "strength": 1                 // интенсивность
       },
-      "format": "<font size='{{battletype?13|0}}'>{{position}}</font>"  //  формат текста. См. описание макросов в macros_ru.txt
+      // Формат текста. См. описание макросов в macros_ru.txt
+      "format": "<font color='{{x-spotted?#FFBB00|#FFFFFF}}' alpha='{{x-spotted?#FF|#80}}'>{{x-spotted?&#x70;|{{x-sense-on?&#x70;}}}}</font> {{x-overturned?&#x112;}}"
+    },
+    // Position of the player.
+    // Порядковый номер игрока.
+    "position": {
+      "name": "position",             // название текстового поля, ни на что не влияет
+      "enabled": true,                // false - не отображать
+      "x": 0,                         // положение по оси X
+      "y": -51,                       // положение по оси Y
+      "alpha": 100,                   // прозрачность (допускается использование динамической прозрачности, см. macros_ru.txt)
+      "align": "center",              // выравнивание текста (left, center, right)
+      "textFormat": {                 // параметры шрифта
+        "font": "$FieldFont",         // название
+        "size": 13,                   // размер
+        "color": "0xEDEDED",          // цвет (допускается использование динамического цвета, см. macros_ru.txt)
+        "bold": false,                // обычный (false) или жирный (true)
+        "italic": false               // обычный (false) или курсив (true)
+      },
+      "shadow": {                     // параметры тени
+        // false - no shadow.
+        // false - без тени.
+        "enabled": true,
+        "distance": 0,                // дистанция смещения
+        "angle": 45,                  // угол смещения
+        "color": "{{c:system}}",      // цвет
+        "alpha": 100,                 // прозрачность
+        "blur": 6,                    // размытие
+        "strength": 2                 // интенсивность
+      },
+      // Формат текста. См. описание макросов в macros_ru.txt
+      "format": "<font size='{{battletype?13|0}}'>{{position}}</font>"
     }
   },
   // Settings for allies.
@@ -339,7 +342,7 @@
     // Vehicle tier.
     // Уровень танка.
     "levelIcon": {
-      "enabled": true,  // false - disable        / не отображать.
+      "enabled": true,   // false - disable        / не отображать.
       "x": 0,            // Position on the X axis / Положение по оси X.
       "y": -25,          // Position on the Y axis / Положение по оси Y.
       "alpha": 100       // Opacity                / Прозрачность.
@@ -349,7 +352,7 @@
     "actionMarker": {
       "enabled": true,   // false - disable        / не отображать.
       "x": 0,            // Position on the X axis / Положение по оси X.
-      "y": -120,          // Position on the Y axis / Положение по оси Y.
+      "y": -120,         // Position on the Y axis / Положение по оси Y.
       "alpha": 100       // Opacity                / Прозрачность.
     },
     // Stun marker and consumables marker in "Frontline Returns" mode (smoke screen, morale boost, engineering crew).
@@ -357,7 +360,7 @@
     "vehicleStatusMarker": {
       "enabled": true,   // false - disable        / не отображать.
       "x": 0,            // Position on the X axis / Положение по оси X.
-      "y": -67,          // Position on the Y axis / Положение по оси Y.
+      "y": -120,         // Position on the Y axis / Положение по оси Y.
       "alpha": 100       // Opacity                / Прозрачность.
     },
     // Damage indicator (ricochet, critical hit, ...).
@@ -453,7 +456,7 @@
     "actionMarker": {
       "enabled": true,
       "x": 0,
-      "y": -100,
+      "y": -120,
       "alpha": 100
     },
     // Stun marker and consumables marker in "Frontline Returns" mode (smoke screen, morale boost, engineering crew).
@@ -461,7 +464,7 @@
     "vehicleStatusMarker": {
       "enabled": true,
       "x": 0,
-      "y": -67,
+      "y": -120,
       "alpha": 100
     },
     // Damage indicator (ricochet, critical hit, ...).

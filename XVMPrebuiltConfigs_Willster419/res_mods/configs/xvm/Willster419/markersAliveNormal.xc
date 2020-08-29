@@ -107,7 +107,7 @@
     // Text field with Vehicle name.
     // Текстовое поле с именем игрока.
     "tankName": {
-      "name": "Tank name",          // название текстового поля, ни на что не влияет
+      "name": "Tank name",            // название текстового поля, ни на что не влияет
       "enabled": true,                // false - не отображать
       "x": 0,                         // положение по оси X
       "y": -59,                       // положение по оси Y
@@ -166,7 +166,7 @@
       "x": 0,
       "y": -70,
       "alpha": 100,
-      "align": "right",
+      "align": "center",
       "textFormat": {
         "font": "$FieldFont",
         "size": 11,
@@ -342,7 +342,7 @@
     // Vehicle tier.
     // Уровень танка.
     "levelIcon": {
-      "enabled": true,  // false - disable        / не отображать.
+      "enabled": true,   // false - disable        / не отображать.
       "x": 0,            // Position on the X axis / Положение по оси X.
       "y": -25,          // Position on the Y axis / Положение по оси Y.
       "alpha": 100       // Opacity                / Прозрачность.
@@ -352,7 +352,7 @@
     "actionMarker": {
       "enabled": true,   // false - disable        / не отображать.
       "x": 0,            // Position on the X axis / Положение по оси X.
-      "y": -120,          // Position on the Y axis / Положение по оси Y.
+      "y": -105,         // Position on the Y axis / Положение по оси Y.
       "alpha": 100       // Opacity                / Прозрачность.
     },
     // Stun marker and consumables marker in "Frontline Returns" mode (smoke screen, morale boost, engineering crew).
@@ -360,7 +360,7 @@
     "vehicleStatusMarker": {
       "enabled": true,   // false - disable        / не отображать.
       "x": 0,            // Position on the X axis / Положение по оси X.
-      "y": -67,          // Position on the Y axis / Положение по оси Y.
+      "y": -105,         // Position on the Y axis / Положение по оси Y.
       "alpha": 100       // Opacity                / Прозрачность.
     },
     // Damage indicator (ricochet, critical hit, ...).
@@ -438,7 +438,7 @@
     "contourIcon": {
       "enabled": false,
       "x": 6,
-      "y": -92,
+      "y": -105,
       "alpha": 100,
       "color": null,
       "amount": 0
@@ -456,7 +456,7 @@
     "actionMarker": {
       "enabled": true,
       "x": 0,
-      "y": -100,
+      "y": -105,
       "alpha": 100
     },
     // Stun marker and consumables marker in "Frontline Returns" mode (smoke screen, morale boost, engineering crew).
@@ -464,7 +464,7 @@
     "vehicleStatusMarker": {
       "enabled": true,
       "x": 0,
-      "y": -67,
+      "y": -105,
       "alpha": 100
     },
     // Damage indicator (ricochet, critical hit, ...).

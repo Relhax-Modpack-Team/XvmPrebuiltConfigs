@@ -77,7 +77,7 @@
     // Type of vehicle icon (HT/MT/LT/TD/Arty).
     // Иконка типа танка (ТТ/СТ/ЛТ/ПТ/Арта).
     "vehicleIcon": {
-      // false - disable / не отображать
+      // false - disable / не отображать.
       "enabled": true,
       // true - show speaker even if enabled=false.
       // true - показывать спикер, даже если enabled=false.
