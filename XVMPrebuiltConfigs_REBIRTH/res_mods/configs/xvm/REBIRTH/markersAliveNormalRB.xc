@@ -156,6 +156,100 @@
       "format": "<font size='18'color='0094FF}'>AutoLock</font>"   
 	     
     },
+	
+	
+	"Speed": {
+      "enabled": ${"../../../REBIRTH/Settings/Tank_Markers/_Speed/OnOff.xc":" enabled"},
+      "hotKeyCode": ${"../../../REBIRTH/Settings/Tank_Markers/_Speed/HotKey.xc":"hotkey"},
+	  "onHold": ${"../../../REBIRTH/Settings/Tank_Markers/_Speed/Hold_HotKey.xc":" enabled"}, 
+	  "visibleOnHotKey": ${"../../../REBIRTH/Settings/Tank_Markers/_Speed/Hold_HotKey.xc":" enabled"},  
+      "x": 0,                         
+      "y": -65,  
+	  "align": "center",
+      "shadow": {"color":"0x090808", "distance": 1, "angle": 90, "alpha": 60, "blur": 4, "strength": 3 },	  
+      "textFormat": { "font": "$FieldFont", "color": "{{c:system}}", "align": "center", "size": 13 },	  
+      "format": "{{.speed.{{vehiclename}}}}"
+	     
+    },
+	"hull": {
+      "enabled": ${"../../../REBIRTH/Settings/Tank_Markers/_Hull_Armor/OnOff.xc":" enabled"},
+      "hotKeyCode": ${"../../../REBIRTH/Settings/Tank_Markers/_Hull_Armor/HotKey.xc":"hotkey"},
+	  "onHold": ${"../../../REBIRTH/Settings/Tank_Markers/_Hull_Armor/Hold_HotKey.xc":" enabled"},  
+	  "visibleOnHotKey": ${"../../../REBIRTH/Settings/Tank_Markers/_Hull_Armor/Hold_HotKey.xc":" enabled"},	  
+      "x": 0,                         
+      "y": -80,  
+	  "align": "center",
+      "shadow": {"color":"0x090808", "distance": 1, "angle": 90, "alpha": 60, "blur": 4, "strength": 3 },	  
+      "textFormat": { "font": "$FieldFont", "color": "{{c:system}}", "align": "center", "size": 13 },	  
+      "format": "{{.hull.{{vehiclename}}}}"
+	     
+    },
+	"years": {
+     "enabled": ${"../../../REBIRTH/Settings/Tank_Markers/_Years/OnOff.xc":" enabled"},
+      "hotKeyCode": ${"../../../REBIRTH/Settings/Tank_Markers/_Years/HotKey.xc":"hotkey"},
+	  "onHold": ${"../../../REBIRTH/Settings/Tank_Markers/_Years/Hold_HotKey.xc":" enabled"}, 
+	  "visibleOnHotKey": ${"../../../REBIRTH/Settings/Tank_Markers/_Years/Hold_HotKey.xc":" enabled"},    
+      "x": 0,                         
+      "y": -96,  
+	  "align": "center",
+      "shadow": {"color":"0x090808", "distance": 1, "angle": 90, "alpha": 60, "blur": 4, "strength": 3 },	  
+      "textFormat": { "font": "$FieldFont", "color": "0xFFFFFF", "align": "center", "size": 14 },	  
+      "format": "{{.years.{{vehiclename}}}}"
+	     
+    },
+	"gunPenTeam": {
+     "enabled": ${"../../../REBIRTH/Settings/Tank_Markers/_Top_Gun_Pen/_Team_OnOff.xc":" enabled"},
+      "hotKeyCode": ${"../../../REBIRTH/Settings/Tank_Markers/_Top_Gun_Pen/HotKey.xc":"hotkey"},
+	  "onHold": ${"../../../REBIRTH/Settings/Tank_Markers/_Top_Gun_Pen/Hold_HotKey.xc":"enabled"}, 
+	  "visibleOnHotKey": ${"../../../REBIRTH/Settings/Tank_Markers/_Top_Gun_Pen/Hold_HotKey.xc":"enabled"},            
+      "x": 0,                         
+      "y": -130,  
+	  "align": "center",
+      "shadow": {"color":"0x090808", "distance": 1, "angle": 90, "alpha": 60, "blur": 4, "strength": 3 },	  
+      "textFormat": { "font": "$FieldFont","color": "{{c:system}}", "align": "center", "size": 15 },	  
+      "format": "{{.gunPen.{{vehiclename}}}}"
+	     
+    },
+	"gunPenEnemy": {
+     "enabled": ${"../../../REBIRTH/Settings/Tank_Markers/_Top_Gun_Pen/_Enemy_OnOff.xc":" enabled"},
+      "hotKeyCode": ${"../../../REBIRTH/Settings/Tank_Markers/_Top_Gun_Pen/HotKey.xc":"hotkey"},
+	  "onHold": ${"../../../REBIRTH/Settings/Tank_Markers/_Top_Gun_Pen/Hold_HotKey.xc":"enabled"}, 
+	  "visibleOnHotKey": ${"../../../REBIRTH/Settings/Tank_Markers/_Top_Gun_Pen/Hold_HotKey.xc":"enabled"},        
+      "x": 0,                         
+      "y": -130,  
+	  "align": "center",
+      "shadow": {"color":"0x090808", "distance": 1, "angle": 90, "alpha": 60, "blur": 4, "strength": 3 },	  
+      "textFormat": { "font": "$FieldFont","color": "{{c:system}}", "align": "center", "size": 15 },	  
+      "format": "{{.gunPen.{{vehiclename}}}}"
+	     
+    },
+	
+	"gunDmgTeam": {
+     "enabled": ${"../../../REBIRTH/Settings/Tank_Markers/_Top_Gun_Dmg/_Team_OnOff.xc":" enabled"},
+      "hotKeyCode": ${"../../../REBIRTH/Settings/Tank_Markers/_Top_Gun_Dmg/HotKey.xc":"hotkey"},
+	  "onHold": ${"../../../REBIRTH/Settings/Tank_Markers/_Top_Gun_Dmg/Hold_HotKey.xc":"enabled"}, 
+	  "visibleOnHotKey": ${"../../../REBIRTH/Settings/Tank_Markers/_Top_Gun_Dmg/Hold_HotKey.xc":"enabled"},             
+      "x": 0,                         
+      "y": -113,  
+	  "align": "center",
+      "shadow": {"color":"0x090808", "distance": 1, "angle": 90, "alpha": 60, "blur": 4, "strength": 3 },	  
+      "textFormat": { "font": "$FieldFont","color": "{{c:system}}", "align": "center", "size": 15 },	  
+      "format": "{{.gunDmg.{{vehiclename}}}}"
+	     
+    },
+	"gunDmgEnemy": {
+     "enabled": ${"../../../REBIRTH/Settings/Tank_Markers/_Top_Gun_Dmg/_Team_OnOff.xc":" enabled"},
+      "hotKeyCode": ${"../../../REBIRTH/Settings/Tank_Markers/_Top_Gun_Dmg/HotKey.xc":"hotkey"},
+	  "onHold": ${"../../../REBIRTH/Settings/Tank_Markers/_Top_Gun_Dmg/Hold_HotKey.xc":"enabled"}, 
+	  "visibleOnHotKey": ${"../../../REBIRTH/Settings/Tank_Markers/_Top_Gun_Dmg/Hold_HotKey.xc":"enabled"},            
+      "x": 0,                         
+      "y": -113,  
+	  "align": "center",
+      "shadow": {"color":"0x090808", "distance": 1, "angle": 90, "alpha": 60, "blur": 4, "strength": 3 },	  
+      "textFormat": { "font": "$FieldFont","color": "{{c:system}}", "align": "center", "size": 15 },	  
+      "format": "{{.gunDmg.{{vehiclename}}}}"
+	     
+    },
 	// My Platoon
       "mySquad": {
         "name": "My Squad", 
@@ -239,15 +333,7 @@
         "strength": 2                 
       },
       "format": "<font size='{{battletype?13|0}}'>{{position}}</font>"  
-    },
-	"topTankers": {
-      "name": "topTankers",
-      "enabled": true,
-      "x": 33,
-      "y": -21,
-      "alpha": 100,
-      "align": "left",
-      "format": "<img src='{{top_tankers_emblem}}' width='16' height='16'>"
+    
     }
   },
   "ally": {
@@ -323,7 +409,12 @@
       ${ "def.tankHp" },
       ${ "def.rating" },
 	  ${ "def.auto_AIM_vehicle" },
-	  ${ "def.Alt_auto_AIM_vehicle" },
+	  ${ "def.Alt_auto_AIM_vehicle" },	  
+	  ${ "def.Speed" },
+	  ${ "def.hull" },
+	  ${ "def.years" },
+	  ${ "def.gunPenTeam" },
+	  ${ "def.gunDmgTeam" },
       ${ "def.xmqpEvent" }
     ]
   },
@@ -422,7 +513,12 @@
       ${ "def.rating" },
       ${ "def.position" },
 	  ${ "def.auto_AIM_vehicle" },
-	  ${ "def.Alt_auto_AIM_vehicle" },
+	  ${ "def.Alt_auto_AIM_vehicle" },	  
+	  ${ "def.Speed" },
+	  ${ "def.hull" },
+	  ${ "def.years" },	
+      ${ "def.gunPenEnemy" },
+      ${ "def.gunDmgEnemy" },	  
 	  ${ "def.playerName" }
     ]
   }

@@ -11,7 +11,7 @@
     "ally": {
       "alive": {
         "normal": ${"markersAliveNormalRB.xc":"ally"},
-        "extended": ${"markersAliveExtended.xc":"ally"}
+        "extended": ${"markersAliveExtendedRB.xc":"ally"}
       },
       "dead": {
         "normal": ${"markersDeadNormalRB.xc":"ally"},
@@ -21,7 +21,7 @@
     "enemy": {
       "alive": {
         "normal": ${"markersAliveNormalRB.xc":"enemy"},
-        "extended": ${"markersAliveExtended.xc":"enemy"}
+        "extended": ${"markersAliveExtendedRB.xc":"enemy"}
       },
       "dead": {
         "normal": ${"markersDeadNormalRB.xc":"enemy"},

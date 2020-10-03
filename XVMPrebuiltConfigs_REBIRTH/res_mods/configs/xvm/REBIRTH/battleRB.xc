@@ -52,11 +52,11 @@
  
     "vtypeDead":
      {             
-     "LT":  "<img src='cfg://REBIRTH/img/score/blank.png' width='16' height='16'>",
-     "MT":  "<img src='cfg://REBIRTH/img/score/blank.png' width='16' height='16'>",
-     "HT":  "<img src='cfg://REBIRTH/img/score/blank.png' width='16' height='16'>",
-     "SPG": "<img src='cfg://REBIRTH/img/score/blank.png' width='16' height='16'>",
-     "TD":  "<img src='cfg://REBIRTH/img/score/blank.png' width='16' height='16'>"
+     "LT":  "<font face='xvm' color='#B5FA0B'></font>",  
+      "MT":  "<font face='xvm' color='#00BA84'> </font>",
+      "HT":  "<font face='xvm' color='#F7F700'> </font>",            
+      "SPG": "<font face='xvm' color='#DE3519'> </font>",
+      "TD":  "<font face='xvm' color='#0055DE'> </font>" 
       }
   },
  

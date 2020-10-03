@@ -127,8 +127,8 @@
       "format": "<font color='{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}'>{{vehicle}}</font>"
     },
 	"hpCircles": {
-	  "enabled": ${"../../../REBIRTH/Settings/MiniMap/Hp_Circles_Alive/OnOff.xc":"enabled"},
-	  "hotKeyCode": ${"../../../REBIRTH/Settings/MiniMap/Hp_Circles_Alive/HotKey.xc":"hotkey"},
+	  "enabled": ${"../../../REBIRTH/Settings/MiniMap/Hp_Circles_Tank_Showing/OnOff.xc":"enabled"},
+	  "hotKeyCode": ${"../../../REBIRTH/Settings/MiniMap/Hp_Circles_Tank_Showing/HotKey.xc":"hotkey"},
 	  "onHold": "false", "visibleOnHotKey": false ,
       "$ref": { "path":"def.defaultItem" },
       "flags": [ "ally", "enemy", "squadman", "teamKiller", "spotted", "alive" ],
@@ -138,7 +138,7 @@
 	  "alpha": 70
     },
     "hpCirclesLost": {
-      "enabled": ${"../../../REBIRTH/Settings/MiniMap/Hp_Circles_Dead/OnOff.xc":"enabled"},
+      "enabled": ${"../../../REBIRTH/Settings/MiniMap/Hp_Circles_Tank_Last_Seen/OnOff.xc":"enabled"},
       "$ref": { "path":"def.defaultItem" },
       "flags": [ "ally", "squadman", "enemy", "teamKiller", "lost", "alive" ],
       "format": "<font face='dynamic2' size='18' color='{{.minimap.labelsData.colors.lostDot.{{sys-color-key}}}}'>{{hp-ratio%.335a|&#x1B3;}}</font>",

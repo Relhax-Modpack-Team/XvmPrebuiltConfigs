@@ -33,6 +33,15 @@
     "extraFields": [      
       { "x": 1, "y": 1, "layer": "substrate", "width": 172, "height": 112, "bgColor": "0x0A0A0A" },
 	  
+	    //=================Prem==3======================================================================	   
+      {
+        "enabled": ${"../../../REBIRTH/Settings/Carousel/Premium_Marker_LaurelWreath/OnOff.xc":" enabled"},		
+        "x":141, "y":84, "width": 30, "height": 30,		
+		"src": "{{v.premium!=0?img://gui/flash/hawgs/prem/{{v.premium}}.png}}"
+      },
+	  //======================================================================================	 
+
+      
 	   // ====================================================================================== 
 		  //  Tank Name  
 		  //=======================================================================================
@@ -53,16 +62,8 @@
             "strength": 3 }		  
 		  },
 	  
-      //=================Prem==3======================================================================	   
-      {
-        "enabled": ${"../../../REBIRTH/Settings/Carousel/Premium_Marker_LaurelWreath/OnOff.xc":" enabled"},
-		"hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,
-		"layer": "bottom",
-		"layer": "normal",
-        "x":141, "y":84, "width": 31, "height": 31,
-        "format": "<img src='cfg://../../REBIRTH/img/prem/3/{{v.premium}}.png'>"
-      },
-	  //======================================================================================	  	  
+     
+	  //======================================================================================	  	 	  
 	   //=========================================================================================
 		//========================================================================================
 		//  {{v.type}} 
@@ -94,7 +95,8 @@
 		
 		"enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/Tank_Avg_Damage/OnOff.xc":" enabled"},
 		"hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,
-		"x": 59, "y": 7,
+		"x": 169, "y": 16,"align": "right",
+		//"x": 59, "y": 7,
 		"shadow": {         
           
           "enabled": true,
@@ -113,7 +115,7 @@
        // Sign of mastery.
        //=========================================================================================	   
       {
-        "enabled": true,
+        "enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/Mastery/OnOff.xc":" enabled"},
         "x":147, "y":54, "width": 23, "height": 23,
         "src": "{{v.mastery!=0?img://gui/maps/icons/library/proficiency/class_icons_{{v.mastery}}.png}}"
       },
@@ -122,7 +124,7 @@
 		//========================================================================================
 		
 		{
-		"enabled": true,
+		"enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/Tank_Level/OnOff.xc":" enabled"},
 		"hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,
 		"x": 27, "y":0,
 		"shadow": {         
@@ -139,27 +141,7 @@
 		"format": "<font face='Tahoma' size='13'> {{v.level}}</font>"
 		
        	},
-	  //=======================================================================================
-	  //   XP earn  // %'d
-      //=======================================================================================
-       { 
-	   
-		"enabled":true,
-		"hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,
-		"x": 169, "y": 16, "width": 65, "height": 40, "align": "right", 
-		"shadow": {       
-          "enabled": true,
-          "distance": 3,             
-          "angle": 4,                
-          "color": "0x000000",       
-          "alpha": 99,               
-          "blur": 1,                 
-          "strength": 3
-		  },
-		"textFormat": { "align": "right",  "color": "0xFF0000" },
-		"format": "<font face='Tahoma' color='#FFFFFF'size='12'>{{v.earnedXP}}<font face='Tahoma' size='12'color='#2FFF6D'> XP</font>"
-		},
-        
+	  
 	   
 	  //============================================================================================
 	  // Mark Ex
@@ -177,7 +159,7 @@
 		"x": 151, "y": 37, "src": "img://gui/flash/hawgs/marksOnGun/{{v.marksOnGun|empty}}.png" 
 		},
 		{
-		"enabled": true,
+		"enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/Tank_Mark_EX/OnOff.xc":" enabled"},
 		"x": 152, "y": 33,
 		"hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,		
 		"format": "<font face='Tahoma' size='12' color='#C8C8B5'>{{v.marksOnGun}}</font>",
@@ -187,13 +169,18 @@
       //============================================================================================
 	  //BATTLES
 	  //============================================================================================
-        { 
-		
-		"enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/Tank_Battles/OnOff.xc":" enabled"},
-		"hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,		
-		"x": 121, "y": 72,
-		"format": "<font face='Tahoma' size='14' color='{{v.c_battles}}'>{{v.battles}}</font>",
-    	  "shadow": {
+        {
+        "enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/Tank_Battles/OnOff.xc":" enabled"},
+		"hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,
+        "x": 165, "y": 75, "align": "right", "width": 13, "height": 13, "alpha": "{{v.battles?|0}}",
+        "src": "xvm://res/icons/carousel/battles.png"
+       },
+       {
+        "enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/Tank_Battles/OnOff.xc":" enabled"},
+		"hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,
+        "x": 152, "y": 71, "align": "right",
+        "format": "<b><font face='Tahoma' size='14' color='{{v.c_battles}}'>{{v.battles}}</font></b>",
+        "shadow": {
 		  "enabled": true,
 		  "distance": 3, 
 		  "angle": 44, 
@@ -201,12 +188,9 @@
 		  "alpha": 99, 
 		  "blur": 1, 
 		  "strength": 2}
-		  },
-		  {
-		  "enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/Tank_Battles/OnOff.xc":" enabled"},
-		  "hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,	
-		  "x": 104, "y": 74, "w": 25, "h": 25, "src": "xvm://res/icons/carousel/battles.png"
-		  },
+		
+      },	   
+		
       //===========================================================================================
 	  // Win percent
 	  //===========================================================================================
@@ -272,7 +256,7 @@
           "strength": 3 }
        	},
 		//========================================================================================
-		  // WN 8
+		  // WN 8 {{v.c_tdb}}   {{v.c_wn8effd}}
 		  //========================================================================================
            //==========================================================================================
         {
@@ -293,7 +277,7 @@
 		"enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/Tank_Wn8/OnOff.xc":" enabled"},
 		"hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,
 		"x": 31, "y": 49,
-          "format": "<font face='Tahoma' size='12' color='{{v.battles>9?{{v.c_xte|#FFD800}}|#FFD800}}'>{{v.xte|--}}</font>",
+		"format": "<font face='Tahoma' size='12' color='{{v.c_tdb}} '>{{v.wn8expd%.0f~}}</font>",		
           "shadow": {       
           "enabled": true,
           "distance": 1,             
@@ -340,8 +324,129 @@
           "blur": 1,                 
           "strength": 3 } 
 		  
-		}, 
+		},
+     //=================Years ======================================================================	   
+      {
+        "enabled": ${"../../../REBIRTH/Settings/Carousel/_Years/OnOff.xc":" enabled"},				
+		"layer": "top",
+        "x":64, "y":8, "width": 64, "height": 25,
+		"textFormat": {  "size": 18 },
+		"shadow": {       
+          "enabled": true,
+          "distance": 3,             
+          "angle": 4,                
+          "color": "0x000000",       
+          "alpha": 99,               
+          "blur": 1,                 
+          "strength": 3 } ,
+        "format": "{{.years.{{v.sysname}}}}"
+      },
+     //=================SPEED ======================================================================	   
+      {
+        "enabled": ${"../../../REBIRTH/Settings/Carousel/_Speed/OnOff.xc":" enabled"},				
+		"layer": "top",
+        "x":65, "y":50, "width": 75, "height": 20,
+		"textFormat": {  "size": 13 },
+        "format": "{{.speed.{{v.sysname}}}}"
+      },	     
 	  
+	  //=================Hull ======================================================================	   
+      {
+        "enabled": ${"../../../REBIRTH/Settings/Carousel/_Hull/OnOff.xc":" enabled"},				
+		"layer": "top",
+        "x":25, "y":78, "width": 85, "height": 20,
+		"textFormat": {"font": "Arial", "bold": "true", "size": 12, "color": "#FFE8FFBF" },
+		"shadow": {       
+          "enabled": true,
+          "distance": 3,             
+          "angle": 4,                
+          "color": "0x000000",       
+          "alpha": 99,               
+          "blur": 1,                 
+          "strength": 3 },
+        "format": "{{.hull.{{v.sysname}}}}" 
+      },
+	   {
+       "enabled": ${"../../../REBIRTH/Settings/Carousel/_Hull/OnOff.xc":" enabled"},
+		"x": 2, "y": 78,
+        "textFormat": { "color": "0x4CFF00" },
+        "shadow": {       
+          "enabled": true,
+          "distance": 3,             
+          "angle": 4,                
+          "color": "0x000000",       
+          "alpha": 99,               
+          "blur": 1,                 
+          "strength": 3 },		
+		"format": "<font face='Tahoma' size='13' >Hull</font>"
+		
+		
+		},
+       //=======================================================================================
+	  //   XP earn  // %'d
+      //=======================================================================================
+       { 
+	   
+		"enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/XP_Earn/OnOff.xc":" enabled"},
+		"hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,
+		"x": 1, "y": 65, "width": 65, "height": 25,  
+		"shadow": {       
+          "enabled": true,
+          "distance": 3,             
+          "angle": 4,                
+          "color": "0x000000",       
+          "alpha": 99,               
+          "blur": 1,                 
+          "strength": 3
+		  },
+		"textFormat": { "align": "left",  "color": "0xFF0000" },
+		"format": "<font face='Tahoma' size='12'color='#2FFF6D'> XP <font face='Tahoma' color='#FFE8FFBF'size='12'>{{v.earnedXP}}</font>"
+		},
+		//============================================================================================
+		  // 7. Steel_Hunter_Emblems 
+		  //          
+		  //============================================================================================
+        { 
+		"enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_NationFlags/Steel_Hunter_Emblems/OnOff.xc":" enabled"},
+		
+		"x": 4,
+		"y": -4,
+		"width": 160, 
+        "height":102,  
+        "layer": "bottom",  
+		"format": "<img src='cfg://../../REBIRTH/img/carousel/steel_hunter/{{v.nation}}.png'>",
+    	  "shadow": {
+		  "enabled": false,
+		  "distance": 3, 
+		  "angle": 4, 
+		  "color": "0x000000", 
+		  "alpha": 80, 
+		  "blur": 1, 
+		  "strength": 2}
+		  },
+		//============================================================================================
+		  // Small small_emblems   
+		  //          
+		  //============================================================================================
+        { 
+		"enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_NationFlags/Small_Emblem/OnOff.xc":" enabled"},
+		
+		"x": 1,
+		"y": 11,
+		"width": 160, 
+        "height":102,  
+        "layer": "bottom",  
+		"format": "<img src='cfg://../../REBIRTH/img/carousel/small_emblems/{{v.nation}}.png'>",
+    	  "shadow": {
+		  "enabled": false,
+		  "distance": 3, 
+		  "angle": 4, 
+		  "color": "0x000000", 
+		  "alpha": 80, 
+		  "blur": 1, 
+		  "strength": 2}
+		  },
+        		
 		  //============================================================================================
 		  // Small Bottom Flag   
 		  //          

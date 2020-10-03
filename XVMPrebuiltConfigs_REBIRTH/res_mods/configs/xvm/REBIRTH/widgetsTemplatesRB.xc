@@ -18,7 +18,7 @@
         "format": "<img src='cfg://../../REBIRTH/img/web/rebirth.png'>"
 
       },
-//=============Version=========================================================	  
+//=============Version==== file- =====================================================	  
       {
 	   "enabled":true,
 	    "layer": "normal",
@@ -28,7 +28,19 @@
                
         "screenHAlign": "left",       
         
-		"format": "<img src='cfg://../../REBIRTH/img/web/file.png'>"        
+		"format": "<img src='cfg://../../REBIRTH/img/web/file-.png'>"        
+      },
+//=============Version==== date- =====================================================	  
+      {
+	   "enabled":true,
+	    "layer": "normal",
+        "updateEvent": " ON_PANEL_MODE_CHANGED",	  
+        "x": 79,        
+        "y": 59,    
+               
+        "screenHAlign": "left",       
+        
+		"format": "<img src='cfg://../../REBIRTH/img/web/date.png'>"        
       },
 //=============Version=========================================================	 	  
       { "enabled": true,    
@@ -43,7 +55,7 @@
       {
 	  
         "updateEvent": " ON_EVERY_SECOND ",	  
-        "x": -139,       
+        "x": -155,       
         "y": 220,        
         "width": 400,        
         "height": 50,        
@@ -100,22 +112,9 @@
         "textFormat": { "color": "0xa8ffbb", "size": 15 },
         "format": "<font face='Arial Black'><font size='85' color='#FBFBFB'>  <font size='85'>{{mystat.name}} </font>"
 	},	
+	   
 	  
 	  
-	   //=============Update Curse.com =========================================================	  
-      {
-        "updateEvent": " ON_PANEL_MODE_CHANGED",	  
-        "x": -80,       
-        "y": 900,        
-        "width": 600,        
-        "height": 50,        
-        "screenHAlign": "center",                          
-       
-        "textFormat": { "align": "right", "valign": "center", "color": "#FBFBFB" },
-        "format": "<img src='cfg://../../REBIRTH/img/web/UPDate1.png'>"
-      },
-	  
-	  //=============Update Wg.com Curse =========================================================	  
       
 	  //============= Day of week =========================================================
       {

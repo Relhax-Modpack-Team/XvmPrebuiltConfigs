@@ -224,8 +224,9 @@
       ${ "battleLabelsTemplatesRB.xc":"def.hull"},
       ${ "battleLabelsTemplatesRB.xc":"def.hullText"}, 
       ${ "battleLabelsTemplatesRB.xc":"def.speed"},
-      //${ "battleLab﻿elsTemplatesHAX.xc":"def.speed"}﻿,﻿﻿﻿	  
-       
+	  ${ "battleLabelsTemplatesRB.xc":"def.topGunPen"},
+      ${ "battleLabelsTemplatesRB.xc":"def.topGunDmg"}, 
+      
       	  
 	    
 	 {}

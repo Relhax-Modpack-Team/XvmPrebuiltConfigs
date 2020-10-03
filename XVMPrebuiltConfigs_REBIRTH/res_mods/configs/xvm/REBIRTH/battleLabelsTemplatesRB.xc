@@ -758,7 +758,9 @@
       "alpha": 99,
       "align": "right",
       "format": "<img src='cfg://../../REBIRTH/ClanWar/Hawg_Tac_Map/{{py:map.nameFile}}.png'>"
-    },
+   
+	},
+	
 	"develope": {
       "enabled": ${"../../../REBIRTH/Settings/Battle/Tank_History/OnOff.xc":" enabled"},	
       "layer": "top",	   
@@ -770,7 +772,7 @@
        "shadow": {"color":"0x000000", "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 3 },
        "textFormat": { "valign": "center", "bold": "false", "size": 25 },
 	   "format": "{{.years.{{vehiclename}}}}"
-	  // "format": "<img src='xvm://res/icons/icons/battle/tanks/{{vehiclename}}.png'>"	   
+	   
 		
     },
 	"speed": {
@@ -778,12 +780,13 @@
       "layer": "bottom",
        "x": ${"../../../REBIRTH/Settings/Battle/Speed/Right_Left.xc":" move"},
       "y": ${"../../../REBIRTH/Settings/Battle/Speed/Up_Down.xc":" move"},
-      "width": 80,
+      "width": 150,
       "height": 22,
       "alpha": 100,
       "screenVAlign": "bottom",
       "shadow": {"color":"0x000000", "distance": 1, "angle": 90, "alpha": 60, "blur": 5, "strength": 3 },
-      "textFormat": { "valign": "center" },      
+	  "textFormat": { "valign": "center", "bold": "true", "size": 15, "color": "0x4CFF00" },
+      //"textFormat": { "valign": "center" },      
       "format": "{{.speed.{{vehiclename}}}}"
      },
      "hull": {
@@ -812,7 +815,39 @@
       "textFormat": { "font": "Arial","size": 15, "color": "0x00B300" },      
       "format": "<font size='15'color='#4CFF00'>Hull :</font>"
      	
-	 },	 	 
+	 },
+     "topGunPen": {
+      "enabled": ${"../../../REBIRTH/Settings/Battle/Tank_Top_Gun_Pen/OnOff.xc":" enabled"},
+      "hotKeyCode": ${"../../../REBIRTH/Settings/Battle/Tank_Top_Gun_Pen/HotKey.xc":"hotkey"},
+	  "onHold": ${"../../../REBIRTH/Settings/Battle/Tank_Top_Gun_Pen/Hold_HotKey.xc":"onHold"},      	  
+      "layer": "top",
+      "x": 0,
+      "y": -85,
+      "width": 400,
+      "height": 40,
+      "alpha": 100,
+      "screenHAlign": "center",
+      "screenVAlign": "bottom",      	  
+      "shadow": { "distance": 2, "angle": 90,"alpha": 90, "blur": 1.5, "strength": 5 },
+      "textFormat": {"font": "Arial","align": "center", "size": 16, "color": "0x4CFF00" },  
+      "format": "{{.gunPen.{{vehiclename}}}}" 
+     },
+     "topGunDmg": {
+      "enabled": ${"../../../REBIRTH/Settings/Battle/Tank_Top_Gun_Dmg/OnOff.xc":" enabled"},
+      "hotKeyCode": ${"../../../REBIRTH/Settings/Battle/Tank_Top_Gun_Dmg/HotKey.xc":"hotkey"},
+      "onHold": ${"../../../REBIRTH/Settings/Battle/Tank_Top_Gun_Dmg/Hold_HotKey.xc":"onHold"},	  
+      "layer": "top",
+      "x": 0,
+      "y": -65,
+      "width": 400,
+      "height": 40,
+      "alpha": 100,
+      "screenHAlign": "center",
+      "screenVAlign": "bottom",      	  
+      "shadow": { "distance": 2, "angle": 90,"alpha": 90, "blur": 1.5, "strength": 5 },
+      "textFormat": {"font": "Arial","align": "center", "size": 16, "color": "0x4CFF00" },   
+      "format": "{{.gunDmg.{{vehiclename}}}}" 
+     },		 	 
 	
    	"tankNationFlag": { 
       "enabled": ${"../../../REBIRTH/Settings/Battle/Battle_Timer_Flags/OnOff.xc":" enabled"},	  
@@ -827,6 +862,8 @@
       "screenHAlign": "center",
       "format": "<img src='cfg://../../REBIRTH/img/battle_nation/clock/{{nation}}.png'>"
     },
+	
+	
 	"tankHp": { 
       "enabled": ${"../../../REBIRTH/Settings/Battle/Tank_HP/OnOff.xc":" enabled"},
 	  "hotKeyCode": ${"../../../REBIRTH/Settings/Battle/Tank_HP/HotKey.xc":"hotkey"},
@@ -1007,7 +1044,7 @@
       "updateEvent": "PY(ON_UPDATE_HP)",
       "x": -2,
       "y": 52,
-	  "width": 52,
+	  "width": 65,
 	  "height": 28,
       "screenHAlign": "center",
 	  

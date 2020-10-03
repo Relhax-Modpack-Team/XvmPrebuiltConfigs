@@ -91,12 +91,12 @@
     "extrathinhpBarBg": {
 	"enabled": ${"../../../REBIRTH/Settings/ALT/PlayersPanel/3_HP_Xtra_Thin_Bottom/OnOff.xc":" enabled"},
 	"x": 32,
-	"y": 20, "width": 60, "bindToIcon": false, "height": 1, "bgColor": "0x000000", "alpha": "{{alive?35|0}}" },
+	"y": 20, "width": 60, "bindToIcon": false, "height": 2, "bgColor": "0x000000", "alpha": "{{alive?35|0}}" },
     
     "extrathinhpBar": {
 	"enabled": ${"../../../REBIRTH/Settings/ALT/PlayersPanel/3_HP_Xtra_Thin_Bottom/OnOff.xc":" enabled"},
 	"x": 32, 
-	"y": 20, "bindToIcon": false, "width": "{{hp-ratio:60}}", "height": 1, "bgColor": "{{player?#FFDD33|{{c:system}}}}", "alpha": "{{alive?50|0}}" },
+	"y": 20, "bindToIcon": false, "width": "{{hp-ratio:60}}", "height": 2, "bgColor": "{{player?#FFDD33|{{c:system}}}}", "alpha": "{{alive?50|0}}" },
     //===================================================================	
 	// Side
 	//===================================================================
