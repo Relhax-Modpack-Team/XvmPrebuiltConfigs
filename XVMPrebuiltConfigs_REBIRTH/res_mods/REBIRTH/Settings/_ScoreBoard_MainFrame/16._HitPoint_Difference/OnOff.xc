@@ -16,5 +16,5 @@
 //  Use HitPoint_Difference  in The Battle_Bar, HawgPen>_ScoreBoard_MainFrame> Battle_Bar
 
 {
-"enabled": false
+"enabled": "{{battletype-key=epic_battle?false}}"
 }
