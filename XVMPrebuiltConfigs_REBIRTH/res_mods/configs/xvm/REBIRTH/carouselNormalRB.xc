@@ -403,6 +403,21 @@
 		"format": "<font face='Tahoma' size='12'color='#2FFF6D'> XP <font face='Tahoma' color='#FFE8FFBF'size='12'>{{v.earnedXP}}</font>"
 		},
 		//============================================================================================
+		  // 8. WT E100 Event
+		  //          
+		  //============================================================================================
+        { 
+		"enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_NationFlags/WT_E100_Event/OnOff.xc":" enabled"},
+		
+		"x": 0,
+		"y": 10,
+		"width": 160, 
+        "height":102,  
+        "layer": "bottom",  
+		"format": "<img src='cfg://../../REBIRTH/img/carousel/WT_E100/{{v.nation}}.png'>"
+    	  
+		  },
+		//============================================================================================
 		  // 7. Steel_Hunter_Emblems 
 		  //          
 		  //============================================================================================
@@ -414,15 +429,7 @@
 		"width": 160, 
         "height":102,  
         "layer": "bottom",  
-		"format": "<img src='cfg://../../REBIRTH/img/carousel/steel_hunter/{{v.nation}}.png'>",
-    	  "shadow": {
-		  "enabled": false,
-		  "distance": 3, 
-		  "angle": 4, 
-		  "color": "0x000000", 
-		  "alpha": 80, 
-		  "blur": 1, 
-		  "strength": 2}
+		"format": "<img src='cfg://../../REBIRTH/img/carousel/steel_hunter/{{v.nation}}.png'>"
 		  },
 		//============================================================================================
 		  // Small small_emblems   
@@ -436,15 +443,7 @@
 		"width": 160, 
         "height":102,  
         "layer": "bottom",  
-		"format": "<img src='cfg://../../REBIRTH/img/carousel/small_emblems/{{v.nation}}.png'>",
-    	  "shadow": {
-		  "enabled": false,
-		  "distance": 3, 
-		  "angle": 4, 
-		  "color": "0x000000", 
-		  "alpha": 80, 
-		  "blur": 1, 
-		  "strength": 2}
+		"format": "<img src='cfg://../../REBIRTH/img/carousel/small_emblems/{{v.nation}}.png'>"
 		  },
         		
 		  //============================================================================================
@@ -459,15 +458,7 @@
 		"width": 64, 
         "height":46,  
         "layer": "bottom",  
-		"format": "<img src='cfg://../../REBIRTH/img/carousel/small/{{v.nation}}.png'>",
-    	  "shadow": {
-		  "enabled": false,
-		  "distance": 3, 
-		  "angle": 4, 
-		  "color": "0x000000", 
-		  "alpha": 80, 
-		  "blur": 1, 
-		  "strength": 2}
+		"format": "<img src='cfg://../../REBIRTH/img/carousel/small/{{v.nation}}.png'>"
 		  }
 	  
     ]
