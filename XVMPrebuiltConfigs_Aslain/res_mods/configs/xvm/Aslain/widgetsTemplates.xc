@@ -103,20 +103,52 @@
     "formats": [
           {
           "updateEvent": "ON_EVERY_SECOND",
-          "x": 174, "y": 51, "width": 330, "height": 40, "alpha": "{{py:bst.type?100|0}}",
+          "x": 74, "y": 51, "width": 330, "height": 40, "alpha": "{{py:bst.type?100|0}}",
           "format": "<img src='cfg://Aslain/boosters/background.png' width='320' height='34'>"
           },
           {
           "updateEvent": "ON_EVERY_SECOND",
-          "x": 185, "y": 28, "width": 330, "height": 60,
+          "x": 85, "y": 28, "width": 330, "height": 60,
           "format": "<img src='cfg://Aslain/boosters/{{py:bst.type(1)}}.png' width='64' height='54'><img src='cfg://Aslain/boosters/{{py:bst.type(2)}}.png' width='64' height='54'><img src='cfg://Aslain/boosters/{{py:bst.type(3)}}.png' width='64' height='54'>"
           },
           {
           "updateEvent": "ON_EVERY_SECOND",
-          "x": 220, "y": 69, "width": 330, "height": 40,
+          "x": 120, "y": 69, "width": 330, "height": 40,
           "shadow": { "alpha": 75, "blur": 3, "color": "0x0000CD", "strength": 1 },
           "format": "<font color='#CCFFFF' face='$FieldFont' size='12'><textformat tabstops='[65,130]'>{{py:bst.leftTime(1)}}\t{{py:bst.leftTime(2)}}\t{{py:bst.leftTime(3)}}</textformat></font>"
           }
         ]
+  },
+  "booster3": {
+    "enabled": false,
+    "layer": "top",
+    "type": "extrafield",
+    "formats": [
+      { "updateEvent": "ON_EVERY_SECOND",
+        "x": 405,
+        "y": 0,
+        "width": 160,
+        "height": 55,
+        "screenHAlign": "left",
+        "textFormat": { "valign": "right", "bold": "false", "color": "0xA3A397", "size": 13 },
+        "format": "<textformat tabstops='[84]'>{{py:bst.name(1)}}<tab><font color='{{py:bst.leftTimeMin(1)<3?#FFA56D|#E5C071}}'>{{py:bst.leftTimeHrMin(1)}}</font></textformat>\n<textformat tabstops='[84]'>{{py:bst.name(2)}}<tab><font color='{{py:bst.leftTimeMin(2)<3?#FFA56D|#E5C071}}'>{{py:bst.leftTimeHrMin(2)}}</font></textformat>\n<textformat tabstops='[84]'>{{py:bst.name(3)}}<tab><font color='{{py:bst.leftTimeMin(3)<3?#FFA56D|#E5C071}}'>{{py:bst.leftTimeHrMin(3)}}</font></textformat>"
+      }
+    ]
+  },
+  "boosterCR3": {
+    "enabled": false,
+    "layer": "top",
+    "type": "extrafield",
+    "formats": [
+      { "updateEvent": "ON_EVERY_SECOND",
+        "x": 549,
+        "y": 0,
+        "width": 150,
+        "height": 55,
+        "screenHAlign": "left",
+        "textFormat": { "valign": "right", "bold": "false", "color": "0xA3A397", "size": 13 },
+        "format": "<textformat tabstops='[84]'>{{py:bst.nameCR(1)}}<tab><font color='{{py:bst.leftTimeMinCR(1)<3?#FFA56D|#E5C071}}'>{{py:bst.leftTimeHrMinCR(1)}}</font></textformat>\n<textformat tabstops='[84]'>{{py:bst.nameCR(2)}}<tab><font color='{{py:bst.leftTimeMinCR(2)<3?#FFA56D|#E5C071}}'>{{py:bst.leftTimeHrMinCR(2)}}</font></textformat>\n<textformat tabstops='[84]'>{{py:bst.nameCR(3)}}<tab><font color='{{py:bst.leftTimeMinCR(3)<3?#FFA56D|#E5C071}}'>{{py:bst.leftTimeHrMinCR(3)}}</font></textformat>"
+      }
+    ]
   }
 }

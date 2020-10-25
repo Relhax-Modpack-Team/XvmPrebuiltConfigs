@@ -16,6 +16,8 @@
       //${ "widgetsTemplates.xc":"statistics" },
       ${ "widgetsTemplates.xc":"clock" },
 	  //${ "widgetsTemplates.xc":"booster" },
+	  //${ "widgetsTemplates.xc":"booster3" },
+	  //${ "widgetsTemplates.xc":"boosterCR3" },
 	  {}
     ]
   }

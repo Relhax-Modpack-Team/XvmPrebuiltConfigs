@@ -34,18 +34,18 @@
     // true - show widget "Daily Quests" in the hangar.
     // true - показывать виджет "Ежедневные задачи" в ангаре.
     "showDailyQuestWidget": true,
-    // true - show banner "World of Tanks' 10th Anniversary" in the hangar.
-    // true - показывать баннер "Десятилетие World of Tanks" в ангаре.
-    "showTenYearsBanner": true,
+    // true - show banner "Last Waffenträger" in the hangar.
+    // true - показывать баннер "Последний Ваффентрагер" в ангаре.
+    "showLastWtBanner": true,
     // Consumables panel - show/hide the number of consumables and directives.
     // Панель снаряжения - показывать/прятать количество снаряжения и инструкций.
     "equipmentPanel": {
       //true - show the remaining quantity of consumables in depot.
       //true - показать оставшиеся количество снаряжения на складе.
-      "showConsumablesCount": true,
+      "showConsumablesCount": false,
       //true - show the remaining quantity of directives in depot.
       //true - показать оставшиеся количество инструкций на складе.
-      "showDirectivesCount": true
+      "showDirectivesCount": false
     },
     // "Combat Intelligence" - show/hide notifications in the main window and counters in the menu.
     // "Полевая почта" - показывать/прятать уведомления в главном окне и счетчики в меню.
@@ -178,7 +178,7 @@
     "notificationsButtonType": "full",
     // true - hide price button in tech tree.
     // true - прятать кнопку с ценой в дереве исследований.
-    "hidePricesInTechTree": true,
+    "hidePricesInTechTree": false,
     // true - show mastery mark in tech tree.
     // true - показывать знак мастерства в дереве исследований.
     "masteryMarkInTechTree": true,
