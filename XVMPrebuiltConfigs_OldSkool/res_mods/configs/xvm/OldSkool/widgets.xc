@@ -13,7 +13,7 @@
     ],
 
     "lobby": [
-      ${ "widgetsTemplates.xc":"clock" }
+      //${ "widgetsTemplates.xc":"clock" }
     ]
   }
 }
