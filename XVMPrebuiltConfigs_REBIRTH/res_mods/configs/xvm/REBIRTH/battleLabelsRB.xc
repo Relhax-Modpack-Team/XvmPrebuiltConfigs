@@ -226,8 +226,8 @@
       ${ "battleLabelsTemplatesRB.xc":"def.speed"},
 	  ${ "battleLabelsTemplatesRB.xc":"def.topGunPen"},
       ${ "battleLabelsTemplatesRB.xc":"def.topGunDmg"}, 
-      
-      	  
+      ${ "battleLabelsTemplatesRB.xc":"def.elevation"}, 
+      ${ "battleLabelsTemplatesRB.xc":"def.elevationText"},	  
 	    
 	 {}
     ]

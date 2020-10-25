@@ -56,6 +56,8 @@
   "hull": ${"hull.xc":"hull"},
   "gunDmg": ${"gunDmg.xc":"gunDmg"},
   "gunPen": ${"gunPen.xc":"gunPen"},
+  "elevation": ${"elevation.xc":"elevation"},
   "tweaks": ${"tweaks.xc":"tweaks"}
+  
   
 }
