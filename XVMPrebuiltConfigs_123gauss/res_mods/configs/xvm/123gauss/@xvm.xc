@@ -3,7 +3,7 @@
   "configVersion": "6.1.0",
 
   // Automatically reload config. Requires client restart.
-  "autoReloadConfig": false,
+  "autoReloadConfig": true,
 
   // Language used in mod
   // "auto" - automatically detect language from game client,
