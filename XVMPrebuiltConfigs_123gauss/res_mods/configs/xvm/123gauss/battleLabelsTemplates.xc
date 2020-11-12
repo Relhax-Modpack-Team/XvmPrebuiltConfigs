@@ -205,7 +205,7 @@
       "format": "<textformat tabstops='[10,30,75,86,95,135,155]'><font size='14'><img src='xvm://res/icons/MarsOne/log/strip.png' vspace='-3'>\n<tab><img src='xvm://res/icons/MarsOne/log/log_damage_enemy.png' vspace='-3'><tab><b>{{py:xvm.damageReceived}}</b><tab><img src='xvm://res/icons/MarsOne/log/log_shot_enemy_l.png' vspace='-4'><tab><b>{{py:xvm.numberShotsReceived}}&#xd7;</b> <img src='xvm://res/icons/MarsOne/log/log_shot_enemy_r.png' vspace='-4'><tab><tab><img src='xvm://res/icons/MarsOne/log/log_reflect.png' vspace='-2'><tab><b>{{py:xvm.totalBlocked}}</b>\n<img src='xvm://res/icons/MarsOne/log/strip.png' vspace='-2'></font></textformat>"
     },
     "totalHP": {
-      "enabled": true,
+      "enabled": false,
       "updateEvent": "PY(ON_UPDATE_HP)",
       "x": 0,
       "y": 30,
