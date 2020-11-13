@@ -7,18 +7,14 @@
     "mirroredVehicleIcons": false,
     "showPostmortemTips": true,
     "showPostmortemDogtag": true,
+    // false - disable battle hints.
+    // false - отключить подсказки в бою.
+    "showBattleHint": true,
     "highlightVehicleIcon": true,
     "clockFormat": "H:i",
     "clanIconsFolder": "clanicons/",
     "sixthSenseIcon": "xvm://res/null.png",
     "sixthSenseDuration": 0,
-    "battleHint": {
-      "hideTrajectoryView": true,
-      "hideSiegeIndicator": true,
-      "hideQuestProgress": true,
-      "hideHelpScreen": true,
-      "hideRadarHint": true
-    },
     "elements": ${"elements.xc":"elements"},
     "camera": ${"camera.xc":"camera"},
     "minimapDeadSwitch": true

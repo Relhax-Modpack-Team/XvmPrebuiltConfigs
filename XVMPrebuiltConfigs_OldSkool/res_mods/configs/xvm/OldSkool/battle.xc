@@ -13,6 +13,9 @@
 	
     // false - disable pop-up panel with a dog tag.
     "showPostmortemDogtag": true,
+    // false - disable battle hints.
+    // false - отключить подсказки в бою.
+    "showBattleHint": true,
 	
     // false - disable highlighting of own vehicle icon and squad.
     "highlightVehicleIcon": true,
@@ -28,22 +31,6 @@
 	
     // Duration of the sixth sense indicator (msec).
     "sixthSenseDuration": 2000,
-	
-    // true - hide the tips in battle.
-    "battleHint": {
-	
-      // true - hide the tips aiming mode changing in strategic mode.
-      "hideTrajectoryView": false,
-	  
-      // true - hide the tips about switching to siege mode and changing the driving mode (for wheeled vehicles).
-      "hideSiegeIndicator": false,
-	  
-      // true - hide the tips about switching to menu Personal Missions.
-      "hideQuestProgress": false,
-	  
-      // true - hide the tips of the transition to the window of exploring the features of the machine (for wheeled vehicles).
-      "hideHelpScreen": false
-    },
 	
     // GUI elements settings (experts only).
     "elements": ${"elements.xc":"elements"},

@@ -7,6 +7,12 @@
     "mirroredVehicleIcons": true, // Icons spiegeln eingeschaltet
     // false - disable pop-up panel at the bottom after death.
     "showPostmortemTips": false,
+    // false - disable pop-up panel with a dog tag.
+    // false - отключить всплывающую внизу панель с личным жетоном.
+    "showPostmortemDogTag": true,
+    // false - disable battle hints.
+    // false - отключить подсказки в бою.
+    "showBattleHint": true,
     // false - disable highlighting of own vehicle icon and squad.
     "highlightVehicleIcon": false,
     // Format of clock on the Debug Panel (near FPS).
@@ -18,17 +24,6 @@
     "sixthSenseIcon": "xvm://res/SixthSense.png",
     // Duration of the sixth sense indicator (msec).
     "sixthSenseDuration": 10000,
-    // true - hide the tips in battle.
-    "battleHint": {
-      // true - hide the tips aiming mode changing in strategic mode.
-      "hideTrajectoryView": false,
-      // true - hide the tips about switching to siege mode.
-      "hideSiegeIndicator": false,
-      // true - hide the tips about switching to menu Personal Missions.
-      "hideQuestProgress": false,
-      // true - hide the tips of the transition to the window of exploring the features of the machine (for wheeled vehicles).
-      "hideHelpScreen": false
-    },
     // GUI elements settings (experts only)
     "elements": ${"elements.xc":"elements"},
     // Camera settings
