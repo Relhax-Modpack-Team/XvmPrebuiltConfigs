@@ -11,6 +11,7 @@
     "tk": "0x00EAFF", // teamKiller
     "en": "0xF50800", // enemy
     "pl": "0xFFDD33", // player
+    "self": "0xDD00DD",            // self
 
     // Dynamic color by various statistical parameters.
     "colorRating": {
@@ -47,7 +48,10 @@
       "enemy_dead":          "0x840500",
       "enemy_blowedup":      "0x5A0401",
       "ally_base":           ${"def.al"},
-      "enemy_base":          ${"def.en"}
+      "enemy_base":          ${"def.en"},
+      "self_alive":          ${"def.self"},
+      "self_dead":           "0xBB00BB",
+      "self_blowedup":       "0x990099"
     },
 
     // Dynamic color by damage kind.
@@ -58,6 +62,7 @@
       "world_collision": "0x228855",
       "death_zone": "0xCCCCCC",
       "drowning": "0xCCCCCC",
+      "overturn":        "0xCCCCCC", // overturn        / опрокидывание
       "other": "0xCCCCCC"
     },
 
@@ -86,7 +91,6 @@
 
     // Color settings for damage.
     "damage": {
-
       "ally_ally_hit":              ${"def.tk"},
       "ally_ally_kill":             ${"def.tk"},
       "ally_ally_blowup":           ${"def.tk"},
@@ -102,36 +106,9 @@
       "ally_enemytk_hit":           ${"def.en"},
       "ally_enemytk_kill":          ${"def.en"},
       "ally_enemytk_blowup":        ${"def.en"},
-      "enemy_ally_hit":             ${"def.al"},
-      "enemy_ally_kill":            ${"def.al"},
-      "enemy_ally_blowup":          ${"def.al"},
-      "enemy_squadman_hit":         ${"def.al"},
-      "enemy_squadman_kill":        ${"def.al"},
-      "enemy_squadman_blowup":      ${"def.al"},
-      "enemy_enemy_hit":            ${"def.en"},
-      "enemy_enemy_kill":           ${"def.en"},
-      "enemy_enemy_blowup":         ${"def.en"},
-      "enemy_allytk_hit":           ${"def.al"},
-      "enemy_allytk_kill":          ${"def.al"},
-      "enemy_allytk_blowup":        ${"def.al"},
-      "enemy_enemytk_hit":          ${"def.en"},
-      "enemy_enemytk_kill":         ${"def.en"},
-      "enemy_enemytk_blowup":       ${"def.en"},
-      "unknown_ally_hit":           ${"def.al"},
-      "unknown_ally_kill":          ${"def.al"},
-      "unknown_ally_blowup":        ${"def.al"},
-      "unknown_squadman_hit":       ${"def.al"},
-      "unknown_squadman_kill":      ${"def.al"},
-      "unknown_squadman_blowup":    ${"def.al"},
-      "unknown_enemy_hit":          ${"def.en"},
-      "unknown_enemy_kill":         ${"def.en"},
-      "unknown_enemy_blowup":       ${"def.en"},
-      "unknown_allytk_hit":         ${"def.al"},
-      "unknown_allytk_kill":        ${"def.al"},
-      "unknown_allytk_blowup":      ${"def.al"},
-      "unknown_enemytk_hit":        ${"def.en"},
-      "unknown_enemytk_kill":       ${"def.en"},
-      "unknown_enemytk_blowup":     ${"def.en"},
+      "ally_self_hit":              ${"def.self"},
+      "ally_self_kill":             ${"def.self"},
+      "ally_self_blowup":           ${"def.self"},
       "squadman_ally_hit":          ${"def.sq"},
       "squadman_ally_kill":         ${"def.sq"},
       "squadman_ally_blowup":       ${"def.sq"},
@@ -147,6 +124,45 @@
       "squadman_enemytk_hit":       ${"def.sq"},
       "squadman_enemytk_kill":      ${"def.sq"},
       "squadman_enemytk_blowup":    ${"def.sq"},
+      "squadman_self_hit":          ${"def.self"},
+      "squadman_self_kill":         ${"def.self"},
+      "squadman_self_blowup":       ${"def.self"},
+      "enemy_ally_hit":             ${"def.al"},
+      "enemy_ally_kill":            ${"def.al"},
+      "enemy_ally_blowup":          ${"def.al"},
+      "enemy_squadman_hit":         ${"def.al"},
+      "enemy_squadman_kill":        ${"def.al"},
+      "enemy_squadman_blowup":      ${"def.al"},
+      "enemy_enemy_hit":            ${"def.en"},
+      "enemy_enemy_kill":           ${"def.en"},
+      "enemy_enemy_blowup":         ${"def.en"},
+      "enemy_allytk_hit":           ${"def.al"},
+      "enemy_allytk_kill":          ${"def.al"},
+      "enemy_allytk_blowup":        ${"def.al"},
+      "enemy_enemytk_hit":          ${"def.en"},
+      "enemy_enemytk_kill":         ${"def.en"},
+      "enemy_enemytk_blowup":       ${"def.en"},
+      "enemy_self_hit":             ${"def.self"},
+      "enemy_self_kill":            ${"def.self"},
+      "enemy_self_blowup":          ${"def.self"},
+      "unknown_ally_hit":           ${"def.al"},
+      "unknown_ally_kill":          ${"def.al"},
+      "unknown_ally_blowup":        ${"def.al"},
+      "unknown_squadman_hit":       ${"def.al"},
+      "unknown_squadman_kill":      ${"def.al"},
+      "unknown_squadman_blowup":    ${"def.al"},
+      "unknown_enemy_hit":          ${"def.en"},
+      "unknown_enemy_kill":         ${"def.en"},
+      "unknown_enemy_blowup":       ${"def.en"},
+      "unknown_allytk_hit":         ${"def.al"},
+      "unknown_allytk_kill":        ${"def.al"},
+      "unknown_allytk_blowup":      ${"def.al"},
+      "unknown_enemytk_hit":        ${"def.en"},
+      "unknown_enemytk_kill":       ${"def.en"},
+      "unknown_enemytk_blowup":     ${"def.en"},
+      "unknown_self_hit":           ${"def.self"},
+      "unknown_self_kill":          ${"def.self"},
+      "unknown_self_blowup":        ${"def.self"},
       "player_ally_hit":            ${"def.pl"},
       "player_ally_kill":           ${"def.pl"},
       "player_ally_blowup":         ${"def.pl"},
@@ -161,7 +177,10 @@
       "player_allytk_blowup":       ${"def.pl"},
       "player_enemytk_hit":         ${"def.pl"},
       "player_enemytk_kill":        ${"def.pl"},
-      "player_enemytk_blowup":      ${"def.pl"}
+      "player_enemytk_blowup":      ${"def.pl"},
+      "player_self_hit":            ${"def.self"},
+      "player_self_kill":           ${"def.self"},
+      "player_self_blowup":         ${"def.self"}
     },
 
     // Values below should be from smaller to larger.
