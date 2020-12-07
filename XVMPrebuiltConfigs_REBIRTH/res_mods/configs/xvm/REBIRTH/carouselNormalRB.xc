@@ -49,7 +49,7 @@
 		   
 		   "enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/Tank_Name/OnOff.xc":" enabled"},
 		   "hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false , // 
-		   "x": 59, "y": 90,
+		   "x": 59, "y": 91,
 		   "format": "<b><font face='Tahoma' size='13' color='{{v.c_type}}'>{{v.name}} </font>",
 		     
             "shadow": {       
@@ -198,7 +198,7 @@
 		
 		"enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/Tank_Win_Rate/OnOff.xc":" enabled"},
 		"hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,
-		"x": 4, "y": 16,
+		"x": 4, "y": 15,
 		"format": "<font face='Tahoma' size='12'color='#2FFF6D'>Win </font>",
 		"shadow": {       
           "enabled": true,
@@ -212,7 +212,7 @@
         {
 		"enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/Tank_Win_Rate/OnOff.xc":" enabled"},
 		"hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,
-		"x": 31, "y": 16,
+		"x": 31, "y": 15,
           "format": "<font face='Tahoma' size='12' color='{{v.c_winrate}}'>{{v.winrate%2d~%}}</font>",
           "shadow": {       
           "enabled": true,
@@ -230,7 +230,7 @@
 		  
 		  "enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/Tank_Hit_Rate/OnOff.xc":" enabled"},
 		  "hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,
-		  "x": 4, "y": 33, 
+		  "x": 4, "y": 32, 
 		  "format": "<font face='Tahoma'><font size='12'color='#2FFF6D'>Hit </font>",
 		"shadow": {       
           "enabled": true,
@@ -244,7 +244,7 @@
 		  {
 		  "enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/Tank_Hit_Rate/OnOff.xc":" enabled"},
 		  "hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,
-		  "x": 30, "y": 33 ,
+		  "x": 30, "y": 32 ,
 		  "format": "<font face='Tahoma' size='12' color='{{v.c_hitsRatio}}'>{{v.hitsRatio%2d~%}}</font>",
           "shadow": {       
           "enabled": true,
@@ -262,7 +262,7 @@
         {
 		"enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/Tank_Wn8/OnOff.xc":" enabled"},
 		"hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,
-		"x": 3, "y": 49, 
+		"x": 3, "y": 48, 
 		"format": "<font face='Tahoma'><font size='12'color='#2FFF6D'>WN8 </font></font>",
 		"shadow": {       
           "enabled": true,
@@ -276,7 +276,7 @@
         {
 		"enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/Tank_Wn8/OnOff.xc":" enabled"},
 		"hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,
-		"x": 31, "y": 49,
+		"x": 31, "y": 48,
 		"format": "<font face='Tahoma' size='12' color='{{v.c_tdb}} '>{{v.wn8expd%.0f~}}</font>",		
           "shadow": {       
           "enabled": true,
@@ -312,7 +312,7 @@
 		  {
 		  "enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/Tank_Nation/OnOff.xc":" enabled"},
 		  "hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,
-		  "x": 3, "y": 69,
+		  "x": 3, "y": 68,
 		  
           "format": "<font size='15' color='#FFE8FFBF'>{{v.nation}}</font>",
           "shadow": {       
@@ -387,10 +387,10 @@
         "enabled": ${"../../../REBIRTH/Settings/Carousel/_Gun_Elevation_Arc/OnOff.xc":" enabled"},				
 		"layer": "top",
         "x":25, "y":78, "width": 85, "height": 20,
-		"textFormat": {"font": "Arial", "bold": "true", "size": 12, "color": "#FFE8FFBF" },
+		"textFormat": {"font": "Arial", "bold": "true", "size": 13, "color": "0x4CFF00" },
 		"shadow": {       
           "enabled": true,
-          "distance": 3,             
+          "distance": 4,             
           "angle": 4,                
           "color": "0x000000",       
           "alpha": 99,               
@@ -421,7 +421,7 @@
 	   
 		"enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/XP_Earn/OnOff.xc":" enabled"},
 		"hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,
-		"x": 1, "y": 65, "width": 65, "height": 25,  
+		"x": 1, "y": 64, "width": 65, "height": 25,  
 		"shadow": {       
           "enabled": true,
           "distance": 3,             

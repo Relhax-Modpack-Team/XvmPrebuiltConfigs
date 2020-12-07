@@ -3,12 +3,14 @@
 {
   "battle": {
     "mirroredVehicleIcons": ${"../../../REBIRTH/Settings/Battle/Battle_NotHawgsIconContours/OnOff.xc":"mirroredVehicleIcons"},
-    "showPostmortemTips": ${"../../../REBIRTH/Settings/Battle/Battle_Postmortem/OnOff.xc":"showPostmortemTips"},	
+    "showPostmortemTips": ${"../../../REBIRTH/Settings/Battle/Battle_Postmortem/OnOff.xc":"showPostmortemTips"},
+    "showPostmortemDogTag": true,	
     "highlightVehicleIcon": ${"../../../REBIRTH/Settings/Battle/Battle_Highlight_Vehicle_Icon/OnOff.xc":" enabled"},
     "clockFormat": "H:i",
     "clanIconsFolder": "clanicons/",
     "sixthSenseIcon": "xvm://res/SixthSense.png",
     "sixthSenseDuration": ${"../../../REBIRTH/Settings/Battle/Battle_SixthSense/OnOff.xc":"sixthSenseDuration"},
+	"showBattleHint": true,
 	"battleHint": {      
       "hideTrajectoryView": true,      
       "hideSiegeIndicator": true,      

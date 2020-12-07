@@ -250,6 +250,33 @@
       "format": "{{.gunDmg.{{vehiclename}}}}"
 	     
     },
+	"elevationTeam": {
+     "enabled": ${"../../../REBIRTH/Settings/Tank_Markers/_Gun_Elevation_Arc/_Team_OnOff.xc":" enabled"},
+      "hotKeyCode": ${"../../../REBIRTH/Settings/Tank_Markers/_Gun_Elevation_Arc/HotKey.xc":"hotkey"},
+	  "onHold": ${"../../../REBIRTH/Settings/Tank_Markers/_Gun_Elevation_Arc/Hold_HotKey.xc":"enabled"}, 
+	  "visibleOnHotKey": ${"../../../REBIRTH/Settings/Tank_Markers/_Gun_Elevation_Arc/Hold_HotKey.xc":"enabled"},            
+      "x": 0,                         
+      "y": -147,  
+	  "align": "center",
+      "shadow": {"color":"0x090808", "distance": 1, "angle": 90, "alpha": 60, "blur": 4, "strength": 3 },	  
+      "textFormat": { "font": "$FieldFont","color": "{{c:system}}", "align": "center", "size": 15 },	  
+      "format": "{{.elevation.{{vehiclename}}}}"
+	     
+    },
+	"elevationEnemy": {
+     "enabled": ${"../../../REBIRTH/Settings/Tank_Markers/_Gun_Elevation_Arc/_Enemy_OnOff.xc":" enabled"},
+      "hotKeyCode": ${"../../../REBIRTH/Settings/Tank_Markers/_Gun_Elevation_Arc/HotKey.xc":"hotkey"},
+	  "onHold": ${"../../../REBIRTH/Settings/Tank_Markers/_Gun_Elevation_Arc/Hold_HotKey.xc":"enabled"}, 
+	  "visibleOnHotKey": ${"../../../REBIRTH/Settings/Tank_Markers/_Gun_Elevation_Arc/Hold_HotKey.xc":"enabled"},        
+      "x": 0,                         
+      "y": -147,  
+	  "align": "center",
+      "shadow": {"color":"0x090808", "distance": 1, "angle": 90, "alpha": 60, "blur": 4, "strength": 3 },	  
+      "textFormat": { "font": "$FieldFont","color": "{{c:system}}", "align": "center", "size": 15 },	  
+      "format": "{{.elevation.{{vehiclename}}}}"
+	     
+    },
+	
 	// My Platoon
       "mySquad": {
         "name": "My Squad", 
@@ -415,6 +442,7 @@
 	  ${ "def.years" },
 	  ${ "def.gunPenTeam" },
 	  ${ "def.gunDmgTeam" },
+	  ${ "def.elevationTeam" },
       ${ "def.xmqpEvent" }
     ]
   },
@@ -518,7 +546,8 @@
 	  ${ "def.hull" },
 	  ${ "def.years" },	
       ${ "def.gunPenEnemy" },
-      ${ "def.gunDmgEnemy" },	  
+      ${ "def.gunDmgEnemy" },
+      ${ "def.elevationEnemy" },	  
 	  ${ "def.playerName" }
     ]
   }
