@@ -5,7 +5,7 @@
 //
 //  false  - turns Off Gun Elevation
 //  Example >
-//  "enabled": false 
+//  "enabled": true  
 {
-"enabled": false 
+"enabled": true 
 }
