@@ -32,16 +32,98 @@
     },    
     "extraFields": [      
       { "x": 1, "y": 1, "layer": "substrate", "width": 172, "height": 112, "bgColor": "0x0A0A0A" },
-	  
-	    //=================Prem==3======================================================================	   
+	  //==
+	    //=================Prem==1 LaurelWreath ===================================================================	   
       {
-        "enabled": ${"../../../REBIRTH/Settings/Carousel/Premium_Marker_LaurelWreath/OnOff.xc":" enabled"},		
+        "enabled": ${"../../../REBIRTH/Settings/Carousel/Premium_Tank_Markers/1#_LaurelWreath/OnOff.xc":" enabled"},		
         "x":141, "y":84, "width": 30, "height": 30,		
-		"src": "{{v.premium!=0?img://gui/flash/hawgs/prem/{{v.premium}}.png}}"
+		"src": "{{v.premium!=0?img://gui/flash/hawgs/premium/1/{{v.premium}}.png}}"
       },
-	  //======================================================================================	 
-
-      
+	  //====
+	   //=================Prem==2 Star ====================================================================	   
+      {
+        "enabled": ${"../../../REBIRTH/Settings/Carousel/Premium_Tank_Markers/2#_Star/OnOff.xc":" enabled"},		
+        "x":141, "y":84, "width": 30, "height": 30,		
+		"src": "{{v.premium!=0?img://gui/flash/hawgs/premium/2/{{v.premium}}.png}}"
+      },
+	  //==
+	  //=================Prem==3 Gold Coins ====================================================================	   
+      {
+        "enabled": ${"../../../REBIRTH/Settings/Carousel/Premium_Tank_Markers/3#_Gold_Coins/OnOff.xc":" enabled"},		
+        "x":141, "y":84, "width": 30, "height": 30,			
+		"src": "{{v.premium!=0?img://gui/flash/hawgs/premium/3/{{v.premium}}.png}}"
+      },
+	  //==================================================================================	 
+      //=================Prem==4 Gold Border ===================================================================	   
+      {
+        "enabled": ${"../../../REBIRTH/Settings/Carousel/Premium_Tank_Markers/4#_Gold_Border/OnOff.xc":" enabled"},		
+        "x":1, "y":1, "width": 170, "height": 111,		
+		"src": "{{v.premium!=0?img://gui/flash/hawgs/premium/4/{{v.premium}}.png}}"
+      },
+	  //=================Prem==5 WOT ====================================================================	   
+      {
+        "enabled": ${"../../../REBIRTH/Settings/Carousel/Premium_Tank_Markers/5#_WOT/OnOff.xc":" enabled"},		
+        "x":141, "y":84, "width": 30, "height": 30,			
+		"src": "{{v.premium!=0?img://gui/flash/hawgs/premium/5/{{v.premium}}.png}}"
+      },
+	 
+      //==================================================================================
+	   //=================Prem==6 Tank ====================================================================	   
+      {
+        "enabled": ${"../../../REBIRTH/Settings/Carousel/Premium_Tank_Markers/6#_Tank_Wreath/OnOff.xc":" enabled"},		
+        "x":141, "y":84, "width": 30, "height": 30,			
+		"src": "{{v.premium!=0?img://gui/flash/hawgs/premium/6/{{v.premium}}.png}}"
+      },
+	 
+      //==================================================================================
+	  //=================Prem==7 Fleur_De_Lis ====================================================================	   
+      {
+        "enabled": ${"../../../REBIRTH/Settings/Carousel/Premium_Tank_Markers/7#_Fleur_De_Lis/OnOff.xc":" enabled"},		
+        "x":141, "y":84, "width": 30, "height": 30,			
+		"src": "{{v.premium!=0?img://gui/flash/hawgs/premium/7/{{v.premium}}.png}}"
+      },
+	 
+      //==================================================================================
+	   //=================Prem==8 Eagle ====================================================================	   
+      {
+        "enabled": ${"../../../REBIRTH/Settings/Carousel/Premium_Tank_Markers/8#_Eagle/OnOff.xc":" enabled"},		
+        "x":141, "y":84, "width": 30, "height": 30,			
+		"src": "{{v.premium!=0?img://gui/flash/hawgs/premium/8/{{v.premium}}.png}}"
+      },
+	 
+      //==================================================================================
+	  //=================Prem==9 Eagle ====================================================================	   
+      {
+        "enabled": ${"../../../REBIRTH/Settings/Carousel/Premium_Tank_Markers/9#_King/OnOff.xc":" enabled"},		
+        "x":141, "y":84, "width": 30, "height": 30,			
+		"src": "{{v.premium!=0?img://gui/flash/hawgs/premium/9/{{v.premium}}.png}}"
+      },
+	 
+      //==================================================================================
+	  //=================Prem==10 Wolf ====================================================================	   
+      {
+        "enabled": ${"../../../REBIRTH/Settings/Carousel/Premium_Tank_Markers/10#_Wolf/OnOff.xc":" enabled"},		
+        "x":141, "y":84, "width": 30, "height": 30,			
+		"src": "{{v.premium!=0?img://gui/flash/hawgs/premium/10/{{v.premium}}.png}}"
+      },
+	 
+      //==================================================================================
+	  //=================Prem==11 Southern_Bird ====================================================================	   
+      {
+        "enabled": ${"../../../REBIRTH/Settings/Carousel/Premium_Tank_Markers/11#_Southern_Bird/OnOff.xc":" enabled"},		
+        "x":141, "y":84, "width": 30, "height": 30,			
+		"src": "{{v.premium!=0?img://gui/flash/hawgs/premium/11/{{v.premium}}.png}}"
+      },
+	 
+      //==================================================================================
+	  //=================Prem==12 Gun-Star ====================================================================	   
+      {
+        "enabled": ${"../../../REBIRTH/Settings/Carousel/Premium_Tank_Markers/12#_Gun-Star/OnOff.xc":" enabled"},		
+        "x":141, "y":84, "width": 30, "height": 30,			
+		"src": "{{v.premium!=0?img://gui/flash/hawgs/premium/12/{{v.premium}}.png}}"
+      },
+	 
+      //==================================================================================
 	   // ====================================================================================== 
 		  //  Tank Name  
 		  //=======================================================================================
@@ -167,19 +249,19 @@
 		},
 		
       //============================================================================================
-	  //BATTLES
+	  //BATTLES  </b>
 	  //============================================================================================
         {
         "enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/Tank_Battles/OnOff.xc":" enabled"},
 		"hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,
-        "x": 165, "y": 75, "align": "right", "width": 13, "height": 13, "alpha": "{{v.battles?|0}}",
+        "x": 165, "y": 74, "align": "right", "width": 13, "height": 13, "alpha": "{{v.battles?|0}}",
         "src": "xvm://res/icons/carousel/battles.png"
        },
        {
         "enabled": ${"../../../REBIRTH/Settings/Carousel/Carousel_Stats/Tank_Battles/OnOff.xc":" enabled"},
 		"hotKeyCode":68, "onHold": "false", "visibleOnHotKey": false ,
         "x": 152, "y": 71, "align": "right",
-        "format": "<b><font face='Tahoma' size='14' color='{{v.c_battles}}'>{{v.battles}}</font></b>",
+        "format": "<b><font face='Tahoma' size='14' color='{{v.c_battles}}'>{{v.battles}}</font>",
         "shadow": {
 		  "enabled": true,
 		  "distance": 3, 

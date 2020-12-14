@@ -1,5 +1,5 @@
 ﻿/**
- * Color HawgXvm settings 9/10. 9/10
+ * Color HawgXvm settings 12/13.
  *
  */
 {
@@ -9,7 +9,8 @@
     "tk": "0x00EAFF",  
     "en": "0xFF0000",  
     "pl": "0xFFDD33",  
-    "sk": "0x000000",  
+    "sk": "0x000000",
+    "self": "0xDD00DD",	
 
      "colorRatingNew": {
       "beginner": ${"../../../REBIRTH/Settings/Colors/Rating_Colors/10_Beginner/Rating_Color.xc":"color"},
@@ -67,6 +68,9 @@
       "enemy_alive": ${"../../../REBIRTH/Settings/Colors/Tank_Outlines/Enemy/OutlineColor.xc":"color"},
       "enemy_dead": ${"../../../REBIRTH/Settings/Colors/Tank_Outlines/Enemy/OutlineColor.xc":"color"},
       "enemy_blowedup":         "0x5A0401",
+	  "self_alive":          ${"def.self"},
+      "self_dead":           "0xBB00BB",
+      "self_blowedup":       "0x990099",
       "squadKiller_alive":      ${"def.sk"},
       "squadKiller_dead":       "0x8B4789",
       "squadKiller_blowedup":   "0x5D478B"

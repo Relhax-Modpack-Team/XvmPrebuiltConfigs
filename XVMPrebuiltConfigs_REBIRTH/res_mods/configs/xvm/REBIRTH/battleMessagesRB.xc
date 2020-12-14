@@ -2,8 +2,10 @@
   "battleMessages": {    
     "enabled": ${"../../../REBIRTH/Settings/_MainFrame/Battle_Messages/OnOff.xc":" enabled"},    
     "enemyArtyCooldown": {      
-      "enabled": ${"../../../REBIRTH/Settings/Battle_Messages/Battle_Messages_Hit_By_Arty/OnOff.xc":" enabled"},      
-      "format": "{{arty-tank}} ({{arty-name}}) hit me!"
+      "enabled": ${"../../../REBIRTH/Settings/Battle_Messages/Battle_Messages_Hit_By_Arty/OnOff.xc":" enabled"},
+	  "showWhenLess": ${"../../../REBIRTH/Settings/Battle_Messages/Battle_Messages_Hit_By_Arty/Show_When_Less.xc":" enabled_after_only"},
+      "enabledFor": "all",      
+      "format": "SPG {{arty-tank}}  hit me!  @ {{position}}  " 
     },
     "iAmSpotted": {      
       "enabled": ${"../../../REBIRTH/Settings/Battle_Messages/Battle_Messages_I_Am_Spotted/ImSpoted_OnOff.xc":" enabled"},      
