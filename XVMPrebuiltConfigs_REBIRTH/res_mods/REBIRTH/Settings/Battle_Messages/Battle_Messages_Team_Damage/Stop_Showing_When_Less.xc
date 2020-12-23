@@ -2,5 +2,5 @@
 //  Change from  15 to 2 players.
 //  
 {
-"Turn_Off_after_only": 10
+"Turn_Off_after_only": 6
 }

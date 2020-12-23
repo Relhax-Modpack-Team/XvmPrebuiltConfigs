@@ -2,5 +2,5 @@
 //  ( true ) turns On I_Am_Spotted
 //  ( false ) turns Off I_Am_Spotted
 {
-"enabled": false
+"enabled": true
 }

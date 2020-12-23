@@ -2,5 +2,5 @@
 //  ( true ) turns On Team_Damage
 //  ( false ) turns Off Team_Damage
 {
-"enabled": false
+"enabled": true
 }

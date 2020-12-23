@@ -5,5 +5,5 @@
 //  Example :
 //     "enabled": false
 {
-"enabled": true
+"enabled": false
 }

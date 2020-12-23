@@ -1,5 +1,5 @@
 ﻿/**
- * REBIRTH Main Config 12/07/2020
+ * REBIRTH Main Config 12/23/2020
  *
  */
 {
@@ -12,10 +12,10 @@
     // Config author.    
     "author": "XVM team",    
     "description": "REBIRTH settings for XVM",    
-    "url": "https://modxvm.com/",  
+    "url": "https://modxvm.com/", 
     "gameVersion": "1.11.0.0",
-    "modMinVersion": "8.7.0",
-	"date": "07.12.2020"
+    "modMinVersion": "8.7.2",
+	"date": "23.12.2020"
   },
     
   "battleMessages" : ${"battleMessagesRB.xc":"battleMessages"},  
