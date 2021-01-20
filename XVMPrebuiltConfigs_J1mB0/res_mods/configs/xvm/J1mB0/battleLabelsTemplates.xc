@@ -21,7 +21,7 @@
     // Log of applied damage (see hitLog.xc).
     // Лог нанесенного урона (см. hitLog.xc).
     "hitLogBody": {
-      "enabled": false,
+      "enabled": true,
       "updateEvent": "PY(ON_HIT_LOG), ON_PANEL_MODE_CHANGED",
       "x": "{{pp.mode=0?{{battletype-key=epic_battle?240|5}}|{{py:sum({{pp.widthLeft}},{{py:xvm.hitLog.hLog_x}})}}}}",
       "y": "{{pp.mode=0?{{battletype-key=epic_battle?240|90}}|{{py:xvm.hitLog.hLog_y}}}}",
@@ -97,7 +97,7 @@
     // Log of the received damage (see damageLog.xc).
     // Лог полученного урона (см. damageLog.xc).
     "damageLog": {
-      "enabled": false,
+      "enabled": true,
       "updateEvent": "PY(ON_HIT)",
       "x": "{{py:xvm.damageLog.log.x}}",
       "y": "{{py:xvm.damageLog.log.y}}",
