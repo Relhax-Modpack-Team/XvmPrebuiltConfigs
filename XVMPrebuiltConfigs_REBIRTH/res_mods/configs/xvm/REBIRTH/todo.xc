@@ -32,6 +32,7 @@
     "china-Ch19_121":"<font></font>",
     "china-Ch19_121_IGR":"<font></font>",
     "china-Ch20_Type58":"<font></font>",
+	"china-Ch20_Type58_bootcamp":"<font></font>",
     "china-Ch21_T34":"<font></font>",
     "china-Ch22_113":"<font></font>",
     "china-Ch22_113P":"<font></font>",
@@ -227,7 +228,9 @@
     "germany-G142_M48RPz":"<font></font>",
     "germany-G143_E75_TS":"<font></font>",
 	"germany-G144_Kpz_50t":"<font></font>",
+	"germany-G147_Kunze_Panzer":"<font></font>",
 	"germany-G151_Pz_Sfl_IC":"<font></font>",
+	"germany-G154_Kpz_07_RH":
     "germany-G15_VK3601H":"<font></font>",
     "germany-G16_PzVIB_Tiger_II":"<font></font>",
     "germany-G16_PzVIB_Tiger_II_F":"<font></font>",
@@ -330,7 +333,11 @@
     "italy-It12_Prototipo_Standard_B":"<font></font>",
     "italy-It13_Progetto_M35_mod_46":"<font></font>",
     "italy-It14_P44_Pantera":"<font></font>",
-	"italy-It18_Progetto_C45_mod_71":"<font></font>",    
+	"italy-It15_Rinoceronte":
+	"italy-It16_Carro_d_assalto_P88":        
+    "italy-It17_Progetto_CC55_mod_54":
+	"italy-It18_Progetto_C45_mod_71":"<font></font>",
+    "italy-It19_Progetto_C50_mod_66":     
     "italy-It20_Carro_Combattimento_45t":"<font></font>",    
     "japan-J01_NC27":"<font></font>",
     "japan-J01_NC27_bot":"<font></font>",
@@ -443,6 +450,7 @@
 	"uk-GB108_A46":"<font></font>",
     "uk-GB109_GSOR_1008":"<font></font>",   	
     "uk-GB10_Black_Prince":"<font></font>",
+	"uk-GB111_Charlemagne": 
     "uk-GB11_Caernarvon":"<font></font>",
     "uk-GB11_Caernarvon_IGR":"<font></font>",
     "uk-GB12_Conqueror":"<font></font>",
@@ -739,6 +747,7 @@
 	"ussr-R178_Object_780":"<font></font>",
 	"ussr-R17_SU-100":"<font></font>",
 	"ussr-R180_Object_274_A":"<font></font>",
+	"ussr-R183_K_91_PT":
     "ussr-R18_SU-152":"<font></font>",
     "ussr-R18_SU-152_IGR":"<font></font>",
     "ussr-R19_IS-3":"<font></font>",

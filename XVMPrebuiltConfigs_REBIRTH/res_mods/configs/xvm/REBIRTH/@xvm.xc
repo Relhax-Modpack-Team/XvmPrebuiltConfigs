@@ -13,9 +13,9 @@
     "author": "XVM team",    
     "description": "REBIRTH settings for XVM",    
     "url": "https://modxvm.com/", 
-    "gameVersion": "1.11.0.0",
-    "modMinVersion": "8.7.2",
-	"date": "23.12.2020"
+    "gameVersion": "1.11.1.1",
+    "modMinVersion": "8.7.3",
+	"date": "29.01.2021"
   },
     
   "battleMessages" : ${"battleMessagesRB.xc":"battleMessages"},  
