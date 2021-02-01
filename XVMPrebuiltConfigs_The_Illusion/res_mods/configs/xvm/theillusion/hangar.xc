@@ -157,11 +157,16 @@
         "strength": 2
       }
     },
+    // Show/hide notifications counters in the main menu.
+    // Показывать/прятать счетчики уведомлений в главном меню.
     "notificationCounter": {
-      "store": false,
-      "missions": false,
-      "profile": false,
-      "PersonalMissionOperationsPage": false
+      "storage": true,                       // Storage        / Склад
+      "store": true,                         // Store          / Магазин
+      "missions": true,                      // Missions       / Задачи
+      "PersonalMissionOperationsPage": true, // Campaigns      / Кампании      
+      "profile": true,                       // Service Record / Достижения
+      "barracks": true,                      // Barracks       / Казарма
+      "StrongholdView": true                 // Clan           / Клан
     },
         // Parameters of sorting tankmen in barracks.
     "barracks": {

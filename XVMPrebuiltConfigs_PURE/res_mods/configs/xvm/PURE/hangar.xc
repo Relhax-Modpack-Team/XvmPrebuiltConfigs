@@ -397,12 +397,15 @@
       }
     },
     // Show/hide notifications counters in the main menu.
-    // ??????????/??????? ???????? ??????????? ? ??????? ????.
+    // Показывать/прятать счетчики уведомлений в главном меню.
     "notificationCounter": {
-      "store": true,                        // Store          / ???????
-      "missions": true,                     // Missions       / ??????
-      "profile": true,                      // Service Record / ??????????
-      "PersonalMissionOperationsPage": true // Campaigns      / ????????
+      "storage": true,                       // Storage        / Склад
+      "store": true,                         // Store          / Магазин
+      "missions": true,                      // Missions       / Задачи
+      "PersonalMissionOperationsPage": true, // Campaigns      / Кампании      
+      "profile": true,                       // Service Record / Достижения
+      "barracks": true,                      // Barracks       / Казарма
+      "StrongholdView": true                 // Clan           / Клан
     },
     // Parameters for tank carousel.
     // ????????? ???????? ??????.
