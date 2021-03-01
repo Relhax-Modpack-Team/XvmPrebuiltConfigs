@@ -2,6 +2,7 @@
       "enabled": true,
       "standardFields": [ "frags", "nick", "vehicle" ],
       "removeSquadIcon": false,
+      "removeSpottedIndicator": true,
       "squadIconAlpha": 100,
       "vehicleIconOffsetXLeft": 0,
       "vehicleIconOffsetXRight": 0,

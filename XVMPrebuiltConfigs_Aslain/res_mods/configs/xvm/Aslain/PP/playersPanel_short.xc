@@ -3,6 +3,7 @@
       "standardFields": [ "frags" ],
       "expandAreaWidth": 230,
       "removeSquadIcon": false,
+      "removeSpottedIndicator": true,
       "squadIconAlpha": 100,
       "vehicleIconOffsetXLeft": 0,
       "vehicleIconOffsetXRight": 0,

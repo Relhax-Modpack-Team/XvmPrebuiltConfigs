@@ -175,6 +175,7 @@
       // true - disable platoon icons.
       // true - убрать отображение иконок взвода.
       "removeSquadIcon": false,
+      "removeSpottedIndicator": true,
       // Transparency of the squad icon.
       // Прозрачность иконки взвода.
       "squadIconAlpha": 100,
@@ -282,6 +283,7 @@
       // true - disable platoon icons.
       // true - убрать отображение иконок взвода.
       "removeSquadIcon": false,
+      "removeSpottedIndicator": true,
       // Transparency of the squad icon.
       // Прозрачность иконки взвода.
       "squadIconAlpha": 100,
@@ -387,6 +389,7 @@
       // true - disable platoon icons.
       // true - убрать отображение иконок взвода.
       "removeSquadIcon": false,
+      "removeSpottedIndicator": true,
       // Transparency of the squad icon.
       // Прозрачность иконки взвода.
       "squadIconAlpha": 100,
@@ -489,6 +492,7 @@
       // true - disable platoon icons
       // true - убрать отображение иконок взвода
       "removeSquadIcon": false,
+      "removeSpottedIndicator": true,
       // transparency of the squad icon
       // прозрачность иконки взвода
       "squadIconAlpha": 90,

@@ -165,6 +165,7 @@
       "expandAreaWidth": 230,
       // false - disable platoon icons
       "removeSquadIcon": false,
+      "removeSpottedIndicator": true,
       // Transparency of the squad icon
       "squadIconAlpha": 100,
       // Offset of X value for vehicle icon.
@@ -243,6 +244,7 @@
       "expandAreaWidth": 230,
       // false - disable platoon icons
       "removeSquadIcon": false,
+      "removeSpottedIndicator": true,
       // Transparency of the squad icon
       "squadIconAlpha": 100,
       // Offset of X value for vehicle icon.
@@ -320,6 +322,7 @@
       "expandAreaWidth": 230,
       // false - disable platoon icons
       "removeSquadIcon": false,
+      "removeSpottedIndicator": true,
       // Transparency of the squad icon
       "squadIconAlpha": 100,
       // Offset of X value for vehicle icon.
@@ -397,6 +400,7 @@
       "standardFields": [ "frags", "nick", "vehicle" ],
       // false - disable platoon icons
       "removeSquadIcon": false,
+      "removeSpottedIndicator": true,
       // Transparency of the squad icon
       "squadIconAlpha": 100,
       // Offset of X value for vehicle icon.
