@@ -166,6 +166,9 @@
       // false - disable platoon icons
       "removeSquadIcon": false,
       "removeSpottedIndicator": true,
+      "spottedIndicatorAlpha": 100,
+      "spottedIndicatorOffsetX": 0,
+      "spottedIndicatorOffsetY": 0,
       // Transparency of the squad icon
       "squadIconAlpha": 100,
       // Offset of X value for vehicle icon.
@@ -245,6 +248,9 @@
       // false - disable platoon icons
       "removeSquadIcon": false,
       "removeSpottedIndicator": true,
+      "spottedIndicatorAlpha": 100,
+      "spottedIndicatorOffsetX": 0,
+      "spottedIndicatorOffsetY": 0,
       // Transparency of the squad icon
       "squadIconAlpha": 100,
       // Offset of X value for vehicle icon.
@@ -323,6 +329,9 @@
       // false - disable platoon icons
       "removeSquadIcon": false,
       "removeSpottedIndicator": true,
+      "spottedIndicatorAlpha": 100,
+      "spottedIndicatorOffsetX": 0,
+      "spottedIndicatorOffsetY": 0,
       // Transparency of the squad icon
       "squadIconAlpha": 100,
       // Offset of X value for vehicle icon.
@@ -401,6 +410,9 @@
       // false - disable platoon icons
       "removeSquadIcon": false,
       "removeSpottedIndicator": true,
+      "spottedIndicatorAlpha": 100,
+      "spottedIndicatorOffsetX": 0,
+      "spottedIndicatorOffsetY": 0,
       // Transparency of the squad icon
       "squadIconAlpha": 100,
       // Offset of X value for vehicle icon.

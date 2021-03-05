@@ -14,7 +14,7 @@
     // false - display shots precision and damage in first page under credits and XP
     "showExtendedInfo": true,
     // false - show totals for your battle efficiency in first page
-    "showTotals": true,
+    "showTotals": false,
 	// true - display standard interface for the "FrontLine" mode.
     "showStandardFrontLineInterface": true,
     // Customize "Manageable bonus to experience" panel.

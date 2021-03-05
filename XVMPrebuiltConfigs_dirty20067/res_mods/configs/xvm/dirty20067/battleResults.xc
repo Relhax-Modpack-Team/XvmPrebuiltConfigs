@@ -5,7 +5,7 @@
     "showCrewExperience": false,
     "showNetIncome": true,
     "showExtendedInfo": true,
-    "showTotals": true,
+    "showTotals": false,
     "showStandardFrontLineInterface": true,
     "bonusState": {
       "enabled": true,

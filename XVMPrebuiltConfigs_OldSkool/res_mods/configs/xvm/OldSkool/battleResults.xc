@@ -19,7 +19,7 @@
     "showExtendedInfo": true,
 	
     // true - Show totals for your battle efficiency in first page
-    "showTotals": true,
+    "showTotals": false,
 	
     // true - Enable display of battle tier.
     "showBattleTier": true

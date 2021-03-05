@@ -183,6 +183,9 @@
       // true - убрать отображение иконок взвода.
       "removeSquadIcon": false,
       "removeSpottedIndicator": true,
+      "spottedIndicatorAlpha": 100,
+      "spottedIndicatorOffsetX": 0,
+      "spottedIndicatorOffsetY": 0,
       // Transparency of the squad icon.
       // Прозрачность иконки взвода.
       "squadIconAlpha": 100,
@@ -300,6 +303,9 @@
       // true - убрать отображение иконок взвода.
       "removeSquadIcon": false,
       "removeSpottedIndicator": true,
+      "spottedIndicatorAlpha": 100,
+      "spottedIndicatorOffsetX": 0,
+      "spottedIndicatorOffsetY": 0,
       // Transparency of the squad icon.
       // Прозрачность иконки взвода.
       "squadIconAlpha": 100,
@@ -415,6 +421,9 @@
       // true - убрать отображение иконок взвода.
       "removeSquadIcon": false,
       "removeSpottedIndicator": true,
+      "spottedIndicatorAlpha": 100,
+      "spottedIndicatorOffsetX": 0,
+      "spottedIndicatorOffsetY": 0,
       // Transparency of the squad icon.
       // Прозрачность иконки взвода.
       "squadIconAlpha": 100,
@@ -549,6 +558,9 @@
       // true - убрать отображение иконок взвода.
       "removeSquadIcon": false,
       "removeSpottedIndicator": true,
+      "spottedIndicatorAlpha": 100,
+      "spottedIndicatorOffsetX": 0,
+      "spottedIndicatorOffsetY": 0,
       // Transparency of the squad icon.
       // Прозрачность иконки взвода.
       "squadIconAlpha": 100,

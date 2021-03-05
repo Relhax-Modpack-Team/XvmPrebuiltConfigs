@@ -21,6 +21,6 @@
     "showExtendedInfo": true,
     // true - show totals for your battle efficiency in first page
     // true - показывать итог по вашей боевой эффективности на первой странице
-    "showTotals": true
+    "showTotals": false
   }
 }

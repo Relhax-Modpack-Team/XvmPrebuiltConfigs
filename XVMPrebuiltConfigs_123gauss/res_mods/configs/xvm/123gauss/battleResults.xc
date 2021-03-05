@@ -5,6 +5,6 @@
     "showCrewExperience": true,
     "showNetIncome": true,
     "showExtendedInfo": true,
-    "showTotals": true
+    "showTotals": false
   }
 }

@@ -210,6 +210,9 @@
       // true - убрать отображение иконок взвода
       "removeSquadIcon": false,
       "removeSpottedIndicator": true,
+      "spottedIndicatorAlpha": 100,
+      "spottedIndicatorOffsetX": 0,
+      "spottedIndicatorOffsetY": 0,
       // Offset of X value for vehicle icon.
       // Смещение координаты X для иконки танка.
       "vehicleIconXOffsetLeft": 0,
@@ -297,6 +300,9 @@
       // true - убрать отображение иконок взвода
       "removeSquadIcon": false,
       "removeSpottedIndicator": true,
+      "spottedIndicatorAlpha": 100,
+      "spottedIndicatorOffsetX": 0,
+      "spottedIndicatorOffsetY": 0,
       // Offset of X value for vehicle icon.
       // Смещение координаты X для иконки танка.
       "vehicleIconXOffsetLeft": 0,
@@ -382,6 +388,9 @@
       // true - убрать отображение иконок взвода
       "removeSquadIcon": false,
       "removeSpottedIndicator": true,
+      "spottedIndicatorAlpha": 100,
+      "spottedIndicatorOffsetX": 0,
+      "spottedIndicatorOffsetY": 0,
       // Offset of X value for vehicle icon.
       // Смещение координаты X для иконки танка.
       "vehicleIconXOffsetLeft": 0,
@@ -459,6 +468,9 @@
       // true - убрать отображение иконок взвода
       "removeSquadIcon": false,
       "removeSpottedIndicator": true,
+      "spottedIndicatorAlpha": 100,
+      "spottedIndicatorOffsetX": 0,
+      "spottedIndicatorOffsetY": 0,
       // Offset of X value for vehicle icon.
       // Смещение координаты X для иконки танка.
       "vehicleIconXOffsetLeft": 0,
