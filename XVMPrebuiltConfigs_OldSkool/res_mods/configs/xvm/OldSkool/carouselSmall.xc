@@ -57,7 +57,11 @@
       "actionPrice": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100 },
 	  
       // Favorite vehicle mark
-      "favorite": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100 }
+      "favorite": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100 
+    },
+      // Battle Pass progression points.
+      // Очки прогрессии боевого пропуска.
+      "progressionPoints": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 }
     },
 
     // Extra cell fields (see playersPanel.xc).

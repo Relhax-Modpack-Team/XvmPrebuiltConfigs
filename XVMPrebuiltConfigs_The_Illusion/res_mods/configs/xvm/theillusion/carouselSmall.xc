@@ -115,7 +115,10 @@
         "alpha": 100,
         "textFormat": {},
         "shadow": {}
-      }
+    },
+      // Battle Pass progression points.
+      // Очки прогрессии боевого пропуска.
+      "progressionPoints": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 }
     },
     "extraFields": [
       {

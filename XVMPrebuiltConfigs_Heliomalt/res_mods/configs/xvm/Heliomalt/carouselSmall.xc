@@ -49,7 +49,11 @@
       // Favorite vehicle mark
       "favorite": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
       // Stats field that appears on the mouse hover
-      "stats": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1, "textFormat": {}, "shadow": {} }
+      "stats": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1, "textFormat": {}, "shadow": {} 
+    },
+      // Battle Pass progression points.
+      // Очки прогрессии боевого пропуска.
+      "progressionPoints": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 }
     },
     // Extra cell fields (extended format supported, see extra-field.txt).
     "extraFields": [
