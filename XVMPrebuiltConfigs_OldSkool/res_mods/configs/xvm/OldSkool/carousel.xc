@@ -28,6 +28,9 @@
 	
     // Slot border transparency (default - 100)
     "slotBorderAlpha": 100,
+    
+    // Selected slot border transparency (default - 100).
+    "slotSelectedBorderAlpha": 100,
 	
     // Transparency of gradient frames at the carousel edges (default - 100)
     "edgeFadeAlpha": 100,

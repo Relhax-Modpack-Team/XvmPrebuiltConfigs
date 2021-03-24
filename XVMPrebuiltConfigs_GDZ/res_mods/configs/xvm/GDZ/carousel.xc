@@ -22,6 +22,11 @@
     // Background transparency (default - 100)
     // Прозрачность подложки (по умолчанию - 100)
     "backgroundAlpha": 75,
+    "slotBackgroundAlpha": 100,
+    // Slot border transparency (default - 100).
+    "slotBorderAlpha": 100,
+    // Selected slot border transparency (default - 100).
+    "slotSelectedBorderAlpha": 100,
     // Mouse wheel scrolling speed multiplier (default - 1)
     // Множитель скорости прокрутки колесом мыши (по умолчанию - 1)
     "scrollingSpeed": 1,

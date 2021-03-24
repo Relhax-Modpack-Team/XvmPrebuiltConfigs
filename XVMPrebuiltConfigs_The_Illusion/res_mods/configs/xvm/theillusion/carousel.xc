@@ -8,6 +8,8 @@
     "backgroundAlpha": 100,
     "slotBackgroundAlpha": 100,
     "slotBorderAlpha": 100,
+    // Selected slot border transparency (default - 100).
+    "slotSelectedBorderAlpha": 100,
     "edgeFadeAlpha": 100,
     "scrollingSpeed": 1,
     "hideBuyTank": false,

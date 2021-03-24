@@ -9,6 +9,8 @@
     "backgroundAlpha": 30,
     "slotBackgroundAlpha": 80,
     "slotBorderAlpha": 100,
+    // Selected slot border transparency (default - 100).
+    "slotSelectedBorderAlpha": 100,
     "edgeFadeAlpha": 50,
     
     
