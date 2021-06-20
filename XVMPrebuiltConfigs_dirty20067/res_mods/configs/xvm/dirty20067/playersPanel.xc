@@ -147,6 +147,8 @@
       ],
       "expandAreaWidth": 230,
       "removeSquadIcon": false,
+    "removePanelsModeSwitcher": false,
+    "removeHealthPoints": false,
       "removeSpottedIndicator": true,
       "spottedIndicatorAlpha": 100,
       "spottedIndicatorOffsetX": 0,

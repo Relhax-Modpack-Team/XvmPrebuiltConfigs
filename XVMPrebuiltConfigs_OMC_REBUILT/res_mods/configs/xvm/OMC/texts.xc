@@ -64,7 +64,7 @@
       "unknown": "",
       // Random battle.
       // Случайный бой.
-      "regular": "regular",
+      "regular": "",
       // Team training.
       // Тренировочный бой.
       "training": "training",
@@ -76,13 +76,13 @@
       "clan": "clan",
       // Battle training.
       // Боевое обучение.
-      "tutorial": "tutorial",
+      "tutorial": "",
       // Team battles.
       // Командный бой.
       "cybersport": "cybersport",
       // Special game mode (racing, football and other).
       // Бой спецрежима (гонки, футбол и т.п.).
-      "event_battles": "event_battles",
+      "event_battles": "",
       // Global map (GM).
       // Глобальная карта (ГК).
       "global_map": "global_map",
@@ -142,7 +142,22 @@
       "tournament_event": "",
       // ?.
       // ?.
-      "event_random": ""
+      "event_random": "",
+      // «Team Clash».
+      // «Битва блогеров».
+      "bob": "",
+      // Steel Hunter (solo, training).
+      // Стальной охотник (соло, тренировка).
+      "battle_royale_training_solo": "",
+      // Steel Hunter (squad, training).
+      // Стальной охотник (взвод, тренировка).
+      "battle_royale_training_squad": "",
+      // «Brawl» mode.
+      // Режим «Схватка».
+      "weekend_brawl": "",
+      // «Recon Mission» mode.
+      // Режим «Разведка боем».
+      "mapbox": ""
     },
     // Text for {{topclan}} macro.
     // Текст для макроса {{topclan}}.

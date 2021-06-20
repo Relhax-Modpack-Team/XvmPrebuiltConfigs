@@ -100,6 +100,7 @@
     "removeSelectedBackground": false,
     // false - remove the Players Panel mode switcher (buttons for changing size).
     "removePanelsModeSwitcher": true,
+    "removeHealthPoints": false,
     // Start panels mode. Possible values: "none", "short", "medium", "medium2", "large".
     "startMode": "large",
     // Alternative panels mode. Possible values: null, "none", "short", "medium", "medium2", "large".

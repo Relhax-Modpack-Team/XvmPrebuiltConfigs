@@ -121,6 +121,7 @@
     "iconAlpha": 100,
     "removeSelectedBackground": false,
     "removePanelsModeSwitcher": false,
+    "removeHealthPoints": false,
     "startMode": "medium2",
     "altMode": null,
     "none": {

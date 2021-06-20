@@ -158,6 +158,10 @@
 
       // Width of area for switching to "large" mode on mouse over
       "expandAreaWidth": 230,
+      
+      
+    "removePanelsModeSwitcher": false,
+    "removeHealthPoints": false,
 
       // true - disable platoon icons
       "removeSquadIcon": false,

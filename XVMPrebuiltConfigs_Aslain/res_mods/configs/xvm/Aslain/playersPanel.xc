@@ -40,6 +40,7 @@
     "iconAlpha": 100,
     "removeSelectedBackground": false,
     "removePanelsModeSwitcher": false,
+    "removeHealthPoints": false,
     "startMode": "large",
     "altMode": null,
     "none": ${"PP/playersPanel_none.xc":"."},

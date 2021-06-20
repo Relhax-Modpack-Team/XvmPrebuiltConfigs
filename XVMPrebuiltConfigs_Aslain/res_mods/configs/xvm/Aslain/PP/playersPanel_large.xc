@@ -3,6 +3,8 @@
       "standardFields": [ "frags", "nick", "vehicle" ],
       "removeSquadIcon": false,
       "removeSpottedIndicator": true,
+    "removePanelsModeSwitcher": false,
+    "removeHealthPoints": false,
       "spottedIndicatorAlpha": 100,
       "spottedIndicatorOffsetX": 0,
       "spottedIndicatorOffsetY": 0,

@@ -51,48 +51,105 @@
     // Text for {{battletype}} macro.
     // Текст для макроса {{battletype}}.
     "battletype": {
-      // Неизвестный бой
+      // Unknown battle.
+      // Неизвестный бой.
       "unknown": "",
-      // Случайный бой
+      // Random battle.
+      // Случайный бой.
       "regular": "",
-      // Тренировочный бой
+      // Team training.
+      // Тренировочный бой.
       "training": "training",
-      // Ротный бой
-      "company": "company",
-      // Турнир
+      // Tournament.
+      // Турнир.
       "tournament": "tournament",
-      // Клановый бой
+      // Clan wars.
+      // Клановый бой.
       "clan": "clan",
-      // Учебный бой
+      // Battle training.
+      // Боевое обучение.
       "tutorial": "",
-      // Командный бой
+      // Team battles.
+      // Командный бой.
       "cybersport": "cybersport",
-      // Бой спецрежима (гонки, футбол и т.п.)
+      // Special game mode (racing, football and other).
+      // Бой спецрежима (гонки, футбол и т.п.).
       "event_battles": "",
-      // Укрепрайон, вылазка
-      "sortie": "sortie",
-      // Битва за укрепрайон
-      "fort_battle": "fort_battle",
-      // Командный бой: ладдер
-      "rated_cybersport": "rated_cybersport",
-      // Глобальная карта (ГК)
+      // Global map (GM).
+      // Глобальная карта (ГК).
       "global_map": "global_map",
-      // Регулярный турнир (ивент) ГК
+      // Regular tournament (event) GM.
+      // Регулярный турнир (ивент) ГК.
       "tournament_regular": "tournament_regular",
-      // Периодический турнир (ивент) ГК
+      // Periodic Tournament (event) GM.
+      // Периодический турнир (ивент) ГК.
       "tournament_clan": "tournament_clan",
-      // Песочный PVE, <10 боев
+      // Sandbox PVE, <10 battles.
+      // Песочный PVE, <10 боев.
       "rated_sandbox": "",
-      // Песочный PVE, >10 боев
+      // Sandbox PVE, >10 battles.
+      // Песочный PVE, >10 боев.
       "sandbox": "",
-      // Бой до последнего
+      // Steel Hunt.
+      // Стальная охота.
       "fallout_classic": "",
-      // ?
+      // Domination.
+      // Превосходство.
       "fallout_multiteam": "",
-      // Укрепрайон, вылазка (новый)
+      // Strongholds, skirmish.
+      // Укрепрайон, вылазка.
       "sortie_2": "sortie_2",
-      // Битва за укрепрайон (новый)
-      "fort_battle_2": "fort_battle_2"
+      // Strongholds, advance.
+      // Укрепрайон, наступление.
+      "fort_battle_2": "fort_battle_2",
+      // Ranked battle.
+      // Ранговый бой.
+      "ranked": "",
+      // Proving ground.
+      // Учебный бой.
+      "bootcamp": "",
+      // Grand battles.
+      // Генеральное сражение.
+      "epic_random": "",
+      // Grand battles (training).
+      // Генеральное сражение (тренировка).
+      "epic_random_training": "",
+      // Special game mode (new)(racing, football and other).
+      // Бой спецрежима (новый)(гонки, футбол и т.п.).
+      "event_battles_2": "",
+      // Frontline.
+      // Линия фронта.
+      "epic_battle": "",
+      // Frontline (training).
+      // Линия фронта (тренировка).
+      "epic_battle_training": "",
+      // Steel Hunter (solo).
+      // Стальной охотник (соло).
+      "battle_royale_solo": "",
+      // Steel Hunter (squad).
+      // Стальной охотник (взвод).
+      "battle_royale_squad": "",
+      // Tournament (event).
+      // Турнир (ивент).
+      "tournament_event": "",
+      // ?.
+      // ?.
+      "event_random": "",
+      // «Team Clash».
+      // «Битва блогеров».
+      "bob": "",
+      // Steel Hunter (solo, training).
+      // Стальной охотник (соло, тренировка).
+      "battle_royale_training_solo": "",
+      // Steel Hunter (squad, training).
+      // Стальной охотник (взвод, тренировка).
+      "battle_royale_training_squad": "",
+      // «Brawl» mode.
+      // Режим «Схватка».
+      "weekend_brawl": "",
+      // «Recon Mission» mode.
+      // Режим «Разведка боем».
+      "mapbox": ""
     },
     // Text for {{topclan}} macro.
     // Текст для макроса {{topclan}}

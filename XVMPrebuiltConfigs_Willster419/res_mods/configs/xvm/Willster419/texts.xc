@@ -142,7 +142,22 @@
       "tournament_event": "",
       // ?.
       // ?.
-      "event_random": ""
+      "event_random": "",
+      // «Team Clash».
+      // «Битва блогеров».
+      "bob": "",
+      // Steel Hunter (solo, training).
+      // Стальной охотник (соло, тренировка).
+      "battle_royale_training_solo": "",
+      // Steel Hunter (squad, training).
+      // Стальной охотник (взвод, тренировка).
+      "battle_royale_training_squad": "",
+      // «Brawl» mode.
+      // Режим «Схватка».
+      "weekend_brawl": "",
+      // «Recon Mission» mode.
+      // Режим «Разведка боем».
+      "mapbox": ""
     },
     // Text for {{topclan}} macro.
     // Текст для макроса {{topclan}}.
