@@ -157,7 +157,8 @@
       "weekend_brawl": "",
       // «Recon Mission» mode.
       // Режим «Разведка боем».
-      "mapbox": ""
+      "mapbox": "",
+      "maps_training": "maps_training"
     },
     // Text for {{topclan}} macro.
     // ????? ??? ??????? {{topclan}}.
