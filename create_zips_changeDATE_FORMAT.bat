@@ -32,7 +32,7 @@ rem # doesnt work with german/austrian date format
 rem # its changed to a variable 
 rem # set it manually each patchday!
 rem # -elektro-
-set "DATE_FORMAT=2021-03-03"
+set "DATE_FORMAT=2021-08-11"
 echo Using date format %DATE_FORMAT%
 rem #####################################################################
 
